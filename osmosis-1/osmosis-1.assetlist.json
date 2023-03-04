@@ -24,12 +24,7 @@
       "coingecko_id": "osmosis",
       "keywords": [
         "dex",
-        "staking",
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "ATOM:1",
-        "USDC.axl:678"
+        "staking"
       ]
     },
     {
@@ -53,11 +48,7 @@
       },
       "coingecko_id": "ion",
       "keywords": [
-        "memecoin",
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:2"
+        "memecoin"
       ]
     },
     {
@@ -78,7 +69,7 @@
       "base": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
       "name": "USD Coin",
       "display": "usdc",
-      "symbol": "USDC",
+      "symbol": "USDC.axl",
       "traces": [
         {
           "type": "bridge",
@@ -104,13 +95,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:678"
-      ]
+      }
     },
     {
       "description": "Wrapped Ether on Axelar",
@@ -130,7 +115,7 @@
       "base": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
       "name": "Wrapped Ether",
       "display": "weth",
-      "symbol": "ETH",
+      "symbol": "wETH.axl",
       "traces": [
         {
           "type": "bridge",
@@ -154,14 +139,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:704"
-      ]
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+      }
     },
     {
       "description": "Wrapped Bitcoin on Axelar",
@@ -181,7 +160,7 @@
       "base": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
       "name": "Wrapped Bitcoin",
       "display": "wbtc",
-      "symbol": "WBTC",
+      "symbol": "WBTC.axl",
       "traces": [
         {
           "type": "bridge",
@@ -206,13 +185,7 @@
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:712"
-      ]
+      }
     },
     {
       "description": "Tether's USD stablecoin on Axelar",
@@ -232,7 +205,7 @@
       "base": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
       "name": "Tether USD",
       "display": "usdt",
-      "symbol": "USDT",
+      "symbol": "USDT.axl",
       "traces": [
         {
           "type": "bridge",
@@ -258,12 +231,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdt.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "USDC.axl:877"
-      ]
+      }
     },
     {
       "description": "Dai stablecoin on Axelar",
@@ -283,7 +251,7 @@
       "base": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
       "name": "Dai Stablecoin",
       "display": "dai",
-      "symbol": "DAI",
+      "symbol": "DAI.axl",
       "traces": [
         {
           "type": "bridge",
@@ -309,13 +277,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/dai.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/dai.svg"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:674"
-      ]
+      }
     },
     {
       "description": "Binance USD on Axelar.",
@@ -335,7 +297,7 @@
       "base": "ibc/6329DD8CF31A334DD5BE3F68C846C9FE313281362B37686A62343BAC1EB1546D",
       "name": "Binance USD",
       "display": "busd",
-      "symbol": "BUSD",
+      "symbol": "BUSD.axl",
       "traces": [
         {
           "type": "bridge",
@@ -360,12 +322,7 @@
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.png"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "USDC.axl:877"
-      ]
+      }
     },
     {
       "description": "The native staking and governance token of the Cosmos Hub.",
@@ -404,13 +361,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
       },
-      "coingecko_id": "cosmos",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:1"
-      ]
+      "coingecko_id": "cosmos"
     },
     {
       "description": "CRO coin is the token for the Crypto.com platform.",
@@ -448,13 +399,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png"
       },
-      "coingecko_id": "crypto-com-chain",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:9"
-      ]
+      "coingecko_id": "crypto-com-chain"
     },
     {
       "description": "Wrapped BNB on Axelar",
@@ -474,7 +419,7 @@
       "base": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
       "name": "Wrapped BNB",
       "display": "wbnb",
-      "symbol": "BNB",
+      "symbol": "wBNB.axl",
       "traces": [
         {
           "type": "bridge",
@@ -500,13 +445,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/wbnb.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/wbnb.svg"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:840"
-      ]
+      }
     },
     {
       "description": "Wrapped Matic on Axelar",
@@ -526,7 +465,7 @@
       "base": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
       "name": "Wrapped Matic",
       "display": "wmatic",
-      "symbol": "MATIC",
+      "symbol": "wMATIC.axl",
       "traces": [
         {
           "type": "bridge",
@@ -550,14 +489,9 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/matic-purple.png"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:789"
-      ]
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/wmatic.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/wmatic.svg"
+      }
     },
     {
       "description": "Wrapped AVAX on Axelar.",
@@ -577,7 +511,7 @@
       "base": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
       "name": "Wrapped AVAX",
       "display": "avax",
-      "symbol": "AVAX",
+      "symbol": "wAVAX.axl",
       "traces": [
         {
           "type": "bridge",
@@ -601,14 +535,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/avax.png"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:899"
-      ]
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/avalanche/images/wavax.svg"
+      }
     },
     {
       "description": "The native staking token of Terra Classic.",
@@ -658,12 +586,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg"
       },
-      "coingecko_id": "terra-luna",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:800"
-      ]
+      "coingecko_id": "terra-luna"
     },
     {
       "description": "The native token of JUNO Chain",
@@ -702,13 +625,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
       },
-      "coingecko_id": "juno-network",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:497"
-      ]
+      "coingecko_id": "juno-network"
     },
     {
       "description": "Wrapped Polkadot on Axelar",
@@ -728,7 +645,7 @@
       "base": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
       "name": "Wrapped Polkadot",
       "display": "dot",
-      "symbol": "DOT",
+      "symbol": "DOT.axl",
       "traces": [
         {
           "type": "bridge",
@@ -754,13 +671,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:773"
-      ]
+      }
     },
     {
       "description": "The native EVM, governance and staking token of the Evmos Hub",
@@ -799,13 +710,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
       },
-      "coingecko_id": "evmos",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:722"
-      ]
+      "coingecko_id": "evmos"
     },
     {
       "description": "The native staking and governance token of Kava",
@@ -843,13 +748,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png"
       },
-      "coingecko_id": "kava",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:730"
-      ]
+      "coingecko_id": "kava"
     },
     {
       "description": "The native token of Secret Network",
@@ -888,13 +787,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
       },
-      "coingecko_id": "secret",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:584"
-      ]
+      "coingecko_id": "secret"
     },
     {
       "description": "The USD stablecoin of Terra Classic.",
@@ -944,12 +837,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg"
       },
-      "coingecko_id": "terrausd",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:560"
-      ]
+      "coingecko_id": "terrausd"
     },
     {
       "description": "The native token of Stargaze",
@@ -987,13 +875,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png"
       },
-      "coingecko_id": "stargaze",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:604"
-      ]
+      "coingecko_id": "stargaze"
     },
     {
       "description": "The native token of Chihuahua Chain",
@@ -1032,13 +914,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg"
       },
-      "coingecko_id": "chihuahua-token",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:605"
-      ]
+      "coingecko_id": "chihuahua-token"
     },
     {
       "description": "The XPRT token is primarily a governance token for the Persistence chain.",
@@ -1077,13 +953,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg"
       },
-      "coingecko_id": "persistence",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:15"
-      ]
+      "coingecko_id": "persistence"
     },
     {
       "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets.",
@@ -1151,13 +1021,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:648"
-      ]
+      }
     },
     {
       "description": "Akash Token (AKT) is the Akash Network's native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
@@ -1196,13 +1060,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
       },
-      "coingecko_id": "akash-network",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:3"
-      ]
+      "coingecko_id": "akash-network"
     },
     {
       "description": "REGEN coin is the token for the Regen Network Platform",
@@ -1240,13 +1098,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png"
       },
-      "coingecko_id": "regen",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:42"
-      ]
+      "coingecko_id": "regen"
     },
     {
       "description": "DVPN is the native token of the Sentinel Hub.",
@@ -1284,13 +1136,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png"
       },
-      "coingecko_id": "sentinel",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:5"
-      ]
+      "coingecko_id": "sentinel"
     },
     {
       "description": "The IRIS token is the native governance token for the IrisNet chain.",
@@ -1329,13 +1175,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg"
       },
-      "coingecko_id": "iris-network",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:7"
-      ]
+      "coingecko_id": "iris-network"
     },
     {
       "description": "IOV coin is the token for the Starname (IOV) Asset Name Service",
@@ -1374,13 +1214,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg"
       },
-      "coingecko_id": "starname",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:197"
-      ]
+      "coingecko_id": "starname"
     },
     {
       "description": "e-Money NGM staking token. In addition to earning staking rewards the token is bought back and burned based on e-Money stablecoin inflation.",
@@ -1418,13 +1252,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png"
       },
-      "coingecko_id": "e-money",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:463"
-      ]
+      "coingecko_id": "e-money"
     },
     {
       "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
@@ -1462,13 +1290,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png"
       },
-      "coingecko_id": "e-money-eur",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:481"
-      ]
+      "coingecko_id": "e-money-eur"
     },
     {
       "description": "LIKE is the native staking and governance token of LikeCoin chain, a Decentralized Publishing Infrastructure to empower content ownership, authenticity, and provenance.",
@@ -1507,13 +1329,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg"
       },
-      "coingecko_id": "likecoin",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:553"
-      ]
+      "coingecko_id": "likecoin"
     },
     {
       "description": "The native token of IXO Chain",
@@ -1551,13 +1367,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png"
       },
-      "coingecko_id": "ixo",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:557"
-      ]
+      "coingecko_id": "ixo"
     },
     {
       "description": "The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.",
@@ -1596,13 +1406,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.svg"
       },
-      "coingecko_id": "bitcanna",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:571"
-      ]
+      "coingecko_id": "bitcanna"
     },
     {
       "description": "BitSong Native Token",
@@ -1642,13 +1446,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg"
       },
-      "coingecko_id": "bitsong",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:573"
-      ]
+      "coingecko_id": "bitsong"
     },
     {
       "description": "The native token of Ki Chain",
@@ -1687,13 +1485,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg"
       },
-      "coingecko_id": "ki",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:577"
-      ]
+      "coingecko_id": "ki"
     },
     {
       "description": "Panacea is a public blockchain launched by MediBloc, which is the key infrastructure for reinventing the patient-centered healthcare data ecosystem",
@@ -1731,13 +1523,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/panacea/images/med.png"
       },
-      "coingecko_id": "medibloc",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:586"
-      ]
+      "coingecko_id": "medibloc"
     },
     {
       "description": "The staking token of Bostrom",
@@ -1771,11 +1557,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png"
       },
-      "coingecko_id": "bostrom",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:597"
-      ]
+      "coingecko_id": "bostrom"
     },
     {
       "description": "Native Token of Comdex Protocol",
@@ -1814,13 +1596,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
       },
-      "coingecko_id": "comdex",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:601"
-      ]
+      "coingecko_id": "comdex"
     },
     {
       "description": "Native token for the cheqd network",
@@ -1859,13 +1635,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.svg"
       },
-      "coingecko_id": "cheqd-network",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:602"
-      ]
+      "coingecko_id": "cheqd-network"
     },
     {
       "description": "Native token of the Lum Network",
@@ -1904,13 +1674,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.svg"
       },
-      "coingecko_id": "lum-network",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:608"
-      ]
+      "coingecko_id": "lum-network"
     },
     {
       "description": "The native token of Vidulum",
@@ -1949,13 +1713,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg"
       },
-      "coingecko_id": "vidulum",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:613"
-      ]
+      "coingecko_id": "vidulum"
     },
     {
       "description": "The native token of Desmos",
@@ -1994,13 +1752,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg"
       },
-      "coingecko_id": "desmos",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:619"
-      ]
+      "coingecko_id": "desmos"
     },
     {
       "description": "Native token of Dig Chain",
@@ -2038,13 +1790,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dig/images/dig.png"
       },
-      "coingecko_id": "dig-chain",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:621"
-      ]
+      "coingecko_id": "dig-chain"
     },
     {
       "description": "Somm Token (SOMM) is the native staking token of the Sommelier Chain",
@@ -2091,13 +1837,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg"
       },
-      "coingecko_id": "sommelier",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:627"
-      ]
+      "coingecko_id": "sommelier"
     },
     {
       "description": "The native token of BandChain",
@@ -2136,13 +1876,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.svg"
       },
-      "coingecko_id": "band-protocol",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:626"
-      ]
+      "coingecko_id": "band-protocol"
     },
     {
       "description": "The native token of Konstellation Network",
@@ -2181,12 +1915,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg"
       },
-      "coingecko_id": "darcmatter-coin",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:637"
-      ]
+      "coingecko_id": "darcmatter-coin"
     },
     {
       "description": "The native token of Umee",
@@ -2224,13 +1953,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png"
       },
-      "coingecko_id": "umee",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:641"
-      ]
+      "coingecko_id": "umee"
     },
     {
       "description": "The native token of Gravity Bridge",
@@ -2269,13 +1992,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg"
       },
-      "coingecko_id": "graviton",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:625"
-      ]
+      "coingecko_id": "graviton"
     },
     {
       "description": "The native token of Decentr",
@@ -2314,13 +2031,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg"
       },
-      "coingecko_id": "decentr",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:644"
-      ]
+      "coingecko_id": "decentr"
     },
     {
       "description": "The native token cw20 for Marble DAO on Juno Chain",
@@ -2363,12 +2074,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.svg"
       },
-      "coingecko_id": "marble",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:649"
-      ]
+      "coingecko_id": "marble"
     },
     {
       "description": "The native governance token of Carbon",
@@ -2410,13 +2116,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg"
       },
-      "coingecko_id": "switcheo",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:651"
-      ]
+      "coingecko_id": "switcheo"
     },
     {
       "description": "The native token of Cerberus Chain",
@@ -2454,12 +2154,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.png"
       },
-      "coingecko_id": "cerberus-2",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:662"
-      ]
+      "coingecko_id": "cerberus-2"
     },
     {
       "description": "The native staking and governance token of the Fetch Hub.",
@@ -2498,13 +2193,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg"
       },
-      "coingecko_id": "fetch-ai",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:681"
-      ]
+      "coingecko_id": "fetch-ai"
     },
     {
       "description": "The native token of Asset Mantle",
@@ -2542,13 +2231,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png"
       },
-      "coingecko_id": "assetmantle",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:690"
-      ]
+      "coingecko_id": "assetmantle"
     },
     {
       "description": "The native token cw20 for Neta on Juno Chain",
@@ -2591,12 +2274,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg"
       },
-      "coingecko_id": "neta",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:631"
-      ]
+      "coingecko_id": "neta"
     },
     {
       "description": "The INJ token is the native governance token for the Injective chain.",
@@ -2635,12 +2313,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg"
       },
-      "coingecko_id": "injective-protocol",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "OSMO:725"
-      ]
+      "coingecko_id": "injective-protocol"
     },
     {
       "description": "The KRW stablecoin of Terra Classic.",
@@ -2728,12 +2401,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/microtick/images/tick.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/microtick/images/tick.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "ATOM:547"
-      ]
+      }
     },
     {
       "description": "Rowan Token (ROWAN) is the Sifchain Network's native utility token, used as the primary means to govern, provide liquidity, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
@@ -2772,12 +2440,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg"
       },
-      "coingecko_id": "sifchain",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:629"
-      ]
+      "coingecko_id": "sifchain"
     },
     {
       "description": "The native token of Shentu",
@@ -2858,11 +2521,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg"
       },
-      "coingecko_id": "hope-galaxy",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:653"
-      ]
+      "coingecko_id": "hope-galaxy"
     },
     {
       "description": "Racoon aims to simplify accessibility to AI, NFTs and Gambling on the Cosmos Ecosystem",
@@ -2905,11 +2564,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.svg"
       },
-      "coingecko_id": "racoon",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:669"
-      ]
+      "coingecko_id": "racoon"
     },
     {
       "description": "Frax's fractional-algorithmic stablecoin on Axelar",
@@ -2929,7 +2584,7 @@
       "base": "ibc/0E43EDE2E2A3AFA36D0CD38BDDC0B49FECA64FA426A82E102F304E430ECF46EE",
       "name": "Frax",
       "display": "frax",
-      "symbol": "FRAX",
+      "symbol": "FRAX.axl",
       "traces": [
         {
           "type": "bridge",
@@ -3028,7 +2683,7 @@
       "base": "ibc/65381C5F3FD21442283D56925E62EA524DED8B6927F0FF94E21E0020954C40B5",
       "name": "Wrapped Ethereum",
       "display": "gweth",
-      "symbol": "WETH.grv",
+      "symbol": "wETH.grv",
       "traces": [
         {
           "type": "wrapped",
@@ -3061,12 +2716,7 @@
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gweth.png"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:634"
-      ]
+      }
     },
     {
       "description": "Gravity Bridge USDC",
@@ -3119,12 +2769,7 @@
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdc.png"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:633"
-      ]
+      }
     },
     {
       "description": "Gravity Bridge DAI",
@@ -3231,12 +2876,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdt.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:818"
-      ]
+      }
     },
     {
       "description": "The native token of Marble DEX on Juno Chain",
@@ -3278,11 +2918,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/block.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/block.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:691"
-      ]
+      }
     },
     {
       "description": "Hash is the staking token of the Provenance Blockchain",
@@ -3321,12 +2957,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/hash.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/hash.svg"
       },
-      "coingecko_id": "provenance-blockchain",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:693"
-      ]
+      "coingecko_id": "provenance-blockchain"
     },
     {
       "description": "GLX is the staking token of the Galaxy Chain",
@@ -3364,11 +2995,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/galaxy/images/glx.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/galaxy/images/glx.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:697"
-      ]
+      }
     },
     {
       "description": "The DAO token to build consensus among Hong Kong People",
@@ -3407,12 +3034,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:695"
-      ]
+      }
     },
     {
       "description": "Token governance for Junoswap",
@@ -3454,11 +3076,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/raw.png"
       },
-      "coingecko_id": "junoswap-raw-dao",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:700"
-      ]
+      "coingecko_id": "junoswap-raw-dao"
     },
     {
       "description": "MEME Token (MEME) is the native staking token of the MEME Chain",
@@ -3494,15 +3112,9 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png"
       },
-      "coingecko_id": "meme-network",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:701"
-      ]
+      "coingecko_id": "meme-network"
     },
     {
       "description": "Profit sharing token for Another.Software validator. Hold and receive dividends from Another.Software validator commissions!",
@@ -3584,12 +3196,7 @@
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/joe.png"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:718"
-      ]
+      }
     },
     {
       "description": "The native staking token of Terra.",
@@ -3627,12 +3234,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png"
       },
-      "coingecko_id": "terra-luna-2",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:726"
-      ]
+      "coingecko_id": "terra-luna-2"
     },
     {
       "description": "Native token of Rizon Chain",
@@ -3769,7 +3371,7 @@
       "base": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
       "name": "Chainlink",
       "display": "link",
-      "symbol": "LINK",
+      "symbol": "LINK.axl",
       "traces": [
         {
           "type": "bridge",
@@ -3795,13 +3397,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:731"
-      ]
+      }
     },
     {
       "description": "L1 coin is the GenesisL1 blockchain utility, governance and EVM token",
@@ -3839,12 +3435,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:732"
-      ]
+      }
     },
     {
       "description": "Aave on Axelar",
@@ -3864,7 +3455,7 @@
       "base": "ibc/384E5DD50BDE042E1AAF51F312B55F08F95BC985C503880189258B4D9374CBBE",
       "name": "Aave",
       "display": "aave",
-      "symbol": "AAVE",
+      "symbol": "AAVE.axl",
       "traces": [
         {
           "type": "bridge",
@@ -3909,7 +3500,7 @@
       "base": "ibc/F83CC6471DA4D4B508F437244F10B9E4C68975344E551A2DEB6B8617AB08F0D4",
       "name": "ApeCoin",
       "display": "ape",
-      "symbol": "APE",
+      "symbol": "APE.axl",
       "traces": [
         {
           "type": "bridge",
@@ -3954,7 +3545,7 @@
       "base": "ibc/6C0CB8653012DC2BC1820FD0B6B3AFF8A07D18630BDAEE066FEFB2D92F477C24",
       "name": "Axie Infinity Shard",
       "display": "axs",
-      "symbol": "AXS",
+      "symbol": "AXS.axl",
       "traces": [
         {
           "type": "bridge",
@@ -3999,7 +3590,7 @@
       "base": "ibc/D27DDDF34BB47E5D5A570742CC667DE53277867116CCCA341F27785E899A70F3",
       "name": "Maker",
       "display": "mkr",
-      "symbol": "MKR",
+      "symbol": "MKR.axl",
       "traces": [
         {
           "type": "bridge",
@@ -4024,12 +3615,7 @@
       ],
       "logo_URIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/mkr.svg"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "OSMO:733"
-      ]
+      }
     },
     {
       "description": "Rai Reflex Index on Axelar",
@@ -4049,7 +3635,7 @@
       "base": "ibc/BD796662F8825327D41C96355DF62045A5BA225BAE31C0A86289B9D88ED3F44E",
       "name": "Rai Reflex Index",
       "display": "rai",
-      "symbol": "RAI",
+      "symbol": "RAI.axl",
       "traces": [
         {
           "type": "bridge",
@@ -4094,7 +3680,7 @@
       "base": "ibc/19305E20681911F14D1FB275E538CDE524C3BF88CF9AE5D5F78F4D4DA05E85B2",
       "name": "Shiba Inu",
       "display": "shib",
-      "symbol": "SHIB",
+      "symbol": "SHIB.axl",
       "traces": [
         {
           "type": "bridge",
@@ -4119,12 +3705,7 @@
       ],
       "logo_URIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:880"
-      ]
+      }
     },
     {
       "description": "Uniswap on Axelar",
@@ -4144,7 +3725,7 @@
       "base": "ibc/AE2719773D6FCDD05AC17B1ED63F672F5F9D84144A61965F348C86C2A83AD161",
       "name": "Uniswap",
       "display": "uni",
-      "symbol": "UNI",
+      "symbol": "UNI.axl",
       "traces": [
         {
           "type": "bridge",
@@ -4189,7 +3770,7 @@
       "base": "ibc/B901BEC1B71D0573E6EE874FEC39E2DF4C2BDB1DB74CB3DA0A9CACC4A435B0EC",
       "name": "Chain",
       "display": "xcn",
-      "symbol": "XCN",
+      "symbol": "XCN.axl",
       "traces": [
         {
           "type": "bridge",
@@ -4252,13 +3833,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png"
       },
-      "coingecko_id": "kujira",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:744"
-      ]
+      "coingecko_id": "kujira"
     },
     {
       "description": "The native token of Tgrade",
@@ -4297,13 +3872,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.svg"
       },
-      "coingecko_id": "tgrade",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:769"
-      ]
+      "coingecko_id": "tgrade"
     },
     {
       "description": "Echelon - a scalable EVM on Cosmos, built on Proof-of-Stake with fast-finality that prioritizes interoperability and novel economics",
@@ -4342,11 +3911,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/logo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/echelon.svg"
       },
-      "coingecko_id": "echelon",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:848"
-      ]
+      "coingecko_id": "echelon"
     },
     {
       "description": "Staking and goverance token for ODIN Protocol",
@@ -4385,12 +3950,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg"
       },
-      "coingecko_id": "odin-protocol",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:777"
-      ]
+      "coingecko_id": "odin-protocol"
     },
     {
       "description": "GEO token for ODIN Protocol",
@@ -4428,12 +3988,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:787"
-      ]
+      }
     },
     {
       "description": "O9W token for ODIN Protocol",
@@ -4471,11 +4026,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:805"
-      ]
+      }
     },
     {
       "description": "ELEVENPARIS loyalty token on KiChain",
@@ -4517,12 +4068,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/lvn.png"
       },
-      "coingecko_id": "lvn",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:774"
-      ]
+      "coingecko_id": "lvn"
     },
     {
       "description": "Wrapped Moonbeam on Axelar",
@@ -4542,7 +4088,7 @@
       "base": "ibc/1E26DB0E5122AED464D98462BD384FCCB595732A66B3970AE6CE0B58BAE0FC49",
       "name": "Wrapped Moonbeam",
       "display": "wglmr",
-      "symbol": "GLMR",
+      "symbol": "wGLMR.axl",
       "traces": [
         {
           "type": "bridge",
@@ -4610,12 +4156,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:778"
-      ]
+      }
     },
     {
       "description": "Gelotto Year 1 Grand Prize Token",
@@ -4657,12 +4198,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/gkey.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/gkey.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:790"
-      ]
+      }
     },
     {
       "description": "The native token of Crescent",
@@ -4701,12 +4237,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.svg"
       },
-      "coingecko_id": "crescent-network",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:786"
-      ]
+      "coingecko_id": "crescent-network"
     },
     {
       "description": "The native token of Lumen Network",
@@ -4743,11 +4274,7 @@
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.png"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:788"
-      ]
+      }
     },
     {
       "description": "The native token of Oraichain",
@@ -4786,12 +4313,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.svg"
       },
-      "coingecko_id": "oraichain-token",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:799"
-      ]
+      "coingecko_id": "oraichain-token"
     },
     {
       "description": "The native token of the Cudos blockchain",
@@ -4831,12 +4353,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.svg"
       },
-      "coingecko_id": "cudos",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:796"
-      ]
+      "coingecko_id": "cudos"
     },
     {
       "description": "The native stablecoin of Kava",
@@ -4912,13 +4429,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png"
       },
-      "coingecko_id": "agoric",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:795"
-      ]
+      "coingecko_id": "agoric"
     },
     {
       "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
@@ -4955,13 +4466,7 @@
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:837"
-      ]
+      }
     },
     {
       "description": "Staking derivative seJUNO for staked JUNO",
@@ -5004,12 +4509,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sejuno.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sejuno.svg"
       },
-      "coingecko_id": "stakeeasy-juno-derivative",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:793"
-      ]
+      "coingecko_id": "stakeeasy-juno-derivative"
     },
     {
       "description": "Staking derivative bJUNO for staked JUNO",
@@ -5091,13 +4591,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
       },
-      "coingecko_id": "stride",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:806"
-      ]
+      "coingecko_id": "stride"
     },
     {
       "denom_units": [
@@ -5143,13 +4637,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
       },
-      "coingecko_id": "stride-staked-atom",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "ATOM:803"
-      ]
+      "coingecko_id": "stride-staked-atom"
     },
     {
       "denom_units": [
@@ -5194,12 +4682,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "STARS:810"
-      ]
+      }
     },
     {
       "description": "Solarbank DAO Governance Token for speeding up the shift to renewable and green energy",
@@ -5284,11 +4767,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/seasy.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/seasy.svg"
       },
-      "coingecko_id": "seasy",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:808"
-      ]
+      "coingecko_id": "seasy"
     },
     {
       "description": "The native token of Axelar",
@@ -5327,13 +4806,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
       },
-      "coingecko_id": "axelar",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:812"
-      ]
+      "coingecko_id": "axelar"
     },
     {
       "description": "REBUS, the native coin of the Rebus chain.",
@@ -5372,12 +4845,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.svg"
       },
-      "coingecko_id": "rebus",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:813"
-      ]
+      "coingecko_id": "rebus"
     },
     {
       "description": "Tori token (TORI) is the Teritoti Network’s native utility token, used as the primary means to govern, secure the blockchain, incentivize ecosystem contributors and use the various Teritori dApp features.",
@@ -5416,12 +4884,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg"
       },
-      "coingecko_id": "teritori",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:816"
-      ]
+      "coingecko_id": "teritori"
     },
     {
       "denom_units": [
@@ -5466,12 +4929,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "JUNO:817"
-      ]
+      }
     },
     {
       "denom_units": [
@@ -5516,13 +4974,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:833"
-      ]
+      }
     },
     {
       "description": "The native token cw20 for MuseDAO on Juno Chain",
@@ -5601,12 +5053,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png"
       },
-      "coingecko_id": "lambda",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:826"
-      ]
+      "coingecko_id": "lambda"
     },
     {
       "description": "The native over-collateralized stablecoin from the Kujira chain.",
@@ -5644,11 +5091,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.png"
       },
-      "coingecko_id": "usk",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:819"
-      ]
+      "coingecko_id": "usk"
     },
     {
       "description": "Staking and governance coin for the Unification Blockchain",
@@ -5686,11 +5129,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png"
       },
-      "coingecko_id": "unification",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:830"
-      ]
+      "coingecko_id": "unification"
     },
     {
       "description": "The native staking and governance token of Jackal.",
@@ -5729,12 +5168,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.svg"
       },
-      "coingecko_id": "jackal-protocol",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:832"
-      ]
+      "coingecko_id": "jackal-protocol"
     },
     {
       "description": "The native token cw20 for Alter on Secret Network",
@@ -5775,12 +5209,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg"
       },
-      "coingecko_id": "alter",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:845"
-      ]
+      "coingecko_id": "alter"
     },
     {
       "description": "The native token cw20 for Button on Secret Network",
@@ -5866,12 +5295,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg"
       },
-      "coingecko_id": "shade-protocol",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:846"
-      ]
+      "coingecko_id": "shade-protocol"
     },
     {
       "description": "The native token cw20 for SIENNA on Secret Network",
@@ -5914,11 +5338,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.svg"
       },
-      "coingecko_id": "sienna",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:853"
-      ]
+      "coingecko_id": "sienna"
     },
     {
       "description": "The native token cw20 for SCRT Staking Derivatives on Secret Network",
@@ -5961,11 +5381,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg"
       },
-      "coingecko_id": "stkd-scrt",
-      "keywords": [
-        "osmosis-frontier",
-        "SCRT:854"
-      ]
+      "coingecko_id": "stkd-scrt"
     },
     {
       "description": "BeeZee native blockchain",
@@ -6004,12 +5420,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.svg"
       },
-      "coingecko_id": "bzedge",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:856"
-      ]
+      "coingecko_id": "bzedge"
     },
     {
       "description": "The native token cw20 for Fanfury on Juno Chain",
@@ -6090,11 +5501,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg"
       },
-      "coingecko_id": "arable-protocol",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:858"
-      ]
+      "coingecko_id": "arable-protocol"
     },
     {
       "description": "Stable Token of Harbor protocol on Comdex network",
@@ -6133,11 +5540,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg"
       },
-      "coingecko_id": "composite",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:857"
-      ]
+      "coingecko_id": "composite"
     },
     {
       "description": "The native EVM, governance and staking token of the Imversed",
@@ -6176,11 +5579,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/imversed/images/imversed.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/imversed/images/imversed.svg"
       },
-      "coingecko_id": "imv",
-      "keywords": [
-        "osmosis-frontier",
-        "USDC.axl:866"
-      ]
+      "coingecko_id": "imv"
     },
     {
       "description": "The native token of Medas Digital Network",
@@ -6220,10 +5619,7 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.svg"
       },
       "keywords": [
-        "medas",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:859"
+        "medas"
       ]
     },
     {
@@ -6267,12 +5663,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg"
       },
-      "coingecko_id": "posthuman",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "ATOM:867"
-      ]
+      "coingecko_id": "posthuman"
     },
     {
       "description": "The native token cw20 for Amber on Secret Network",
@@ -6356,11 +5747,7 @@
         "dex",
         "stablecoin",
         "bridge",
-        "staking",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:882",
-        "ATOM:885"
+        "staking"
       ]
     },
     {
@@ -6403,12 +5790,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
       },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "ATOM:886"
-      ]
+      "coingecko_id": "stkatom"
     },
     {
       "description": "The native staking and governance token of the Dyson Protocol",
@@ -6442,12 +5824,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:905"
-      ]
+      }
     },
     {
       "description": "The native token cw20 for Hopers on Juno Chain",
@@ -6489,12 +5866,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.png"
       },
-      "coingecko_id": "hopers-io ",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:894"
-      ]
+      "coingecko_id": "hopers-io "
     },
     {
       "description": "Overcollateralized stable coin for Arable derivatives v1",
@@ -6532,12 +5904,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/arusd.png"
       },
-      "coingecko_id": "arable-usd",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "USDC.axl:895"
-      ]
+      "coingecko_id": "arable-usd"
     },
     {
       "description": "The native EVM, governance and staking token of the Planq Network",
@@ -6576,12 +5943,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg"
       },
-      "coingecko_id": "planq",
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:898"
-      ]
+      "coingecko_id": "planq"
     },
     {
       "description": "Wrapped FTM on Axelar.",
@@ -6601,7 +5963,7 @@
       "base": "ibc/5E2DFDF1734137302129EA1C1BA21A580F96F778D4F021815EA4F6DB378DA1A4",
       "name": "Wrapped FTM",
       "display": "ftm",
-      "symbol": "FTM",
+      "symbol": "wFTM.acl",
       "traces": [
         {
           "type": "bridge",
@@ -6626,12 +5988,7 @@
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:900"
-      ]
+      }
     },
     {
       "description": "Canto is a Layer-1 blockchain built to deliver on the promise of DeFi",
@@ -6669,11 +6026,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png"
       },
-      "coingecko_id": "canto",
-      "keywords": [
-        "osmosis-frontier",
-        "OSMO:901"
-      ]
+      "coingecko_id": "canto"
     },
     {
       "description": "Quicksilver Liquid Staked STARS",
@@ -6720,11 +6073,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qstars.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qstars.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "STARS:903"
-      ]
+      }
     },
     {
       "description": "WYND DAO Governance Token",
@@ -6766,13 +6115,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wynd.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wynd.svg"
-      },
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:902"
-      ]
+      }
     },
     {
       "description": "Circle's stablecoin from Polygon on Axelar",
@@ -6792,7 +6135,7 @@
       "base": "ibc/231FD77ECCB2DB916D314019DA30FE013202833386B1908A191D16989AD80B5A",
       "name": "USD Coin from Polygon",
       "display": "polygon-usdc",
-      "symbol": "polygon.USDC",
+      "symbol": "polyUSDC.axl",
       "traces": [
         {
           "type": "bridge",
@@ -6838,7 +6181,7 @@
       "base": "ibc/F17C9CA112815613C5B6771047A093054F837C3020CBA59DFFD9D780A8B2984C",
       "name": "USD Coin from Avalanche",
       "display": "avalanche-usdc",
-      "symbol": "avalanche.USDC",
+      "symbol": "avaxUSDC.axl",
       "traces": [
         {
           "type": "bridge",
@@ -6903,13 +6246,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token.svg"
       },
-      "coingecko_id": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3",
-      "keywords": [
-        "osmosis-main",
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:907"
-      ]
+      "coingecko_id": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
     },
     {
       "description": "Ciento Exchange Token",
@@ -6946,12 +6283,7 @@
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/cnto.png"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "USDC.axl:909"
-      ]
+      }
     },
     {
       "denom_units": [
@@ -6996,11 +6328,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "LUNA:913"
-      ]
+      }
     },
     {
       "denom_units": [
@@ -7045,12 +6373,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "EVMOS:922"
-      ]
+      }
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
@@ -7134,12 +6457,7 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.svg"
-      },
-      "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:924"
-      ]
+      }
     },
     {
       "description": "The native staking token of 8ball.",
@@ -7177,11 +6495,171 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.svg"
+      }
+    },
+    {
+      "description": "Signal Art and Gaming on Juno",
+      "denom_units": [
+        {
+          "denom": "ibc/4BDADBEDA31899036AB286E9901116496A9D85FB87B35A408C9D67C0DCAC660A",
+          "exponent": 0,
+          "aliases": [
+            "cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k"
+          ]
+        },
+        {
+          "denom": "sgnl",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "cw20",
+      "address": "juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k",
+      "base": "ibc/4BDADBEDA31899036AB286E9901116496A9D85FB87B35A408C9D67C0DCAC660A",
+      "name": "Signal",
+      "display": "sgnl",
+      "symbol": "SGNL",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "juno",
+            "base_denom": "cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k",
+            "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+            "channel_id": "channel-47"
+          },
+          "chain": {
+            "port": "transfer",
+            "channel_id": "channel-169",
+            "path": "transfer/channel-169/cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sgnl.png"
+      }
+    },
+    {
+      "description": "RED",
+      "denom_units": [
+        {
+          "denom": "ibc/05458E0F3E1A0C8E34B9F5A291B4D306B230F4BA0EF32B86411F95081A0B5DA0",
+          "exponent": 0,
+          "aliases": [
+            "cw20:juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za"
+          ]
+        },
+        {
+          "denom": "red",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "cw20",
+      "address": "juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za",
+      "base": "ibc/05458E0F3E1A0C8E34B9F5A291B4D306B230F4BA0EF32B86411F95081A0B5DA0",
+      "name": "Red",
+      "display": "red",
+      "symbol": "RED",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "juno",
+            "base_denom": "cw20:juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za",
+            "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+            "channel_id": "channel-47"
+          },
+          "chain": {
+            "port": "transfer",
+            "channel_id": "channel-169",
+            "path": "transfer/channel-169/cw20:juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/red.png"
+      }
+    },
+    {
+      "description": "BLUE",
+      "denom_units": [
+        {
+          "denom": "ibc/1F0CFBE9934E06C089589EE9AE81C841BD5B1ED802E70914F1A9A13F309878A5",
+          "exponent": 0,
+          "aliases": [
+            "cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7"
+          ]
+        },
+        {
+          "denom": "blue",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "cw20",
+      "address": "juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7",
+      "base": "ibc/1F0CFBE9934E06C089589EE9AE81C841BD5B1ED802E70914F1A9A13F309878A5",
+      "name": "Blue",
+      "display": "blue",
+      "symbol": "BLUE",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "juno",
+            "base_denom": "cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7",
+            "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+            "channel_id": "channel-47"
+          },
+          "chain": {
+            "port": "transfer",
+            "channel_id": "channel-169",
+            "path": "transfer/channel-169/cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/blue.png"
+      }
+    },
+    {
+      "description": "The native token of Shareledger",
+      "denom_units": [
+        {
+          "denom": "ibc/1F3AB31A66CC0FBE149859D55D0D2D7167B851A113786438EA6E201033600C8E",
+          "exponent": 0,
+          "aliases": [
+            "nshr"
+          ]
+        },
+        {
+          "denom": "shr",
+          "exponent": 9
+        }
+      ],
+      "base": "ibc/1F3AB31A66CC0FBE149859D55D0D2D7167B851A113786438EA6E201033600C8E",
+      "name": "Shareledger",
+      "display": "shr",
+      "symbol": "SHR",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "shareledger",
+            "base_denom": "nshr",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-647",
+            "path": "transfer/channel-647/nshr"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.svg"
       },
+      "coingecko_id": "shareledger",
       "keywords": [
-        "osmosis-frontier",
-        "osmosis-info",
-        "OSMO:935"
+        "id"
       ]
     }
   ]

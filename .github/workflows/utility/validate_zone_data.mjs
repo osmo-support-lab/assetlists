@@ -11,7 +11,7 @@
 import * as path from 'path';
 import * as chain_reg from './chain_registry.mjs';
 
-const root = "../../..";
+const root = "./";
 const networkTypeToDirectoryMap = new Map();
 networkTypeToDirectoryMap.set("mainnet","osmosis-1");
 networkTypeToDirectoryMap.set("testnet","osmo-test-4");

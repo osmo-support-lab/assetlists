@@ -22,11 +22,11 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-const chainRegistryRoot = "../../../chain-registry";
+const chainRegistryRoot = "./chain-registry";
 const chainRegistryMainnetsSubdirectory = "";
 const chainRegistryTestnetsSubdirectory = "/testnets";
 let chainRegistrySubdirectory = "";
-const assetlistsRoot = "../../..";
+const assetlistsRoot = "./";
 const assetlistsMainnetsSubdirectory = "/osmosis-1";
 const assetlistsTestnetsSubdirectory = "/osmo-test-4";
 let assetlistsSubdirectory = "";
@@ -230,15 +230,15 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
     }
   
     //--Overrides Properties when Specified--
-    if(zoneAsset.override_properties) {
-      if(zoneAsset.override_properties.symbol) {
-        generatedAsset.symbol = zoneAsset.override_properties.symbol;
+    if(zoneAsset.frontend_properties) {
+      if(zoneAsset.frontend_properties.symbol) {
+        generatedAsset.symbol = zoneAsset.frontend_properties.symbol;
       }
-      if(zoneAsset.override_properties.logo_URIs) {
-        generatedAsset.logo_URIs = zoneAsset.override_properties.logo_URIs;
+      if(zoneAsset.frontend_properties.logo_URIs) {
+        generatedAsset.logo_URIs = zoneAsset.frontend_properties.logo_URIs;
       }
-      if(zoneAsset.override_properties.coingecko_id) {
-        generatedAsset.coingecko_id = zoneAsset.override_properties.coingecko_id;
+      if(zoneAsset.frontend_properties.coingecko_id) {
+        generatedAsset.coingecko_id = zoneAsset.frontend_properties.coingecko_id;
       }
     }
     
