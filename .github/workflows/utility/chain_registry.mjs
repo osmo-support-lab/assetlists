@@ -1,17 +1,16 @@
 // Purpose:
 //   to provide chain registry lookup functionality to other programs
 
-
 // -- IMPORTS --
 
-import * as fs from 'fs';
-import * as path from 'path';
+import * as fs from "fs";
+import * as path from "path";
 
 // -- VARIABLES --
 
 export let chainNameToDirectoryMap = new Map();
 
-export const chainRegistryRoot = "./chain-registry";
+export const chainRegistryRoot = "../../../chain-registry";
 
 const networkTypeToDirectoryNameMap = new Map();
 networkTypeToDirectoryNameMap.set("mainnet", "");
@@ -38,15 +37,17 @@ export const nonChainDirectories = [
   "assetlist.schema.json",
   "chain.schema.json",
   "ibc_data.schema.json",
-  "README.md"
-]
-
+  "README.md",
+];
 
 const networkTypeToDirectoryMap = new Map();
 networkTypeToDirectoryMap.set("mainnet", "");
 networkTypeToDirectoryMap.set("testnet", "testnets");
 for (const [networkType, directory] of networkTypeToDirectoryMap.entries()) {
-  networkTypeToDirectoryMap.set(networkType, path.join(chainRegistryRoot, directory));
+  networkTypeToDirectoryMap.set(
+    networkType,
+    path.join(chainRegistryRoot, directory)
+  );
 }
 
 const fileNames = {
@@ -60,7 +61,6 @@ export const chain__FileName = "chain.json";
 export const assetlist__FileName = "assetlist.json";
 
 export let debug = 1;
-
 
 export let allChains = "";
 
@@ -76,7 +76,7 @@ export function readJsonFile(file) {
 
 export function writeJsonFile(file, object) {
   try {
-    fs.writeFileSync((file), JSON.stringify(object,null,2), (err) => {
+    fs.writeFileSync(file, JSON.stringify(object, null, 2), (err) => {
       if (err) throw err;
     });
   } catch (err) {
@@ -100,7 +100,7 @@ export function getDirectoryContents(directory) {
 export function setDifferenceArray(a, b) {
   let c = [];
   a.forEach((item) => {
-    if(!b.includes(item)) {
+    if (!b.includes(item)) {
       c.push(item);
     }
   });
@@ -109,24 +109,33 @@ export function setDifferenceArray(a, b) {
 
 // -- CHAIN REGISTRY MODULES --
 
-
 // - network_type:: -
 
-
-
-
-
 export function populateChainDirectories() {
-  for (let [networkType, networkTypeDirectoryName] of networkTypeToDirectoryNameMap) {
+  for (let [
+    networkType,
+    networkTypeDirectoryName,
+  ] of networkTypeToDirectoryNameMap) {
     for (let [domain, domainDirectoryName] of domainToDirectoryNameMap) {
       let chainNames = setDifferenceArray(
-        getDirectoryContents(path.join(chainRegistryRoot, networkTypeDirectoryName, domainDirectoryName)),
+        getDirectoryContents(
+          path.join(
+            chainRegistryRoot,
+            networkTypeDirectoryName,
+            domainDirectoryName
+          )
+        ),
         nonChainDirectories
       );
       chainNames.forEach((chainName) => {
         chainNameToDirectoryMap.set(
           chainName,
-          path.join(chainRegistryRoot, networkTypeDirectoryName, domainDirectoryName, chainName)
+          path.join(
+            chainRegistryRoot,
+            networkTypeDirectoryName,
+            domainDirectoryName,
+            chainName
+          )
         );
       });
     }
@@ -135,10 +144,10 @@ export function populateChainDirectories() {
 
 export function getFileProperty(chainName, file, property) {
   const chainDirectory = chainNameToDirectoryMap.get(chainName);
-  if(chainDirectory) {
-    const filePath = path.join(chainDirectory,fileToFileNameMap.get(file));
+  if (chainDirectory) {
+    const filePath = path.join(chainDirectory, fileToFileNameMap.get(file));
     const FILE_EXISTS = fs.existsSync(filePath);
-    if(FILE_EXISTS) {
+    if (FILE_EXISTS) {
       return readJsonFile(filePath)[property];
     }
   }
@@ -146,10 +155,10 @@ export function getFileProperty(chainName, file, property) {
 
 export function setFileProperty(chainName, file, property, value) {
   const chainDirectory = chainNameToDirectoryMap.get(chainName);
-  if(chainDirectory) {
-    const filePath = path.join(chainDirectory,fileToFileNameMap.get(file));
+  if (chainDirectory) {
+    const filePath = path.join(chainDirectory, fileToFileNameMap.get(file));
     const FILE_EXISTS = fs.existsSync(filePath);
-    if(FILE_EXISTS) {
+    if (FILE_EXISTS) {
       let json = readJsonFile(filePath);
       json[property] = value;
       writeJsonFile(filePath, json);
@@ -160,15 +169,15 @@ export function setFileProperty(chainName, file, property, value) {
 
 export function getAssetProperty(chainName, baseDenom, property) {
   const assets = getFileProperty(chainName, "assetlist", "assets");
-  if(assets) {
+  if (assets) {
     let selectedAsset;
     assets.forEach((asset) => {
-      if(asset.base == baseDenom) {
+      if (asset.base == baseDenom) {
         selectedAsset = asset;
         return;
       }
     });
-    if(selectedAsset) {
+    if (selectedAsset) {
       return selectedAsset[property];
     }
   }
@@ -176,9 +185,9 @@ export function getAssetProperty(chainName, baseDenom, property) {
 
 export function setAssetProperty(chainName, baseDenom, property, value) {
   const assets = getFileProperty(chainName, "assetlist", "assets");
-  if(assets) {
+  if (assets) {
     assets.forEach((asset) => {
-      if(asset.base == baseDenom) {
+      if (asset.base == baseDenom) {
         asset[property] = value;
         setFileProperty(chainName, "assetlist", "assets", assets);
         return;
@@ -190,12 +199,12 @@ export function setAssetProperty(chainName, baseDenom, property, value) {
 export function getAssetPointersByChain(chainName) {
   let assetPointers = [];
   const assets = getFileProperty(chainName, "assetlist", "assets");
-  if(assets) {
+  if (assets) {
     assets.forEach((asset) => {
-      if(asset.base) {
+      if (asset.base) {
         assetPointers.push({
           chain_name: chainName,
-          base_denom: asset.base
+          base_denom: asset.base,
         });
       }
     });
@@ -206,12 +215,12 @@ export function getAssetPointersByChain(chainName) {
 export function getAssetPointersByNetworkType(networkType) {
   let assetPointers = [];
   const assets = getFileProperty(chainName, "assetlist", "assets");
-  if(assets) {
+  if (assets) {
     assets.forEach((asset) => {
-      if(asset.base) {
+      if (asset.base) {
         assetPointers.push({
           chain_name: chainName,
-          base_denom: asset.base
+          base_denom: asset.base,
         });
       }
     });
@@ -227,16 +236,21 @@ export function getAssetPointers() {
   return assetPointers;
 }
 
-export function filterAssetPointersByFileProperty(pointers, file, property, value) {
+export function filterAssetPointersByFileProperty(
+  pointers,
+  file,
+  property,
+  value
+) {
   let filtered = [];
   pointers.forEach((pointer) => {
     let propertyValue = getFileProperty(pointer.chain_name, file, property);
-    if(value == "*") {
-      if(propertyValue && propertyValue != "") {
+    if (value == "*") {
+      if (propertyValue && propertyValue != "") {
         filtered.push(pointer);
       }
     } else {
-      if(propertyValue == value) {
+      if (propertyValue == value) {
         filtered.push(pointer);
       }
     }
@@ -247,13 +261,17 @@ export function filterAssetPointersByFileProperty(pointers, file, property, valu
 export function filterAssetPointersByAssetProperty(pointers, property, value) {
   let filtered = [];
   pointers.forEach((pointer) => {
-    let propertyValue = getAssetProperty(pointer.chain_name, pointer.base_denom, property);
-    if(value == "*") {
-      if(propertyValue && propertyValue != "") {
+    let propertyValue = getAssetProperty(
+      pointer.chain_name,
+      pointer.base_denom,
+      property
+    );
+    if (value == "*") {
+      if (propertyValue && propertyValue != "") {
         filtered.push(pointer);
       }
     } else {
-      if(propertyValue == value) {
+      if (propertyValue == value) {
         filtered.push(pointer);
       }
     }

@@ -1,7 +1,6 @@
 // Purpose:
 //   to generate the assetlist json using the zone json and chain registry data
 
-
 // -- THE PLAN --
 //
 // read zone list from osmosis.zone.json
@@ -18,20 +17,19 @@
 //     the first denom becomes the ibc hash, and the original base becomes an alias
 // write assetlist array to file osmosis-1.assetlist.json
 
+import * as fs from "fs";
+import * as path from "path";
 
-import * as fs from 'fs';
-import * as path from 'path';
-
-const chainRegistryRoot = "./chain-registry";
+const chainRegistryRoot = "../../../chain-registry";
 const chainRegistryMainnetsSubdirectory = "";
 const chainRegistryTestnetsSubdirectory = "/testnets";
 let chainRegistrySubdirectory = "";
-const assetlistsRoot = "./";
+const assetlistsRoot = "../../..";
 const assetlistsMainnetsSubdirectory = "/osmosis-1";
 const assetlistsTestnetsSubdirectory = "/osmo-test-4";
 let assetlistsSubdirectory = "";
 const assetlistFileName = "assetlist.json";
-const zoneAssetlistFileName = "osmosis.zone.json"
+const zoneAssetlistFileName = "osmosis.zone.json";
 const ibcFolderName = "_IBC";
 const mainnetChainName = "osmosis";
 const testnetChainName = "osmosistestnet";
@@ -51,15 +49,19 @@ const assetlistSchema = {
   traces: [],
   logo_URIs: {
     png: "string",
-    svg: "string"
+    svg: "string",
   },
   coingecko_id: "string",
-  keywords: []
-}
+  keywords: [],
+};
 
 function getZoneAssetlist() {
   try {
-    return JSON.parse(fs.readFileSync(path.join(assetlistsRoot, assetlistsSubdirectory, zoneAssetlistFileName)));
+    return JSON.parse(
+      fs.readFileSync(
+        path.join(assetlistsRoot, assetlistsSubdirectory, zoneAssetlistFileName)
+      )
+    );
   } catch (err) {
     console.log(err);
   }
@@ -67,7 +69,16 @@ function getZoneAssetlist() {
 
 function copyRegisteredAsset(chain_name, base_denom) {
   try {
-    const chainRegistryChainAssetlist = JSON.parse(fs.readFileSync(path.join(chainRegistryRoot, chainRegistrySubdirectory, chain_name, assetlistFileName)));
+    const chainRegistryChainAssetlist = JSON.parse(
+      fs.readFileSync(
+        path.join(
+          chainRegistryRoot,
+          chainRegistrySubdirectory,
+          chain_name,
+          assetlistFileName
+        )
+      )
+    );
     return chainRegistryChainAssetlist.assets.find((registeredAsset) => {
       return registeredAsset.base === base_denom;
     });
@@ -78,7 +89,16 @@ function copyRegisteredAsset(chain_name, base_denom) {
 
 function getIbcConnections(ibcFileName) {
   try {
-    return JSON.parse(fs.readFileSync(path.join(chainRegistryRoot, chainRegistrySubdirectory, ibcFolderName, ibcFileName)));
+    return JSON.parse(
+      fs.readFileSync(
+        path.join(
+          chainRegistryRoot,
+          chainRegistrySubdirectory,
+          ibcFolderName,
+          ibcFileName
+        )
+      )
+    );
   } catch (err) {
     console.log(err);
   }
@@ -86,9 +106,17 @@ function getIbcConnections(ibcFileName) {
 
 function writeToFile(assetlist) {
   try {
-    fs.writeFile(path.join(assetlistsRoot, assetlistsSubdirectory, localChainId +'.assetlist.json'), JSON.stringify(assetlist,null,2), (err) => {
-      if (err) throw err;
-    });
+    fs.writeFile(
+      path.join(
+        assetlistsRoot,
+        assetlistsSubdirectory,
+        localChainId + ".assetlist.json"
+      ),
+      JSON.stringify(assetlist, null, 2),
+      (err) => {
+        if (err) throw err;
+      }
+    );
   } catch (err) {
     console.log(err);
   }
@@ -96,9 +124,9 @@ function writeToFile(assetlist) {
 
 async function calculateIbcHash(ibcHashInput) {
   const textAsBuffer = new TextEncoder().encode(ibcHashInput);
-  const hashBuffer = await crypto.subtle.digest('SHA-256', textAsBuffer);
-  const hashArray = Array.from(new Uint8Array(hashBuffer))
-  const digest = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  const hashBuffer = await crypto.subtle.digest("SHA-256", textAsBuffer);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  const digest = hashArray.map((b) => b.toString(16).padStart(2, "0")).join("");
   const ibcHashOutput = "ibc/" + digest.toUpperCase();
   return ibcHashOutput;
 }
@@ -111,11 +139,11 @@ async function asyncForEach(array, callback) {
 
 function reorderProperties(object, referenceObject) {
   let newObject = object;
-  if (typeof(object) === "object") {
-    if(object.constructor !== Array) {
+  if (typeof object === "object") {
+    if (object.constructor !== Array) {
       newObject = {};
       Object.keys(referenceObject).forEach((key) => {
-        if(object[key] && referenceObject[key]){
+        if (object[key] && referenceObject[key]) {
           newObject[key] = reorderProperties(object[key], referenceObject[key]);
         }
       });
@@ -124,50 +152,51 @@ function reorderProperties(object, referenceObject) {
   return newObject;
 }
 
-
 const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
-  
   await asyncForEach(zoneAssetlist.assets, async (zoneAsset) => {
+    let generatedAsset = copyRegisteredAsset(
+      zoneAsset.chain_name,
+      zoneAsset.base_denom
+    );
 
-    let generatedAsset = copyRegisteredAsset(zoneAsset.chain_name, zoneAsset.base_denom);
-
-    if(zoneAsset.chain_name != localChainName) {
-
+    if (zoneAsset.chain_name != localChainName) {
       let type = "ibc";
       let counterparty = {
         chain_name: zoneAsset.chain_name,
         base_denom: zoneAsset.base_denom,
-        port: "transfer"
+        port: "transfer",
       };
       let chain = {
         chain_name: localChainName,
-        port: "transfer"
+        port: "transfer",
       };
       let chain_1 = chain;
       let chain_2 = counterparty;
-      
-      
+
       //--Identify CW20 Transfer--
-      if(counterparty.base_denom.slice(0,5) === "cw20:") {
+      if (counterparty.base_denom.slice(0, 5) === "cw20:") {
         counterparty.port = "wasm.";
         type = "ibc-cw20";
       }
-      
+
       //--Identify Chain_1 and Chain_2--
-      if(counterparty.chain_name < chain.chain_name) {
+      if (counterparty.chain_name < chain.chain_name) {
         chain_1 = counterparty;
         chain_2 = chain;
       }
-      
+
       //--Find IBC File Name--
-      let ibcFileName = chain_1 .chain_name + "-" + chain_2.chain_name + ".json";
-      
+      let ibcFileName = chain_1.chain_name + "-" + chain_2.chain_name + ".json";
+
       //--Find IBC Connection--
       const ibcConnections = getIbcConnections(ibcFileName);
-      
+
       //--Find IBC Channel and Port Info--
-      ibcConnections.channels.forEach(function(channel) {
-        if(channel.chain_1.port_id.slice(0,5) === chain_1.port.slice(0,5) && channel.chain_2.port_id.slice(0,5) === chain_2.port.slice(0,5)) {
+      ibcConnections.channels.forEach(function (channel) {
+        if (
+          channel.chain_1.port_id.slice(0, 5) === chain_1.port.slice(0, 5) &&
+          channel.chain_2.port_id.slice(0, 5) === chain_2.port.slice(0, 5)
+        ) {
           chain_1.channel_id = channel.chain_1.channel_id;
           chain_2.channel_id = channel.chain_2.channel_id;
           chain_1.port = channel.chain_1.port_id;
@@ -175,50 +204,60 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
           return;
         }
       });
-      
+
       //--Create Trace--
       let trace = {
         type: type,
         counterparty: counterparty,
-        chain: chain
+        chain: chain,
       };
-      
+
       //--Add Trace Path--
-      trace.chain.path = chain.port + "/" + trace.chain.channel_id + "/" + zoneAsset.base_denom;
+      trace.chain.path =
+        chain.port + "/" + trace.chain.channel_id + "/" + zoneAsset.base_denom;
       let traces = [];
-      if(generatedAsset.traces) {
+      if (generatedAsset.traces) {
         traces = generatedAsset.traces;
-        if(traces[traces.length - 1].type === "ibc" || traces[traces.length - 1].type === "ibc-cw20") {
-          if(traces[traces.length - 1].chain.path) {
-            trace.chain.path = chain.port + "/" + trace.chain.channel_id + "/" + traces[traces.length - 1].chain.path;
+        if (
+          traces[traces.length - 1].type === "ibc" ||
+          traces[traces.length - 1].type === "ibc-cw20"
+        ) {
+          if (traces[traces.length - 1].chain.path) {
+            trace.chain.path =
+              chain.port +
+              "/" +
+              trace.chain.channel_id +
+              "/" +
+              traces[traces.length - 1].chain.path;
           } else {
             console.log(generatedAsset.base + "Missing Path");
           }
         }
-      } else if (zoneAsset.base_denom.slice(0,7) === "factory") {
-        let baseReplacement = zoneAsset.base_denom.replace(/\//g,":");
-        trace.chain.path = chain.port + "/" + trace.chain.channel_id + "/" + baseReplacement;
+      } else if (zoneAsset.base_denom.slice(0, 7) === "factory") {
+        let baseReplacement = zoneAsset.base_denom.replace(/\//g, ":");
+        trace.chain.path =
+          chain.port + "/" + trace.chain.channel_id + "/" + baseReplacement;
       }
-      
+
       //--Cleanup Trace--
       delete trace.chain.chain_name;
-      if(type === "ibc") {
+      if (type === "ibc") {
         delete trace.chain.port;
         delete trace.counterparty.port;
       }
-      
+
       //--Append Latest Trace to Traces--
       traces.push(trace);
       generatedAsset.traces = traces;
-      
+
       //--Get IBC Hash--
-      let ibcHash = calculateIbcHash(traces[traces.length -1].chain.path);
-      
+      let ibcHash = calculateIbcHash(traces[traces.length - 1].chain.path);
+
       //--Replace Base with IBC Hash--
       generatedAsset.base = await ibcHash;
-      generatedAsset.denom_units.forEach(async function(unit) {
-        if(unit.denom === zoneAsset.base_denom) {
-          if(!unit.aliases) {
+      generatedAsset.denom_units.forEach(async function (unit) {
+        if (unit.denom === zoneAsset.base_denom) {
+          if (!unit.aliases) {
             unit.aliases = [];
           }
           unit.aliases.push(zoneAsset.base_denom);
@@ -226,82 +265,77 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
         }
         return;
       });
-
     }
-  
+
     //--Overrides Properties when Specified--
-    if(zoneAsset.frontend_properties) {
-      if(zoneAsset.frontend_properties.symbol) {
+    if (zoneAsset.frontend_properties) {
+      if (zoneAsset.frontend_properties.symbol) {
         generatedAsset.symbol = zoneAsset.frontend_properties.symbol;
       }
-      if(zoneAsset.frontend_properties.logo_URIs) {
+      if (zoneAsset.frontend_properties.logo_URIs) {
         generatedAsset.logo_URIs = zoneAsset.frontend_properties.logo_URIs;
       }
-      if(zoneAsset.frontend_properties.coingecko_id) {
-        generatedAsset.coingecko_id = zoneAsset.frontend_properties.coingecko_id;
+      if (zoneAsset.frontend_properties.coingecko_id) {
+        generatedAsset.coingecko_id =
+          zoneAsset.frontend_properties.coingecko_id;
       }
     }
-    
+
     //--Add Keywords--
     let keywords = [];
-    if(generatedAsset.keywords) {
+    if (generatedAsset.keywords) {
       keywords = generatedAsset.keywords;
     }
-    if(zoneAsset.osmosis_main) {
+    if (zoneAsset.osmosis_main) {
       keywords.push("osmosis-main");
     }
-    if(zoneAsset.osmosis_frontier) {
+    if (zoneAsset.osmosis_frontier) {
       keywords.push("osmosis-frontier");
     }
-    if(zoneAsset.osmosis_info) {
+    if (zoneAsset.osmosis_info) {
       keywords.push("osmosis-info");
     }
-    if(keywords.length > 0) {
+    if (keywords.length > 0) {
       generatedAsset.keywords = keywords;
     }
-    if(zoneAsset.pools) {
+    if (zoneAsset.pools) {
       Object.keys(zoneAsset.pools).forEach((key) => {
         keywords.push(key + ":" + zoneAsset.pools[key]);
       });
     }
-    
+
     //--Re-order Properties--
     generatedAsset = reorderProperties(generatedAsset, assetlistSchema);
     //console.log(generatedAsset);
-    
+
     //--Append Asset to Assetlist--
     generatedAssetlist.push(generatedAsset);
-    
+
     //console.log(generatedAssetlist);
-  
   });
-
-}
-
+};
 
 async function generateAssetlist() {
-  
   let zoneAssetlist = getZoneAssetlist();
-  
-  let generatedAssetlist = [];  
+
+  let generatedAssetlist = [];
   await generateAssets(generatedAssetlist, zoneAssetlist);
   let chainAssetlist = {
     chain_name: localChainName,
-    assets: await generatedAssetlist
-  }
+    assets: await generatedAssetlist,
+  };
   //console.log(chainAssetlist);
-  
-  writeToFile(chainAssetlist);
 
+  writeToFile(chainAssetlist);
 }
 
 function selectDomain(domain) {
-  if(domain == "mainnets") {
+  if (domain == "mainnets") {
     chainRegistrySubdirectory = chainRegistryMainnetsSubdirectory;
     assetlistsSubdirectory = assetlistsMainnetsSubdirectory;
     localChainName = mainnetChainName;
     localChainId = mainnetChainId;
-  } else if(domain == "testnets") {
+  } else if (domain == "testnets") {
     chainRegistrySubdirectory = chainRegistryTestnetsSubdirectory;
     assetlistsSubdirectory = assetlistsTestnetsSubdirectory;
     localChainName = testnetChainName;
@@ -312,12 +346,10 @@ function selectDomain(domain) {
 }
 
 async function main() {
-
   selectDomain("mainnets");
   await generateAssetlist();
   selectDomain("testnets");
   generateAssetlist();
-  
 }
 
 main();
