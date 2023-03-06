@@ -6621,6 +6621,129 @@
       }
     },
     {
+      "description": "Utility token of Howl.social, an on chain micro-blogging platform on Juno",
+      "denom_units": [
+        {
+          "denom": "ibc/36FBE58A4C388A53F3A19CA0AD8A7955C2AFC19C14E56767732ADE5CFA75BEC7",
+          "exponent": 0,
+          "aliases": [
+            "cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz"
+          ]
+        },
+        {
+          "denom": "howl",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "cw20",
+      "address": "juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz",
+      "base": "ibc/36FBE58A4C388A53F3A19CA0AD8A7955C2AFC19C14E56767732ADE5CFA75BEC7",
+      "name": "Howl",
+      "display": "howl",
+      "symbol": "HOWL",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "juno",
+            "base_denom": "cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz",
+            "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+            "channel_id": "channel-47"
+          },
+          "chain": {
+            "port": "transfer",
+            "channel_id": "channel-169",
+            "path": "transfer/channel-169/cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/howl.png"
+      }
+    },
+    {
+      "description": "A community meme token with a fantasy fiction storyline and comic based NFTs on Juno",
+      "denom_units": [
+        {
+          "denom": "ibc/758A759BD24DD768B66FE3C8087AEF21B337B45FB7B359D2E9624B21507C1B82",
+          "exponent": 0,
+          "aliases": [
+            "cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa"
+          ]
+        },
+        {
+          "denom": "catom",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "cw20",
+      "address": "juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa",
+      "base": "ibc/758A759BD24DD768B66FE3C8087AEF21B337B45FB7B359D2E9624B21507C1B82",
+      "name": "Catom",
+      "display": "catom",
+      "symbol": "CATOM",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "juno",
+            "base_denom": "cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa",
+            "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+            "channel_id": "channel-47"
+          },
+          "chain": {
+            "port": "transfer",
+            "channel_id": "channel-169",
+            "path": "transfer/channel-169/cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/catom.png"
+      }
+    },
+    {
+      "description": "Governance and utility token for the Junø Apes NFT platform on Juno",
+      "denom_units": [
+        {
+          "denom": "ibc/176DD560277BB0BD676260BE02EBAB697725CA85144D8A2BF286C6B5323DB5FE",
+          "exponent": 0,
+          "aliases": [
+            "cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps"
+          ]
+        },
+        {
+          "denom": "jape",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "cw20",
+      "address": "juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps",
+      "base": "ibc/176DD560277BB0BD676260BE02EBAB697725CA85144D8A2BF286C6B5323DB5FE",
+      "name": "Junø Apes",
+      "display": "jape",
+      "symbol": "JAPE",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "juno",
+            "base_denom": "cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps",
+            "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+            "channel_id": "channel-47"
+          },
+          "chain": {
+            "port": "transfer",
+            "channel_id": "channel-169",
+            "path": "transfer/channel-169/cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/jape.png"
+      }
+    },
+    {
       "description": "The native token of Shareledger",
       "denom_units": [
         {
