@@ -750,6 +750,18 @@
       "base_denom": "cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7"
     },
     {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps"
+    },
+    {
       "chain_name": "shareledger",
       "base_denom": "nshr"
     }
