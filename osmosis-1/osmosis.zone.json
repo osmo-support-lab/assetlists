@@ -12,6 +12,31 @@
     },
     {
       "chain_name": "axelar",
+      "base_denom": "uaxl"
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "aave-wei",
+      "frontend_properties": {
+        "symbol": "AAVE.axl"
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "ape-wei",
+      "frontend_properties": {
+        "symbol": "APE.axl"
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "axs-wei",
+      "frontend_properties": {
+        "symbol": "AXS.axl"
+      }
+    },
+    {
+      "chain_name": "axelar",
       "base_denom": "uusdc",
       "frontend_properties": {
         "symbol": "USDC.axl"
@@ -53,12 +78,60 @@
       }
     },
     {
-      "chain_name": "cosmoshub",
-      "base_denom": "uatom"
+      "chain_name": "axelar",
+      "base_denom": "link-wei",
+      "frontend_properties": {
+        "symbol": "LINK.axl"
+      }
     },
     {
-      "chain_name": "cryptoorgchain",
-      "base_denom": "basecro"
+      "chain_name": "axelar",
+      "base_denom": "mkr-wei",
+      "frontend_properties": {
+        "symbol": "MKR.axl"
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "rai-wei",
+      "frontend_properties": {
+        "symbol": "RAI.axl"
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "shib-wei",
+      "frontend_properties": {
+        "symbol": "SHIB.axl"
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "uni-wei",
+      "frontend_properties": {
+        "symbol": "UNI.axl"
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "xcn-wei",
+      "frontend_properties": {
+        "symbol": "XCN.axl"
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "wftm-wei",
+      "frontend_properties": {
+        "symbol": "wFTM.axl"
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "wglmr-wei",
+      "frontend_properties": {
+        "symbol": "wGLMR.axl"
+      }
     },
     {
       "chain_name": "axelar",
@@ -86,19 +159,34 @@
       }
     },
     {
+      "chain_name": "axelar",
+      "base_denom": "dot-planck",
+      "frontend_properties": {
+        "symbol": "DOT.axl"
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "frax-wei",
+      "frontend_properties": {
+        "symbol": "FRAX.axl"
+      }
+    },
+    {
+      "chain_name": "cosmoshub",
+      "base_denom": "uatom"
+    },
+    {
+      "chain_name": "cryptoorgchain",
+      "base_denom": "basecro"
+    },
+    {
       "chain_name": "terra",
       "base_denom": "uluna"
     },
     {
       "chain_name": "juno",
       "base_denom": "ujuno"
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "dot-planck",
-      "frontend_properties": {
-        "symbol": "DOT.axl"
-      }
     },
     {
       "chain_name": "evmos",
@@ -289,13 +377,6 @@
       "base_denom": "cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa"
     },
     {
-      "chain_name": "axelar",
-      "base_denom": "frax-wei",
-      "frontend_properties": {
-        "symbol": "FRAX.axl"
-      }
-    },
-    {
       "chain_name": "gravitybridge",
       "base_denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
       "frontend_properties": {
@@ -395,71 +476,8 @@
       "base_denom": "swp"
     },
     {
-      "chain_name": "axelar",
-      "base_denom": "link-wei",
-      "frontend_properties": {
-        "symbol": "LINK.axl"
-      }
-    },
-    {
       "chain_name": "genesisl1",
       "base_denom": "el1"
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "aave-wei",
-      "frontend_properties": {
-        "symbol": "AAVE.axl"
-      }
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "ape-wei",
-      "frontend_properties": {
-        "symbol": "APE.axl"
-      }
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "axs-wei",
-      "frontend_properties": {
-        "symbol": "AXS.axl"
-      }
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "mkr-wei",
-      "frontend_properties": {
-        "symbol": "MKR.axl"
-      }
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "rai-wei",
-      "frontend_properties": {
-        "symbol": "RAI.axl"
-      }
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "shib-wei",
-      "frontend_properties": {
-        "symbol": "SHIB.axl"
-      }
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "uni-wei",
-      "frontend_properties": {
-        "symbol": "UNI.axl"
-      }
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "xcn-wei",
-      "frontend_properties": {
-        "symbol": "XCN.axl"
-      }
     },
     {
       "chain_name": "kujira",
@@ -488,13 +506,6 @@
     {
       "chain_name": "kichain",
       "base_denom": "cw20:ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy"
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "wglmr-wei",
-      "frontend_properties": {
-        "symbol": "wGLMR.axl"
-      }
     },
     {
       "chain_name": "juno",
@@ -559,10 +570,6 @@
     {
       "chain_name": "juno",
       "base_denom": "cw20:juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf"
-    },
-    {
-      "chain_name": "axelar",
-      "base_denom": "uaxl"
     },
     {
       "chain_name": "rebus",
@@ -677,19 +684,16 @@
       "base_denom": "aplanq"
     },
     {
-      "chain_name": "axelar",
-      "base_denom": "wftm-wei",
-      "frontend_properties": {
-        "symbol": "wFTM.acl"
-      }
-    },
-    {
       "chain_name": "canto",
       "base_denom": "acanto"
     },
     {
       "chain_name": "quicksilver",
       "base_denom": "uqstars"
+    },
+    {
+      "chain_name": "quicksilver",
+      "base_denom": "uqatom"
     },
     {
       "chain_name": "juno",
