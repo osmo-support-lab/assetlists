@@ -281,6 +281,10 @@
       "base_denom": "ucmdx"
     },
     {
+      "chain_name": "comdex",
+      "base_denom": "uharbor"
+    },
+    {
       "chain_name": "cheqd",
       "base_denom": "ncheq"
     },
