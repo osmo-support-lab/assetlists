@@ -1554,6 +1554,7 @@
           "exponent": 18
         }
       ],
+      "type_asset": "ics20",
       "base": "ibc/8061A06D3BD4D52C4A28FFECF7150D370393AF0BA661C3776C54FF32836C3961",
       "name": "pSTAKE Finance",
       "display": "pstake",
@@ -1603,7 +1604,10 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
-      }
+      },
+      "keywords": [
+        "canon"
+      ]
     },
     {
       "description": "Akash Token (AKT) is the Akash Network's native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
@@ -2714,6 +2718,7 @@
           ]
         }
       ],
+      "type_asset": "sdk.coin",
       "base": "ibc/8FEFAE6AECF6E2A255585617F781F35A8D5709A545A804482A261C0C9548A9D3",
       "name": "Carbon",
       "display": "dswth",
@@ -6873,6 +6878,47 @@
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/jape.png"
+      }
+    },
+    {
+      "description": "Inspired by Bonk. A community project to celebrate the settlers of JunoNetwork.",
+      "denom_units": [
+        {
+          "denom": "ibc/4F24D904BAB5FFBD3524F2DE3EC3C7A9E687A2408D9A985E57B356D9FA9201C6",
+          "exponent": 0,
+          "aliases": [
+            "cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x"
+          ]
+        },
+        {
+          "denom": "fox",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "cw20",
+      "address": "juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x",
+      "base": "ibc/4F24D904BAB5FFBD3524F2DE3EC3C7A9E687A2408D9A985E57B356D9FA9201C6",
+      "name": "Juno Fox",
+      "display": "fox",
+      "symbol": "FOX",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "juno",
+            "base_denom": "cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x",
+            "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+            "channel_id": "channel-47"
+          },
+          "chain": {
+            "port": "transfer",
+            "channel_id": "channel-169",
+            "path": "transfer/channel-169/cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/fox.png"
       }
     },
     {
