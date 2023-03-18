@@ -570,6 +570,10 @@
 		"base_denom": "utick"
 	},
 	{
+		"chain_name": "migaloo",
+		"base_denom": "uwhale"
+	},
+	{
 		"chain_name": "odin",
 		"base_denom": "loki"
 	},
