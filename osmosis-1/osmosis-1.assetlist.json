@@ -4912,6 +4912,43 @@
       }
     },
     {
+      "description": "The native token of Migaloo Chain",
+      "denom_units": [
+        {
+          "denom": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D",
+          "exponent": 0,
+          "aliases": [
+            "uwhale"
+          ]
+        },
+        {
+          "denom": "whale",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D",
+      "name": "Whale",
+      "display": "Whale",
+      "symbol": "WHALE",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "migaloo",
+            "base_denom": "uwhale",
+            "channel_id": "channel-5"
+          },
+          "chain": {
+            "channel_id": "channel-642",
+            "path": "transfer/channel-642/uwhale"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/whitewhale.png"
+      }
+    },
+    {
       "description": "Staking and goverance token for ODIN Protocol",
       "denom_units": [
         {
