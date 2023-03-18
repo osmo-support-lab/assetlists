@@ -1162,7 +1162,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
       },
       "coingecko_id": "crypto-com-chain"
     },
@@ -1682,7 +1683,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.svg"
       },
       "coingecko_id": "regen"
     },
@@ -1951,7 +1953,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
       },
       "coingecko_id": "ixo"
     },
@@ -2107,7 +2110,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/panacea/images/med.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/panacea/images/med.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/panacea/images/med.svg"
       },
       "coingecko_id": "medibloc"
     },
@@ -3811,7 +3815,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg"
       },
       "coingecko_id": "terra-luna-2"
     },
@@ -4004,7 +4009,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
       },
       "coingecko_id": "kujira"
     },
@@ -4081,8 +4087,7 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/logo.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/echelon.svg"
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg"
       },
       "coingecko_id": "echelon"
     },
@@ -4554,7 +4559,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg"
       },
       "coingecko_id": "agoric"
     },
@@ -4592,7 +4598,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
       }
     },
     {
@@ -5177,7 +5184,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.svg"
       },
       "coingecko_id": "usk"
     },
