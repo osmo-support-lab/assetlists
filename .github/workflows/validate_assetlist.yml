@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Validate Asset List schema
-        uses: snapcart/json-schema-validator@v1.0.0
+        uses: mcandeia/json-schema-validator@v1.0.5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           json_schema: ./assetlist.schema.json
