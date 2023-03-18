@@ -384,51 +384,35 @@
       "chain_name": "gravitybridge",
       "base_denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
       "frontend_properties": {
-        "symbol": "WBTC.grv",
-        "logo_URIs": {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gwbtc.png"
-        }
+        "symbol": "WBTC.grv"
       }
     },
     {
       "chain_name": "gravitybridge",
       "base_denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "frontend_properties": {
-        "symbol": "wETH.grv",
-        "logo_URIs": {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gweth.png"
-        }
+        "symbol": "wETH.grv"
       }
     },
     {
       "chain_name": "gravitybridge",
       "base_denom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "frontend_properties": {
-        "symbol": "USDC.grv",
-        "logo_URIs": {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdc.png"
-        }
+        "symbol": "USDC.grv"
       }
     },
     {
       "chain_name": "gravitybridge",
       "base_denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
       "frontend_properties": {
-        "symbol": "DAI.grv",
-        "logo_URIs": {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gdai.png"
-        }
+        "symbol": "DAI.grv"
       }
     },
     {
       "chain_name": "gravitybridge",
       "base_denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
       "frontend_properties": {
-        "symbol": "USDT.grv",
-        "logo_URIs": {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdt.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/gusdt.svg"
-        }
+        "symbol": "USDT.grv"
       }
     },
     {
