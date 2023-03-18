@@ -1,4 +1,4 @@
-name: Generate Assetlist (Test)
+name: Generate Assetlist
 on:
   workflow_dispatch:
     inputs:
