@@ -312,11 +312,6 @@ function selectDomain(domain) {
     assetlistsSubdirectory = assetlistsMainnetsSubdirectory;
     localChainName = mainnetChainName;
     localChainId = mainnetChainId;
-  } else if (domain == "testnets") {
-    chainRegistrySubdirectory = chainRegistryTestnetsSubdirectory;
-    assetlistsSubdirectory = assetlistsTestnetsSubdirectory;
-    localChainName = testnetChainName;
-    localChainId = testnetChainId;
   } else {
     console.log("Invalid Domain (Mainnets, Testnets, Devnets, etc.)");
   }
