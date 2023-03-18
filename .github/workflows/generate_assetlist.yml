@@ -1,5 +1,21 @@
 on: [workflow_dispatch]
 name: Generate Assetlist
+inputs:
+      chain_id_selection:
+        description: 'Chain ID Selection'
+        required: true
+        default: 'osmosis-1'
+        type: choice
+        options:
+          - osmosis-1
+          - juno-1
+      chain_name_selection:
+        description: 'Chain NAME Selection'
+        default: 'osmosis'
+        type: choice
+        options:
+          - osmosis
+          - juno
 jobs:
   generate_assetlist:
     name: Generate Assetlist
@@ -29,7 +45,7 @@ jobs:
           
       - name: Run code to Generate Assetlist
         working-directory: ./.github/workflows/utility
-        run: node generate_assetlist.mjs
+        run: CHAIN_ID=${{ inputs.chain_id_selection }} CHAIN_NAME=${{ inputs.chain_name_selection }} node generate_assetlist.mjs
       
       - name: Add Commit Push
         uses: devops-infra/action-commit-push@master

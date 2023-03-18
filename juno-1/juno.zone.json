@@ -1,0 +1,14 @@
+{
+  "$schema": "../zone.schema.json",
+  "chain_name": "juno",
+  "assets": [
+  {
+		"chain_name": "osmosis",
+		"base_denom": "uion"
+  },
+  {
+		"chain_name": "osmosis",
+		"base_denom": "uosmo"
+	}
+  ] 
+}
