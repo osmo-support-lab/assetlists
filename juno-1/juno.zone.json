@@ -1,0 +1,478 @@
+{
+  "$schema": "../zone.schema.json",
+  "chain_name": "juno",
+  "assets": [
+    {
+      "chain_name": "juno",
+      "base_denom": "ujuno"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1ur4jx0sxchdevahep7fwq28yk4tqsrhshdtylz46yka3uf6kky5qllqp4k"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1sfwye65qxcfsc837gu5qcprcz7w49gkv3wnat04764ld76hy3arqs779tr"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1t46z6hg8vvsena7sue0vg6w85ljar3cundplkre9sz0skeqkap9sxyyy6m"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1qsrercqegvs4ye0yqg93knv73ye5dc3prqwd6jcdcuj8ggp6w0us66deup"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1s2dp05rspeuzzpzyzdchk262szehrtfpz847uvf98cnwh53ulx4qg20qwj"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz"
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x"
+    },
+	{
+		"chain_name": "akash",
+		"base_denom": "uakt"
+	},
+	{
+		"chain_name": "assetmantle",
+		"base_denom": "umntl"
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "uaxl"
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "aave-wei",
+		"frontend_properties": {
+			"symbol": "AAVE.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "ape-wei",
+		"frontend_properties": {
+			"symbol": "APE.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "axs-wei",
+		"frontend_properties": {
+			"symbol": "AXS.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "uusdc",
+		"frontend_properties": {
+			"symbol": "USDC.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "weth-wei",
+		"frontend_properties": {
+			"symbol": "wETH.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "wbtc-satoshi",
+		"frontend_properties": {
+			"symbol": "WBTC.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "uusdt",
+		"frontend_properties": {
+			"symbol": "USDT.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "dai-wei",
+		"frontend_properties": {
+			"symbol": "DAI.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "busd-wei",
+		"frontend_properties": {
+			"symbol": "BUSD.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "link-wei",
+		"frontend_properties": {
+			"symbol": "LINK.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "mkr-wei",
+		"frontend_properties": {
+			"symbol": "MKR.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "rai-wei",
+		"frontend_properties": {
+			"symbol": "RAI.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "shib-wei",
+		"frontend_properties": {
+			"symbol": "SHIB.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "uni-wei",
+		"frontend_properties": {
+			"symbol": "UNI.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "xcn-wei",
+		"frontend_properties": {
+			"symbol": "XCN.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "wftm-wei",
+		"frontend_properties": {
+			"symbol": "wFTM.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "wglmr-wei",
+		"frontend_properties": {
+			"symbol": "wGLMR.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "wbnb-wei",
+		"frontend_properties": {
+			"symbol": "wBNB.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "wmatic-wei",
+		"frontend_properties": {
+			"symbol": "wMATIC.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/wmatic.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/wmatic.svg"
+			}
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "wavax-wei",
+		"frontend_properties": {
+			"symbol": "wAVAX.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "dot-planck",
+		"frontend_properties": {
+			"symbol": "DOT.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "frax-wei",
+		"frontend_properties": {
+			"symbol": "FRAX.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "polygon-uusdc",
+		"frontend_properties": {
+			"symbol": "polyUSDC.axl"
+		}
+	},
+	{
+		"chain_name": "axelar",
+		"base_denom": "avalanche-uusdc",
+		"frontend_properties": {
+			"symbol": "avaxUSDC.axl"
+		}
+	},
+	{
+		"chain_name": "bitcanna",
+		"base_denom": "ubcna"
+	},
+	{
+		"chain_name": "bitsong",
+		"base_denom": "ubtsg"
+	},
+	{
+		"chain_name": "chihuahua",
+		"base_denom": "uhuahua"
+	},
+	{
+		"chain_name": "comdex",
+		"base_denom": "ucmdx"
+	},
+	{
+		"chain_name": "comdex",
+		"base_denom": "uharbor"
+	},
+	{
+		"chain_name": "comdex",
+		"base_denom": "ucmst"
+	},
+	{
+		"chain_name": "cosmoshub",
+		"base_denom": "uatom"
+	},
+	{
+		"chain_name": "crescent",
+		"base_denom": "ucre"
+	},
+	{
+		"chain_name": "dig",
+		"base_denom": "udig"
+	},
+	{
+		"chain_name": "emoney",
+		"base_denom": "ungm"
+	},
+	{
+		"chain_name": "emoney",
+		"base_denom": "eeur"
+	},
+	{
+		"chain_name": "mars",
+		"base_denom": "umars"
+	},
+	{
+		"chain_name": "migaloo",
+		"base_denom": "uwhale"
+	},
+	{
+		"chain_name": "okexchain",
+		"base_denom": "wei"
+	},
+	{
+		"chain_name": "osmosis",
+		"base_denom": "uosmo"
+	},
+	{
+		"chain_name": "osmosis",
+		"base_denom": "uion"
+	},
+	{
+		"chain_name": "persistence",
+		"base_denom": "uxprt"
+	},
+	{
+		"chain_name": "persistence",
+		"base_denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444"
+	},
+	{
+		"chain_name": "persistence",
+		"base_denom": "stk/uatom"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "uscrt"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852"
+	},
+	{
+		"chain_name": "sifchain",
+		"base_denom": "rowan"
+	},
+	{
+		"chain_name": "stargaze",
+		"base_denom": "ustars"
+	},
+	{
+		"chain_name": "stride",
+		"base_denom": "ustrd"
+	},
+	{
+		"chain_name": "stride",
+		"base_denom": "stuatom"
+	},
+	{
+		"chain_name": "stride",
+		"base_denom": "stustars"
+	},
+	{
+		"chain_name": "stride",
+		"base_denom": "stujuno"
+	},
+	{
+		"chain_name": "stride",
+		"base_denom": "stuosmo"
+	},
+	{
+		"chain_name": "stride",
+		"base_denom": "stuluna"
+	},
+	{
+		"chain_name": "terra",
+		"base_denom": "uluna"
+	},
+	{
+		"chain_name": "terra",
+		"base_denom": "uusd"
+	},
+	{
+		"chain_name": "terra",
+		"base_denom": "ukrw"
+	}
+] 
+}

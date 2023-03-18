@@ -3,7 +3,7 @@
 
 // -- THE PLAN --
 //
-// read zone list from osmosis.zone.json
+// read zone list from <CHAIN_NAME>.zone.json
 // add assets to zone array
 // for each asset in zone array, identify the chain and base (this is primary key)
 //   with chain, find matching chain folder in chain registry
@@ -15,27 +15,23 @@
 //     with an extra trace for the ibc transfer, and
 //     the base becomes the ibc hash, and
 //     the first denom becomes the ibc hash, and the original base becomes an alias
-// write assetlist array to file osmosis-1.assetlist.json
+// write assetlist array to file <CHAIN_ID>.assetlist.json
 
 import * as fs from "fs";
 import * as path from "path";
 
 const chainRegistryRoot = "../../../chain-registry";
 const chainRegistryMainnetsSubdirectory = "";
-const chainRegistryTestnetsSubdirectory = "";
 let chainRegistrySubdirectory = "";
 const assetlistsRoot = "../../..";
-const assetlistsMainnetsSubdirectory = "/osmosis-1";
-const assetlistsTestnetsSubdirectory = "/osmo-test-4";
+const assetlistsMainnetsSubdirectory = "/" + process.env.CHAIN_ID;
 let assetlistsSubdirectory = "";
 const assetlistFileName = "assetlist.json";
-const zoneAssetlistFileName = "osmosis.zone.json";
+const zoneAssetlistFileName = process.env.CHAIN_NAME + ".zone.json";
 const ibcFolderName = "_IBC";
-const mainnetChainName = "osmosis";
-const testnetChainName = "osmosistestnet";
+const mainnetChainName = process.env.CHAIN_NAME;
 let localChainName = "";
-const mainnetChainId = "osmosis-1";
-const testnetChainId = "osmo-test-4";
+const mainnetChainId = process.env.CHAIN_ID;
 let localChainId = "";
 const assetlistSchema = {
   description: "string",
@@ -312,11 +308,6 @@ function selectDomain(domain) {
     assetlistsSubdirectory = assetlistsMainnetsSubdirectory;
     localChainName = mainnetChainName;
     localChainId = mainnetChainId;
-  } else if (domain == "testnets") {
-    chainRegistrySubdirectory = chainRegistryTestnetsSubdirectory;
-    assetlistsSubdirectory = assetlistsTestnetsSubdirectory;
-    localChainName = testnetChainName;
-    localChainId = testnetChainId;
   } else {
     console.log("Invalid Domain (Mainnets, Testnets, Devnets, etc.)");
   }

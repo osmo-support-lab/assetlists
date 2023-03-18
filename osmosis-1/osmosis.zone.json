@@ -4,6 +4,10 @@
   "assets": [
 	{
 		"chain_name": "osmosis",
+		"base_denom": "uosmo"
+	},
+	{
+		"chain_name": "osmosis",
 		"base_denom": "uion"
 	},
 	{
@@ -592,10 +596,6 @@
 	{
 		"chain_name": "oraichain",
 		"base_denom": "orai"
-	},
-	{
-		"chain_name": "osmosis",
-		"base_denom": "uosmo"
 	},
 	{
 		"chain_name": "panacea",
