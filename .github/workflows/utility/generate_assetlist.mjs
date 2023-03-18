@@ -22,7 +22,7 @@ import * as path from "path";
 
 const chainRegistryRoot = "../../../chain-registry";
 const chainRegistryMainnetsSubdirectory = "";
-const chainRegistryTestnetsSubdirectory = "/testnets";
+const chainRegistryTestnetsSubdirectory = "";
 let chainRegistrySubdirectory = "";
 const assetlistsRoot = "../../..";
 const assetlistsMainnetsSubdirectory = "/osmosis-1";
@@ -279,29 +279,6 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
         generatedAsset.coingecko_id =
           zoneAsset.frontend_properties.coingecko_id;
       }
-    }
-
-    //--Add Keywords--
-    let keywords = [];
-    if (generatedAsset.keywords) {
-      keywords = generatedAsset.keywords;
-    }
-    if (zoneAsset.osmosis_main) {
-      keywords.push("osmosis-main");
-    }
-    if (zoneAsset.osmosis_frontier) {
-      keywords.push("osmosis-frontier");
-    }
-    if (zoneAsset.osmosis_info) {
-      keywords.push("osmosis-info");
-    }
-    if (keywords.length > 0) {
-      generatedAsset.keywords = keywords;
-    }
-    if (zoneAsset.pools) {
-      Object.keys(zoneAsset.pools).forEach((key) => {
-        keywords.push(key + ":" + zoneAsset.pools[key]);
-      });
     }
 
     //--Re-order Properties--
