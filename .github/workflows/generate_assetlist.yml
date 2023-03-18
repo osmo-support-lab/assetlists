@@ -1,3 +1,4 @@
+name: Generate Assetlist (Test)
 on:
   workflow_dispatch:
     inputs:
@@ -17,13 +18,13 @@ on:
           - osmosis
           - juno
 jobs:
-generate_assetlist:
+  generate_assetlist:
     name: Generate Assetlist
     runs-on: ubuntu-latest
-   
+    
     defaults:
-    run:
-     shell: bash
+      run:
+        shell: bash
     
     steps:
     
@@ -41,7 +42,7 @@ generate_assetlist:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-         node-version: 19
+          node-version: 19
           
       - name: Run code to Generate Assetlist
         working-directory: ./.github/workflows/utility
