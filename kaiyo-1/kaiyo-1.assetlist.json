@@ -160,6 +160,1149 @@
       }
     },
     {
+      "description": "The native token of Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/C01154C2547F4CB10A985EA78E7CD4BA891C1504360703A37E1D7043F06B5E1F",
+          "exponent": 0,
+          "aliases": [
+            "uaxl"
+          ]
+        },
+        {
+          "denom": "axl",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/C01154C2547F4CB10A985EA78E7CD4BA891C1504360703A37E1D7043F06B5E1F",
+      "name": "Axelar",
+      "display": "axl",
+      "symbol": "AXL",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "uaxl",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/uaxl"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
+      },
+      "coingecko_id": "axelar"
+    },
+    {
+      "description": "Aave on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/5E6061C9FE6FC8E5E4E0B7A9313561D28BA6D2A246877DF0FB6636EEEA055131",
+          "exponent": 0,
+          "aliases": [
+            "aave-wei"
+          ]
+        },
+        {
+          "denom": "aave",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/5E6061C9FE6FC8E5E4E0B7A9313561D28BA6D2A246877DF0FB6636EEEA055131",
+      "name": "Aave",
+      "display": "aave",
+      "symbol": "AAVE.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "aave-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/aave-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAAVE.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAAVE.svg"
+      }
+    },
+    {
+      "description": "ApeCoin on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/1C9CC36F8E961719EAF52D4A2ECAB84538D0425C63CAC77D516BF07FFAF931D5",
+          "exponent": 0,
+          "aliases": [
+            "ape-wei"
+          ]
+        },
+        {
+          "denom": "ape",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/1C9CC36F8E961719EAF52D4A2ECAB84538D0425C63CAC77D516BF07FFAF931D5",
+      "name": "ApeCoin",
+      "display": "ape",
+      "symbol": "APE.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x4d224452801aced8b2f0aebe155379bb5d594381"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "ape-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/ape-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAPE.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAPE.svg"
+      }
+    },
+    {
+      "description": "Axie Infinity Shard on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/5181AFC5D9858E80212EE5C9F35D52DAE4E26AD5F55B19DD633206C51DECB6AF",
+          "exponent": 0,
+          "aliases": [
+            "axs-wei"
+          ]
+        },
+        {
+          "denom": "axs",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/5181AFC5D9858E80212EE5C9F35D52DAE4E26AD5F55B19DD633206C51DECB6AF",
+      "name": "Axie Infinity Shard",
+      "display": "axs",
+      "symbol": "AXS.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "axs-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/axs-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAXS.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAXS.svg"
+      }
+    },
+    {
+      "description": "Circle's stablecoin on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+      "name": "USD Coin",
+      "display": "usdc",
+      "symbol": "USDC.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "uusdc",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/uusdc"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDC.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDC.svg"
+      }
+    },
+    {
+      "description": "Wrapped Ether on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
+          "exponent": 0,
+          "aliases": [
+            "weth-wei"
+          ]
+        },
+        {
+          "denom": "weth",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
+      "name": "Wrapped Ether",
+      "display": "weth",
+      "symbol": "wETH.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "weth-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/weth-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWETH.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWETH.svg"
+      }
+    },
+    {
+      "description": "Wrapped Bitcoin on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/301DAF9CB0A9E247CD478533EF0E21F48FF8118C4A51F77C8BC3EB70E5566DBC",
+          "exponent": 0,
+          "aliases": [
+            "wbtc-satoshi"
+          ]
+        },
+        {
+          "denom": "wbtc",
+          "exponent": 8
+        }
+      ],
+      "base": "ibc/301DAF9CB0A9E247CD478533EF0E21F48FF8118C4A51F77C8BC3EB70E5566DBC",
+      "name": "Wrapped Bitcoin",
+      "display": "wbtc",
+      "symbol": "WBTC.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "wbtc-satoshi",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/wbtc-satoshi"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBTC.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBTC.svg"
+      }
+    },
+    {
+      "description": "Tether's USD stablecoin on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/F2331645B9683116188EF36FC04A809C28BD36B54555E8705A37146D0182F045",
+          "exponent": 0,
+          "aliases": [
+            "uusdt"
+          ]
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/F2331645B9683116188EF36FC04A809C28BD36B54555E8705A37146D0182F045",
+      "name": "Tether USD",
+      "display": "usdt",
+      "symbol": "USDT.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "uusdt",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/uusdt"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDT.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDT.svg"
+      }
+    },
+    {
+      "description": "Dai stablecoin on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/3914BDEF46F429A26917E4D8D434620EC4817DC6B6E68FB327E190902F1E9242",
+          "exponent": 0,
+          "aliases": [
+            "dai-wei"
+          ]
+        },
+        {
+          "denom": "dai",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/3914BDEF46F429A26917E4D8D434620EC4817DC6B6E68FB327E190902F1E9242",
+      "name": "Dai Stablecoin",
+      "display": "dai",
+      "symbol": "DAI.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "dai-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/dai-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDAI.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDAI.svg"
+      }
+    },
+    {
+      "description": "Binance USD on Axelar.",
+      "denom_units": [
+        {
+          "denom": "ibc/65CD60D7E37EF830BC6B6A6DF4E3E3884A96C0905A7D271C48DC0440B1989EC7",
+          "exponent": 0,
+          "aliases": [
+            "busd-wei"
+          ]
+        },
+        {
+          "denom": "busd",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/65CD60D7E37EF830BC6B6A6DF4E3E3884A96C0905A7D271C48DC0440B1989EC7",
+      "name": "Binance USD",
+      "display": "busd",
+      "symbol": "BUSD.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x4fabb145d64652a948d72533023f6e7a623c7c53"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "busd-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/busd-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.svg"
+      }
+    },
+    {
+      "description": "Chainlink on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/FC59D6840A41252352263CEA2B832BB86D68D03CBA194263CB9F3C15946796FB",
+          "exponent": 0,
+          "aliases": [
+            "link-wei"
+          ]
+        },
+        {
+          "denom": "link",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/FC59D6840A41252352263CEA2B832BB86D68D03CBA194263CB9F3C15946796FB",
+      "name": "Chainlink",
+      "display": "link",
+      "symbol": "LINK.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "link-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/link-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlLINK.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlLINK.svg"
+      }
+    },
+    {
+      "description": "Maker on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/31A4E6623063E702FB9CF2E7B616DFCCDE319CA2FC4775CDFF26F29F628E7ACF",
+          "exponent": 0,
+          "aliases": [
+            "mkr-wei"
+          ]
+        },
+        {
+          "denom": "mkr",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/31A4E6623063E702FB9CF2E7B616DFCCDE319CA2FC4775CDFF26F29F628E7ACF",
+      "name": "Maker",
+      "display": "mkr",
+      "symbol": "MKR.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "mkr-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/mkr-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlMKR.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlMKR.svg"
+      }
+    },
+    {
+      "description": "Rai Reflex Index on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/4CA23432A78B272A9EB7010CB72A15A199066D239F1B13BB583F3945EB8A315C",
+          "exponent": 0,
+          "aliases": [
+            "rai-wei"
+          ]
+        },
+        {
+          "denom": "rai",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/4CA23432A78B272A9EB7010CB72A15A199066D239F1B13BB583F3945EB8A315C",
+      "name": "Rai Reflex Index",
+      "display": "rai",
+      "symbol": "RAI.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x03ab458634910aad20ef5f1c8ee96f1d6ac54919"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "rai-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/rai-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlRAI.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlRAI.svg"
+      }
+    },
+    {
+      "description": "Shiba Inu on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/43BF3152103ED706E207005E7C433AB3440572C1D444FFE49321A0EF6A8EFC82",
+          "exponent": 0,
+          "aliases": [
+            "shib-wei"
+          ]
+        },
+        {
+          "denom": "shib",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/43BF3152103ED706E207005E7C433AB3440572C1D444FFE49321A0EF6A8EFC82",
+      "name": "Shiba Inu",
+      "display": "shib",
+      "symbol": "SHIB.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "shib-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/shib-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlSHIB.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlSHIB.svg"
+      }
+    },
+    {
+      "description": "Uniswap on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/0A88A08F3E9573DB9D8CB74AA3746F6D23C41C3EE7B6CC5AA4695A1DD74FF86B",
+          "exponent": 0,
+          "aliases": [
+            "uni-wei"
+          ]
+        },
+        {
+          "denom": "uni",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/0A88A08F3E9573DB9D8CB74AA3746F6D23C41C3EE7B6CC5AA4695A1DD74FF86B",
+      "name": "Uniswap",
+      "display": "uni",
+      "symbol": "UNI.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "uni-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/uni-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUNI.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUNI.svg"
+      }
+    },
+    {
+      "description": "Chain on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/7558FFC9B72318EC0510FC99970F079AA28CE1D96B3C34A775A0CCDBE5A2D500",
+          "exponent": 0,
+          "aliases": [
+            "xcn-wei"
+          ]
+        },
+        {
+          "denom": "xcn",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/7558FFC9B72318EC0510FC99970F079AA28CE1D96B3C34A775A0CCDBE5A2D500",
+      "name": "Chain",
+      "display": "xcn",
+      "symbol": "XCN.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "xcn-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/xcn-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlXCN.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlXCN.svg"
+      }
+    },
+    {
+      "description": "Wrapped FTM on Axelar.",
+      "denom_units": [
+        {
+          "denom": "ibc/E67ADA2204A941CD4743E70771BA08E24885E1ADD6FD140CE1F9E0FEBB68C6B2",
+          "exponent": 0,
+          "aliases": [
+            "wftm-wei"
+          ]
+        },
+        {
+          "denom": "ftm",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/E67ADA2204A941CD4743E70771BA08E24885E1ADD6FD140CE1F9E0FEBB68C6B2",
+      "name": "Wrapped FTM",
+      "display": "ftm",
+      "symbol": "wFTM.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "fantom",
+            "base_denom": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "wftm-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/wftm-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWFTM.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWFTM.svg"
+      }
+    },
+    {
+      "description": "Wrapped Moonbeam on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/C8D63703F5805CE6A2B20555139CF6ED9CDFA870389648EB08D688B94B0AE2C1",
+          "exponent": 0,
+          "aliases": [
+            "wglmr-wei"
+          ]
+        },
+        {
+          "denom": "wglmr",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/C8D63703F5805CE6A2B20555139CF6ED9CDFA870389648EB08D688B94B0AE2C1",
+      "name": "Wrapped Moonbeam",
+      "display": "wglmr",
+      "symbol": "wGLMR.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "moonbeam",
+            "base_denom": "0xacc15dc74880c9944775448304b263d191c6077f"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "wglmr-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/wglmr-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWGLMR.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWGLMR.svg"
+      }
+    },
+    {
+      "description": "Wrapped BNB on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/DADB399E742FCEE71853E98225D13E44E90292852CD0033DF5CABAB96F80B833",
+          "exponent": 0,
+          "aliases": [
+            "wbnb-wei"
+          ]
+        },
+        {
+          "denom": "wbnb",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/DADB399E742FCEE71853E98225D13E44E90292852CD0033DF5CABAB96F80B833",
+      "name": "Wrapped BNB",
+      "display": "wbnb",
+      "symbol": "wBNB.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "binancesmartchain",
+            "base_denom": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "wbnb-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/wbnb-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBNB.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBNB.svg"
+      }
+    },
+    {
+      "description": "Wrapped Matic on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/A64467480BBE4CCFC3CF7E25AD1446AA9BDBD4F5BCB9EF6038B83D6964C784E6",
+          "exponent": 0,
+          "aliases": [
+            "wmatic-wei"
+          ]
+        },
+        {
+          "denom": "wmatic",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/A64467480BBE4CCFC3CF7E25AD1446AA9BDBD4F5BCB9EF6038B83D6964C784E6",
+      "name": "Wrapped Matic",
+      "display": "wmatic",
+      "symbol": "wMATIC.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "polygon",
+            "base_denom": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "wmatic-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/wmatic-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWMATIC.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWMATIC.svg"
+      }
+    },
+    {
+      "description": "Wrapped AVAX on Axelar.",
+      "denom_units": [
+        {
+          "denom": "ibc/004EBF085BBED1029326D56BE8A2E67C08CECE670A94AC1947DF413EF5130EB2",
+          "exponent": 0,
+          "aliases": [
+            "wavax-wei"
+          ]
+        },
+        {
+          "denom": "avax",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/004EBF085BBED1029326D56BE8A2E67C08CECE670A94AC1947DF413EF5130EB2",
+      "name": "Wrapped AVAX",
+      "display": "avax",
+      "symbol": "wAVAX.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "avalanche",
+            "base_denom": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "wavax-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/wavax-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWAVAX.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWAVAX.svg"
+      }
+    },
+    {
+      "description": "Wrapped Polkadot on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/B37E4D9FB5B30F3E1E20A4B2DE2A005E584C5C822C44527546556AE2470B4539",
+          "exponent": 0,
+          "aliases": [
+            "dot-planck"
+          ]
+        },
+        {
+          "denom": "dot",
+          "exponent": 10
+        }
+      ],
+      "base": "ibc/B37E4D9FB5B30F3E1E20A4B2DE2A005E584C5C822C44527546556AE2470B4539",
+      "name": "Wrapped Polkadot",
+      "display": "dot",
+      "symbol": "DOT.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "moonbeam",
+            "base_denom": "0xffffffff1fcacbd218edc0eba20fc2308c778080"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "dot-planck",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/dot-planck"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.svg"
+      }
+    },
+    {
+      "description": "Frax's fractional-algorithmic stablecoin on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/7B11FE7D6385B46B9F3598B298B81A773CB20A8BA12001D87A78580314218364",
+          "exponent": 0,
+          "aliases": [
+            "frax-wei"
+          ]
+        },
+        {
+          "denom": "frax",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/7B11FE7D6385B46B9F3598B298B81A773CB20A8BA12001D87A78580314218364",
+      "name": "Frax",
+      "display": "frax",
+      "symbol": "FRAX.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x853d955acef822db058eb8505911ed77f175b99e"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "frax-wei",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/frax-wei"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlFRAX.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlFRAX.svg"
+      }
+    },
+    {
+      "description": "Circle's stablecoin from Polygon on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/7712A3178B36586E44B4AF56B68EFB648EF32ED855F79D61D845858D919458F2",
+          "exponent": 0,
+          "aliases": [
+            "polygon-uusdc"
+          ]
+        },
+        {
+          "denom": "polygon-usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/7712A3178B36586E44B4AF56B68EFB648EF32ED855F79D61D845858D919458F2",
+      "name": "USD Coin from Polygon",
+      "display": "polygon-usdc",
+      "symbol": "polyUSDC.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "polygon",
+            "base_denom": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "polygon-uusdc",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/polygon-uusdc"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/polyaxlUSDC.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/polyaxlUSDC.svg"
+      }
+    },
+    {
+      "description": "Circle's stablecoin from Avalanche on Axelar",
+      "denom_units": [
+        {
+          "denom": "ibc/C9397AFC209C4C14BCADAC0CBCAA2D2ABEDE4A5D3B94FFCDCD1175F589C10445",
+          "exponent": 0,
+          "aliases": [
+            "avalanche-uusdc"
+          ]
+        },
+        {
+          "denom": "avalanche-usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/C9397AFC209C4C14BCADAC0CBCAA2D2ABEDE4A5D3B94FFCDCD1175F589C10445",
+      "name": "USD Coin from Avalanche",
+      "display": "avalanche-usdc",
+      "symbol": "avaxUSDC.axl",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "avalanche",
+            "base_denom": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+          },
+          "provider": "Axelar"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "avalanche-uusdc",
+            "channel_id": "channel-14"
+          },
+          "chain": {
+            "channel_id": "channel-9",
+            "path": "transfer/channel-9/avalanche-uusdc"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/avaxaxlUSDC.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/avaxaxlUSDC.svg"
+      }
+    },
+    {
       "description": "The native governance token of Carbon",
       "denom_units": [
         {
@@ -203,6 +1346,354 @@
       "coingecko_id": "switcheo"
     },
     {
+      "description": "The native staking and governance token of the Cosmos Hub.",
+      "denom_units": [
+        {
+          "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "exponent": 0,
+          "aliases": [
+            "uatom"
+          ]
+        },
+        {
+          "denom": "atom",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+      "name": "Cosmos Hub Atom",
+      "display": "atom",
+      "symbol": "ATOM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "uatom",
+            "channel_id": "channel-343"
+          },
+          "chain": {
+            "channel_id": "channel-0",
+            "path": "transfer/channel-0/uatom"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+      },
+      "coingecko_id": "cosmos"
+    },
+    {
+      "description": "The native token of Gravity Bridge",
+      "denom_units": [
+        {
+          "denom": "ibc/D20559F0071F4BFDFF519D0C12B77AFE2A4481D44214BD92808B0C36B1E223C9",
+          "exponent": 0,
+          "aliases": [
+            "ugraviton"
+          ]
+        },
+        {
+          "denom": "graviton",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/D20559F0071F4BFDFF519D0C12B77AFE2A4481D44214BD92808B0C36B1E223C9",
+      "name": "Graviton",
+      "display": "graviton",
+      "symbol": "GRAV",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "gravitybridge",
+            "base_denom": "ugraviton",
+            "channel_id": "channel-107"
+          },
+          "chain": {
+            "channel_id": "channel-50",
+            "path": "transfer/channel-50/ugraviton"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg"
+      },
+      "coingecko_id": "graviton"
+    },
+    {
+      "description": "Gravity Bridge WBTC",
+      "denom_units": [
+        {
+          "denom": "ibc/E02A6F2BA8DD3F861DF43EB2F55F64A6B87E6F4838651000E20E9DC9FF0CB628",
+          "exponent": 0,
+          "aliases": [
+            "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+          ]
+        },
+        {
+          "denom": "gwbtc",
+          "exponent": 8
+        }
+      ],
+      "base": "ibc/E02A6F2BA8DD3F861DF43EB2F55F64A6B87E6F4838651000E20E9DC9FF0CB628",
+      "name": "Wrapped Bitcoin",
+      "display": "gwbtc",
+      "symbol": "WBTC.grv",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "bitcoin",
+            "base_denom": "sat"
+          },
+          "provider": "BitGo, Kyber, and Ren"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+          },
+          "provider": "Gravity Bridge"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "gravitybridge",
+            "base_denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "channel_id": "channel-107"
+          },
+          "chain": {
+            "channel_id": "channel-50",
+            "path": "transfer/channel-50/gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.svg"
+      }
+    },
+    {
+      "description": "Gravity Bridge WETH",
+      "denom_units": [
+        {
+          "denom": "ibc/35C18EBF8C2691FA9AAAAD0E8B9ECA8C3C903D681429C6017E3F6CE49B786E81",
+          "exponent": 0,
+          "aliases": [
+            "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+          ]
+        },
+        {
+          "denom": "gweth",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/35C18EBF8C2691FA9AAAAD0E8B9ECA8C3C903D681429C6017E3F6CE49B786E81",
+      "name": "Wrapped Ethereum",
+      "display": "gweth",
+      "symbol": "wETH.grv",
+      "traces": [
+        {
+          "type": "wrapped",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "wei"
+          },
+          "provider": "Ethereum"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          },
+          "provider": "Gravity Bridge"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "gravitybridge",
+            "base_denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "channel_id": "channel-107"
+          },
+          "chain": {
+            "channel_id": "channel-50",
+            "path": "transfer/channel-50/gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.svg"
+      }
+    },
+    {
+      "description": "Gravity Bridge USDC",
+      "denom_units": [
+        {
+          "denom": "ibc/3458D4A2653918EAE5926A6F7CB6DCE91C13DAECDB05AA40F050F8867A6649FE",
+          "exponent": 0,
+          "aliases": [
+            "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+          ]
+        },
+        {
+          "denom": "gusdc",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/3458D4A2653918EAE5926A6F7CB6DCE91C13DAECDB05AA40F050F8867A6649FE",
+      "name": "USD Coin",
+      "display": "gusdc",
+      "symbol": "USDC.grv",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chain_name": "forex",
+            "base_denom": "USD"
+          },
+          "provider": "Circle"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Gravity Bridge"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "gravitybridge",
+            "base_denom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "channel_id": "channel-107"
+          },
+          "chain": {
+            "channel_id": "channel-50",
+            "path": "transfer/channel-50/gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.svg"
+      }
+    },
+    {
+      "description": "Gravity Bridge DAI",
+      "denom_units": [
+        {
+          "denom": "ibc/7B87E813A8B02F4BC5B448C96A5DE131F2F5F6BA7DEDF0D9D3F0F2CA5BB256FA",
+          "exponent": 0,
+          "aliases": [
+            "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F"
+          ]
+        },
+        {
+          "denom": "gdai",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/7B87E813A8B02F4BC5B448C96A5DE131F2F5F6BA7DEDF0D9D3F0F2CA5BB256FA",
+      "name": "Dai Stablecoin",
+      "display": "gdai",
+      "symbol": "DAI.grv",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chain_name": "forex",
+            "base_denom": "USD"
+          },
+          "provider": "MakerDAO"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f"
+          },
+          "provider": "Gravity Bridge"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "gravitybridge",
+            "base_denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "channel_id": "channel-107"
+          },
+          "chain": {
+            "channel_id": "channel-50",
+            "path": "transfer/channel-50/gravity0x6B175474E89094C44Da98b954EedeAC495271d0F"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.svg"
+      }
+    },
+    {
+      "description": "Gravity Bridge USDT",
+      "denom_units": [
+        {
+          "denom": "ibc/A8967E668E2BC3D603366FA33B3ADC8EFFD6E72CC9DB3827EAAD90245ADBAA45",
+          "exponent": 0,
+          "aliases": [
+            "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7"
+          ]
+        },
+        {
+          "denom": "gusdt",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/A8967E668E2BC3D603366FA33B3ADC8EFFD6E72CC9DB3827EAAD90245ADBAA45",
+      "name": "Tether USD",
+      "display": "gusdt",
+      "symbol": "USDT.grv",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chain_name": "forex",
+            "base_denom": "USD"
+          },
+          "provider": "Tether"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Gravity Bridge"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "gravitybridge",
+            "base_denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "channel_id": "channel-107"
+          },
+          "chain": {
+            "channel_id": "channel-50",
+            "path": "transfer/channel-50/gravity0xdAC17F958D2ee523a2206206994597C13D831ec7"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.svg"
+      }
+    },
+    {
       "description": "Mars protocol token",
       "denom_units": [
         {
@@ -240,6 +1731,43 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token.svg"
       },
       "coingecko_id": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+    },
+    {
+      "description": "The native token of Migaloo Chain",
+      "denom_units": [
+        {
+          "denom": "ibc/21F041CFE99994E0D027D0C5F72A9EB6224CBCAF5A6AD5DDB75F67A781D46C68",
+          "exponent": 0,
+          "aliases": [
+            "uwhale"
+          ]
+        },
+        {
+          "denom": "whale",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/21F041CFE99994E0D027D0C5F72A9EB6224CBCAF5A6AD5DDB75F67A781D46C68",
+      "name": "Whale",
+      "display": "Whale",
+      "symbol": "WHALE",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "migaloo",
+            "base_denom": "uwhale",
+            "channel_id": "channel-8"
+          },
+          "chain": {
+            "channel_id": "channel-58",
+            "path": "transfer/channel-58/uwhale"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/whitewhale.png"
+      }
     },
     {
       "description": "The native token of Osmosis",
