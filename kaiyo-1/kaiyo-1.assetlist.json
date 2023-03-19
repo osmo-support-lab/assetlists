@@ -1,0 +1,611 @@
+{
+  "chain_name": "kujira",
+  "assets": [
+    {
+      "description": "The native staking and governance token of the Kujira chain.",
+      "denom_units": [
+        {
+          "denom": "ukuji",
+          "exponent": 0
+        },
+        {
+          "denom": "kuji",
+          "exponent": 6
+        }
+      ],
+      "base": "ukuji",
+      "name": "Kuji",
+      "display": "kuji",
+      "symbol": "KUJI",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
+      },
+      "coingecko_id": "kujira"
+    },
+    {
+      "description": "The native over-collateralized stablecoin from the Kujira chain.",
+      "denom_units": [
+        {
+          "denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+          "exponent": 0
+        },
+        {
+          "denom": "usk",
+          "exponent": 6
+        }
+      ],
+      "base": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+      "name": "USK",
+      "display": "USK",
+      "symbol": "USK",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.svg"
+      },
+      "coingecko_id": "usk"
+    },
+    {
+      "description": "The native EVM, governance and staking token of the Acrechain",
+      "denom_units": [
+        {
+          "denom": "ibc/FD021051CD0A21590CAC7907B22749B19CC8CCB6A22DE48C21FE7D9EF1EE80B7",
+          "exponent": 0,
+          "aliases": [
+            "aacre"
+          ]
+        },
+        {
+          "denom": "acre",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/FD021051CD0A21590CAC7907B22749B19CC8CCB6A22DE48C21FE7D9EF1EE80B7",
+      "name": "Acre",
+      "display": "acre",
+      "symbol": "ACRE",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "acrechain",
+            "base_denom": "aacre",
+            "channel_id": "channel-7"
+          },
+          "chain": {
+            "channel_id": "channel-47",
+            "path": "transfer/channel-47/aacre"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg"
+      },
+      "coingecko_id": "arable-protocol"
+    },
+    {
+      "description": "Overcollateralized stable coin for Arable derivatives v1",
+      "denom_units": [
+        {
+          "denom": "ibc/5F46DC002154B34EF0E2FA269A128B70946B8A45B2544433479F74594715495E",
+          "exponent": 0,
+          "aliases": [
+            "erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c"
+          ]
+        },
+        {
+          "denom": "arusd",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/5F46DC002154B34EF0E2FA269A128B70946B8A45B2544433479F74594715495E",
+      "name": "Arable USD",
+      "display": "arusd",
+      "symbol": "arUSD",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "acrechain",
+            "base_denom": "erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c",
+            "channel_id": "channel-7"
+          },
+          "chain": {
+            "channel_id": "channel-47",
+            "path": "transfer/channel-47/erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/arusd.png"
+      },
+      "coingecko_id": "arable-usd"
+    },
+    {
+      "description": "Ciento Exchange Token",
+      "denom_units": [
+        {
+          "denom": "ibc/BF603AD88AA4C36FC8CA99F6D703CA1D7D437A1EA97023A73A8BA4437A05ABDF",
+          "exponent": 0,
+          "aliases": [
+            "erc20/0xAE6D3334989a22A65228732446731438672418F2"
+          ]
+        },
+        {
+          "denom": "cnto",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/BF603AD88AA4C36FC8CA99F6D703CA1D7D437A1EA97023A73A8BA4437A05ABDF",
+      "name": "Ciento Token",
+      "display": "cnto",
+      "symbol": "CNTO",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "acrechain",
+            "base_denom": "erc20/0xAE6D3334989a22A65228732446731438672418F2",
+            "channel_id": "channel-7"
+          },
+          "chain": {
+            "channel_id": "channel-47",
+            "path": "transfer/channel-47/erc20/0xAE6D3334989a22A65228732446731438672418F2"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/cnto.png"
+      }
+    },
+    {
+      "description": "The native governance token of Carbon",
+      "denom_units": [
+        {
+          "denom": "ibc/FFA3D0E9C3CDE729559FB71A09E9E6CFA5A85AFABAC9F3CB5DD3942BFF935F9C",
+          "exponent": 0,
+          "aliases": [
+            "swth"
+          ]
+        },
+        {
+          "denom": "dswth",
+          "exponent": 8,
+          "aliases": [
+            "SWTH"
+          ]
+        }
+      ],
+      "type_asset": "sdk.coin",
+      "base": "ibc/FFA3D0E9C3CDE729559FB71A09E9E6CFA5A85AFABAC9F3CB5DD3942BFF935F9C",
+      "name": "Carbon",
+      "display": "dswth",
+      "symbol": "SWTH",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "carbon",
+            "base_denom": "swth",
+            "channel_id": "channel-9"
+          },
+          "chain": {
+            "channel_id": "channel-46",
+            "path": "transfer/channel-46/swth"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg"
+      },
+      "coingecko_id": "switcheo"
+    },
+    {
+      "description": "Mars protocol token",
+      "denom_units": [
+        {
+          "denom": "ibc/DBF6ABDB5F3D4267C039967515594453F4A31007FD838A566F563A01D2C2FB80",
+          "exponent": 0,
+          "aliases": [
+            "umars"
+          ]
+        },
+        {
+          "denom": "mars",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/DBF6ABDB5F3D4267C039967515594453F4A31007FD838A566F563A01D2C2FB80",
+      "name": "Mars",
+      "display": "mars",
+      "symbol": "MARS",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "mars",
+            "base_denom": "umars",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-55",
+            "path": "transfer/channel-55/umars"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token.svg"
+      },
+      "coingecko_id": "mars-protocol-a7fcbcfb-fd61-4017-92f0-7ee9f9cc6da3"
+    },
+    {
+      "description": "The native token of Osmosis",
+      "denom_units": [
+        {
+          "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
+          "exponent": 0,
+          "aliases": [
+            "uosmo"
+          ]
+        },
+        {
+          "denom": "osmo",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
+      "name": "Osmosis",
+      "display": "osmo",
+      "symbol": "OSMO",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "osmosis",
+            "base_denom": "uosmo",
+            "channel_id": "channel-259"
+          },
+          "chain": {
+            "channel_id": "channel-3",
+            "path": "transfer/channel-3/uosmo"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+      },
+      "coingecko_id": "osmosis",
+      "keywords": [
+        "dex",
+        "staking"
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "ibc/6CDA7F7E4DDB86FD275A986E78F13DF2FC500E3FEC2149E2215061FA51BB8C5D",
+          "exponent": 0,
+          "aliases": [
+            "uion"
+          ]
+        },
+        {
+          "denom": "ion",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/6CDA7F7E4DDB86FD275A986E78F13DF2FC500E3FEC2149E2215061FA51BB8C5D",
+      "name": "Ion",
+      "display": "ion",
+      "symbol": "ION",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "osmosis",
+            "base_denom": "uion",
+            "channel_id": "channel-259"
+          },
+          "chain": {
+            "channel_id": "channel-3",
+            "path": "transfer/channel-3/uion"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg"
+      },
+      "coingecko_id": "ion",
+      "keywords": [
+        "memecoin"
+      ]
+    },
+    {
+      "description": "The native token of Secret Network",
+      "denom_units": [
+        {
+          "denom": "ibc/A358D7F19237777AF6D8AD0E0F53268F8B18AE8A53ED318095C14D6D7F3B2DB5",
+          "exponent": 0,
+          "aliases": [
+            "uscrt"
+          ]
+        },
+        {
+          "denom": "scrt",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/A358D7F19237777AF6D8AD0E0F53268F8B18AE8A53ED318095C14D6D7F3B2DB5",
+      "name": "Secret Network",
+      "display": "scrt",
+      "symbol": "SCRT",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "secretnetwork",
+            "base_denom": "uscrt",
+            "channel_id": "channel-22"
+          },
+          "chain": {
+            "channel_id": "channel-10",
+            "path": "transfer/channel-10/uscrt"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+      },
+      "coingecko_id": "secret"
+    },
+    {
+      "description": "The native token cw20 for Alter on Secret Network",
+      "denom_units": [
+        {
+          "denom": "ibc/E9E26AF0778C8479ACD7A77742205B8C351831DFA9613456A92E0A65CDCAE8AC",
+          "exponent": 0,
+          "aliases": [
+            "cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
+          ]
+        },
+        {
+          "denom": "alter",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/E9E26AF0778C8479ACD7A77742205B8C351831DFA9613456A92E0A65CDCAE8AC",
+      "name": "Alter",
+      "display": "alter",
+      "symbol": "ALTER",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "secretnetwork",
+            "base_denom": "cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej",
+            "port": "wasm."
+          },
+          "chain": {
+            "port": "transfer",
+            "path": "transfer/undefined/cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg"
+      },
+      "coingecko_id": "alter"
+    },
+    {
+      "description": "The native token cw20 for Button on Secret Network",
+      "denom_units": [
+        {
+          "denom": "ibc/94316DA65B2E2D011D6F60E4A0B786E251EA883533C937DD67FA5840B5CA2151",
+          "exponent": 0,
+          "aliases": [
+            "cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt"
+          ]
+        },
+        {
+          "denom": "butt",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "snip20",
+      "address": "secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt",
+      "base": "ibc/94316DA65B2E2D011D6F60E4A0B786E251EA883533C937DD67FA5840B5CA2151",
+      "name": "Button",
+      "display": "butt",
+      "symbol": "BUTT",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "secretnetwork",
+            "base_denom": "cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt",
+            "port": "wasm."
+          },
+          "chain": {
+            "port": "transfer",
+            "path": "transfer/undefined/cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.svg"
+      },
+      "coingecko_id": "buttcoin-2"
+    },
+    {
+      "description": "The native token cw20 for Shade on Secret Network",
+      "denom_units": [
+        {
+          "denom": "ibc/6767F8E198F5AABD4BCB07B59A1C5D8842DA90C64158B7CDE97A323DEC841202",
+          "exponent": 0,
+          "aliases": [
+            "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d"
+          ]
+        },
+        {
+          "denom": "shd",
+          "exponent": 8
+        }
+      ],
+      "type_asset": "snip20",
+      "address": "secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d",
+      "base": "ibc/6767F8E198F5AABD4BCB07B59A1C5D8842DA90C64158B7CDE97A323DEC841202",
+      "name": "Shade",
+      "display": "shd",
+      "symbol": "SHD",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "secretnetwork",
+            "base_denom": "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d",
+            "port": "wasm."
+          },
+          "chain": {
+            "port": "transfer",
+            "path": "transfer/undefined/cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg"
+      },
+      "coingecko_id": "shade-protocol"
+    },
+    {
+      "description": "The native token cw20 for SIENNA on Secret Network",
+      "denom_units": [
+        {
+          "denom": "ibc/774628B37ECD93C0D52D23401A5368CC0BF9740F31C6FF85318ADCCA226ED845",
+          "exponent": 0,
+          "aliases": [
+            "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
+          ]
+        },
+        {
+          "denom": "sienna",
+          "exponent": 18
+        }
+      ],
+      "type_asset": "snip20",
+      "address": "secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4",
+      "base": "ibc/774628B37ECD93C0D52D23401A5368CC0BF9740F31C6FF85318ADCCA226ED845",
+      "name": "SIENNA",
+      "display": "sienna",
+      "symbol": "SIENNA",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "secretnetwork",
+            "base_denom": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4",
+            "port": "wasm."
+          },
+          "chain": {
+            "port": "transfer",
+            "path": "transfer/undefined/cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.svg"
+      },
+      "coingecko_id": "sienna"
+    },
+    {
+      "description": "The native token cw20 for SCRT Staking Derivatives on Secret Network",
+      "denom_units": [
+        {
+          "denom": "ibc/95FE7EA12BF81310D90C8FB4801FC51C5B767CC70A1A5C1A13179A6B688C4631",
+          "exponent": 0,
+          "aliases": [
+            "cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
+          ]
+        },
+        {
+          "denom": "stkd-scrt",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "snip20",
+      "address": "secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4",
+      "base": "ibc/95FE7EA12BF81310D90C8FB4801FC51C5B767CC70A1A5C1A13179A6B688C4631",
+      "name": "SCRT Staking Derivatives",
+      "display": "stkd-scrt",
+      "symbol": "stkd-SCRT",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "secretnetwork",
+            "base_denom": "cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4",
+            "port": "wasm."
+          },
+          "chain": {
+            "port": "transfer",
+            "path": "transfer/undefined/cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg"
+      },
+      "coingecko_id": "stkd-scrt"
+    },
+    {
+      "description": "The native token cw20 for Amber on Secret Network",
+      "denom_units": [
+        {
+          "denom": "ibc/1C0BBF8C1DF3FA6C5088905975B78C495410360D2CFC4AF8F070EA248FBCAE25",
+          "exponent": 0,
+          "aliases": [
+            "cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852"
+          ]
+        },
+        {
+          "denom": "amber",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "snip20",
+      "address": "secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852",
+      "base": "ibc/1C0BBF8C1DF3FA6C5088905975B78C495410360D2CFC4AF8F070EA248FBCAE25",
+      "name": "Amber",
+      "display": "amber",
+      "symbol": "AMBER",
+      "traces": [
+        {
+          "type": "ibc-cw20",
+          "counterparty": {
+            "chain_name": "secretnetwork",
+            "base_denom": "cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852",
+            "port": "wasm."
+          },
+          "chain": {
+            "port": "transfer",
+            "path": "transfer/undefined/cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg"
+      }
+    }
+  ]
+}
