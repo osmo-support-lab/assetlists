@@ -158,126 +158,198 @@
 		"chain_name": "axelar",
 		"base_denom": "aave-wei",
 		"frontend_properties": {
-			"symbol": "AAVE.axl"
+			"symbol": "AAVE.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAAVE.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAAVE.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "ape-wei",
 		"frontend_properties": {
-			"symbol": "APE.axl"
+			"symbol": "APE.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAPE.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAPE.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "axs-wei",
 		"frontend_properties": {
-			"symbol": "AXS.axl"
+			"symbol": "AXS.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAXS.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAXS.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "uusdc",
 		"frontend_properties": {
-			"symbol": "USDC.axl"
+			"symbol": "USDC.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDC.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDC.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "weth-wei",
 		"frontend_properties": {
-			"symbol": "wETH.axl"
+			"symbol": "wETH.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWETH.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWETH.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "wbtc-satoshi",
 		"frontend_properties": {
-			"symbol": "WBTC.axl"
+			"symbol": "WBTC.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBTC.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBTC.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "uusdt",
 		"frontend_properties": {
-			"symbol": "USDT.axl"
+			"symbol": "USDT.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDT.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDT.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "dai-wei",
 		"frontend_properties": {
-			"symbol": "DAI.axl"
+			"symbol": "DAI.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDAI.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDAI.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "busd-wei",
 		"frontend_properties": {
-			"symbol": "BUSD.axl"
+			"symbol": "BUSD.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "link-wei",
 		"frontend_properties": {
-			"symbol": "LINK.axl"
+			"symbol": "LINK.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlLINK.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlLINK.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "mkr-wei",
 		"frontend_properties": {
-			"symbol": "MKR.axl"
+			"symbol": "MKR.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlMKR.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlMKR.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "rai-wei",
 		"frontend_properties": {
-			"symbol": "RAI.axl"
+			"symbol": "RAI.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlRAI.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlRAI.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "shib-wei",
 		"frontend_properties": {
-			"symbol": "SHIB.axl"
+			"symbol": "SHIB.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlSHIB.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlSHIB.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "uni-wei",
 		"frontend_properties": {
-			"symbol": "UNI.axl"
+			"symbol": "UNI.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUNI.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUNI.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "xcn-wei",
 		"frontend_properties": {
-			"symbol": "XCN.axl"
+			"symbol": "XCN.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlXCN.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlXCN.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "wftm-wei",
 		"frontend_properties": {
-			"symbol": "wFTM.axl"
+			"symbol": "wFTM.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWFTM.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWFTM.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "wglmr-wei",
 		"frontend_properties": {
-			"symbol": "wGLMR.axl"
+			"symbol": "wGLMR.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWGLMR.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWGLMR.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "wbnb-wei",
 		"frontend_properties": {
-			"symbol": "wBNB.axl"
+			"symbol": "wBNB.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBNB.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBNB.svg"
+			}
 		}
 	},
 	{
@@ -286,8 +358,8 @@
 		"frontend_properties": {
 			"symbol": "wMATIC.axl",
 			"logo_URIs": {
-				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/wmatic.png",
-				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/wmatic.svg"
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWMATIC.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWMATIC.svg"
 			}
 		}
 	},
@@ -295,35 +367,55 @@
 		"chain_name": "axelar",
 		"base_denom": "wavax-wei",
 		"frontend_properties": {
-			"symbol": "wAVAX.axl"
+			"symbol": "wAVAX.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWAVAX.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWAVAX.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "dot-planck",
 		"frontend_properties": {
-			"symbol": "DOT.axl"
+			"symbol": "DOT.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "frax-wei",
 		"frontend_properties": {
-			"symbol": "FRAX.axl"
+			"symbol": "FRAX.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlFRAX.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlFRAX.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "polygon-uusdc",
 		"frontend_properties": {
-			"symbol": "polyUSDC.axl"
+			"symbol": "polyUSDC.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/polyaxlUSDC.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/polyaxlUSDC.svg"
+			}
 		}
 	},
 	{
 		"chain_name": "axelar",
 		"base_denom": "avalanche-uusdc",
 		"frontend_properties": {
-			"symbol": "avaxUSDC.axl"
+			"symbol": "avaxUSDC.axl",
+			"logo_URIs": {
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/avaxaxlUSDC.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/avaxaxlUSDC.svg"
+			}
 		}
 	},
 	{
