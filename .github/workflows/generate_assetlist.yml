@@ -53,20 +53,17 @@ jobs:
         with:
           github_token: "${{ secrets.GITHUB_TOKEN }}"
           add_timestamp: false
-          commit_prefix: "[AUTO]"
-          commit_message: "assetlist.json Update"
+          commit_prefix: "[AUTO] "
+          commit_message: "${{ inputs.chain_id_selection }}.assetlist.json Update"
           force: true
           target_branch: update/assetlist
       
       - name: Create A PR
-        uses: devops-infra/action-pull-request@v0.5.5
+        uses: peter-evans/create-pull-request@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_branch: update/assetlist
-          target_branch: main
-          title: assetlist.json Update
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update/assetlist
+          base: main
+          title: ${{ inputs.chain_id_selection }}.assetlist.json Auto Update
           body: "**Automated pull request**"
-          old_string: "**THIS IS AN AUTOMATED UPDATE OF ASSETLIST.JSON**"
-          new_string: "** Automatic pull request**"
-          get_diff: true
-          ignore_users: "dependabot"
+          assignees: ToggLeTek
