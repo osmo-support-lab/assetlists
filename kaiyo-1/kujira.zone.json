@@ -1,0 +1,70 @@
+{
+  "$schema": "../zone.schema.json",
+  "chain_name": "kujira",
+  "assets": [
+  {
+    "chain_name": "kujria",
+    "base_denom": "ukuji"
+  },
+  {
+    "chain_name": "kujira",
+    "base_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk"
+  },
+  {
+		"chain_name": "acrechain",
+		"base_denom": "aacre"
+	},
+	{
+		"chain_name": "acrechain",
+		"base_denom": "erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c"
+	},
+	{
+		"chain_name": "acrechain",
+		"base_denom": "erc20/0xAE6D3334989a22A65228732446731438672418F2"
+	},
+  {
+		"chain_name": "carbon",
+		"base_denom": "swth"
+	},
+  {
+		"chain_name": "mars",
+		"base_denom": "umars"
+	},
+  {
+		"chain_name": "osmosis",
+		"base_denom": "uosmo"
+	},
+	{
+		"chain_name": "osmosis",
+		"base_denom": "uion"
+	},
+  {
+		"chain_name": "secretnetwork",
+		"base_denom": "uscrt"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
+	},
+	{
+		"chain_name": "secretnetwork",
+		"base_denom": "cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852"
+	}
+  ]
+}
