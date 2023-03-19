@@ -492,8 +492,8 @@
 		"frontend_properties": {
 			"symbol": "WBTC.grv",
 			"logo_URIs": {
-				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/gravWBTC.png",
-				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/gravWBTC.svg"
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.svg"
 			}
 		}
 	},
@@ -503,8 +503,8 @@
 		"frontend_properties": {
 			"symbol": "wETH.grv",
 			"logo_URIs": {
-				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/gravWETH.png",
-				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/gravWETH.svg"
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.svg"
 			}
 		}
 	},
@@ -514,8 +514,8 @@
 		"frontend_properties": {
 			"symbol": "USDC.grv",
 			"logo_URIs": {
-				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/gravUSDC.png",
-				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/gravUSDC.svg"
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.svg"
 			}
 		}
 	},
@@ -525,8 +525,8 @@
 		"frontend_properties": {
 			"symbol": "DAI.grv",
 			"logo_URIs": {
-				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/gravDAI.png",
-				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/gravDAI.svg"
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.svg"
 			}
 		}
 	},
@@ -536,8 +536,8 @@
 		"frontend_properties": {
 			"symbol": "USDT.grv",
 			"logo_URIs": {
-				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/gravUSDT.png",
-				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/gravUSDT.svg"
+				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.png",
+				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.svg"
 			}
 		}
 	},
