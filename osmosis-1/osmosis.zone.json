@@ -39,6 +39,10 @@
 		"base_denom": "uakt"
 	},
 	{
+		"chain_name": "arkh",
+		"base_denom": "uarkh"
+	},
+	{
 		"chain_name": "assetmantle",
 		"base_denom": "umntl"
 	},
