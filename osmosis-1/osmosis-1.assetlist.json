@@ -320,6 +320,44 @@
       "coingecko_id": "akash-network"
     },
     {
+      "description": "The native token of Arkhadian",
+      "denom_units": [
+        {
+          "denom": "ibc/BDA4F2F06BEBFD41ADCC18E36AE28F8896FDF2A33BDCCA89FA451EF1F17E0491",
+          "exponent": 0,
+          "aliases": [
+            "uarkh"
+          ]
+        },
+        {
+          "denom": "arkh",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/BDA4F2F06BEBFD41ADCC18E36AE28F8896FDF2A33BDCCA89FA451EF1F17E0491",
+      "name": "Arkh",
+      "display": "arkh",
+      "symbol": "ARKH",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "arkh",
+            "base_denom": "uarkh",
+            "channel_id": "channel-12"
+          },
+          "chain": {
+            "channel_id": "channel-648",
+            "path": "transfer/channel-648/uarkh"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.svg"
+      }
+    },
+    {
       "description": "The native token of Asset Mantle",
       "denom_units": [
         {
