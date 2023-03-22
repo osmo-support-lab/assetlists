@@ -264,20 +264,26 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
     }
 
     //--Overrides Properties when Specified--
-    if (zoneAsset.keywords) {
-      generatedAsset.keywords = zoneAsset.keywords;
-    }
+    let keywords = [];
     if (zoneAsset.chain_name_pretty) {
       generatedAsset.name = zoneAsset.chain_name_pretty;
     }
-    if (zoneAsset.frontend_properties.symbol) {
-      generatedAsset.symbol = zoneAsset.frontend_properties.symbol;
+    if (zoneAsset.frontend_properties) {
+      if (zoneAsset.frontend_properties.symbol) {
+        generatedAsset.symbol = zoneAsset.frontend_properties.symbol;
+      }
+      if (zoneAsset.frontend_properties.logo_URIs) {
+        generatedAsset.logo_URIs = zoneAsset.frontend_properties.logo_URIs;
+      }
+      if (zoneAsset.coingecko_id) {
+        generatedAsset.coingecko_id = zoneAsset.coingecko_id;
+      }
     }
-    if (zoneAsset.frontend_properties.logo_URIs) {
-      generatedAsset.logo_URIs = zoneAsset.frontend_properties.logo_URIs;
+    if (zoneAsset.keywords) {
+      keywords = zoneAsset.keywords;
     }
-    if (zoneAsset.coingecko_id) {
-      generatedAsset.coingecko_id = zoneAsset.coingecko_id;
+    if (keywords.length > 0) {
+      generatedAsset.keywords = keywords;
     }
 
     //--Re-order Properties--
