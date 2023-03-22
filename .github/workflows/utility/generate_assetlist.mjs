@@ -154,7 +154,7 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       zoneAsset.chain_name,
       zoneAsset.base_denom
     );
-console.log([generatedAsset])
+
     if (zoneAsset.chain_name != localChainName) {
       let type = 'ibc';
       let counterparty = {
@@ -212,6 +212,7 @@ console.log([generatedAsset])
       trace.chain.path =
         chain.port + '/' + trace.chain.channel_id + '/' + zoneAsset.base_denom;
       let traces = [];
+      console.log([generatedAsset]);
       if (generatedAsset.traces) {
         traces = generatedAsset.traces;
         if (
