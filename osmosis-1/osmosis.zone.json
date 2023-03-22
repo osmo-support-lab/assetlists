@@ -59,7 +59,7 @@
 	{
 		"chain_name": "arkh",
 		"chain_name_pretty": "Arkhadian",
-		"base_denom": "uarkh",
+		"base_denom": "arkh",
 		"keywords": ["Native"]
 	},
 	{
