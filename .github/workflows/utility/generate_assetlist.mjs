@@ -271,15 +271,15 @@ console.log([generatedAsset])
       if (zoneAsset.frontend_properties.logo_URIs) {
         generatedAsset.logo_URIs = zoneAsset.frontend_properties.logo_URIs;
       }
-      if (zoneAsset.frontend_properties.coingecko_id) {
+      if (zoneAsset.coingecko_id) {
         generatedAsset.coingecko_id =
-          zoneAsset.frontend_properties.coingecko_id;
+          zoneAsset.coingecko_id;
       }
-      if (zoneAsset.frontend_properties.chain_name_pretty) {
-        generatedAsset.name = zoneAsset.frontend_properties.chain_name_pretty;
+      if (zoneAsset.chain_name_pretty) {
+        generatedAsset.name = zoneAsset.chain_name_pretty;
       }
-      if (zoneAsset.frontend_properties.keywords) {
-        generatedAsset.keywords = zoneAsset.frontend_properties.keywords;
+      if (zoneAsset.keywords) {
+        generatedAsset.keywords = zoneAsset.keywords;
       }
     }
 

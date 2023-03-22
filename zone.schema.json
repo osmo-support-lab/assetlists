@@ -47,10 +47,6 @@
                 "type": "string",
                 "description": "Overriding symbol of an asset. For example WBTC.axl instead of WBTC"
               },
-              "chain_name_pretty": {
-                "type": "string",
-                "description": "Overriding name of an asset's chain. For example Osmosis instead of osmosis"
-              },
               "logo_URIs": {
                 "type": "object",
                 "properties": {
@@ -66,6 +62,10 @@
               }
             }
           },
+          "chain_name_pretty": {
+                "type": "string",
+                "description": "[OPTIONAL] Overriding name of an asset's chain. For example Osmosis instead of osmosis or Terra 2.0 instead of terra2."
+              },
           "coingecko_id": {
             "type": "string",
             "description": "[OPTIONAL] The coingecko id to fetch asset data from coingecko v3 api. See https://api.coingecko.com/api/v3/coins/list"
