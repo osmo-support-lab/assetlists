@@ -1,4 +1,4 @@
-module github.com/osmosis-labs/assetlist
+module github.com/osmo-support-lab/assetlists
 
 go 1.19
 
