@@ -17,37 +17,37 @@
 //     the first denom becomes the ibc hash, and the original base becomes an alias
 // write assetlist array to file <CHAIN_ID>.assetlist.json
 
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from 'fs';
+import * as path from 'path';
 
-const chainRegistryRoot = "../../../chain-registry";
-const chainRegistryMainnetsSubdirectory = "";
-let chainRegistrySubdirectory = "";
-const assetlistsRoot = "../../..";
-const assetlistsMainnetsSubdirectory = "/" + process.env.CHAIN_ID;
-let assetlistsSubdirectory = "";
-const assetlistFileName = "assetlist.json";
-const zoneAssetlistFileName = process.env.CHAIN_NAME + ".zone.json";
-const ibcFolderName = "_IBC";
+const chainRegistryRoot = '../../../chain-registry';
+const chainRegistryMainnetsSubdirectory = '';
+let chainRegistrySubdirectory = '';
+const assetlistsRoot = '../../..';
+const assetlistsMainnetsSubdirectory = '/' + process.env.CHAIN_ID;
+let assetlistsSubdirectory = '';
+const assetlistFileName = 'assetlist.json';
+const zoneAssetlistFileName = process.env.CHAIN_NAME + '.zone.json';
+const ibcFolderName = '_IBC';
 const mainnetChainName = process.env.CHAIN_NAME;
-let localChainName = "";
+let localChainName = process.env.CHAIN_NAME;
 const mainnetChainId = process.env.CHAIN_ID;
-let localChainId = "";
+let localChainId = process.env.CHAIN_ID;
 const assetlistSchema = {
-  description: "string",
+  description: 'string',
   denom_units: [],
-  type_asset: "string",
-  address: "string",
-  base: "string",
-  name: "string",
-  display: "string",
-  symbol: "string",
+  type_asset: 'string',
+  address: 'string',
+  base: 'string',
+  name: 'string',
+  display: 'string',
+  symbol: 'string',
   traces: [],
   logo_URIs: {
-    png: "string",
-    svg: "string",
+    png: 'string',
+    svg: 'string',
   },
-  coingecko_id: "string",
+  coingecko_id: 'string',
   keywords: [],
 };
 
@@ -106,7 +106,7 @@ function writeToFile(assetlist) {
       path.join(
         assetlistsRoot,
         assetlistsSubdirectory,
-        localChainId + ".assetlist.json"
+        localChainId + '.assetlist.json'
       ),
       JSON.stringify(assetlist, null, 2),
       (err) => {
@@ -120,10 +120,10 @@ function writeToFile(assetlist) {
 
 async function calculateIbcHash(ibcHashInput) {
   const textAsBuffer = new TextEncoder().encode(ibcHashInput);
-  const hashBuffer = await crypto.subtle.digest("SHA-256", textAsBuffer);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', textAsBuffer);
   const hashArray = Array.from(new Uint8Array(hashBuffer));
-  const digest = hashArray.map((b) => b.toString(16).padStart(2, "0")).join("");
-  const ibcHashOutput = "ibc/" + digest.toUpperCase();
+  const digest = hashArray.map((b) => b.toString(16).padStart(2, '0')).join('');
+  const ibcHashOutput = 'ibc/' + digest.toUpperCase();
   return ibcHashOutput;
 }
 
@@ -135,7 +135,7 @@ async function asyncForEach(array, callback) {
 
 function reorderProperties(object, referenceObject) {
   let newObject = object;
-  if (typeof object === "object") {
+  if (typeof object === 'object') {
     if (object.constructor !== Array) {
       newObject = {};
       Object.keys(referenceObject).forEach((key) => {
@@ -156,23 +156,23 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
     );
 
     if (zoneAsset.chain_name != localChainName) {
-      let type = "ibc";
+      let type = 'ibc';
       let counterparty = {
         chain_name: zoneAsset.chain_name,
         base_denom: zoneAsset.base_denom,
-        port: "transfer",
+        port: 'transfer',
       };
       let chain = {
         chain_name: localChainName,
-        port: "transfer",
+        port: 'transfer',
       };
       let chain_1 = chain;
       let chain_2 = counterparty;
 
       //--Identify CW20 Transfer--
-      if (counterparty.base_denom.slice(0, 5) === "cw20:") {
-        counterparty.port = "wasm.";
-        type = "ibc-cw20";
+      if (counterparty.base_denom.slice(0, 5) === 'cw20:') {
+        counterparty.port = 'wasm.';
+        type = 'ibc-cw20';
       }
 
       //--Identify Chain_1 and Chain_2--
@@ -182,7 +182,7 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       }
 
       //--Find IBC File Name--
-      let ibcFileName = chain_1.chain_name + "-" + chain_2.chain_name + ".json";
+      let ibcFileName = chain_1.chain_name + '-' + chain_2.chain_name + '.json';
 
       //--Find IBC Connection--
       const ibcConnections = getIbcConnections(ibcFileName);
@@ -210,34 +210,34 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
 
       //--Add Trace Path--
       trace.chain.path =
-        chain.port + "/" + trace.chain.channel_id + "/" + zoneAsset.base_denom;
+        chain.port + '/' + trace.chain.channel_id + '/' + zoneAsset.base_denom;
       let traces = [];
       if (generatedAsset.traces) {
         traces = generatedAsset.traces;
         if (
-          traces[traces.length - 1].type === "ibc" ||
-          traces[traces.length - 1].type === "ibc-cw20"
+          traces[traces.length - 1].type === 'ibc' ||
+          traces[traces.length - 1].type === 'ibc-cw20'
         ) {
           if (traces[traces.length - 1].chain.path) {
             trace.chain.path =
               chain.port +
-              "/" +
+              '/' +
               trace.chain.channel_id +
-              "/" +
+              '/' +
               traces[traces.length - 1].chain.path;
           } else {
-            console.log(generatedAsset.base + "Missing Path");
+            console.log(generatedAsset.base + 'Missing Path');
           }
         }
-      } else if (zoneAsset.base_denom.slice(0, 7) === "factory") {
-        let baseReplacement = zoneAsset.base_denom.replace(/\//g, ":");
+      } else if (zoneAsset.base_denom.slice(0, 7) === 'factory') {
+        let baseReplacement = zoneAsset.base_denom.replace(/\//g, ':');
         trace.chain.path =
-          chain.port + "/" + trace.chain.channel_id + "/" + baseReplacement;
+          chain.port + '/' + trace.chain.channel_id + '/' + baseReplacement;
       }
 
       //--Cleanup Trace--
       delete trace.chain.chain_name;
-      if (type === "ibc") {
+      if (type === 'ibc') {
         delete trace.chain.port;
         delete trace.counterparty.port;
       }
@@ -309,20 +309,20 @@ async function generateAssetlist() {
 }
 
 function selectDomain(domain) {
-  if (domain == "mainnets") {
+  if (domain == 'mainnets') {
     chainRegistrySubdirectory = chainRegistryMainnetsSubdirectory;
     assetlistsSubdirectory = assetlistsMainnetsSubdirectory;
     localChainName = mainnetChainName;
     localChainId = mainnetChainId;
   } else {
-    console.log("Invalid Domain (Mainnets, Testnets, Devnets, etc.)");
+    console.log('Invalid Domain (Mainnets, Testnets, Devnets, etc.)');
   }
 }
 
 async function main() {
-  selectDomain("mainnets");
+  selectDomain('mainnets');
   await generateAssetlist();
-  selectDomain("testnets");
+  selectDomain('testnets');
   generateAssetlist();
 }
 
