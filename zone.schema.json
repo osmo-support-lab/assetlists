@@ -47,6 +47,10 @@
                 "type": "string",
                 "description": "Overriding symbol of an asset. For example WBTC.axl instead of WBTC"
               },
+              "chain_name_pretty": {
+                "type": "string",
+                "description": "Overriding name of an asset's chain. For example Osmosis instead of osmosis"
+              },
               "logo_URIs": {
                 "type": "object",
                 "properties": {
@@ -65,8 +69,16 @@
           "coingecko_id": {
             "type": "string",
             "description": "[OPTIONAL] The coingecko id to fetch asset data from coingecko v3 api. See https://api.coingecko.com/api/v3/coins/list"
+            },
+          "keywords": {
+            "type": "array",
+            "description": "[OPTIONAL] An array of up to 20 keywords to describe the asset. Examples are: Native, Derivative, Liquid-Staked, Wrapped/Bridged, Fiat-Collateralized, Anchored, Utility, Reflexive",
+            "maxContains": 20,
+            "items": {
+            "type": "string"
             }
-          },
+          }
+        },
           "additionalProperties": true
         }
       }

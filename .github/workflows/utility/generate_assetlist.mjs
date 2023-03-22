@@ -275,6 +275,12 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
         generatedAsset.coingecko_id =
           zoneAsset.frontend_properties.coingecko_id;
       }
+      if (zoneAsset.frontend_properties.chain_name_pretty) {
+        generatedAsset.name = zoneAsset.frontend_properties.chain_name_pretty;
+      }
+      if (zoneAsset.frontend_properties.keywords) {
+        generatedAsset.keywords = zoneAsset.frontend_properties.keywords;
+      }
     }
 
     //--Re-order Properties--

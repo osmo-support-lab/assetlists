@@ -4,55 +4,81 @@
   "assets": [
 	{
 		"chain_name": "osmosis",
-		"base_denom": "uosmo"
+		"chain_name_pretty": "Osmosis",
+		"base_denom": "uosmo",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "osmosis",
-		"base_denom": "uion"
+		"chain_name_pretty": "Osmosis",
+		"base_denom": "uion",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "8ball",
-		"base_denom": "uebl"
+		"chain_name_pretty": "8ball",
+		"base_denom": "uebl",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "acrechain",
-		"base_denom": "aacre"
+		"chain_name_pretty": "Acrechain",
+		"base_denom": "aacre",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "acrechain",
-		"base_denom": "erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c"
+		"chain_name_pretty": "Acrechain(EVM) --> Acrechain",
+		"base_denom": "erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c",
+		"keywords": ["Wrapped/Bridged", "Anchored", "Derivative"]
 	},
 	{
 		"chain_name": "acrechain",
-		"base_denom": "erc20/0xAE6D3334989a22A65228732446731438672418F2"
+		"chain_name_pretty": "Acrechain(EVM) --> Acrechain",
+		"base_denom": "erc20/0xAE6D3334989a22A65228732446731438672418F2",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "agoric",
-		"base_denom": "ubld"
+		"chain_name_pretty": "Agoric",
+		"base_denom": "ubld",
+		"keywords": ["Utility", "Native"]
 	},
 	{
 		"chain_name": "agoric",
-		"base_denom": "uist"
+		"chain_name_pretty": "Agoric",
+		"base_denom": "uist",
+		"keywords": ["Utility", "Anchored", "Native"]
 	},
 	{
 		"chain_name": "akash",
-		"base_denom": "uakt"
+		"chain_name_pretty": "Akash",
+		"base_denom": "uakt",
+		"keywords": ["Utility", "Native"]
 	},
 	{
 		"chain_name": "arkh",
-		"base_denom": "uarkh"
+		"chain_name_pretty": "Arkhadian",
+		"base_denom": "uarkh",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "assetmantle",
-		"base_denom": "umntl"
+		"chain_name_pretty": "AssetMantle",
+		"base_denom": "umntl",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "axelar",
-		"base_denom": "uaxl"
+		"chain_name_pretty": "Axelar",
+		"base_denom": "uaxl",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "aave-wei",
+		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
 			"symbol": "AAVE.axl",
 			"logo_URIs": {
@@ -63,7 +89,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "ape-wei",
+		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
 			"symbol": "APE.axl",
 			"logo_URIs": {
@@ -74,7 +102,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "axs-wei",
+		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
 			"symbol": "AXS.axl",
 			"logo_URIs": {
@@ -85,7 +115,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "uusdc",
+		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
 		"frontend_properties": {
 			"symbol": "USDC.axl",
 			"logo_URIs": {
@@ -96,7 +128,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "weth-wei",
+		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
 			"symbol": "wETH.axl",
 			"logo_URIs": {
@@ -107,7 +141,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "wbtc-satoshi",
+		"keywords": ["Wrapped/Bridged", "Derivative"],
 		"frontend_properties": {
 			"symbol": "WBTC.axl",
 			"logo_URIs": {
@@ -118,7 +154,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "uusdt",
+		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
 		"frontend_properties": {
 			"symbol": "USDT.axl",
 			"logo_URIs": {
@@ -129,7 +167,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "dai-wei",
+		"keywords": ["Wrapped/Bridged", "Anchored"],
 		"frontend_properties": {
 			"symbol": "DAI.axl",
 			"logo_URIs": {
@@ -140,9 +180,11 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "busd-wei",
 		"frontend_properties": {
 			"symbol": "BUSD.axl",
+		"keywords": ["Wrapped/Bridged"],
 			"logo_URIs": {
 				"png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.png",
 				"svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.svg"
@@ -151,7 +193,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "link-wei",
+		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
 			"symbol": "LINK.axl",
 			"logo_URIs": {
@@ -162,7 +206,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "mkr-wei",
+		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
 			"symbol": "MKR.axl",
 			"logo_URIs": {
@@ -173,7 +219,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "rai-wei",
+		"keywords": ["Wrapped/Bridged", "Reflexive"],
 		"frontend_properties": {
 			"symbol": "RAI.axl",
 			"logo_URIs": {
@@ -184,7 +232,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "shib-wei",
+		"keywords": ["Wrapped/Bridged"],
 		"frontend_properties": {
 			"symbol": "SHIB.axl",
 			"logo_URIs": {
@@ -195,7 +245,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "uni-wei",
+		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
 			"symbol": "UNI.axl",
 			"logo_URIs": {
@@ -206,7 +258,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "xcn-wei",
+		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
 			"symbol": "XCN.axl",
 			"logo_URIs": {
@@ -217,7 +271,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Fantom --> Axelar",
 		"base_denom": "wftm-wei",
+		"keywords": ["Wrapped/Bridged", "Native"],
 		"frontend_properties": {
 			"symbol": "wFTM.axl",
 			"logo_URIs": {
@@ -228,7 +284,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Moonbeam --> Axelar",
 		"base_denom": "wglmr-wei",
+		"keywords": ["Wrapped/Bridged", "Native"],
 		"frontend_properties": {
 			"symbol": "wGLMR.axl",
 			"logo_URIs": {
@@ -239,7 +297,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "BNB Chain --> Axelar",
 		"base_denom": "wbnb-wei",
+		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
 			"symbol": "wBNB.axl",
 			"logo_URIs": {
@@ -250,7 +310,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Polygon --> Axelar",
 		"base_denom": "wmatic-wei",
+		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
 			"symbol": "wMATIC.axl",
 			"logo_URIs": {
@@ -261,7 +323,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Avalanche --> Axelar",
 		"base_denom": "wavax-wei",
+		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
 			"symbol": "wAVAX.axl",
 			"logo_URIs": {
@@ -272,7 +336,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Polkadot --> Moonbeam --> Axelar",
 		"base_denom": "dot-planck",
+		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
 			"symbol": "DOT.axl",
 			"logo_URIs": {
@@ -283,7 +349,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Ethereum --> Axelar",
 		"base_denom": "frax-wei",
+		"keywords": ["Wrapped/Bridged", "Anchored"],
 		"frontend_properties": {
 			"symbol": "FRAX.axl",
 			"logo_URIs": {
@@ -294,7 +362,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Polygon --> Axelar",
 		"base_denom": "polygon-uusdc",
+		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized", "Derivative"],
 		"frontend_properties": {
 			"symbol": "polyUSDC.axl",
 			"logo_URIs": {
@@ -305,7 +375,9 @@
 	},
 	{
 		"chain_name": "axelar",
+		"chain_name_pretty": "Avalanche --> Axelar",
 		"base_denom": "avalanche-uusdc",
+		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized", "Derivative"],
 		"frontend_properties": {
 			"symbol": "avaxUSDC.axl",
 			"logo_URIs": {
@@ -316,183 +388,273 @@
 	},
 	{
 		"chain_name": "bandchain",
-		"base_denom": "uband"
+		"chain_name_pretty": "Band Protocol",
+		"base_denom": "uband",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "beezee",
-		"base_denom": "ubze"
+		"chain_name_pretty": "BeeZee",
+		"base_denom": "ubze",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "bitcanna",
-		"base_denom": "ubcna"
+		"chain_name_pretty": "BitCanna",
+		"base_denom": "ubcna",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ubtsg"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ubtsg",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft25B30C386CDDEBD1413D5AE1180956AE9EB3B9F7"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft25B30C386CDDEBD1413D5AE1180956AE9EB3B9F7",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft575B10B0CEE2C164D9ED6A96313496F164A9607C"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft575B10B0CEE2C164D9ED6A96313496F164A9607C",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft56664FC98A2CF5F4FBAC3566D1A11D891AD88305"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft56664FC98A2CF5F4FBAC3566D1A11D891AD88305",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft52EEB0EE509AC546ED92EAC8591F731F213DDD16"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft52EEB0EE509AC546ED92EAC8591F731F213DDD16",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ftE4903ECC861CA45F2C2BC7EAB8255D2E6E87A33A"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ftE4903ECC861CA45F2C2BC7EAB8255D2E6E87A33A",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft85AE1716C5E39EA6D64BBD7898C3899A7B500626"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft85AE1716C5E39EA6D64BBD7898C3899A7B500626",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft24C9FA4F10B0F235F4A815B15FC774E046A2B2EB"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft24C9FA4F10B0F235F4A815B15FC774E046A2B2EB",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft7020C2A8E984EEBCBB383E91CD6FBB067BB2272B"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft7020C2A8E984EEBCBB383E91CD6FBB067BB2272B",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft2DD67F5D99E9A141142B48474FA7B6B3FF00A3FE"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft2DD67F5D99E9A141142B48474FA7B6B3FF00A3FE",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft4B030260D99E3ABE2B604EA2B33BAF3C085CDA12"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft4B030260D99E3ABE2B604EA2B33BAF3C085CDA12",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ftD4B6290EDEE1EC7B97AB5A1DC6C177EFD08ADCC3"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ftD4B6290EDEE1EC7B97AB5A1DC6C177EFD08ADCC3",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bitsong",
-		"base_denom": "ft347B1612A2B7659913679CF6CD45B8B130C50A00"
+		"chain_name_pretty": "BitSong",
+		"base_denom": "ft347B1612A2B7659913679CF6CD45B8B130C50A00",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "bostrom",
-		"base_denom": "boot"
+		"chain_name_pretty": "Bostrom",
+		"base_denom": "boot",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "canto",
-		"base_denom": "acanto"
+		"chain_name_pretty": "Canto",
+		"base_denom": "acanto",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "carbon",
-		"base_denom": "swth"
+		"chain_name_pretty": "Carbon",
+		"base_denom": "swth",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "cerberus",
-		"base_denom": "ucrbrus"
+		"chain_name_pretty": "Cerberus",
+		"base_denom": "ucrbrus",
+		"keywords": ["Native", "Dead Chain"]
 	},
 	{
 		"chain_name": "cheqd",
-		"base_denom": "ncheq"
+		"chain_name_pretty": "Cheqd",
+		"base_denom": "ncheq",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "chihuahua",
-		"base_denom": "uhuahua"
+		"chain_name_pretty": "Chihauhau",
+		"base_denom": "uhuahua",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "comdex",
-		"base_denom": "ucmdx"
+		"chain_name_pretty": "Comdex",
+		"base_denom": "ucmdx",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "comdex",
-		"base_denom": "uharbor"
+		"chain_name_pretty": "Comdex",
+		"base_denom": "uharbor",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "comdex",
-		"base_denom": "ucmst"
+		"chain_name_pretty": "Comdex",
+		"base_denom": "ucmst",
+		"keywords": ["Native", "Anchored"]
 	},
 	{
 		"chain_name": "cosmoshub",
-		"base_denom": "uatom"
+		"chain_name_pretty": "Cosmos Hub",
+		"base_denom": "uatom",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "crescent",
-		"base_denom": "ucre"
+		"chain_name_pretty": "Crescent",
+		"base_denom": "ucre",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "cryptoorgchain",
-		"base_denom": "basecro"
+		"chain_name_pretty": "Crypto.org Chain",
+		"base_denom": "basecro",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "cudos",
-		"base_denom": "acudos"
+		"chain_name_pretty": "Cudos",
+		"base_denom": "acudos",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "decentr",
-		"base_denom": "udec"
+		"chain_name_pretty": "Decentr",
+		"base_denom": "udec",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "desmos",
-		"base_denom": "udsm"
+		"chain_name_pretty": "Desmos",
+		"base_denom": "udsm",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "dig",
-		"base_denom": "udig"
+		"chain_name_pretty": "Dig Chain",
+		"base_denom": "udig",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "dyson",
-		"base_denom": "dys"
+		"chain_name_pretty": "Dyson Protocol",
+		"base_denom": "dys",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "echelon",
-		"base_denom": "aechelon"
+		"chain_name_pretty": "Echelon",
+		"base_denom": "aechelon",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "emoney",
-		"base_denom": "ungm"
+		"chain_name_pretty": "e-Money",
+		"base_denom": "ungm",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "emoney",
-		"base_denom": "eeur"
+		"chain_name_pretty": "e-Money",
+		"base_denom": "eeur",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "evmos",
-		"base_denom": "aevmos"
+		"chain_name_pretty": "Evmos",
+		"base_denom": "aevmos",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "fetchhub",
-		"base_denom": "afet"
+		"chain_name_pretty": "Fetch.ai",
+		"base_denom": "afet",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "galaxy",
-		"base_denom": "uglx"
+		"chain_name_pretty": "Galaxy",
+		"base_denom": "uglx",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "genesisl1",
-		"base_denom": "el1"
+		"chain_name_pretty": "GenesisL1",
+		"base_denom": "el1",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "gravitybridge",
-		"base_denom": "ugraviton"
+		"chain_name_pretty": "Gravity Bridge",
+		"base_denom": "ugraviton",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "gravitybridge",
+		"chain_name_pretty": "Ethereum --> Gravity Bridge",
 		"base_denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+		"keywords": ["Wrapped/Bridged", "Derivative"],
 		"frontend_properties": {
 			"symbol": "WBTC.grv",
 			"logo_URIs": {
@@ -503,7 +665,9 @@
 	},
 	{
 		"chain_name": "gravitybridge",
+		"chain_name_pretty": "Ethereum --> Gravity Bridge",
 		"base_denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
 			"symbol": "wETH.grv",
 			"logo_URIs": {
@@ -514,7 +678,9 @@
 	},
 	{
 		"chain_name": "gravitybridge",
+		"chain_name_pretty": "Ethereum --> Gravity Bridge",
 		"base_denom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
 		"frontend_properties": {
 			"symbol": "USDC.grv",
 			"logo_URIs": {
@@ -525,7 +691,9 @@
 	},
 	{
 		"chain_name": "gravitybridge",
+		"chain_name_pretty": "Ethereum --> Gravity Bridge",
 		"base_denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
+		"keywords": ["Wrapped/Bridged", "Anchored"],
 		"frontend_properties": {
 			"symbol": "DAI.grv",
 			"logo_URIs": {
@@ -536,7 +704,9 @@
 	},
 	{
 		"chain_name": "gravitybridge",
+		"chain_name_pretty": "Ethereum --> Gravity Bridge",
 		"base_denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
+		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
 		"frontend_properties": {
 			"symbol": "USDT.grv",
 			"logo_URIs": {
@@ -547,403 +717,609 @@
 	},
 	{
 		"chain_name": "impacthub",
-		"base_denom": "uixo"
+		"chain_name_pretty": "Ixo",
+		"base_denom": "uixo",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "imversed",
-		"base_denom": "aimv"
+		"chain_name_pretty": "Imversed",
+		"base_denom": "aimv",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "injective",
-		"base_denom": "inj"
+		"chain_name_pretty": "Injective",
+		"base_denom": "inj",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "irisnet",
-		"base_denom": "uiris"
+		"chain_name_pretty": "IRISNet",
+		"base_denom": "uiris",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "jackal",
-		"base_denom": "ujkl"
+		"chain_name_pretty": "Jackal",
+		"base_denom": "ujkl",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "ujuno"
+		"chain_name_pretty": "Junø",
+		"base_denom": "ujuno",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "juno",
-		"base_denom": "cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x"
+		"chain_name_pretty": "Junø",
+		"base_denom": "cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "kava",
-		"base_denom": "ukava"
+		"chain_name_pretty": "Kava",
+		"base_denom": "ukava",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "kava",
-		"base_denom": "hard"
+		"chain_name_pretty": "Kava",
+		"base_denom": "hard",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "kava",
-		"base_denom": "swp"
+		"chain_name_pretty": "Kava",
+		"base_denom": "swp",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "kava",
-		"base_denom": "usdx"
+		"chain_name_pretty": "Kava",
+		"base_denom": "usdx",
+		"keywords": ["Native", "Anchored"]
 	},
 	{
 		"chain_name": "kichain",
-		"base_denom": "uxki"
+		"chain_name_pretty": "Ki",
+		"base_denom": "uxki",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "kichain",
-		"base_denom": "cw20:ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy"
+		"chain_name_pretty": "Ki",
+		"base_denom": "cw20:ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy",
+		"keywords": ["Unknown"]
 	},
 	{
 		"chain_name": "konstellation",
-		"base_denom": "udarc"
+		"chain_name_pretty": "Konstellation",
+		"base_denom": "udarc",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "kujira",
-		"base_denom": "ukuji"
+		"chain_name_pretty": "Kujira",
+		"base_denom": "ukuji",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "kujira",
-		"base_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk"
+		"chain_name_pretty": "Kujira",
+		"base_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+		"keywords": ["Native", "Anchored"]
 	},
 	{
 		"chain_name": "lambda",
-		"base_denom": "ulamb"
+		"chain_name_pretty": "Lambda",
+		"base_denom": "ulamb",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "likecoin",
-		"base_denom": "nanolike"
+		"chain_name_pretty": "LikeCoin",
+		"base_denom": "nanolike",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "lumenx",
-		"base_denom": "ulumen"
+		"chain_name_pretty": "LumenX",
+		"base_denom": "ulumen",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "lumnetwork",
-		"base_denom": "ulum"
+		"chain_name_pretty": "Lum Network",
+		"base_denom": "ulum",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "mars",
-		"base_denom": "umars"
+		"chain_name_pretty": "Mars",
+		"base_denom": "umars",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "medasdigital",
-		"base_denom": "umedas"
+		"chain_name_pretty": "Medas Digital Network",
+		"base_denom": "umedas",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "meme",
-		"base_denom": "umeme"
+		"chain_name_pretty": "MEME",
+		"base_denom": "umeme",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "microtick",
-		"base_denom": "utick"
+		"chain_name_pretty": "Microtick",
+		"base_denom": "utick",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "migaloo",
-		"base_denom": "uwhale"
+		"chain_name_pretty": "Miaglo",
+		"base_denom": "uwhale",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "odin",
-		"base_denom": "loki"
+		"chain_name_pretty": "Odin Protocol",
+		"base_denom": "loki",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "odin",
-		"base_denom": "mGeo"
+		"chain_name_pretty": "Odin Protocol",
+		"base_denom": "mGeo",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "odin",
-		"base_denom": "mO9W"
+		"chain_name_pretty": "Odin Protocol",
+		"base_denom": "mO9W",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "onomy",
-		"base_denom": "anom"
+		"chain_name_pretty": "Onomy",
+		"base_denom": "anom",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "oraichain",
-		"base_denom": "orai"
+		"chain_name_pretty": "Oraichain",
+		"base_denom": "orai",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "panacea",
-		"base_denom": "umed"
+		"chain_name_pretty": "Medibloc",
+		"base_denom": "umed",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "persistence",
-		"base_denom": "uxprt"
+		"chain_name_pretty": "Persistence",
+		"base_denom": "uxprt",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "persistence",
-		"base_denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444"
+		"chain_name_pretty": "Ethereum --> Gravity Bridge --> Persistence",
+		"base_denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
+		"keywords": ["Wrapped/Bridged", "Utility", "Liquid-Staked"]
 	},
 	{
 		"chain_name": "persistence",
-		"base_denom": "stk/uatom"
+		"chain_name_pretty": "Persistence",
+		"base_denom": "stk/uatom",
+		"keywords": ["Native", "Liquid-Staked"]
 	},
 	{
 		"chain_name": "planq",
-		"base_denom": "aplanq"
+		"chain_name_pretty": "Planq",
+		"base_denom": "aplanq",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "provenance",
-		"base_denom": "nhash"
+		"chain_name_pretty": "Provenance",
+		"base_denom": "nhash",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "quicksilver",
-		"base_denom": "uqstars"
+		"chain_name_pretty": "Quicksilver",
+		"base_denom": "uqck",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "quicksilver",
-		"base_denom": "uqatom"
+		"chain_name_pretty": "Quicksilver",
+		"base_denom": "uqstars",
+		"keywords": ["Native", "Liquid-Staked"]
 	},
 	{
 		"chain_name": "quicksilver",
-		"base_denom": "uqregen"
+		"chain_name_pretty": "Quicksilver",
+		"base_denom": "uqatom",
+		"keywords": ["Native", "Liquid-Staked"]
+	},
+	{
+		"chain_name": "quicksilver",
+		"chain_name_pretty": "Quicksilver",
+		"base_denom": "uqregen",
+		"keywords": ["Native", "Liquid-Staked"]
 	},
 	{
 		"chain_name": "rebus",
-		"base_denom": "arebus"
+		"chain_name_pretty": "Rebus",
+		"base_denom": "arebus",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "regen",
-		"base_denom": "uregen"
+		"chain_name_pretty": "Regen",
+		"base_denom": "uregen",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "rizon",
-		"base_denom": "uatolo"
+		"chain_name_pretty": "Rizon",
+		"base_denom": "uatolo",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "secretnetwork",
-		"base_denom": "uscrt"
+		"chain_name_pretty": "Secret Network",
+		"base_denom": "uscrt",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "secretnetwork",
-		"base_denom": "cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
+		"chain_name_pretty": "Secret Network",
+		"base_denom": "cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "secretnetwork",
-		"base_denom": "cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt"
+		"chain_name_pretty": "Secret Network",
+		"base_denom": "cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "secretnetwork",
-		"base_denom": "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d"
+		"chain_name_pretty": "Secret Network",
+		"base_denom": "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "secretnetwork",
-		"base_denom": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
+		"chain_name_pretty": "Secret Network",
+		"base_denom": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "secretnetwork",
-		"base_denom": "cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
+		"chain_name_pretty": "Secret Network",
+		"base_denom": "cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "secretnetwork",
-		"base_denom": "cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852"
+		"chain_name_pretty": "Secret Network",
+		"base_denom": "cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852",
+		"keywords": ["Utility"]
 	},
 	{
 		"chain_name": "sentinel",
-		"base_denom": "udvpn"
+		"chain_name_pretty": "Sentinel",
+		"base_denom": "udvpn",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "shareledger",
-		"base_denom": "nshr"
+		"chain_name_pretty": "Shareledger",
+		"base_denom": "nshr",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "shentu",
-		"base_denom": "uctk"
+		"chain_name_pretty": "Shentu",
+		"base_denom": "uctk",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "sifchain",
-		"base_denom": "rowan"
+		"chain_name_pretty": "Sifchain",
+		"base_denom": "rowan",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "sommelier",
-		"base_denom": "usomm"
+		"chain_name_pretty": "Sommelier",
+		"base_denom": "usomm",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "stargaze",
-		"base_denom": "ustars"
+		"chain_name_pretty": "Stargaze",
+		"base_denom": "ustars",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "starname",
-		"base_denom": "uiov"
+		"chain_name_pretty": "Starname",
+		"base_denom": "uiov",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "stride",
-		"base_denom": "ustrd"
+		"chain_name_pretty": "Stride",
+		"base_denom": "ustrd",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "stride",
-		"base_denom": "stuatom"
+		"chain_name_pretty": "Stride",
+		"base_denom": "stuatom",
+		"keywords": ["Native", "Liquid-Staked"]
 	},
 	{
 		"chain_name": "stride",
-		"base_denom": "stustars"
+		"chain_name_pretty": "Stride",
+		"base_denom": "stustars",
+		"keywords": ["Native", "Liquid-Staked"]
 	},
 	{
 		"chain_name": "stride",
-		"base_denom": "stujuno"
+		"chain_name_pretty": "Stride",
+		"base_denom": "stujuno",
+		"keywords": ["Native", "Liquid-Staked"]
 	},
 	{
 		"chain_name": "stride",
-		"base_denom": "stuosmo"
+		"chain_name_pretty": "Stride",
+		"base_denom": "stuosmo",
+		"keywords": ["Native", "Liquid-Staked"]
 	},
 	{
 		"chain_name": "stride",
-		"base_denom": "stuluna"
+		"chain_name_pretty": "Stride",
+		"base_denom": "stuluna",
+		"keywords": ["Native", "Liquid-Staked"]
 	},
 	{
 		"chain_name": "stride",
-		"base_denom": "staevmos"
+		"chain_name_pretty": "Stride",
+		"base_denom": "staevmos",
+		"keywords": ["Native", "Liquid-Staked"]
 	},
 	{
 		"chain_name": "teritori",
-		"base_denom": "utori"
+		"chain_name_pretty": "Teritori",
+		"base_denom": "utori",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "terra",
-		"base_denom": "uluna"
+		"chain_name_pretty": "Terra Classic",
+		"base_denom": "uluna",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "terra",
-		"base_denom": "uusd"
+		"chain_name_pretty": "Terra Classic",
+		"base_denom": "uusd",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "terra",
-		"base_denom": "ukrw"
+		"chain_name_pretty": "Terra Classic",
+		"base_denom": "ukrw",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "terra2",
-		"base_denom": "uluna"
+		"chain_name_pretty": "Terra 2.0",
+		"base_denom": "uluna",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "terra2",
-		"base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
+		"chain_name_pretty": "Terra 2.0",
+		"base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+		"keywords": ["Unknown"]
 	},
 	{
 		"chain_name": "tgrade",
-		"base_denom": "utgd"
+		"chain_name_pretty": "Tgrade",
+		"base_denom": "utgd",
+		"keywords": ["Native", "Utility"]
 	},
 	{
 		"chain_name": "umee",
-		"base_denom": "uumee"
+		"chain_name_pretty": "Umee",
+		"base_denom": "uumee",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "unification",
-		"base_denom": "nund"
+		"chain_name_pretty": "Unification",
+		"base_denom": "nund",
+		"keywords": ["Native"]
 	},
 	{
 		"chain_name": "vidulum",
-		"base_denom": "uvdl"
+		"chain_name_pretty": "Vidulum",
+		"base_denom": "uvdl",
+		"keywords": ["Native"]
 	}
 ]
 }
