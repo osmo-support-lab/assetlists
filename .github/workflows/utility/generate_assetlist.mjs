@@ -264,45 +264,20 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
     }
 
     //--Overrides Properties when Specified--
-    if (zoneAsset.frontend_properties) {
-      if (zoneAsset.frontend_properties.symbol) {
-        generatedAsset.symbol = zoneAsset.frontend_properties.symbol;
-      }
-      if (zoneAsset.frontend_properties.logo_URIs) {
-        generatedAsset.logo_URIs = zoneAsset.frontend_properties.logo_URIs;
-      }
-      if (zoneAsset.coingecko_id) {
-        generatedAsset.coingecko_id = zoneAsset.coingecko_id;
-      }
-      if (zoneAsset.chain_name_pretty) {
-        generatedAsset.name = zoneAsset.chain_name_pretty;
-      }
-    }
-
-    //--Add Keywords--
-    let keywords = [];
-    if (generatedAsset.keywords) {
-      keywords = generatedAsset.keywords;
-    }
-    if (zoneAsset.osmosis_main) {
-      keywords.push('osmosis-main');
-    }
     if (zoneAsset.keywords) {
-      keywords.push(keywords);
+      generatedAsset.keywords = zoneAsset.keywords;
     }
-    if (zoneAsset.osmosis_frontier) {
-      keywords.push('osmosis-frontier');
+    if (zoneAsset.chain_name_pretty) {
+      generatedAsset.name = zoneAsset.chain_name_pretty;
     }
-    if (zoneAsset.osmosis_info) {
-      keywords.push('osmosis-info');
+    if (zoneAsset.frontend_properties.symbol) {
+      generatedAsset.symbol = zoneAsset.frontend_properties.symbol;
     }
-    if (keywords.length > 0) {
-      generatedAsset.keywords = keywords;
+    if (zoneAsset.frontend_properties.logo_URIs) {
+      generatedAsset.logo_URIs = zoneAsset.frontend_properties.logo_URIs;
     }
-    if (zoneAsset.pools) {
-      Object.keys(zoneAsset.pools).forEach((key) => {
-        keywords.push(key + ':' + zoneAsset.pools[key]);
-      });
+    if (zoneAsset.coingecko_id) {
+      generatedAsset.coingecko_id = zoneAsset.coingecko_id;
     }
 
     //--Re-order Properties--
