@@ -287,6 +287,9 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
     if (zoneAsset.osmosis_main) {
       keywords.push('osmosis-main');
     }
+    if (zoneAsset.keywords) {
+      keywords.push(keywords);
+    }
     if (zoneAsset.osmosis_frontier) {
       keywords.push('osmosis-frontier');
     }
