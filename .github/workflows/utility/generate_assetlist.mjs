@@ -20,7 +20,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-const chainRegistryRoot = '../../../chain-registry';
+const chainRegistryRoot = '../../../chain-registry/';
 const chainRegistryMainnetsSubdirectory = '';
 let chainRegistrySubdirectory = '';
 const assetlistsRoot = '../../..';
@@ -212,7 +212,6 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       trace.chain.path =
         chain.port + '/' + trace.chain.channel_id + '/' + zoneAsset.base_denom;
       let traces = [];
-      console.log([generatedAsset]);
       if (generatedAsset.traces) {
         traces = generatedAsset.traces;
         if (
