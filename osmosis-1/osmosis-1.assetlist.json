@@ -149,7 +149,7 @@
         }
       ],
       "base": "ibc/5D270A584B1078FBE07D14570ED5E88EC1FEDA8518B76C322606291E6FD8286F",
-      "name": "Acrechain(EVM) --> Acrechain",
+      "name": "Acrechain(EVM) to Acrechain",
       "display": "arusd",
       "symbol": "arUSD",
       "traces": [
@@ -193,7 +193,7 @@
         }
       ],
       "base": "ibc/D38BB3DD46864694F009AF01DA5A815B3A875F8CC52FF5679BFFCC35DC7451D5",
-      "name": "Acrechain(EVM) --> Acrechain",
+      "name": "Acrechain(EVM) to Acrechain",
       "display": "cnto",
       "symbol": "CNTO",
       "traces": [
@@ -488,7 +488,7 @@
         }
       ],
       "base": "ibc/384E5DD50BDE042E1AAF51F312B55F08F95BC985C503880189258B4D9374CBBE",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "aave",
       "symbol": "AAVE.axl",
       "traces": [
@@ -538,7 +538,7 @@
         }
       ],
       "base": "ibc/F83CC6471DA4D4B508F437244F10B9E4C68975344E551A2DEB6B8617AB08F0D4",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "ape",
       "symbol": "APE.axl",
       "traces": [
@@ -588,7 +588,7 @@
         }
       ],
       "base": "ibc/6C0CB8653012DC2BC1820FD0B6B3AFF8A07D18630BDAEE066FEFB2D92F477C24",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "axs",
       "symbol": "AXS.axl",
       "traces": [
@@ -638,7 +638,7 @@
         }
       ],
       "base": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "usdc",
       "symbol": "USDC.axl",
       "traces": [
@@ -688,7 +688,7 @@
         }
       ],
       "base": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "weth",
       "symbol": "wETH.axl",
       "traces": [
@@ -739,7 +739,7 @@
         }
       ],
       "base": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "wbtc",
       "symbol": "WBTC.axl",
       "traces": [
@@ -789,7 +789,7 @@
         }
       ],
       "base": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "usdt",
       "symbol": "USDT.axl",
       "traces": [
@@ -839,7 +839,7 @@
         }
       ],
       "base": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "dai",
       "symbol": "DAI.axl",
       "traces": [
@@ -889,7 +889,7 @@
         }
       ],
       "base": "ibc/6329DD8CF31A334DD5BE3F68C846C9FE313281362B37686A62343BAC1EB1546D",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "busd",
       "symbol": "BUSD.axl",
       "traces": [
@@ -935,7 +935,7 @@
         }
       ],
       "base": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "link",
       "symbol": "LINK.axl",
       "traces": [
@@ -985,7 +985,7 @@
         }
       ],
       "base": "ibc/D27DDDF34BB47E5D5A570742CC667DE53277867116CCCA341F27785E899A70F3",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "mkr",
       "symbol": "MKR.axl",
       "traces": [
@@ -1035,7 +1035,7 @@
         }
       ],
       "base": "ibc/BD796662F8825327D41C96355DF62045A5BA225BAE31C0A86289B9D88ED3F44E",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "rai",
       "symbol": "RAI.axl",
       "traces": [
@@ -1085,7 +1085,7 @@
         }
       ],
       "base": "ibc/19305E20681911F14D1FB275E538CDE524C3BF88CF9AE5D5F78F4D4DA05E85B2",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "shib",
       "symbol": "SHIB.axl",
       "traces": [
@@ -1134,7 +1134,7 @@
         }
       ],
       "base": "ibc/AE2719773D6FCDD05AC17B1ED63F672F5F9D84144A61965F348C86C2A83AD161",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "uni",
       "symbol": "UNI.axl",
       "traces": [
@@ -1184,7 +1184,7 @@
         }
       ],
       "base": "ibc/B901BEC1B71D0573E6EE874FEC39E2DF4C2BDB1DB74CB3DA0A9CACC4A435B0EC",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "xcn",
       "symbol": "XCN.axl",
       "traces": [
@@ -1234,7 +1234,7 @@
         }
       ],
       "base": "ibc/5E2DFDF1734137302129EA1C1BA21A580F96F778D4F021815EA4F6DB378DA1A4",
-      "name": "Fantom --> Axelar",
+      "name": "Fantom (via Axelar)",
       "display": "ftm",
       "symbol": "wFTM.axl",
       "traces": [
@@ -1284,7 +1284,7 @@
         }
       ],
       "base": "ibc/1E26DB0E5122AED464D98462BD384FCCB595732A66B3970AE6CE0B58BAE0FC49",
-      "name": "Moonbeam --> Axelar",
+      "name": "Moonbeam (via Axelar)",
       "display": "wglmr",
       "symbol": "wGLMR.axl",
       "traces": [
@@ -1334,7 +1334,7 @@
         }
       ],
       "base": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
-      "name": "BNB Chain --> Axelar",
+      "name": "BNB Chain (via Axelar)",
       "display": "wbnb",
       "symbol": "wBNB.axl",
       "traces": [
@@ -1385,7 +1385,7 @@
         }
       ],
       "base": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
-      "name": "Polygon --> Axelar",
+      "name": "Polygon (via Axelar)",
       "display": "wmatic",
       "symbol": "wMATIC.axl",
       "traces": [
@@ -1436,7 +1436,7 @@
         }
       ],
       "base": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
-      "name": "Avalanche --> Axelar",
+      "name": "Avalanche (via Axelar)",
       "display": "avax",
       "symbol": "wAVAX.axl",
       "traces": [
@@ -1487,7 +1487,7 @@
         }
       ],
       "base": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
-      "name": "Polkadot --> Moonbeam --> Axelar",
+      "name": "Polkadot to Moonbeam (via Axelar)",
       "display": "dot",
       "symbol": "DOT.axl",
       "traces": [
@@ -1538,7 +1538,7 @@
         }
       ],
       "base": "ibc/0E43EDE2E2A3AFA36D0CD38BDDC0B49FECA64FA426A82E102F304E430ECF46EE",
-      "name": "Ethereum --> Axelar",
+      "name": "Ethereum (via Axelar)",
       "display": "frax",
       "symbol": "FRAX.axl",
       "traces": [
@@ -1588,7 +1588,7 @@
         }
       ],
       "base": "ibc/231FD77ECCB2DB916D314019DA30FE013202833386B1908A191D16989AD80B5A",
-      "name": "Polygon --> Axelar",
+      "name": "USDC (POS) on Polygon (via Axelar)",
       "display": "polygon-usdc",
       "symbol": "polyUSDC.axl",
       "traces": [
@@ -1639,7 +1639,7 @@
         }
       ],
       "base": "ibc/F17C9CA112815613C5B6771047A093054F837C3020CBA59DFFD9D780A8B2984C",
-      "name": "Avalanche --> Axelar",
+      "name": "USDC.e on Avalanche (via Axelar)",
       "display": "avalanche-usdc",
       "symbol": "avaxUSDC.axl",
       "traces": [
@@ -3506,7 +3506,7 @@
         }
       ],
       "base": "ibc/C9B0D48FD2C5B91135F118FF2484551888966590D7BDC20F6A87308DBA670796",
-      "name": "Ethereum --> Gravity Bridge",
+      "name": "Ethereum (via Gravity Bridge)",
       "display": "gwbtc",
       "symbol": "WBTC.grv",
       "traces": [
@@ -3564,7 +3564,7 @@
         }
       ],
       "base": "ibc/65381C5F3FD21442283D56925E62EA524DED8B6927F0FF94E21E0020954C40B5",
-      "name": "Ethereum --> Gravity Bridge",
+      "name": "Ethereum (via Gravity Bridge)",
       "display": "gweth",
       "symbol": "wETH.grv",
       "traces": [
@@ -3623,7 +3623,7 @@
         }
       ],
       "base": "ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E",
-      "name": "Ethereum --> Gravity Bridge",
+      "name": "Ethereum (via Gravity Bridge)",
       "display": "gusdc",
       "symbol": "USDC.grv",
       "traces": [
@@ -3681,7 +3681,7 @@
         }
       ],
       "base": "ibc/F292A17CF920E3462C816CBE6B042E779F676CAB59096904C4C1C966413E3DF5",
-      "name": "Ethereum --> Gravity Bridge",
+      "name": "Ethereum (via Gravity Bridge)",
       "display": "gdai",
       "symbol": "DAI.grv",
       "traces": [
@@ -3739,7 +3739,7 @@
         }
       ],
       "base": "ibc/71B441E27F1BBB44DD0891BCD370C2794D404D60A4FFE5AECCD9B1E28BC89805",
-      "name": "Ethereum --> Gravity Bridge",
+      "name": "Ethereum (via Gravity Bridge)",
       "display": "gusdt",
       "symbol": "USDT.grv",
       "traces": [
@@ -6356,7 +6356,7 @@
       ],
       "type_asset": "ics20",
       "base": "ibc/8061A06D3BD4D52C4A28FFECF7150D370393AF0BA661C3776C54FF32836C3961",
-      "name": "Ethereum --> Gravity Bridge --> Persistence",
+      "name": "Ethereum (via Gravity Bridge) to Persistence",
       "display": "pstake",
       "symbol": "PSTAKE",
       "traces": [
