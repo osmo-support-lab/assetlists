@@ -28,13 +28,13 @@
 	},
 	{
 		"chain_name": "acrechain",
-		"chain_name_pretty": "Acrechain(EVM) --> Acrechain",
+		"chain_name_pretty": "Acrechain(EVM) to Acrechain",
 		"base_denom": "erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c",
 		"keywords": ["Wrapped/Bridged", "Anchored", "Derivative"]
 	},
 	{
 		"chain_name": "acrechain",
-		"chain_name_pretty": "Acrechain(EVM) --> Acrechain",
+		"chain_name_pretty": "Acrechain(EVM) to Acrechain",
 		"base_denom": "erc20/0xAE6D3334989a22A65228732446731438672418F2",
 		"keywords": ["Utility"]
 	},
@@ -76,7 +76,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "aave-wei",
 		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
@@ -89,7 +89,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "ape-wei",
 		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
@@ -102,7 +102,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "axs-wei",
 		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
@@ -115,7 +115,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "uusdc",
 		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
 		"frontend_properties": {
@@ -128,7 +128,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "weth-wei",
 		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
@@ -141,7 +141,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "wbtc-satoshi",
 		"keywords": ["Wrapped/Bridged", "Derivative"],
 		"frontend_properties": {
@@ -154,7 +154,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "uusdt",
 		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
 		"frontend_properties": {
@@ -167,7 +167,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "dai-wei",
 		"keywords": ["Wrapped/Bridged", "Anchored"],
 		"frontend_properties": {
@@ -180,7 +180,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "busd-wei",
 		"frontend_properties": {
 			"symbol": "BUSD.axl",
@@ -193,7 +193,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "link-wei",
 		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
@@ -206,7 +206,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "mkr-wei",
 		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
@@ -219,7 +219,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "rai-wei",
 		"keywords": ["Wrapped/Bridged", "Reflexive"],
 		"frontend_properties": {
@@ -232,7 +232,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "shib-wei",
 		"keywords": ["Wrapped/Bridged"],
 		"frontend_properties": {
@@ -245,7 +245,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "uni-wei",
 		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
@@ -258,7 +258,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "xcn-wei",
 		"keywords": ["Wrapped/Bridged", "Utility"],
 		"frontend_properties": {
@@ -271,7 +271,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Fantom --> Axelar",
+		"chain_name_pretty": "Fantom (via Axelar)",
 		"base_denom": "wftm-wei",
 		"keywords": ["Wrapped/Bridged", "Native"],
 		"frontend_properties": {
@@ -284,7 +284,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Moonbeam --> Axelar",
+		"chain_name_pretty": "Moonbeam (via Axelar)",
 		"base_denom": "wglmr-wei",
 		"keywords": ["Wrapped/Bridged", "Native"],
 		"frontend_properties": {
@@ -297,7 +297,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "BNB Chain --> Axelar",
+		"chain_name_pretty": "BNB Chain (via Axelar)",
 		"base_denom": "wbnb-wei",
 		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
@@ -310,7 +310,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Polygon --> Axelar",
+		"chain_name_pretty": "Polygon (via Axelar)",
 		"base_denom": "wmatic-wei",
 		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
@@ -323,7 +323,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Avalanche --> Axelar",
+		"chain_name_pretty": "Avalanche (via Axelar)",
 		"base_denom": "wavax-wei",
 		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
@@ -336,7 +336,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Polkadot --> Moonbeam --> Axelar",
+		"chain_name_pretty": "Polkadot to Moonbeam (via Axelar)",
 		"base_denom": "dot-planck",
 		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
@@ -349,7 +349,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Ethereum --> Axelar",
+		"chain_name_pretty": "Ethereum (via Axelar)",
 		"base_denom": "frax-wei",
 		"keywords": ["Wrapped/Bridged", "Anchored"],
 		"frontend_properties": {
@@ -362,7 +362,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Polygon --> Axelar",
+		"chain_name_pretty": "USDC (POS) on Polygon (via Axelar)",
 		"base_denom": "polygon-uusdc",
 		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized", "Derivative"],
 		"frontend_properties": {
@@ -375,7 +375,7 @@
 	},
 	{
 		"chain_name": "axelar",
-		"chain_name_pretty": "Avalanche --> Axelar",
+		"chain_name_pretty": "USDC.e on Avalanche (via Axelar)",
 		"base_denom": "avalanche-uusdc",
 		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized", "Derivative"],
 		"frontend_properties": {
@@ -652,7 +652,7 @@
 	},
 	{
 		"chain_name": "gravitybridge",
-		"chain_name_pretty": "Ethereum --> Gravity Bridge",
+		"chain_name_pretty": "Ethereum (via Gravity Bridge)",
 		"base_denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
 		"keywords": ["Wrapped/Bridged", "Derivative"],
 		"frontend_properties": {
@@ -665,7 +665,7 @@
 	},
 	{
 		"chain_name": "gravitybridge",
-		"chain_name_pretty": "Ethereum --> Gravity Bridge",
+		"chain_name_pretty": "Ethereum (via Gravity Bridge)",
 		"base_denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 		"keywords": ["Wrapped/Bridged", "Derivative", "Native"],
 		"frontend_properties": {
@@ -678,7 +678,7 @@
 	},
 	{
 		"chain_name": "gravitybridge",
-		"chain_name_pretty": "Ethereum --> Gravity Bridge",
+		"chain_name_pretty": "Ethereum (via Gravity Bridge)",
 		"base_denom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
 		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
 		"frontend_properties": {
@@ -691,7 +691,7 @@
 	},
 	{
 		"chain_name": "gravitybridge",
-		"chain_name_pretty": "Ethereum --> Gravity Bridge",
+		"chain_name_pretty": "Ethereum (via Gravity Bridge)",
 		"base_denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
 		"keywords": ["Wrapped/Bridged", "Anchored"],
 		"frontend_properties": {
@@ -704,7 +704,7 @@
 	},
 	{
 		"chain_name": "gravitybridge",
-		"chain_name_pretty": "Ethereum --> Gravity Bridge",
+		"chain_name_pretty": "Ethereum (via Gravity Bridge)",
 		"base_denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
 		"keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
 		"frontend_properties": {
@@ -1071,7 +1071,7 @@
 	},
 	{
 		"chain_name": "persistence",
-		"chain_name_pretty": "Ethereum --> Gravity Bridge --> Persistence",
+		"chain_name_pretty": "Ethereum (via Gravity Bridge) to Persistence",
 		"base_denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
 		"keywords": ["Wrapped/Bridged", "Utility", "Liquid-Staked"]
 	},
