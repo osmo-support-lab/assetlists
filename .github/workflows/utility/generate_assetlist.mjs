@@ -30,9 +30,9 @@ const assetlistFileName = 'assetlist.json';
 const zoneAssetlistFileName = process.env.CHAIN_NAME + '.zone.json';
 const ibcFolderName = '_IBC';
 const mainnetChainName = process.env.CHAIN_NAME;
-let localChainName = process.env.CHAIN_NAME;
+let localChainName = '';
 const mainnetChainId = process.env.CHAIN_ID;
-let localChainId = process.env.CHAIN_ID;
+let localChainId = '';
 const assetlistSchema = {
   description: 'string',
   denom_units: [],
@@ -272,15 +272,34 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
         generatedAsset.logo_URIs = zoneAsset.frontend_properties.logo_URIs;
       }
       if (zoneAsset.coingecko_id) {
-        generatedAsset.coingecko_id =
-          zoneAsset.coingecko_id;
+        generatedAsset.coingecko_id = zoneAsset.coingecko_id;
       }
       if (zoneAsset.chain_name_pretty) {
         generatedAsset.name = zoneAsset.chain_name_pretty;
       }
-      if (zoneAsset.keywords) {
-        generatedAsset.keywords = zoneAsset.keywords;
-      }
+    }
+
+    //--Add Keywords--
+    let keywords = [];
+    if (generatedAsset.keywords) {
+      keywords = generatedAsset.keywords;
+    }
+    if (zoneAsset.osmosis_main) {
+      keywords.push('osmosis-main');
+    }
+    if (zoneAsset.osmosis_frontier) {
+      keywords.push('osmosis-frontier');
+    }
+    if (zoneAsset.osmosis_info) {
+      keywords.push('osmosis-info');
+    }
+    if (keywords.length > 0) {
+      generatedAsset.keywords = keywords;
+    }
+    if (zoneAsset.pools) {
+      Object.keys(zoneAsset.pools).forEach((key) => {
+        keywords.push(key + ':' + zoneAsset.pools[key]);
+      });
     }
 
     //--Re-order Properties--
