@@ -154,7 +154,7 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       zoneAsset.chain_name,
       zoneAsset.base_denom
     );
-
+console.log([generatedAsset])
     if (zoneAsset.chain_name != localChainName) {
       let type = 'ibc';
       let counterparty = {
