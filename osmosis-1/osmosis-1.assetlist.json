@@ -1487,7 +1487,7 @@
         }
       ],
       "base": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
-      "name": "Polkadot to Moonbeam (via Axelar)",
+      "name": "Polkadot on Moonbeam (via Axelar)",
       "display": "dot",
       "symbol": "DOT.axl",
       "traces": [
@@ -2607,7 +2607,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.svg"
       },
       "coingecko_id": "cerberus-2",
       "keywords": [
@@ -3233,7 +3234,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg"
       },
       "coingecko_id": "e-money",
       "keywords": [
@@ -3274,7 +3276,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg"
       },
       "coingecko_id": "e-money-eur",
       "keywords": [
@@ -4885,7 +4888,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.svg"
       },
       "coingecko_id": "hopers-io ",
       "keywords": [
@@ -5709,7 +5713,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg"
       },
       "coingecko_id": "lambda",
       "keywords": [
@@ -6204,7 +6209,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg"
       },
       "keywords": [
         "Native"
@@ -6679,6 +6685,57 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qatom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qatom.svg"
+      },
+      "keywords": [
+        "Native",
+        "Liquid-Staked"
+      ]
+    },
+    {
+      "description": "Quicksilver Liquid Staked OSMO",
+      "denom_units": [
+        {
+          "denom": "ibc/42D24879D4569CE6477B7E88206ADBFE47C222C6CAD51A54083E4A72594269FC",
+          "exponent": 0,
+          "aliases": [
+            "uqosmo"
+          ]
+        },
+        {
+          "denom": "qosmo",
+          "exponent": 6,
+          "aliases": []
+        }
+      ],
+      "base": "ibc/42D24879D4569CE6477B7E88206ADBFE47C222C6CAD51A54083E4A72594269FC",
+      "name": "Quicksilver",
+      "display": "qosmo",
+      "symbol": "qOSMO",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "osmosis",
+            "base_denom": "uosmo"
+          },
+          "provider": "Quicksilver"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "quicksilver",
+            "base_denom": "uqosmo",
+            "channel_id": "channel-2"
+          },
+          "chain": {
+            "channel_id": "channel-522",
+            "path": "transfer/channel-522/uqosmo"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qosmo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qosmo.svg"
       },
       "keywords": [
         "Native",
@@ -7211,7 +7268,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg"
       },
       "coingecko_id": "sentinel",
       "keywords": [
@@ -7429,7 +7487,8 @@
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
       },
       "coingecko_id": "stargaze",
       "keywords": [
