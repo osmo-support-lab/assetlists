@@ -23,7 +23,9 @@
       },
       "coingecko_id": "osmosis",
       "keywords": [
-        "Native"
+        "Native",
+        "dex",
+        "staking"
       ]
     },
     {
@@ -47,7 +49,8 @@
       },
       "coingecko_id": "ion",
       "keywords": [
-        "Native"
+        "Native",
+        "memecoin"
       ]
     },
     {
@@ -65,10 +68,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/8BE73A810E22F80E5E850531A688600D63AE7392E7C2770AE758CAA4FD921B7F",
-      "name": "8ball",
-      "display": "ebl",
-      "symbol": "EBL",
       "traces": [
         {
           "type": "ibc",
@@ -83,6 +82,10 @@
           }
         }
       ],
+      "base": "ibc/8BE73A810E22F80E5E850531A688600D63AE7392E7C2770AE758CAA4FD921B7F",
+      "name": "8ball",
+      "display": "ebl",
+      "symbol": "EBL",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.svg"
@@ -106,10 +109,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/BB936517F7E5D77A63E0ADB05217A6608B0C4CF8FBA7EA2F4BAE4107A7238F06",
-      "name": "Acrechain",
-      "display": "acre",
-      "symbol": "ACRE",
       "traces": [
         {
           "type": "ibc",
@@ -124,6 +123,10 @@
           }
         }
       ],
+      "base": "ibc/BB936517F7E5D77A63E0ADB05217A6608B0C4CF8FBA7EA2F4BAE4107A7238F06",
+      "name": "Acrechain",
+      "display": "acre",
+      "symbol": "ACRE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.svg"
@@ -135,6 +138,7 @@
     },
     {
       "description": "Overcollateralized stable coin for Arable derivatives v1",
+      "pretty_path": "Acrechain (EVM) via Acrechain",
       "denom_units": [
         {
           "denom": "ibc/5D270A584B1078FBE07D14570ED5E88EC1FEDA8518B76C322606291E6FD8286F",
@@ -148,10 +152,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/5D270A584B1078FBE07D14570ED5E88EC1FEDA8518B76C322606291E6FD8286F",
-      "name": "Acrechain(EVM) to Acrechain",
-      "display": "arusd",
-      "symbol": "arUSD",
       "traces": [
         {
           "type": "ibc",
@@ -166,6 +166,10 @@
           }
         }
       ],
+      "base": "ibc/5D270A584B1078FBE07D14570ED5E88EC1FEDA8518B76C322606291E6FD8286F",
+      "name": "Acrechain",
+      "display": "arusd",
+      "symbol": "arUSD",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/arusd.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/arusd.svg"
@@ -179,6 +183,7 @@
     },
     {
       "description": "Ciento Exchange Token",
+      "pretty_path": "Acrechain (EVM) via Acrechain",
       "denom_units": [
         {
           "denom": "ibc/D38BB3DD46864694F009AF01DA5A815B3A875F8CC52FF5679BFFCC35DC7451D5",
@@ -192,10 +197,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/D38BB3DD46864694F009AF01DA5A815B3A875F8CC52FF5679BFFCC35DC7451D5",
-      "name": "Acrechain(EVM) to Acrechain",
-      "display": "cnto",
-      "symbol": "CNTO",
       "traces": [
         {
           "type": "ibc",
@@ -210,6 +211,10 @@
           }
         }
       ],
+      "base": "ibc/D38BB3DD46864694F009AF01DA5A815B3A875F8CC52FF5679BFFCC35DC7451D5",
+      "name": "Acrechain",
+      "display": "cnto",
+      "symbol": "CNTO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/cnto.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/cnto.svg"
@@ -233,10 +238,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/2DA9C149E9AD2BD27FEFA635458FB37093C256C1A940392634A16BEA45262604",
-      "name": "Agoric",
-      "display": "bld",
-      "symbol": "BLD",
       "traces": [
         {
           "type": "ibc",
@@ -251,6 +252,10 @@
           }
         }
       ],
+      "base": "ibc/2DA9C149E9AD2BD27FEFA635458FB37093C256C1A940392634A16BEA45262604",
+      "name": "Agoric",
+      "display": "bld",
+      "symbol": "BLD",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg"
@@ -276,10 +281,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/92BE0717F4678905E53F4E45B2DED18BC0CB97BF1F8B6A25AFEDF3D5A879B4D5",
-      "name": "Agoric",
-      "display": "ist",
-      "symbol": "IST",
       "traces": [
         {
           "type": "ibc",
@@ -294,6 +295,10 @@
           }
         }
       ],
+      "base": "ibc/92BE0717F4678905E53F4E45B2DED18BC0CB97BF1F8B6A25AFEDF3D5A879B4D5",
+      "name": "Agoric",
+      "display": "ist",
+      "symbol": "IST",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
@@ -319,10 +324,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
-      "name": "Akash",
-      "display": "akt",
-      "symbol": "AKT",
       "traces": [
         {
           "type": "ibc",
@@ -337,6 +338,10 @@
           }
         }
       ],
+      "base": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
+      "name": "Akash",
+      "display": "akt",
+      "symbol": "AKT",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
@@ -362,10 +367,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/0F91EE8B98AAE3CF393D94CD7F89A10F8D7758C5EC707E721899DFE65C164C28",
-      "name": "Arkhadian",
-      "display": "ARKH",
-      "symbol": "ARKH",
       "traces": [
         {
           "type": "ibc",
@@ -380,6 +381,10 @@
           }
         }
       ],
+      "base": "ibc/0F91EE8B98AAE3CF393D94CD7F89A10F8D7758C5EC707E721899DFE65C164C28",
+      "name": "Arkhadian",
+      "display": "ARKH",
+      "symbol": "ARKH",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.svg"
@@ -403,10 +408,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/CBA34207E969623D95D057D9B11B0C8B32B89A71F170577D982FDDE623813FFC",
-      "name": "AssetMantle",
-      "display": "mntl",
-      "symbol": "MNTL",
       "traces": [
         {
           "type": "ibc",
@@ -421,6 +422,10 @@
           }
         }
       ],
+      "base": "ibc/CBA34207E969623D95D057D9B11B0C8B32B89A71F170577D982FDDE623813FFC",
+      "name": "AssetMantle",
+      "display": "mntl",
+      "symbol": "MNTL",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg"
@@ -445,10 +450,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
-      "name": "Axelar",
-      "display": "axl",
-      "symbol": "AXL",
       "traces": [
         {
           "type": "ibc",
@@ -463,6 +464,10 @@
           }
         }
       ],
+      "base": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
+      "name": "Axelar",
+      "display": "axl",
+      "symbol": "AXL",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
@@ -474,6 +479,7 @@
     },
     {
       "description": "Aave on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/384E5DD50BDE042E1AAF51F312B55F08F95BC985C503880189258B4D9374CBBE",
@@ -487,10 +493,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/384E5DD50BDE042E1AAF51F312B55F08F95BC985C503880189258B4D9374CBBE",
-      "name": "Ethereum (via Axelar)",
-      "display": "aave",
-      "symbol": "AAVE.axl",
       "traces": [
         {
           "type": "bridge",
@@ -513,6 +515,10 @@
           }
         }
       ],
+      "base": "ibc/384E5DD50BDE042E1AAF51F312B55F08F95BC985C503880189258B4D9374CBBE",
+      "name": "Axelar",
+      "display": "aave",
+      "symbol": "AAVE.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAAVE.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAAVE.svg"
@@ -524,6 +530,7 @@
     },
     {
       "description": "ApeCoin on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/F83CC6471DA4D4B508F437244F10B9E4C68975344E551A2DEB6B8617AB08F0D4",
@@ -537,10 +544,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/F83CC6471DA4D4B508F437244F10B9E4C68975344E551A2DEB6B8617AB08F0D4",
-      "name": "Ethereum (via Axelar)",
-      "display": "ape",
-      "symbol": "APE.axl",
       "traces": [
         {
           "type": "bridge",
@@ -563,6 +566,10 @@
           }
         }
       ],
+      "base": "ibc/F83CC6471DA4D4B508F437244F10B9E4C68975344E551A2DEB6B8617AB08F0D4",
+      "name": "Axelar",
+      "display": "ape",
+      "symbol": "APE.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAPE.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAPE.svg"
@@ -574,6 +581,7 @@
     },
     {
       "description": "Axie Infinity Shard on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/6C0CB8653012DC2BC1820FD0B6B3AFF8A07D18630BDAEE066FEFB2D92F477C24",
@@ -587,10 +595,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/6C0CB8653012DC2BC1820FD0B6B3AFF8A07D18630BDAEE066FEFB2D92F477C24",
-      "name": "Ethereum (via Axelar)",
-      "display": "axs",
-      "symbol": "AXS.axl",
       "traces": [
         {
           "type": "bridge",
@@ -613,6 +617,10 @@
           }
         }
       ],
+      "base": "ibc/6C0CB8653012DC2BC1820FD0B6B3AFF8A07D18630BDAEE066FEFB2D92F477C24",
+      "name": "Axelar",
+      "display": "axs",
+      "symbol": "AXS.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAXS.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAXS.svg"
@@ -624,6 +632,7 @@
     },
     {
       "description": "Circle's stablecoin on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
@@ -637,10 +646,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
-      "name": "Ethereum (via Axelar)",
-      "display": "usdc",
-      "symbol": "USDC.axl",
       "traces": [
         {
           "type": "bridge",
@@ -663,6 +668,10 @@
           }
         }
       ],
+      "base": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+      "name": "Axelar",
+      "display": "usdc",
+      "symbol": "USDC.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDC.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDC.svg"
@@ -674,6 +683,7 @@
     },
     {
       "description": "Wrapped Ether on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
@@ -687,10 +697,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
-      "name": "Ethereum (via Axelar)",
-      "display": "weth",
-      "symbol": "wETH.axl",
       "traces": [
         {
           "type": "bridge",
@@ -713,6 +719,10 @@
           }
         }
       ],
+      "base": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
+      "name": "Axelar",
+      "display": "weth",
+      "symbol": "wETH.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWETH.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWETH.svg"
@@ -725,6 +735,7 @@
     },
     {
       "description": "Wrapped Bitcoin on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
@@ -738,10 +749,6 @@
           "exponent": 8
         }
       ],
-      "base": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
-      "name": "Ethereum (via Axelar)",
-      "display": "wbtc",
-      "symbol": "WBTC.axl",
       "traces": [
         {
           "type": "bridge",
@@ -764,6 +771,10 @@
           }
         }
       ],
+      "base": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
+      "name": "Axelar",
+      "display": "wbtc",
+      "symbol": "WBTC.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBTC.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBTC.svg"
@@ -775,6 +786,7 @@
     },
     {
       "description": "Tether's USD stablecoin on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
@@ -788,10 +800,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
-      "name": "Ethereum (via Axelar)",
-      "display": "usdt",
-      "symbol": "USDT.axl",
       "traces": [
         {
           "type": "bridge",
@@ -814,6 +822,10 @@
           }
         }
       ],
+      "base": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
+      "name": "Axelar",
+      "display": "usdt",
+      "symbol": "USDT.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDT.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDT.svg"
@@ -825,6 +837,7 @@
     },
     {
       "description": "Dai stablecoin on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
@@ -838,10 +851,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
-      "name": "Ethereum (via Axelar)",
-      "display": "dai",
-      "symbol": "DAI.axl",
       "traces": [
         {
           "type": "bridge",
@@ -864,6 +873,10 @@
           }
         }
       ],
+      "base": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
+      "name": "Axelar",
+      "display": "dai",
+      "symbol": "DAI.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDAI.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDAI.svg"
@@ -875,6 +888,7 @@
     },
     {
       "description": "Binance USD on Axelar.",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/6329DD8CF31A334DD5BE3F68C846C9FE313281362B37686A62343BAC1EB1546D",
@@ -888,10 +902,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/6329DD8CF31A334DD5BE3F68C846C9FE313281362B37686A62343BAC1EB1546D",
-      "name": "Ethereum (via Axelar)",
-      "display": "busd",
-      "symbol": "BUSD.axl",
       "traces": [
         {
           "type": "bridge",
@@ -914,13 +924,21 @@
           }
         }
       ],
+      "base": "ibc/6329DD8CF31A334DD5BE3F68C846C9FE313281362B37686A62343BAC1EB1546D",
+      "name": "Axelar",
+      "display": "busd",
+      "symbol": "BUSD.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.svg"
-      }
+      },
+      "keywords": [
+        "Wrapped/Bridged"
+      ]
     },
     {
       "description": "Chainlink on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
@@ -934,10 +952,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
-      "name": "Ethereum (via Axelar)",
-      "display": "link",
-      "symbol": "LINK.axl",
       "traces": [
         {
           "type": "bridge",
@@ -960,6 +974,10 @@
           }
         }
       ],
+      "base": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
+      "name": "Axelar",
+      "display": "link",
+      "symbol": "LINK.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlLINK.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlLINK.svg"
@@ -971,6 +989,7 @@
     },
     {
       "description": "Maker on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/D27DDDF34BB47E5D5A570742CC667DE53277867116CCCA341F27785E899A70F3",
@@ -984,10 +1003,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/D27DDDF34BB47E5D5A570742CC667DE53277867116CCCA341F27785E899A70F3",
-      "name": "Ethereum (via Axelar)",
-      "display": "mkr",
-      "symbol": "MKR.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1010,6 +1025,10 @@
           }
         }
       ],
+      "base": "ibc/D27DDDF34BB47E5D5A570742CC667DE53277867116CCCA341F27785E899A70F3",
+      "name": "Axelar",
+      "display": "mkr",
+      "symbol": "MKR.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlMKR.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlMKR.svg"
@@ -1034,10 +1053,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/BD796662F8825327D41C96355DF62045A5BA225BAE31C0A86289B9D88ED3F44E",
-      "name": "Ethereum (via Axelar)",
-      "display": "rai",
-      "symbol": "RAI.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1060,6 +1075,10 @@
           }
         }
       ],
+      "base": "ibc/BD796662F8825327D41C96355DF62045A5BA225BAE31C0A86289B9D88ED3F44E",
+      "name": "Axelar",
+      "display": "rai",
+      "symbol": "RAI.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlRAI.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlRAI.svg"
@@ -1071,6 +1090,7 @@
     },
     {
       "description": "Shiba Inu on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/19305E20681911F14D1FB275E538CDE524C3BF88CF9AE5D5F78F4D4DA05E85B2",
@@ -1084,10 +1104,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/19305E20681911F14D1FB275E538CDE524C3BF88CF9AE5D5F78F4D4DA05E85B2",
-      "name": "Ethereum (via Axelar)",
-      "display": "shib",
-      "symbol": "SHIB.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1110,6 +1126,10 @@
           }
         }
       ],
+      "base": "ibc/19305E20681911F14D1FB275E538CDE524C3BF88CF9AE5D5F78F4D4DA05E85B2",
+      "name": "Axelar",
+      "display": "shib",
+      "symbol": "SHIB.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlSHIB.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlSHIB.svg"
@@ -1120,6 +1140,7 @@
     },
     {
       "description": "Uniswap on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/AE2719773D6FCDD05AC17B1ED63F672F5F9D84144A61965F348C86C2A83AD161",
@@ -1133,10 +1154,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/AE2719773D6FCDD05AC17B1ED63F672F5F9D84144A61965F348C86C2A83AD161",
-      "name": "Ethereum (via Axelar)",
-      "display": "uni",
-      "symbol": "UNI.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1159,6 +1176,10 @@
           }
         }
       ],
+      "base": "ibc/AE2719773D6FCDD05AC17B1ED63F672F5F9D84144A61965F348C86C2A83AD161",
+      "name": "Axelar",
+      "display": "uni",
+      "symbol": "UNI.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUNI.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUNI.svg"
@@ -1170,6 +1191,7 @@
     },
     {
       "description": "Chain on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/B901BEC1B71D0573E6EE874FEC39E2DF4C2BDB1DB74CB3DA0A9CACC4A435B0EC",
@@ -1183,10 +1205,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/B901BEC1B71D0573E6EE874FEC39E2DF4C2BDB1DB74CB3DA0A9CACC4A435B0EC",
-      "name": "Ethereum (via Axelar)",
-      "display": "xcn",
-      "symbol": "XCN.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1209,6 +1227,10 @@
           }
         }
       ],
+      "base": "ibc/B901BEC1B71D0573E6EE874FEC39E2DF4C2BDB1DB74CB3DA0A9CACC4A435B0EC",
+      "name": "Axelar",
+      "display": "xcn",
+      "symbol": "XCN.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlXCN.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlXCN.svg"
@@ -1220,6 +1242,7 @@
     },
     {
       "description": "Wrapped FTM on Axelar.",
+      "pretty_path": "Fantom via Axelar",
       "denom_units": [
         {
           "denom": "ibc/5E2DFDF1734137302129EA1C1BA21A580F96F778D4F021815EA4F6DB378DA1A4",
@@ -1233,10 +1256,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/5E2DFDF1734137302129EA1C1BA21A580F96F778D4F021815EA4F6DB378DA1A4",
-      "name": "Fantom (via Axelar)",
-      "display": "ftm",
-      "symbol": "wFTM.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1259,6 +1278,10 @@
           }
         }
       ],
+      "base": "ibc/5E2DFDF1734137302129EA1C1BA21A580F96F778D4F021815EA4F6DB378DA1A4",
+      "name": "Axelar",
+      "display": "ftm",
+      "symbol": "wFTM.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWFTM.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWFTM.svg"
@@ -1270,6 +1293,7 @@
     },
     {
       "description": "Wrapped Moonbeam on Axelar",
+      "pretty_path": "Moonbeam via Axelar",
       "denom_units": [
         {
           "denom": "ibc/1E26DB0E5122AED464D98462BD384FCCB595732A66B3970AE6CE0B58BAE0FC49",
@@ -1283,10 +1307,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/1E26DB0E5122AED464D98462BD384FCCB595732A66B3970AE6CE0B58BAE0FC49",
-      "name": "Moonbeam (via Axelar)",
-      "display": "wglmr",
-      "symbol": "wGLMR.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1309,6 +1329,10 @@
           }
         }
       ],
+      "base": "ibc/1E26DB0E5122AED464D98462BD384FCCB595732A66B3970AE6CE0B58BAE0FC49",
+      "name": "Axelar",
+      "display": "wglmr",
+      "symbol": "wGLMR.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWGLMR.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWGLMR.svg"
@@ -1320,6 +1344,7 @@
     },
     {
       "description": "Wrapped BNB on Axelar",
+      "pretty_path": "Binance Smart Chain via Axelar",
       "denom_units": [
         {
           "denom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
@@ -1333,10 +1358,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
-      "name": "BNB Chain (via Axelar)",
-      "display": "wbnb",
-      "symbol": "wBNB.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1359,6 +1380,10 @@
           }
         }
       ],
+      "base": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
+      "name": "Axelar",
+      "display": "wbnb",
+      "symbol": "wBNB.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBNB.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBNB.svg"
@@ -1371,6 +1396,7 @@
     },
     {
       "description": "Wrapped Matic on Axelar",
+      "pretty_path": "Polygon via Axelar",
       "denom_units": [
         {
           "denom": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
@@ -1384,10 +1410,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
-      "name": "Polygon (via Axelar)",
-      "display": "wmatic",
-      "symbol": "wMATIC.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1410,6 +1432,10 @@
           }
         }
       ],
+      "base": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
+      "name": "Axelar",
+      "display": "wmatic",
+      "symbol": "wMATIC.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWMATIC.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWMATIC.svg"
@@ -1422,6 +1448,7 @@
     },
     {
       "description": "Wrapped AVAX on Axelar.",
+      "pretty_path": "Avalanche via Axelar",
       "denom_units": [
         {
           "denom": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
@@ -1435,10 +1462,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
-      "name": "Avalanche (via Axelar)",
-      "display": "avax",
-      "symbol": "wAVAX.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1461,6 +1484,10 @@
           }
         }
       ],
+      "base": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
+      "name": "Axelar",
+      "display": "avax",
+      "symbol": "wAVAX.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWAVAX.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWAVAX.svg"
@@ -1473,6 +1500,7 @@
     },
     {
       "description": "Wrapped Polkadot on Axelar",
+      "pretty_path": "DOT on Moonbeam via Axelar",
       "denom_units": [
         {
           "denom": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
@@ -1486,10 +1514,6 @@
           "exponent": 10
         }
       ],
-      "base": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
-      "name": "Polkadot on Moonbeam (via Axelar)",
-      "display": "dot",
-      "symbol": "DOT.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1512,6 +1536,10 @@
           }
         }
       ],
+      "base": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
+      "name": "Axelar",
+      "display": "dot",
+      "symbol": "DOT.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.svg"
@@ -1524,6 +1552,7 @@
     },
     {
       "description": "Frax's fractional-algorithmic stablecoin on Axelar",
+      "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
           "denom": "ibc/0E43EDE2E2A3AFA36D0CD38BDDC0B49FECA64FA426A82E102F304E430ECF46EE",
@@ -1537,10 +1566,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/0E43EDE2E2A3AFA36D0CD38BDDC0B49FECA64FA426A82E102F304E430ECF46EE",
-      "name": "Ethereum (via Axelar)",
-      "display": "frax",
-      "symbol": "FRAX.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1563,6 +1588,10 @@
           }
         }
       ],
+      "base": "ibc/0E43EDE2E2A3AFA36D0CD38BDDC0B49FECA64FA426A82E102F304E430ECF46EE",
+      "name": "Axelar",
+      "display": "frax",
+      "symbol": "FRAX.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlFRAX.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlFRAX.svg"
@@ -1574,6 +1603,7 @@
     },
     {
       "description": "Circle's stablecoin from Polygon on Axelar",
+      "pretty_path": "USDC (PoS) on Polygon via Axelar",
       "denom_units": [
         {
           "denom": "ibc/231FD77ECCB2DB916D314019DA30FE013202833386B1908A191D16989AD80B5A",
@@ -1587,10 +1617,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/231FD77ECCB2DB916D314019DA30FE013202833386B1908A191D16989AD80B5A",
-      "name": "USDC (POS) on Polygon (via Axelar)",
-      "display": "polygon-usdc",
-      "symbol": "polyUSDC.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1613,6 +1639,10 @@
           }
         }
       ],
+      "base": "ibc/231FD77ECCB2DB916D314019DA30FE013202833386B1908A191D16989AD80B5A",
+      "name": "Axelar",
+      "display": "polygon-usdc",
+      "symbol": "polyUSDC.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/polyaxlUSDC.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/polyaxlUSDC.svg"
@@ -1625,6 +1655,7 @@
     },
     {
       "description": "Circle's stablecoin from Avalanche on Axelar",
+      "pretty_path": "USDC on Avalanche via Axelar",
       "denom_units": [
         {
           "denom": "ibc/F17C9CA112815613C5B6771047A093054F837C3020CBA59DFFD9D780A8B2984C",
@@ -1638,10 +1669,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/F17C9CA112815613C5B6771047A093054F837C3020CBA59DFFD9D780A8B2984C",
-      "name": "USDC.e on Avalanche (via Axelar)",
-      "display": "avalanche-usdc",
-      "symbol": "avaxUSDC.axl",
       "traces": [
         {
           "type": "bridge",
@@ -1664,6 +1691,10 @@
           }
         }
       ],
+      "base": "ibc/F17C9CA112815613C5B6771047A093054F837C3020CBA59DFFD9D780A8B2984C",
+      "name": "Axelar",
+      "display": "avalanche-usdc",
+      "symbol": "avaxUSDC.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/avaxaxlUSDC.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/avaxaxlUSDC.svg"
@@ -1689,10 +1720,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/F867AE2112EFE646EC71A25CD2DFABB8927126AC1E19F1BBF0FF693A4ECA05DE",
-      "name": "Band Protocol",
-      "display": "band",
-      "symbol": "BAND",
       "traces": [
         {
           "type": "ibc",
@@ -1707,6 +1734,10 @@
           }
         }
       ],
+      "base": "ibc/F867AE2112EFE646EC71A25CD2DFABB8927126AC1E19F1BBF0FF693A4ECA05DE",
+      "name": "Band Protocol",
+      "display": "band",
+      "symbol": "BAND",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.svg"
@@ -1732,10 +1763,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/C822645522FC3EECF817609AA38C24B64D04F5C267A23BCCF8F2E3BC5755FA88",
-      "name": "BeeZee",
-      "display": "bze",
-      "symbol": "BZE",
       "traces": [
         {
           "type": "ibc",
@@ -1750,6 +1777,10 @@
           }
         }
       ],
+      "base": "ibc/C822645522FC3EECF817609AA38C24B64D04F5C267A23BCCF8F2E3BC5755FA88",
+      "name": "BeeZee",
+      "display": "bze",
+      "symbol": "BZE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.svg"
@@ -1774,10 +1805,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/D805F1DA50D31B96E4282C1D4181EDDFB1A44A598BFF5666F4B43E4B8BEA95A5",
-      "name": "BitCanna",
-      "display": "bcna",
-      "symbol": "BCNA",
       "traces": [
         {
           "type": "ibc",
@@ -1792,6 +1819,10 @@
           }
         }
       ],
+      "base": "ibc/D805F1DA50D31B96E4282C1D4181EDDFB1A44A598BFF5666F4B43E4B8BEA95A5",
+      "name": "BitCanna",
+      "display": "bcna",
+      "symbol": "BCNA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.svg"
@@ -1818,10 +1849,6 @@
         }
       ],
       "type_asset": "sdk.coin",
-      "base": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
-      "name": "BitSong",
-      "display": "btsg",
-      "symbol": "BTSG",
       "traces": [
         {
           "type": "ibc",
@@ -1836,6 +1863,10 @@
           }
         }
       ],
+      "base": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
+      "name": "BitSong",
+      "display": "btsg",
+      "symbol": "BTSG",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg"
@@ -1861,10 +1892,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
-      "name": "BitSong",
-      "display": "clay",
-      "symbol": "CLAY",
       "traces": [
         {
           "type": "ibc",
@@ -1879,6 +1906,10 @@
           }
         }
       ],
+      "base": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
+      "name": "BitSong",
+      "display": "clay",
+      "symbol": "CLAY",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09.png"
       },
@@ -1901,10 +1932,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/423967B46B1A51D78619085105B04FCFA14F7CBC0BE7539A316B2DCDFC7D8C07",
-      "name": "BitSong",
-      "display": "fasano",
-      "symbol": "FASANO",
       "traces": [
         {
           "type": "ibc",
@@ -1919,6 +1946,10 @@
           }
         }
       ],
+      "base": "ibc/423967B46B1A51D78619085105B04FCFA14F7CBC0BE7539A316B2DCDFC7D8C07",
+      "name": "BitSong",
+      "display": "fasano",
+      "symbol": "FASANO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft25B30C386CDDEBD1413D5AE1180956AE9EB3B9F7.png"
       },
@@ -1941,10 +1972,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/1DE9A32D603EE05E9B8619DF24D90FD518C932AE0B5B3209A986B7262DBADE2A",
-      "name": "BitSong",
-      "display": "d9x",
-      "symbol": "D9X",
       "traces": [
         {
           "type": "ibc",
@@ -1959,6 +1986,10 @@
           }
         }
       ],
+      "base": "ibc/1DE9A32D603EE05E9B8619DF24D90FD518C932AE0B5B3209A986B7262DBADE2A",
+      "name": "BitSong",
+      "display": "d9x",
+      "symbol": "D9X",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft575B10B0CEE2C164D9ED6A96313496F164A9607C.png"
       },
@@ -1981,10 +2012,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/239A507997222805E441956EBE8087D7E2D05D6535C6D4C75EF8DCF83B3DE1A1",
-      "name": "BitSong",
-      "display": "fonti",
-      "symbol": "FONTI",
       "traces": [
         {
           "type": "ibc",
@@ -1999,6 +2026,10 @@
           }
         }
       ],
+      "base": "ibc/239A507997222805E441956EBE8087D7E2D05D6535C6D4C75EF8DCF83B3DE1A1",
+      "name": "BitSong",
+      "display": "fonti",
+      "symbol": "FONTI",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft56664FC98A2CF5F4FBAC3566D1A11D891AD88305.png"
       },
@@ -2021,10 +2052,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/B3FB7128CE957DE1ADB687A919AA0786C77C62FB1280C07CDD78AEA032D56853",
-      "name": "BitSong",
-      "display": "bjks",
-      "symbol": "BJKS",
       "traces": [
         {
           "type": "ibc",
@@ -2039,6 +2066,10 @@
           }
         }
       ],
+      "base": "ibc/B3FB7128CE957DE1ADB687A919AA0786C77C62FB1280C07CDD78AEA032D56853",
+      "name": "BitSong",
+      "display": "bjks",
+      "symbol": "BJKS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft52EEB0EE509AC546ED92EAC8591F731F213DDD16.png"
       },
@@ -2061,10 +2092,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/56C276FC136E239449DCE664292DBEEF5795C4EF4B5B35DB98BD1C0948274867",
-      "name": "BitSong",
-      "display": "rwne",
-      "symbol": "RWNE",
       "traces": [
         {
           "type": "ibc",
@@ -2079,6 +2106,10 @@
           }
         }
       ],
+      "base": "ibc/56C276FC136E239449DCE664292DBEEF5795C4EF4B5B35DB98BD1C0948274867",
+      "name": "BitSong",
+      "display": "rwne",
+      "symbol": "RWNE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ftE4903ECC861CA45F2C2BC7EAB8255D2E6E87A33A.png"
       },
@@ -2101,10 +2132,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/051A38BBEF92B9D8293AFBE1FA293E704359E9CB28297A0FD5DBA3E9CCEE9AB1",
-      "name": "BitSong",
-      "display": "enmoda",
-      "symbol": "ENMODA",
       "traces": [
         {
           "type": "ibc",
@@ -2119,6 +2146,10 @@
           }
         }
       ],
+      "base": "ibc/051A38BBEF92B9D8293AFBE1FA293E704359E9CB28297A0FD5DBA3E9CCEE9AB1",
+      "name": "BitSong",
+      "display": "enmoda",
+      "symbol": "ENMODA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft85AE1716C5E39EA6D64BBD7898C3899A7B500626.png"
       },
@@ -2141,10 +2172,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/B797E4F42CD33C50511B341E50C5CC0E8EF0D93B1E1247ABAA071583B8619202",
-      "name": "BitSong",
-      "display": "404dr",
-      "symbol": "404DR",
       "traces": [
         {
           "type": "ibc",
@@ -2159,6 +2186,10 @@
           }
         }
       ],
+      "base": "ibc/B797E4F42CD33C50511B341E50C5CC0E8EF0D93B1E1247ABAA071583B8619202",
+      "name": "BitSong",
+      "display": "404dr",
+      "symbol": "404DR",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A.png"
       },
@@ -2181,10 +2212,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/E4FFAACCDB7D55CE2D257DF637C00158CB841F11D0013B2D03E31FF7800A2C58",
-      "name": "BitSong",
-      "display": "n43",
-      "symbol": "N43",
       "traces": [
         {
           "type": "ibc",
@@ -2199,6 +2226,10 @@
           }
         }
       ],
+      "base": "ibc/E4FFAACCDB7D55CE2D257DF637C00158CB841F11D0013B2D03E31FF7800A2C58",
+      "name": "BitSong",
+      "display": "n43",
+      "symbol": "N43",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft387C1C279D962ED80C09C1D592A92C4275FD7C5D.png"
       },
@@ -2221,10 +2252,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/C9864D1B9623F703C75BBF72B7FF8A7317E1535C96538D21467A4311246DC3B5",
-      "name": "BitSong",
-      "display": "lobo",
-      "symbol": "LOBO",
       "traces": [
         {
           "type": "ibc",
@@ -2239,6 +2266,10 @@
           }
         }
       ],
+      "base": "ibc/C9864D1B9623F703C75BBF72B7FF8A7317E1535C96538D21467A4311246DC3B5",
+      "name": "BitSong",
+      "display": "lobo",
+      "symbol": "LOBO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft24C9FA4F10B0F235F4A815B15FC774E046A2B2EB.png"
       },
@@ -2261,10 +2292,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/8A07D4BD40E0F44ECFDF360F7EA7008B288926FB87C54489FE54DB81A5340E0C",
-      "name": "BitSong",
-      "display": "vibra",
-      "symbol": "VIBRA",
       "traces": [
         {
           "type": "ibc",
@@ -2279,6 +2306,10 @@
           }
         }
       ],
+      "base": "ibc/8A07D4BD40E0F44ECFDF360F7EA7008B288926FB87C54489FE54DB81A5340E0C",
+      "name": "BitSong",
+      "display": "vibra",
+      "symbol": "VIBRA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft7020C2A8E984EEBCBB383E91CD6FBB067BB2272B.png"
       },
@@ -2301,10 +2332,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/6A6174468758D207DD2D880363BF699C6568A29E87651337AEDAFD9E69EA7E58",
-      "name": "BitSong",
-      "display": "karina",
-      "symbol": "KARINA",
       "traces": [
         {
           "type": "ibc",
@@ -2319,6 +2346,10 @@
           }
         }
       ],
+      "base": "ibc/6A6174468758D207DD2D880363BF699C6568A29E87651337AEDAFD9E69EA7E58",
+      "name": "BitSong",
+      "display": "karina",
+      "symbol": "KARINA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft2DD67F5D99E9A141142B48474FA7B6B3FF00A3FE.png"
       },
@@ -2341,10 +2372,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/022A879A5301CBCACF96216C967805F15C33C615B74DC7236027C1BA1BF664FF",
-      "name": "BitSong",
-      "display": "testa",
-      "symbol": "TESTA",
       "traces": [
         {
           "type": "ibc",
@@ -2359,6 +2386,10 @@
           }
         }
       ],
+      "base": "ibc/022A879A5301CBCACF96216C967805F15C33C615B74DC7236027C1BA1BF664FF",
+      "name": "BitSong",
+      "display": "testa",
+      "symbol": "TESTA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft4B030260D99E3ABE2B604EA2B33BAF3C085CDA12.png"
       },
@@ -2381,10 +2412,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/C1CEF00F016FE89EA6E5B07DA895AACD91B0AAD69A991033D846B988AD4FB69D",
-      "name": "BitSong",
-      "display": "cmqz",
-      "symbol": "CMQZ",
       "traces": [
         {
           "type": "ibc",
@@ -2399,6 +2426,10 @@
           }
         }
       ],
+      "base": "ibc/C1CEF00F016FE89EA6E5B07DA895AACD91B0AAD69A991033D846B988AD4FB69D",
+      "name": "BitSong",
+      "display": "cmqz",
+      "symbol": "CMQZ",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ftD4B6290EDEE1EC7B97AB5A1DC6C177EFD08ADCC3.png"
       },
@@ -2421,10 +2452,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/BE95D1E09F5A44FC5409F4E0F52750DF2A868D865BC91F3C3EE3C83235789D18",
-      "name": "BitSong",
-      "display": "ldon",
-      "symbol": "LDON",
       "traces": [
         {
           "type": "ibc",
@@ -2439,6 +2466,10 @@
           }
         }
       ],
+      "base": "ibc/BE95D1E09F5A44FC5409F4E0F52750DF2A868D865BC91F3C3EE3C83235789D18",
+      "name": "BitSong",
+      "display": "ldon",
+      "symbol": "LDON",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft347B1612A2B7659913679CF6CD45B8B130C50A00.png"
       },
@@ -2457,10 +2488,6 @@
           ]
         }
       ],
-      "base": "ibc/FE2CD1E6828EC0FAB8AF39BAC45BC25B965BA67CCBC50C13A14BD610B0D1E2C4",
-      "name": "Bostrom",
-      "display": "boot",
-      "symbol": "BOOT",
       "traces": [
         {
           "type": "ibc",
@@ -2475,6 +2502,10 @@
           }
         }
       ],
+      "base": "ibc/FE2CD1E6828EC0FAB8AF39BAC45BC25B965BA67CCBC50C13A14BD610B0D1E2C4",
+      "name": "bostrom",
+      "display": "boot",
+      "symbol": "BOOT",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.svg"
@@ -2500,10 +2531,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/47CAF2DB8C016FAC960F33BC492FD8E454593B65CC59D70FA9D9F30424F9C32F",
-      "name": "Canto",
-      "display": "canto",
-      "symbol": "CANTO",
       "traces": [
         {
           "type": "ibc",
@@ -2518,6 +2545,10 @@
           }
         }
       ],
+      "base": "ibc/47CAF2DB8C016FAC960F33BC492FD8E454593B65CC59D70FA9D9F30424F9C32F",
+      "name": "Canto",
+      "display": "canto",
+      "symbol": "CANTO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.svg"
@@ -2546,10 +2577,6 @@
         }
       ],
       "type_asset": "sdk.coin",
-      "base": "ibc/8FEFAE6AECF6E2A255585617F781F35A8D5709A545A804482A261C0C9548A9D3",
-      "name": "Carbon",
-      "display": "dswth",
-      "symbol": "SWTH",
       "traces": [
         {
           "type": "ibc",
@@ -2564,6 +2591,10 @@
           }
         }
       ],
+      "base": "ibc/8FEFAE6AECF6E2A255585617F781F35A8D5709A545A804482A261C0C9548A9D3",
+      "name": "Carbon",
+      "display": "dswth",
+      "symbol": "SWTH",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg"
@@ -2588,10 +2619,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7",
-      "name": "Cerberus",
-      "display": "crbrus",
-      "symbol": "CRBRUS",
       "traces": [
         {
           "type": "ibc",
@@ -2606,6 +2633,10 @@
           }
         }
       ],
+      "base": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7",
+      "name": "Cerberus",
+      "display": "crbrus",
+      "symbol": "CRBRUS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.svg"
@@ -2631,10 +2662,6 @@
           "exponent": 9
         }
       ],
-      "base": "ibc/7A08C6F11EF0F59EB841B9F788A87EC9F2361C7D9703157EC13D940DC53031FA",
-      "name": "Cheqd",
-      "display": "cheq",
-      "symbol": "CHEQ",
       "traces": [
         {
           "type": "ibc",
@@ -2649,6 +2676,10 @@
           }
         }
       ],
+      "base": "ibc/7A08C6F11EF0F59EB841B9F788A87EC9F2361C7D9703157EC13D940DC53031FA",
+      "name": "cheqd",
+      "display": "cheq",
+      "symbol": "CHEQ",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.svg"
@@ -2673,10 +2704,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228",
-      "name": "Chihauhau",
-      "display": "huahua",
-      "symbol": "HUAHUA",
       "traces": [
         {
           "type": "ibc",
@@ -2691,6 +2718,10 @@
           }
         }
       ],
+      "base": "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228",
+      "name": "Chihuahua",
+      "display": "huahua",
+      "symbol": "HUAHUA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg"
@@ -2715,10 +2746,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0",
-      "name": "Comdex",
-      "display": "cmdx",
-      "symbol": "CMDX",
       "traces": [
         {
           "type": "ibc",
@@ -2733,6 +2760,10 @@
           }
         }
       ],
+      "base": "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0",
+      "name": "Comdex",
+      "display": "cmdx",
+      "symbol": "CMDX",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
@@ -2757,10 +2788,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/AD4DEA52408EA07C0C9E19444EC8DA84A274A70AD2687A710EFDDEB28BB2986A",
-      "name": "Comdex",
-      "display": "harbor",
-      "symbol": "HARBOR",
       "traces": [
         {
           "type": "ibc",
@@ -2775,6 +2802,10 @@
           }
         }
       ],
+      "base": "ibc/AD4DEA52408EA07C0C9E19444EC8DA84A274A70AD2687A710EFDDEB28BB2986A",
+      "name": "Comdex",
+      "display": "harbor",
+      "symbol": "HARBOR",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg"
@@ -2799,10 +2830,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/23CA6C8D1AB2145DD13EB1E089A2E3F960DC298B468CCE034E19E5A78B61136E",
-      "name": "Comdex",
-      "display": "cmst",
-      "symbol": "CMST",
       "traces": [
         {
           "type": "ibc",
@@ -2817,6 +2844,10 @@
           }
         }
       ],
+      "base": "ibc/23CA6C8D1AB2145DD13EB1E089A2E3F960DC298B468CCE034E19E5A78B61136E",
+      "name": "Comdex",
+      "display": "cmst",
+      "symbol": "CMST",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg"
@@ -2842,10 +2873,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-      "name": "Cosmos Hub",
-      "display": "atom",
-      "symbol": "ATOM",
       "traces": [
         {
           "type": "ibc",
@@ -2860,6 +2887,10 @@
           }
         }
       ],
+      "base": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+      "name": "Cosmos Hub",
+      "display": "atom",
+      "symbol": "ATOM",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
@@ -2884,10 +2915,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/5A7C219BA5F7582B99629BA3B2A01A61BFDA0F6FD1FE95B5366F7334C4BC0580",
-      "name": "Crescent",
-      "display": "cre",
-      "symbol": "CRE",
       "traces": [
         {
           "type": "ibc",
@@ -2902,6 +2929,10 @@
           }
         }
       ],
+      "base": "ibc/5A7C219BA5F7582B99629BA3B2A01A61BFDA0F6FD1FE95B5366F7334C4BC0580",
+      "name": "Crescent",
+      "display": "cre",
+      "symbol": "CRE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.svg"
@@ -2926,10 +2957,6 @@
           "exponent": 8
         }
       ],
-      "base": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
-      "name": "Crypto.org Chain",
-      "display": "cro",
-      "symbol": "CRO",
       "traces": [
         {
           "type": "ibc",
@@ -2944,6 +2971,10 @@
           }
         }
       ],
+      "base": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+      "name": "Crypto.org Chain",
+      "display": "cro",
+      "symbol": "CRO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
@@ -2969,10 +3000,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/E09ED39F390EC51FA9F3F69BEA08B5BBE6A48B3057B2B1C3467FAAE9E58B021B",
-      "name": "Cudos",
-      "display": "cudos",
-      "symbol": "CUDOS",
       "traces": [
         {
           "type": "ibc",
@@ -2987,6 +3014,10 @@
           }
         }
       ],
+      "base": "ibc/E09ED39F390EC51FA9F3F69BEA08B5BBE6A48B3057B2B1C3467FAAE9E58B021B",
+      "name": "Cudos",
+      "display": "cudos",
+      "symbol": "CUDOS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.svg"
@@ -3011,10 +3042,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/9BCB27203424535B6230D594553F1659C77EC173E36D9CF4759E7186EE747E84",
-      "name": "Decentr",
-      "display": "dec",
-      "symbol": "DEC",
       "traces": [
         {
           "type": "ibc",
@@ -3029,6 +3056,10 @@
           }
         }
       ],
+      "base": "ibc/9BCB27203424535B6230D594553F1659C77EC173E36D9CF4759E7186EE747E84",
+      "name": "Decentr",
+      "display": "dec",
+      "symbol": "DEC",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg"
@@ -3054,10 +3085,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/EA4C0A9F72E2CEDF10D0E7A9A6A22954DB3444910DB5BE980DF59B05A46DAD1C",
-      "name": "Desmos",
-      "display": "dsm",
-      "symbol": "DSM",
       "traces": [
         {
           "type": "ibc",
@@ -3072,6 +3099,10 @@
           }
         }
       ],
+      "base": "ibc/EA4C0A9F72E2CEDF10D0E7A9A6A22954DB3444910DB5BE980DF59B05A46DAD1C",
+      "name": "Desmos",
+      "display": "dsm",
+      "symbol": "DSM",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg"
@@ -3096,10 +3127,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/307E5C96C8F60D1CBEE269A9A86C0834E1DB06F2B3788AE4F716EDB97A48B97D",
-      "name": "Dig Chain",
-      "display": "dig",
-      "symbol": "DIG",
       "traces": [
         {
           "type": "ibc",
@@ -3114,6 +3141,10 @@
           }
         }
       ],
+      "base": "ibc/307E5C96C8F60D1CBEE269A9A86C0834E1DB06F2B3788AE4F716EDB97A48B97D",
+      "name": "Dig Chain",
+      "display": "dig",
+      "symbol": "DIG",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dig/images/dig.png"
       },
@@ -3133,10 +3164,6 @@
           ]
         }
       ],
-      "base": "ibc/E27CD305D33F150369AB526AEB6646A76EC3FFB1A6CA58A663B5DE657A89D55D",
-      "name": "Dyson Protocol",
-      "display": "dys",
-      "symbol": "DYS",
       "traces": [
         {
           "type": "ibc",
@@ -3151,6 +3178,10 @@
           }
         }
       ],
+      "base": "ibc/E27CD305D33F150369AB526AEB6646A76EC3FFB1A6CA58A663B5DE657A89D55D",
+      "name": "Dyson Protocol",
+      "display": "dys",
+      "symbol": "DYS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.svg"
@@ -3174,10 +3205,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/47EE224A9B33CF0ABEAC82106E52F0F6E8D8CEC5BA80B9D9A6F55172CBB0177D",
-      "name": "Echelon",
-      "display": "echelon",
-      "symbol": "ECH",
       "traces": [
         {
           "type": "ibc",
@@ -3192,6 +3219,10 @@
           }
         }
       ],
+      "base": "ibc/47EE224A9B33CF0ABEAC82106E52F0F6E8D8CEC5BA80B9D9A6F55172CBB0177D",
+      "name": "Echelon",
+      "display": "echelon",
+      "symbol": "ECH",
       "logo_URIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg"
       },
@@ -3215,10 +3246,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/1DC495FCEFDA068A3820F903EDBD78B942FBD204D7E93D3BA2B432E9669D1A59",
-      "name": "e-Money",
-      "display": "ngm",
-      "symbol": "NGM",
       "traces": [
         {
           "type": "ibc",
@@ -3233,6 +3260,10 @@
           }
         }
       ],
+      "base": "ibc/1DC495FCEFDA068A3820F903EDBD78B942FBD204D7E93D3BA2B432E9669D1A59",
+      "name": "e-Money",
+      "display": "ngm",
+      "symbol": "NGM",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg"
@@ -3257,10 +3288,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/5973C068568365FFF40DEDCF1A1CB7582B6116B731CD31A12231AE25E20B871F",
-      "name": "e-Money",
-      "display": "eur",
-      "symbol": "EEUR",
       "traces": [
         {
           "type": "ibc",
@@ -3275,6 +3302,10 @@
           }
         }
       ],
+      "base": "ibc/5973C068568365FFF40DEDCF1A1CB7582B6116B731CD31A12231AE25E20B871F",
+      "name": "e-Money",
+      "display": "eur",
+      "symbol": "EEUR",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg"
@@ -3299,10 +3330,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/6AE98883D4D5D5FF9E50D7130F1305DA2FFA0C652D1DD9C123657C6B4EB2DF8A",
-      "name": "Evmos",
-      "display": "evmos",
-      "symbol": "EVMOS",
       "traces": [
         {
           "type": "ibc",
@@ -3317,6 +3344,10 @@
           }
         }
       ],
+      "base": "ibc/6AE98883D4D5D5FF9E50D7130F1305DA2FFA0C652D1DD9C123657C6B4EB2DF8A",
+      "name": "Evmos",
+      "display": "evmos",
+      "symbol": "EVMOS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
@@ -3341,10 +3372,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
-      "name": "Fetch.ai",
-      "display": "fet",
-      "symbol": "FET",
       "traces": [
         {
           "type": "ibc",
@@ -3359,6 +3386,10 @@
           }
         }
       ],
+      "base": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
+      "name": "Fetch.ai",
+      "display": "fet",
+      "symbol": "FET",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg"
@@ -3384,10 +3415,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/F49DE040EBA5AB2FAD5F660C2A1DDF98A68470FAE82229818BE775EBF3EE79F2",
-      "name": "Galaxy",
-      "display": "glx",
-      "symbol": "GLX",
       "traces": [
         {
           "type": "ibc",
@@ -3402,6 +3429,10 @@
           }
         }
       ],
+      "base": "ibc/F49DE040EBA5AB2FAD5F660C2A1DDF98A68470FAE82229818BE775EBF3EE79F2",
+      "name": "Galaxy",
+      "display": "glx",
+      "symbol": "GLX",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/galaxy/images/glx.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/galaxy/images/glx.svg"
@@ -3425,10 +3456,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/F16FDC11A7662B86BC0B9CE61871CBACF7C20606F95E86260FD38915184B75B4",
-      "name": "GenesisL1",
-      "display": "l1",
-      "symbol": "L1",
       "traces": [
         {
           "type": "ibc",
@@ -3443,6 +3470,10 @@
           }
         }
       ],
+      "base": "ibc/F16FDC11A7662B86BC0B9CE61871CBACF7C20606F95E86260FD38915184B75B4",
+      "name": "GenesisL1",
+      "display": "l1",
+      "symbol": "L1",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/genesisl1/images/l1.svg"
@@ -3466,10 +3497,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/E97634A40119F1898989C2A23224ED83FDD0A57EA46B3A094E287288D1672B44",
-      "name": "Gravity Bridge",
-      "display": "graviton",
-      "symbol": "GRAV",
       "traces": [
         {
           "type": "ibc",
@@ -3484,6 +3511,10 @@
           }
         }
       ],
+      "base": "ibc/E97634A40119F1898989C2A23224ED83FDD0A57EA46B3A094E287288D1672B44",
+      "name": "Gravity Bridge",
+      "display": "graviton",
+      "symbol": "GRAV",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg"
@@ -3495,6 +3526,7 @@
     },
     {
       "description": "Gravity Bridge WBTC",
+      "pretty_path": "Ethereum via Acrechain",
       "denom_units": [
         {
           "denom": "ibc/C9B0D48FD2C5B91135F118FF2484551888966590D7BDC20F6A87308DBA670796",
@@ -3508,10 +3540,6 @@
           "exponent": 8
         }
       ],
-      "base": "ibc/C9B0D48FD2C5B91135F118FF2484551888966590D7BDC20F6A87308DBA670796",
-      "name": "Ethereum (via Gravity Bridge)",
-      "display": "gwbtc",
-      "symbol": "WBTC.grv",
       "traces": [
         {
           "type": "bridge",
@@ -3542,6 +3570,10 @@
           }
         }
       ],
+      "base": "ibc/C9B0D48FD2C5B91135F118FF2484551888966590D7BDC20F6A87308DBA670796",
+      "name": "Gravity Bridge",
+      "display": "gwbtc",
+      "symbol": "WBTC.grv",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.svg"
@@ -3553,6 +3585,7 @@
     },
     {
       "description": "Gravity Bridge WETH",
+      "pretty_path": "Ethereum via Acrechain",
       "denom_units": [
         {
           "denom": "ibc/65381C5F3FD21442283D56925E62EA524DED8B6927F0FF94E21E0020954C40B5",
@@ -3566,10 +3599,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/65381C5F3FD21442283D56925E62EA524DED8B6927F0FF94E21E0020954C40B5",
-      "name": "Ethereum (via Gravity Bridge)",
-      "display": "gweth",
-      "symbol": "wETH.grv",
       "traces": [
         {
           "type": "wrapped",
@@ -3600,6 +3629,10 @@
           }
         }
       ],
+      "base": "ibc/65381C5F3FD21442283D56925E62EA524DED8B6927F0FF94E21E0020954C40B5",
+      "name": "Gravity Bridge",
+      "display": "gweth",
+      "symbol": "wETH.grv",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.svg"
@@ -3612,6 +3645,7 @@
     },
     {
       "description": "Gravity Bridge USDC",
+      "pretty_path": "Ethereum via Acrechain",
       "denom_units": [
         {
           "denom": "ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E",
@@ -3625,10 +3659,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E",
-      "name": "Ethereum (via Gravity Bridge)",
-      "display": "gusdc",
-      "symbol": "USDC.grv",
       "traces": [
         {
           "type": "synthetic",
@@ -3659,6 +3689,10 @@
           }
         }
       ],
+      "base": "ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E",
+      "name": "Gravity Bridge",
+      "display": "gusdc",
+      "symbol": "USDC.grv",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.svg"
@@ -3670,6 +3704,7 @@
     },
     {
       "description": "Gravity Bridge DAI",
+      "pretty_path": "Ethereum via Acrechain",
       "denom_units": [
         {
           "denom": "ibc/F292A17CF920E3462C816CBE6B042E779F676CAB59096904C4C1C966413E3DF5",
@@ -3683,10 +3718,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/F292A17CF920E3462C816CBE6B042E779F676CAB59096904C4C1C966413E3DF5",
-      "name": "Ethereum (via Gravity Bridge)",
-      "display": "gdai",
-      "symbol": "DAI.grv",
       "traces": [
         {
           "type": "synthetic",
@@ -3717,6 +3748,10 @@
           }
         }
       ],
+      "base": "ibc/F292A17CF920E3462C816CBE6B042E779F676CAB59096904C4C1C966413E3DF5",
+      "name": "Gravity Bridge",
+      "display": "gdai",
+      "symbol": "DAI.grv",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.svg"
@@ -3728,6 +3763,7 @@
     },
     {
       "description": "Gravity Bridge USDT",
+      "pretty_path": "Ethereum via Acrechain",
       "denom_units": [
         {
           "denom": "ibc/71B441E27F1BBB44DD0891BCD370C2794D404D60A4FFE5AECCD9B1E28BC89805",
@@ -3741,10 +3777,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/71B441E27F1BBB44DD0891BCD370C2794D404D60A4FFE5AECCD9B1E28BC89805",
-      "name": "Ethereum (via Gravity Bridge)",
-      "display": "gusdt",
-      "symbol": "USDT.grv",
       "traces": [
         {
           "type": "synthetic",
@@ -3775,6 +3807,10 @@
           }
         }
       ],
+      "base": "ibc/71B441E27F1BBB44DD0891BCD370C2794D404D60A4FFE5AECCD9B1E28BC89805",
+      "name": "Gravity Bridge",
+      "display": "gusdt",
+      "symbol": "USDT.grv",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.svg"
@@ -3799,10 +3835,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/F3FF7A84A73B62921538642F9797C423D2B4C4ACB3C7FCFFCE7F12AA69909C4B",
-      "name": "Ixo",
-      "display": "ixo",
-      "symbol": "IXO",
       "traces": [
         {
           "type": "ibc",
@@ -3817,6 +3849,10 @@
           }
         }
       ],
+      "base": "ibc/F3FF7A84A73B62921538642F9797C423D2B4C4ACB3C7FCFFCE7F12AA69909C4B",
+      "name": "ixo",
+      "display": "ixo",
+      "symbol": "IXO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
@@ -3841,10 +3877,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/92B223EBFA74DB99BEA92B23DEAA6050734FEEAABB84689CB8E1AE8F9C9F9AF4",
-      "name": "Imversed",
-      "display": "imv",
-      "symbol": "IMV",
       "traces": [
         {
           "type": "ibc",
@@ -3859,6 +3891,10 @@
           }
         }
       ],
+      "base": "ibc/92B223EBFA74DB99BEA92B23DEAA6050734FEEAABB84689CB8E1AE8F9C9F9AF4",
+      "name": "Imversed",
+      "display": "imv",
+      "symbol": "IMV",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/imversed/images/imversed.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/imversed/images/imversed.svg"
@@ -3883,10 +3919,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
-      "name": "Injective",
-      "display": "INJ",
-      "symbol": "INJ",
       "traces": [
         {
           "type": "ibc",
@@ -3901,6 +3933,10 @@
           }
         }
       ],
+      "base": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
+      "name": "Injective",
+      "display": "INJ",
+      "symbol": "INJ",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg"
@@ -3925,10 +3961,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0",
-      "name": "IRISNet",
-      "display": "iris",
-      "symbol": "IRIS",
       "traces": [
         {
           "type": "ibc",
@@ -3943,6 +3975,10 @@
           }
         }
       ],
+      "base": "ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0",
+      "name": "IRISnet",
+      "display": "iris",
+      "symbol": "IRIS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg"
@@ -3968,10 +4004,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/8E697BDABE97ACE8773C6DF7402B2D1D5104DD1EEABE12608E3469B7F64C15BA",
-      "name": "Jackal",
-      "display": "jkl",
-      "symbol": "JKL",
       "traces": [
         {
           "type": "ibc",
@@ -3986,6 +4018,10 @@
           }
         }
       ],
+      "base": "ibc/8E697BDABE97ACE8773C6DF7402B2D1D5104DD1EEABE12608E3469B7F64C15BA",
+      "name": "Jackal",
+      "display": "jkl",
+      "symbol": "JKL",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/jackal/images/jkl.svg"
@@ -3997,6 +4033,11 @@
     },
     {
       "description": "The native token of JUNO Chain",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
@@ -4010,10 +4051,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
-      "name": "Junø",
-      "display": "juno",
-      "symbol": "JUNO",
       "traces": [
         {
           "type": "ibc",
@@ -4028,6 +4065,10 @@
           }
         }
       ],
+      "base": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
+      "name": "Juno",
+      "display": "juno",
+      "symbol": "JUNO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
@@ -4039,6 +4080,11 @@
     },
     {
       "description": "The native token cw20 for Marble DAO on Juno Chain",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/F6B691D5F7126579DDC87357B09D653B47FDCE0A3383FF33C8D8B544FE29A8A6",
@@ -4054,10 +4100,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl",
-      "base": "ibc/F6B691D5F7126579DDC87357B09D653B47FDCE0A3383FF33C8D8B544FE29A8A6",
-      "name": "Junø",
-      "display": "marble",
-      "symbol": "MARBLE",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4074,6 +4116,10 @@
           }
         }
       ],
+      "base": "ibc/F6B691D5F7126579DDC87357B09D653B47FDCE0A3383FF33C8D8B544FE29A8A6",
+      "name": "Juno",
+      "display": "marble",
+      "symbol": "MARBLE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.svg"
@@ -4085,6 +4131,11 @@
     },
     {
       "description": "The native token cw20 for Neta on Juno Chain",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/297C64CC42B5A8D8F82FE2EBE208A6FE8F94B86037FA28C4529A23701C228F7A",
@@ -4100,10 +4151,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
-      "base": "ibc/297C64CC42B5A8D8F82FE2EBE208A6FE8F94B86037FA28C4529A23701C228F7A",
-      "name": "Junø",
-      "display": "neta",
-      "symbol": "NETA",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4120,6 +4167,10 @@
           }
         }
       ],
+      "base": "ibc/297C64CC42B5A8D8F82FE2EBE208A6FE8F94B86037FA28C4529A23701C228F7A",
+      "name": "Juno",
+      "display": "neta",
+      "symbol": "NETA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/neta.svg"
@@ -4131,6 +4182,11 @@
     },
     {
       "description": "Hope Galaxy is an NFT collection based on its own native Token $HOPE, a cw20 token on Juno chain.",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C2A2E9CA95DDD4828B75124B5E27B8401C7D8493BC48353D418CBFC04565899B",
@@ -4146,10 +4202,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z",
-      "base": "ibc/C2A2E9CA95DDD4828B75124B5E27B8401C7D8493BC48353D418CBFC04565899B",
-      "name": "Junø",
-      "display": "hope",
-      "symbol": "HOPE",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4166,6 +4218,10 @@
           }
         }
       ],
+      "base": "ibc/C2A2E9CA95DDD4828B75124B5E27B8401C7D8493BC48353D418CBFC04565899B",
+      "name": "Juno",
+      "display": "hope",
+      "symbol": "HOPE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg"
@@ -4177,6 +4233,11 @@
     },
     {
       "description": "Racoon aims to simplify accessibility to AI, NFTs and Gambling on the Cosmos Ecosystem",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/6BDB4C8CCD45033F9604E4B93ED395008A753E01EECD6992E7D1EA23D9D3B788",
@@ -4192,10 +4253,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa",
-      "base": "ibc/6BDB4C8CCD45033F9604E4B93ED395008A753E01EECD6992E7D1EA23D9D3B788",
-      "name": "Junø",
-      "display": "rac",
-      "symbol": "RAC",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4212,6 +4269,10 @@
           }
         }
       ],
+      "base": "ibc/6BDB4C8CCD45033F9604E4B93ED395008A753E01EECD6992E7D1EA23D9D3B788",
+      "name": "Juno",
+      "display": "rac",
+      "symbol": "RAC",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/rac.svg"
@@ -4223,6 +4284,11 @@
     },
     {
       "description": "The native token of Marble DEX on Juno Chain",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/DB9755CB6FE55192948AE074D18FA815E1429D3D374D5BDA8D89623C6CF235C3",
@@ -4238,10 +4304,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq",
-      "base": "ibc/DB9755CB6FE55192948AE074D18FA815E1429D3D374D5BDA8D89623C6CF235C3",
-      "name": "Junø",
-      "display": "block",
-      "symbol": "BLOCK",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4258,6 +4320,10 @@
           }
         }
       ],
+      "base": "ibc/DB9755CB6FE55192948AE074D18FA815E1429D3D374D5BDA8D89623C6CF235C3",
+      "name": "Juno",
+      "display": "block",
+      "symbol": "BLOCK",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/block.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/block.svg"
@@ -4268,6 +4334,11 @@
     },
     {
       "description": "The DAO token to build consensus among Hong Kong People",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/52E12CF5CA2BB903D84F5298B4BFD725D66CAB95E09AA4FC75B2904CA5485FEB",
@@ -4280,10 +4351,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49",
-      "base": "ibc/52E12CF5CA2BB903D84F5298B4BFD725D66CAB95E09AA4FC75B2904CA5485FEB",
-      "name": "Junø",
-      "display": "dhk",
-      "symbol": "DHK",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4300,6 +4367,10 @@
           }
         }
       ],
+      "base": "ibc/52E12CF5CA2BB903D84F5298B4BFD725D66CAB95E09AA4FC75B2904CA5485FEB",
+      "name": "Juno",
+      "display": "dhk",
+      "symbol": "DHK",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/dhk.svg"
@@ -4310,6 +4381,11 @@
     },
     {
       "description": "Token governance for Junoswap",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/00B6E60AD3D65CBEF5579AC8AF609527C0B57535B6E32D96C80A735344FD9DCC",
@@ -4325,10 +4401,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g",
-      "base": "ibc/00B6E60AD3D65CBEF5579AC8AF609527C0B57535B6E32D96C80A735344FD9DCC",
-      "name": "Junø",
-      "display": "raw",
-      "symbol": "RAW",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4345,6 +4417,10 @@
           }
         }
       ],
+      "base": "ibc/00B6E60AD3D65CBEF5579AC8AF609527C0B57535B6E32D96C80A735344FD9DCC",
+      "name": "Juno",
+      "display": "raw",
+      "symbol": "RAW",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/raw.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/raw.svg"
@@ -4356,6 +4432,11 @@
     },
     {
       "description": "Profit sharing token for Another.Software validator. Hold and receive dividends from Another.Software validator commissions!",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/AA1C80225BCA7B32ED1FC6ABF8B8E899BEB48ECDB4B417FD69873C6D715F97E7",
@@ -4371,10 +4452,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w",
-      "base": "ibc/AA1C80225BCA7B32ED1FC6ABF8B8E899BEB48ECDB4B417FD69873C6D715F97E7",
-      "name": "Junø",
-      "display": "asvt",
-      "symbol": "ASVT",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4391,6 +4468,10 @@
           }
         }
       ],
+      "base": "ibc/AA1C80225BCA7B32ED1FC6ABF8B8E899BEB48ECDB4B417FD69873C6D715F97E7",
+      "name": "Juno",
+      "display": "asvt",
+      "symbol": "ASVT",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/asvt.png"
       },
@@ -4400,6 +4481,11 @@
     },
     {
       "description": "DAO dedicated to building tools on the Juno Network",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/0CB9DB3441D0D50F35699DEE22B9C965487E83FB2D9F483D1CC5CA34E856C484",
@@ -4415,10 +4501,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3",
-      "base": "ibc/0CB9DB3441D0D50F35699DEE22B9C965487E83FB2D9F483D1CC5CA34E856C484",
-      "name": "Junø",
-      "display": "joe",
-      "symbol": "JOE",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4435,6 +4517,10 @@
           }
         }
       ],
+      "base": "ibc/0CB9DB3441D0D50F35699DEE22B9C965487E83FB2D9F483D1CC5CA34E856C484",
+      "name": "Juno",
+      "display": "joe",
+      "symbol": "JOE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/joe.png"
       },
@@ -4444,6 +4530,11 @@
     },
     {
       "description": "DeFi gaming platform built on Juno",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/52C57FCA7D6854AA178E7A183DDBE4EF322B904B1D719FC485F6FFBC1F72A19E",
@@ -4459,10 +4550,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
-      "base": "ibc/52C57FCA7D6854AA178E7A183DDBE4EF322B904B1D719FC485F6FFBC1F72A19E",
-      "name": "Junø",
-      "display": "glto",
-      "symbol": "GLTO",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4479,6 +4566,10 @@
           }
         }
       ],
+      "base": "ibc/52C57FCA7D6854AA178E7A183DDBE4EF322B904B1D719FC485F6FFBC1F72A19E",
+      "name": "Juno",
+      "display": "glto",
+      "symbol": "GLTO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/glto.svg"
@@ -4489,6 +4580,11 @@
     },
     {
       "description": "Gelotto Year 1 Grand Prize Token",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/7C781B4C2082CD62129A972D47486D78EC17155C299270E3C89348EA026BEAF8",
@@ -4504,10 +4600,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh",
-      "base": "ibc/7C781B4C2082CD62129A972D47486D78EC17155C299270E3C89348EA026BEAF8",
-      "name": "Junø",
-      "display": "gkey",
-      "symbol": "GKEY",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4524,6 +4616,10 @@
           }
         }
       ],
+      "base": "ibc/7C781B4C2082CD62129A972D47486D78EC17155C299270E3C89348EA026BEAF8",
+      "name": "Juno",
+      "display": "gkey",
+      "symbol": "GKEY",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/gkey.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/gkey.svg"
@@ -4534,6 +4630,11 @@
     },
     {
       "description": "Staking derivative seJUNO for staked JUNO",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C6B6BFCB6EE49A7CAB1A7E7B021DE35B99D525AC660844952F0F6C78DCB2A57B",
@@ -4549,10 +4650,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv",
-      "base": "ibc/C6B6BFCB6EE49A7CAB1A7E7B021DE35B99D525AC660844952F0F6C78DCB2A57B",
-      "name": "Junø",
-      "display": "sejuno",
-      "symbol": "SEJUNO",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4569,6 +4666,10 @@
           }
         }
       ],
+      "base": "ibc/C6B6BFCB6EE49A7CAB1A7E7B021DE35B99D525AC660844952F0F6C78DCB2A57B",
+      "name": "Juno",
+      "display": "sejuno",
+      "symbol": "SEJUNO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sejuno.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sejuno.svg"
@@ -4580,6 +4681,11 @@
     },
     {
       "description": "Staking derivative bJUNO for staked JUNO",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C2DF5C3949CA835B221C575625991F09BAB4E48FB9C11A4EE357194F736111E3",
@@ -4595,10 +4701,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3",
-      "base": "ibc/C2DF5C3949CA835B221C575625991F09BAB4E48FB9C11A4EE357194F736111E3",
-      "name": "Junø",
-      "display": "bjuno",
-      "symbol": "BJUNO",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4615,6 +4717,10 @@
           }
         }
       ],
+      "base": "ibc/C2DF5C3949CA835B221C575625991F09BAB4E48FB9C11A4EE357194F736111E3",
+      "name": "Juno",
+      "display": "bjuno",
+      "symbol": "BJUNO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bjuno.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bjuno.svg"
@@ -4626,6 +4732,11 @@
     },
     {
       "description": "Solarbank DAO Governance Token for speeding up the shift to renewable and green energy",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C3FC4DED273E7D1DD2E7BAA3317EC9A53CD3252B577AA33DC00D9DF2BDF3ED5C",
@@ -4641,10 +4752,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse",
-      "base": "ibc/C3FC4DED273E7D1DD2E7BAA3317EC9A53CD3252B577AA33DC00D9DF2BDF3ED5C",
-      "name": "Junø",
-      "display": "solar",
-      "symbol": "SOLAR",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4661,6 +4768,10 @@
           }
         }
       ],
+      "base": "ibc/C3FC4DED273E7D1DD2E7BAA3317EC9A53CD3252B577AA33DC00D9DF2BDF3ED5C",
+      "name": "Juno",
+      "display": "solar",
+      "symbol": "SOLAR",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/solar.svg"
@@ -4671,6 +4782,11 @@
     },
     {
       "description": "StakeEasy governance token",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/18A676A074F73B9B42DA4F9DFC8E5AEF334C9A6636DDEC8D34682F52F1DECDF6",
@@ -4686,10 +4802,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf",
-      "base": "ibc/18A676A074F73B9B42DA4F9DFC8E5AEF334C9A6636DDEC8D34682F52F1DECDF6",
-      "name": "Junø",
-      "display": "seasy",
-      "symbol": "SEASY",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4706,6 +4818,10 @@
           }
         }
       ],
+      "base": "ibc/18A676A074F73B9B42DA4F9DFC8E5AEF334C9A6636DDEC8D34682F52F1DECDF6",
+      "name": "Juno",
+      "display": "seasy",
+      "symbol": "SEASY",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/seasy.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/seasy.svg"
@@ -4717,6 +4833,11 @@
     },
     {
       "description": "The native token cw20 for MuseDAO on Juno Chain",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/6B982170CE024689E8DD0E7555B129B488005130D4EDA426733D552D10B36D8F",
@@ -4732,10 +4853,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3",
-      "base": "ibc/6B982170CE024689E8DD0E7555B129B488005130D4EDA426733D552D10B36D8F",
-      "name": "Junø",
-      "display": "muse",
-      "symbol": "MUSE",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4752,6 +4869,10 @@
           }
         }
       ],
+      "base": "ibc/6B982170CE024689E8DD0E7555B129B488005130D4EDA426733D552D10B36D8F",
+      "name": "Juno",
+      "display": "muse",
+      "symbol": "MUSE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/muse.png"
       },
@@ -4761,6 +4882,11 @@
     },
     {
       "description": "The native token cw20 for Fanfury on Juno Chain",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/7CE5F388D661D82A0774E47B5129DA51CC7129BD1A70B5FA6BCEBB5B0A2FAEAF",
@@ -4776,10 +4902,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz",
-      "base": "ibc/7CE5F388D661D82A0774E47B5129DA51CC7129BD1A70B5FA6BCEBB5B0A2FAEAF",
-      "name": "Junø",
-      "display": "fury",
-      "symbol": "FURY",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4796,6 +4918,10 @@
           }
         }
       ],
+      "base": "ibc/7CE5F388D661D82A0774E47B5129DA51CC7129BD1A70B5FA6BCEBB5B0A2FAEAF",
+      "name": "Juno",
+      "display": "fury",
+      "symbol": "FURY",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/fanfury.png"
       },
@@ -4806,6 +4932,11 @@
     },
     {
       "description": "The native token cw20 for PHMN on Juno Chain",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
@@ -4821,10 +4952,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
-      "base": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
-      "name": "Junø",
-      "display": "phmn",
-      "symbol": "PHMN",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4841,6 +4968,10 @@
           }
         }
       ],
+      "base": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B",
+      "name": "Juno",
+      "display": "phmn",
+      "symbol": "PHMN",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/phmn.svg"
@@ -4852,6 +4983,11 @@
     },
     {
       "description": "The native token cw20 for Hopers on Juno Chain",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/D3ADAF73F84CDF205BCB72C142FDAEEA2C612AB853CEE6D6C06F184FA38B1099",
@@ -4867,10 +5003,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n",
-      "base": "ibc/D3ADAF73F84CDF205BCB72C142FDAEEA2C612AB853CEE6D6C06F184FA38B1099",
-      "name": "Junø",
-      "display": "hopers",
-      "symbol": "HOPERS",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4887,6 +5019,10 @@
           }
         }
       ],
+      "base": "ibc/D3ADAF73F84CDF205BCB72C142FDAEEA2C612AB853CEE6D6C06F184FA38B1099",
+      "name": "Juno",
+      "display": "hopers",
+      "symbol": "HOPERS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.svg"
@@ -4898,6 +5034,11 @@
     },
     {
       "description": "WYND DAO Governance Token",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/2FBAC4BF296D7844796844B35978E5899984BA5A6314B2DD8F83C215550010B3",
@@ -4913,10 +5054,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9",
-      "base": "ibc/2FBAC4BF296D7844796844B35978E5899984BA5A6314B2DD8F83C215550010B3",
-      "name": "Junø",
-      "display": "wynd",
-      "symbol": "WYND",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4933,6 +5070,10 @@
           }
         }
       ],
+      "base": "ibc/2FBAC4BF296D7844796844B35978E5899984BA5A6314B2DD8F83C215550010B3",
+      "name": "Juno",
+      "display": "wynd",
+      "symbol": "WYND",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wynd.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/wynd.svg"
@@ -4943,6 +5084,11 @@
     },
     {
       "description": "nRide Token",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C",
@@ -4958,10 +5104,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
-      "base": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C",
-      "name": "Junø",
-      "display": "nride",
-      "symbol": "NRIDE",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -4978,6 +5120,10 @@
           }
         }
       ],
+      "base": "ibc/E750D31033DC1CF4A044C3AA0A8117401316DC918FBEBC4E3D34F91B09D5F54C",
+      "name": "Juno",
+      "display": "nride",
+      "symbol": "NRIDE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/nride.svg"
@@ -4988,6 +5134,11 @@
     },
     {
       "description": "Signal Art and Gaming on Juno",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/4BDADBEDA31899036AB286E9901116496A9D85FB87B35A408C9D67C0DCAC660A",
@@ -5003,10 +5154,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k",
-      "base": "ibc/4BDADBEDA31899036AB286E9901116496A9D85FB87B35A408C9D67C0DCAC660A",
-      "name": "Junø",
-      "display": "sgnl",
-      "symbol": "SGNL",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -5023,6 +5170,10 @@
           }
         }
       ],
+      "base": "ibc/4BDADBEDA31899036AB286E9901116496A9D85FB87B35A408C9D67C0DCAC660A",
+      "name": "Juno",
+      "display": "sgnl",
+      "symbol": "SGNL",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sgnl.png"
       },
@@ -5032,6 +5183,11 @@
     },
     {
       "description": "RED",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/05458E0F3E1A0C8E34B9F5A291B4D306B230F4BA0EF32B86411F95081A0B5DA0",
@@ -5047,10 +5203,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za",
-      "base": "ibc/05458E0F3E1A0C8E34B9F5A291B4D306B230F4BA0EF32B86411F95081A0B5DA0",
-      "name": "Junø",
-      "display": "red",
-      "symbol": "RED",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -5067,6 +5219,10 @@
           }
         }
       ],
+      "base": "ibc/05458E0F3E1A0C8E34B9F5A291B4D306B230F4BA0EF32B86411F95081A0B5DA0",
+      "name": "Juno",
+      "display": "red",
+      "symbol": "RED",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/red.png"
       },
@@ -5076,6 +5232,11 @@
     },
     {
       "description": "BLUE",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/1F0CFBE9934E06C089589EE9AE81C841BD5B1ED802E70914F1A9A13F309878A5",
@@ -5091,10 +5252,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7",
-      "base": "ibc/1F0CFBE9934E06C089589EE9AE81C841BD5B1ED802E70914F1A9A13F309878A5",
-      "name": "Junø",
-      "display": "blue",
-      "symbol": "BLUE",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -5111,6 +5268,10 @@
           }
         }
       ],
+      "base": "ibc/1F0CFBE9934E06C089589EE9AE81C841BD5B1ED802E70914F1A9A13F309878A5",
+      "name": "Juno",
+      "display": "blue",
+      "symbol": "BLUE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/blue.png"
       },
@@ -5120,6 +5281,11 @@
     },
     {
       "description": "Utility token of Howl.social, an on chain micro-blogging platform on Juno",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/36FBE58A4C388A53F3A19CA0AD8A7955C2AFC19C14E56767732ADE5CFA75BEC7",
@@ -5135,10 +5301,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz",
-      "base": "ibc/36FBE58A4C388A53F3A19CA0AD8A7955C2AFC19C14E56767732ADE5CFA75BEC7",
-      "name": "Junø",
-      "display": "howl",
-      "symbol": "HOWL",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -5155,6 +5317,10 @@
           }
         }
       ],
+      "base": "ibc/36FBE58A4C388A53F3A19CA0AD8A7955C2AFC19C14E56767732ADE5CFA75BEC7",
+      "name": "Juno",
+      "display": "howl",
+      "symbol": "HOWL",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/howl.png"
       },
@@ -5164,6 +5330,11 @@
     },
     {
       "description": "A community meme token with a fantasy fiction storyline and comic based NFTs on Juno",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/758A759BD24DD768B66FE3C8087AEF21B337B45FB7B359D2E9624B21507C1B82",
@@ -5179,10 +5350,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa",
-      "base": "ibc/758A759BD24DD768B66FE3C8087AEF21B337B45FB7B359D2E9624B21507C1B82",
-      "name": "Junø",
-      "display": "catom",
-      "symbol": "CATOM",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -5199,6 +5366,10 @@
           }
         }
       ],
+      "base": "ibc/758A759BD24DD768B66FE3C8087AEF21B337B45FB7B359D2E9624B21507C1B82",
+      "name": "Juno",
+      "display": "catom",
+      "symbol": "CATOM",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/catom.png"
       },
@@ -5208,6 +5379,11 @@
     },
     {
       "description": "Governance and utility token for the Junø Apes NFT platform on Juno",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/176DD560277BB0BD676260BE02EBAB697725CA85144D8A2BF286C6B5323DB5FE",
@@ -5223,10 +5399,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps",
-      "base": "ibc/176DD560277BB0BD676260BE02EBAB697725CA85144D8A2BF286C6B5323DB5FE",
-      "name": "Junø",
-      "display": "jape",
-      "symbol": "JAPE",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -5243,6 +5415,10 @@
           }
         }
       ],
+      "base": "ibc/176DD560277BB0BD676260BE02EBAB697725CA85144D8A2BF286C6B5323DB5FE",
+      "name": "Juno",
+      "display": "jape",
+      "symbol": "JAPE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/jape.png"
       },
@@ -5252,6 +5428,11 @@
     },
     {
       "description": "Inspired by Bonk. A community project to celebrate the settlers of JunoNetwork.",
+      "additional_information": [
+        {
+          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/4F24D904BAB5FFBD3524F2DE3EC3C7A9E687A2408D9A985E57B356D9FA9201C6",
@@ -5267,10 +5448,6 @@
       ],
       "type_asset": "cw20",
       "address": "juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x",
-      "base": "ibc/4F24D904BAB5FFBD3524F2DE3EC3C7A9E687A2408D9A985E57B356D9FA9201C6",
-      "name": "Junø",
-      "display": "fox",
-      "symbol": "FOX",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -5287,6 +5464,10 @@
           }
         }
       ],
+      "base": "ibc/4F24D904BAB5FFBD3524F2DE3EC3C7A9E687A2408D9A985E57B356D9FA9201C6",
+      "name": "Juno",
+      "display": "fox",
+      "symbol": "FOX",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/fox.png"
       },
@@ -5309,10 +5490,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/57AA1A70A4BC9769C525EBF6386F7A21536E04A79D62E1981EFCEF9428EBB205",
-      "name": "Kava",
-      "display": "kava",
-      "symbol": "KAVA",
       "traces": [
         {
           "type": "ibc",
@@ -5327,6 +5504,10 @@
           }
         }
       ],
+      "base": "ibc/57AA1A70A4BC9769C525EBF6386F7A21536E04A79D62E1981EFCEF9428EBB205",
+      "name": "Kava",
+      "display": "kava",
+      "symbol": "KAVA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg"
@@ -5351,10 +5532,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/D6C28E07F7343360AC41E15DDD44D79701DDCA2E0C2C41279739C8D4AE5264BC",
-      "name": "Kava",
-      "display": "HARD",
-      "symbol": "HARD",
       "traces": [
         {
           "type": "ibc",
@@ -5369,6 +5546,10 @@
           }
         }
       ],
+      "base": "ibc/D6C28E07F7343360AC41E15DDD44D79701DDCA2E0C2C41279739C8D4AE5264BC",
+      "name": "Kava",
+      "display": "HARD",
+      "symbol": "HARD",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/hard.svg"
@@ -5394,10 +5575,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/70CF1A54E23EA4E480DEDA9E12082D3FD5684C3483CBDCE190C5C807227688C5",
-      "name": "Kava",
-      "display": "SWP",
-      "symbol": "SWP",
       "traces": [
         {
           "type": "ibc",
@@ -5412,6 +5589,10 @@
           }
         }
       ],
+      "base": "ibc/70CF1A54E23EA4E480DEDA9E12082D3FD5684C3483CBDCE190C5C807227688C5",
+      "name": "Kava",
+      "display": "SWP",
+      "symbol": "SWP",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/swp.svg"
@@ -5437,10 +5618,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/C78F65E1648A3DFE0BAEB6C4CDA69CC2A75437F1793C0E6386DFDA26393790AE",
-      "name": "Kava",
-      "display": "USDX",
-      "symbol": "USDX",
       "traces": [
         {
           "type": "ibc",
@@ -5455,6 +5632,10 @@
           }
         }
       ],
+      "base": "ibc/C78F65E1648A3DFE0BAEB6C4CDA69CC2A75437F1793C0E6386DFDA26393790AE",
+      "name": "Kava",
+      "display": "USDX",
+      "symbol": "USDX",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/usdx.svg"
@@ -5480,10 +5661,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/B547DC9B897E7C3AA5B824696110B8E3D2C31E3ED3F02FF363DCBAD82457E07E",
-      "name": "Ki",
-      "display": "xki",
-      "symbol": "XKI",
       "traces": [
         {
           "type": "ibc",
@@ -5498,6 +5675,10 @@
           }
         }
       ],
+      "base": "ibc/B547DC9B897E7C3AA5B824696110B8E3D2C31E3ED3F02FF363DCBAD82457E07E",
+      "name": "Ki",
+      "display": "xki",
+      "symbol": "XKI",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg"
@@ -5524,10 +5705,6 @@
       ],
       "type_asset": "cw20",
       "address": "ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy",
-      "base": "ibc/AD185F62399F770CCCE8A36A180A77879FF6C26A0398BD3D2A74E087B0BFA121",
-      "name": "Ki",
-      "display": "lvn",
-      "symbol": "LVN",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -5544,6 +5721,10 @@
           }
         }
       ],
+      "base": "ibc/AD185F62399F770CCCE8A36A180A77879FF6C26A0398BD3D2A74E087B0BFA121",
+      "name": "Ki",
+      "display": "lvn",
+      "symbol": "LVN",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/lvn.png"
       },
@@ -5567,10 +5748,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/346786EA82F41FE55FAD14BF69AD8BA9B36985406E43F3CB23E6C45A285A9593",
-      "name": "Konstellation",
-      "display": "darc",
-      "symbol": "DARC",
       "traces": [
         {
           "type": "ibc",
@@ -5585,6 +5762,10 @@
           }
         }
       ],
+      "base": "ibc/346786EA82F41FE55FAD14BF69AD8BA9B36985406E43F3CB23E6C45A285A9593",
+      "name": "Konstellation",
+      "display": "darc",
+      "symbol": "DARC",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg"
@@ -5609,10 +5790,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/BB6BCDB515050BAE97516111873CCD7BCF1FD0CCB723CC12F3C4F704D6C646CE",
-      "name": "Kujira",
-      "display": "kuji",
-      "symbol": "KUJI",
       "traces": [
         {
           "type": "ibc",
@@ -5627,6 +5804,10 @@
           }
         }
       ],
+      "base": "ibc/BB6BCDB515050BAE97516111873CCD7BCF1FD0CCB723CC12F3C4F704D6C646CE",
+      "name": "Kujira",
+      "display": "kuji",
+      "symbol": "KUJI",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
@@ -5651,10 +5832,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/44492EAB24B72E3FB59B9FA619A22337FB74F95D8808FE6BC78CC0E6C18DC2EC",
-      "name": "Kujira",
-      "display": "USK",
-      "symbol": "USK",
       "traces": [
         {
           "type": "ibc",
@@ -5669,6 +5846,10 @@
           }
         }
       ],
+      "base": "ibc/44492EAB24B72E3FB59B9FA619A22337FB74F95D8808FE6BC78CC0E6C18DC2EC",
+      "name": "Kujira",
+      "display": "USK",
+      "symbol": "USK",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.svg"
@@ -5694,10 +5875,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/80825E8F04B12D914ABEADB1F4D39C04755B12C8402F6876EE3168450C0A90BB",
-      "name": "Lambda",
-      "display": "lamb",
-      "symbol": "LAMB",
       "traces": [
         {
           "type": "ibc",
@@ -5712,6 +5889,10 @@
           }
         }
       ],
+      "base": "ibc/80825E8F04B12D914ABEADB1F4D39C04755B12C8402F6876EE3168450C0A90BB",
+      "name": "Lambda",
+      "display": "lamb",
+      "symbol": "LAMB",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.svg"
@@ -5736,10 +5917,6 @@
           "exponent": 9
         }
       ],
-      "base": "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525",
-      "name": "LikeCoin",
-      "display": "like",
-      "symbol": "LIKE",
       "traces": [
         {
           "type": "ibc",
@@ -5754,6 +5931,10 @@
           }
         }
       ],
+      "base": "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525",
+      "name": "LikeCoin",
+      "display": "like",
+      "symbol": "LIKE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg"
@@ -5779,10 +5960,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/FFA652599C77E853F017193E36B5AB2D4D9AFC4B54721A74904F80C9236BF3B7",
-      "name": "LumenX",
-      "display": "lumen",
-      "symbol": "LUMEN",
       "traces": [
         {
           "type": "ibc",
@@ -5797,6 +5974,10 @@
           }
         }
       ],
+      "base": "ibc/FFA652599C77E853F017193E36B5AB2D4D9AFC4B54721A74904F80C9236BF3B7",
+      "name": "LumenX",
+      "display": "lumen",
+      "symbol": "LUMEN",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.png"
       },
@@ -5819,10 +6000,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/8A34AF0C1943FD0DFCDE9ADBF0B2C9959C45E87E6088EA2FC6ADACD59261B8A2",
-      "name": "Lum Network",
-      "display": "lum",
-      "symbol": "LUM",
       "traces": [
         {
           "type": "ibc",
@@ -5837,6 +6014,10 @@
           }
         }
       ],
+      "base": "ibc/8A34AF0C1943FD0DFCDE9ADBF0B2C9959C45E87E6088EA2FC6ADACD59261B8A2",
+      "name": "Lum Network",
+      "display": "lum",
+      "symbol": "LUM",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.svg"
@@ -5861,10 +6042,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
-      "name": "Mars",
-      "display": "mars",
-      "symbol": "MARS",
       "traces": [
         {
           "type": "ibc",
@@ -5879,6 +6056,10 @@
           }
         }
       ],
+      "base": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
+      "name": "Mars Hub",
+      "display": "mars",
+      "symbol": "MARS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token.svg"
@@ -5903,10 +6084,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/01E94A5FF29B8DDEFC86F412CC3927F7330E9B523CC63A6194B1108F5276025C",
-      "name": "Medas Digital Network",
-      "display": "medas",
-      "symbol": "MEDAS",
       "traces": [
         {
           "type": "ibc",
@@ -5921,12 +6098,17 @@
           }
         }
       ],
+      "base": "ibc/01E94A5FF29B8DDEFC86F412CC3927F7330E9B523CC63A6194B1108F5276025C",
+      "name": "Medas Digital Network",
+      "display": "medas",
+      "symbol": "MEDAS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.svg"
       },
       "keywords": [
-        "Native"
+        "Native",
+        "medas"
       ]
     },
     {
@@ -5944,10 +6126,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/67C89B8B0A70C08F093C909A4DD996DD10E0494C87E28FD9A551697BF173D4CA",
-      "name": "MEME",
-      "display": "meme",
-      "symbol": "MEME",
       "traces": [
         {
           "type": "ibc",
@@ -5962,6 +6140,10 @@
           }
         }
       ],
+      "base": "ibc/67C89B8B0A70C08F093C909A4DD996DD10E0494C87E28FD9A551697BF173D4CA",
+      "name": "MEME",
+      "display": "meme",
+      "symbol": "MEME",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png"
       },
@@ -5985,10 +6167,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/655BCEF3CDEBE32863FF281DBBE3B06160339E9897DC9C9C9821932A5F8BA6F8",
-      "name": "Microtick",
-      "display": "tick",
-      "symbol": "TICK",
       "traces": [
         {
           "type": "ibc",
@@ -6003,6 +6181,10 @@
           }
         }
       ],
+      "base": "ibc/655BCEF3CDEBE32863FF281DBBE3B06160339E9897DC9C9C9821932A5F8BA6F8",
+      "name": "Microtick",
+      "display": "tick",
+      "symbol": "TICK",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/microtick/images/tick.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/microtick/images/tick.svg"
@@ -6026,10 +6208,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D",
-      "name": "Miaglo",
-      "display": "Whale",
-      "symbol": "WHALE",
       "traces": [
         {
           "type": "ibc",
@@ -6044,6 +6222,10 @@
           }
         }
       ],
+      "base": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D",
+      "name": "Migaloo",
+      "display": "Whale",
+      "symbol": "WHALE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/whitewhale.png"
       },
@@ -6066,10 +6248,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/C360EF34A86D334F625E4CBB7DA3223AEA97174B61F35BB3758081A8160F7D9B",
-      "name": "Odin Protocol",
-      "display": "odin",
-      "symbol": "ODIN",
       "traces": [
         {
           "type": "ibc",
@@ -6084,6 +6262,10 @@
           }
         }
       ],
+      "base": "ibc/C360EF34A86D334F625E4CBB7DA3223AEA97174B61F35BB3758081A8160F7D9B",
+      "name": "Odin Protocol",
+      "display": "odin",
+      "symbol": "ODIN",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.svg"
@@ -6108,10 +6290,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/9B6FBABA36BB4A3BF127AE5E96B572A5197FD9F3111D895D8919B07BC290764A",
-      "name": "Odin Protocol",
-      "display": "geo",
-      "symbol": "GEO",
       "traces": [
         {
           "type": "ibc",
@@ -6126,6 +6304,10 @@
           }
         }
       ],
+      "base": "ibc/9B6FBABA36BB4A3BF127AE5E96B572A5197FD9F3111D895D8919B07BC290764A",
+      "name": "Odin Protocol",
+      "display": "geo",
+      "symbol": "GEO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/geo.svg"
@@ -6149,10 +6331,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/0CD46223FEABD2AEAAAF1F057D01E63BCA79B7D4BD6B68F1EB973A987344695D",
-      "name": "Odin Protocol",
-      "display": "O9W",
-      "symbol": "O9W",
       "traces": [
         {
           "type": "ibc",
@@ -6167,6 +6345,10 @@
           }
         }
       ],
+      "base": "ibc/0CD46223FEABD2AEAAAF1F057D01E63BCA79B7D4BD6B68F1EB973A987344695D",
+      "name": "Odin Protocol",
+      "display": "O9W",
+      "symbol": "O9W",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/o9w.svg"
@@ -6190,10 +6372,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/B9606D347599F0F2FDF82BA3EE339000673B7D274EA50F59494DC51EFCD42163",
-      "name": "Onomy",
-      "display": "nom",
-      "symbol": "NOM",
       "traces": [
         {
           "type": "ibc",
@@ -6208,12 +6386,20 @@
           }
         }
       ],
+      "base": "ibc/B9606D347599F0F2FDF82BA3EE339000673B7D274EA50F59494DC51EFCD42163",
+      "name": "Onomy",
+      "display": "nom",
+      "symbol": "NOM",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.svg"
       },
       "keywords": [
-        "Native"
+        "Native",
+        "dex",
+        "stablecoin",
+        "bridge",
+        "staking"
       ]
     },
     {
@@ -6231,10 +6417,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/161D7D62BAB3B9C39003334F1671208F43C06B643CC9EDBBE82B64793C857F1D",
-      "name": "Oraichain",
-      "display": "ORAI",
-      "symbol": "ORAI",
       "traces": [
         {
           "type": "ibc",
@@ -6249,6 +6431,10 @@
           }
         }
       ],
+      "base": "ibc/161D7D62BAB3B9C39003334F1671208F43C06B643CC9EDBBE82B64793C857F1D",
+      "name": "Oraichain",
+      "display": "ORAI",
+      "symbol": "ORAI",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.svg"
@@ -6273,10 +6459,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/3BCCC93AD5DF58D11A6F8A05FA8BC801CBA0BA61A981F57E91B8B598BF8061CB",
-      "name": "Medibloc",
-      "display": "med",
-      "symbol": "MED",
       "traces": [
         {
           "type": "ibc",
@@ -6291,6 +6473,10 @@
           }
         }
       ],
+      "base": "ibc/3BCCC93AD5DF58D11A6F8A05FA8BC801CBA0BA61A981F57E91B8B598BF8061CB",
+      "name": "Medibloc",
+      "display": "med",
+      "symbol": "MED",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/panacea/images/med.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/panacea/images/med.svg"
@@ -6316,10 +6502,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293",
-      "name": "Persistence",
-      "display": "xprt",
-      "symbol": "XPRT",
       "traces": [
         {
           "type": "ibc",
@@ -6334,6 +6516,10 @@
           }
         }
       ],
+      "base": "ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293",
+      "name": "Persistence",
+      "display": "xprt",
+      "symbol": "XPRT",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg"
@@ -6345,6 +6531,7 @@
     },
     {
       "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets.",
+      "pretty_path": "Ethereum via Gravity Bridge to Persistence",
       "denom_units": [
         {
           "denom": "ibc/8061A06D3BD4D52C4A28FFECF7150D370393AF0BA661C3776C54FF32836C3961",
@@ -6361,10 +6548,6 @@
         }
       ],
       "type_asset": "ics20",
-      "base": "ibc/8061A06D3BD4D52C4A28FFECF7150D370393AF0BA661C3776C54FF32836C3961",
-      "name": "Ethereum (via Gravity Bridge) to Persistence",
-      "display": "pstake",
-      "symbol": "PSTAKE",
       "traces": [
         {
           "type": "liquid-stake",
@@ -6407,6 +6590,10 @@
           }
         }
       ],
+      "base": "ibc/8061A06D3BD4D52C4A28FFECF7150D370393AF0BA661C3776C54FF32836C3961",
+      "name": "Persistence",
+      "display": "pstake",
+      "symbol": "PSTAKE",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
@@ -6414,7 +6601,8 @@
       "keywords": [
         "Wrapped/Bridged",
         "Utility",
-        "Liquid-Staked"
+        "Liquid-Staked",
+        "canon"
       ]
     },
     {
@@ -6435,10 +6623,6 @@
           ]
         }
       ],
-      "base": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
-      "name": "Persistence",
-      "display": "stkatom",
-      "symbol": "stkATOM",
       "traces": [
         {
           "type": "ibc",
@@ -6453,6 +6637,10 @@
           }
         }
       ],
+      "base": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
+      "name": "Persistence",
+      "display": "stkatom",
+      "symbol": "stkATOM",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
@@ -6478,10 +6666,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/B1E0166EA0D759FDF4B207D1F5F12210D8BFE36F2345CEFC76948CE2B36DFBAF",
-      "name": "Planq",
-      "display": "planq",
-      "symbol": "PLQ",
       "traces": [
         {
           "type": "ibc",
@@ -6496,6 +6680,10 @@
           }
         }
       ],
+      "base": "ibc/B1E0166EA0D759FDF4B207D1F5F12210D8BFE36F2345CEFC76948CE2B36DFBAF",
+      "name": "Planq",
+      "display": "planq",
+      "symbol": "PLQ",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg"
@@ -6520,10 +6708,6 @@
           "exponent": 9
         }
       ],
-      "base": "ibc/CE5BFF1D9BADA03BB5CCA5F56939392A761B53A10FBD03B37506669C3218D3B2",
-      "name": "Provenance",
-      "display": "hash",
-      "symbol": "HASH",
       "traces": [
         {
           "type": "ibc",
@@ -6538,6 +6722,10 @@
           }
         }
       ],
+      "base": "ibc/CE5BFF1D9BADA03BB5CCA5F56939392A761B53A10FBD03B37506669C3218D3B2",
+      "name": "Provenance",
+      "display": "hash",
+      "symbol": "HASH",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.svg"
@@ -6563,10 +6751,6 @@
           "aliases": []
         }
       ],
-      "base": "ibc/635CB83EF1DFE598B10A3E90485306FD0D47D34217A4BE5FD9977FA010A5367D",
-      "name": "Quicksilver",
-      "display": "qck",
-      "symbol": "QCK",
       "traces": [
         {
           "type": "ibc",
@@ -6581,6 +6765,10 @@
           }
         }
       ],
+      "base": "ibc/635CB83EF1DFE598B10A3E90485306FD0D47D34217A4BE5FD9977FA010A5367D",
+      "name": "Quicksilver",
+      "display": "qck",
+      "symbol": "QCK",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png"
       },
@@ -6605,10 +6793,6 @@
           "aliases": []
         }
       ],
-      "base": "ibc/46C83BB054E12E189882B5284542DB605D94C99827E367C9192CF0579CD5BC83",
-      "name": "Quicksilver",
-      "display": "qstars",
-      "symbol": "qSTARS",
       "traces": [
         {
           "type": "liquid-stake",
@@ -6631,6 +6815,10 @@
           }
         }
       ],
+      "base": "ibc/46C83BB054E12E189882B5284542DB605D94C99827E367C9192CF0579CD5BC83",
+      "name": "Quicksilver",
+      "display": "qstars",
+      "symbol": "qSTARS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qstars.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qstars.svg"
@@ -6656,10 +6844,6 @@
           "aliases": []
         }
       ],
-      "base": "ibc/FA602364BEC305A696CBDF987058E99D8B479F0318E47314C49173E8838C5BAC",
-      "name": "Quicksilver",
-      "display": "qatom",
-      "symbol": "qATOM",
       "traces": [
         {
           "type": "liquid-stake",
@@ -6682,6 +6866,10 @@
           }
         }
       ],
+      "base": "ibc/FA602364BEC305A696CBDF987058E99D8B479F0318E47314C49173E8838C5BAC",
+      "name": "Quicksilver",
+      "display": "qatom",
+      "symbol": "qATOM",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qatom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qatom.svg"
@@ -6707,10 +6895,6 @@
           "aliases": []
         }
       ],
-      "base": "ibc/42D24879D4569CE6477B7E88206ADBFE47C222C6CAD51A54083E4A72594269FC",
-      "name": "Quicksilver",
-      "display": "qosmo",
-      "symbol": "qOSMO",
       "traces": [
         {
           "type": "liquid-stake",
@@ -6733,6 +6917,10 @@
           }
         }
       ],
+      "base": "ibc/42D24879D4569CE6477B7E88206ADBFE47C222C6CAD51A54083E4A72594269FC",
+      "name": "Quicksilver",
+      "display": "qosmo",
+      "symbol": "qOSMO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qosmo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qosmo.svg"
@@ -6758,10 +6946,6 @@
           "aliases": []
         }
       ],
-      "base": "ibc/79A676508A2ECA1021EDDC7BB9CF70CEEC9514C478DA526A5A8B3E78506C2206",
-      "name": "Quicksilver",
-      "display": "qregen",
-      "symbol": "qREGEN",
       "traces": [
         {
           "type": "liquid-stake",
@@ -6784,6 +6968,10 @@
           }
         }
       ],
+      "base": "ibc/79A676508A2ECA1021EDDC7BB9CF70CEEC9514C478DA526A5A8B3E78506C2206",
+      "name": "Quicksilver",
+      "display": "qregen",
+      "symbol": "qREGEN",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qregen.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qregen.svg"
@@ -6808,10 +6996,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/A1AC7F9EE2F643A68E3A35BCEB22040120BEA4059773BB56985C76BDFEBC71D9",
-      "name": "Rebus",
-      "display": "rebus",
-      "symbol": "REBUS",
       "traces": [
         {
           "type": "ibc",
@@ -6826,6 +7010,10 @@
           }
         }
       ],
+      "base": "ibc/A1AC7F9EE2F643A68E3A35BCEB22040120BEA4059773BB56985C76BDFEBC71D9",
+      "name": "Rebus",
+      "display": "rebus",
+      "symbol": "REBUS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rebus/images/rebus.svg"
@@ -6850,10 +7038,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076",
-      "name": "Regen",
-      "display": "regen",
-      "symbol": "REGEN",
       "traces": [
         {
           "type": "ibc",
@@ -6868,6 +7052,10 @@
           }
         }
       ],
+      "base": "ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076",
+      "name": "Regen",
+      "display": "regen",
+      "symbol": "REGEN",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.svg"
@@ -6892,10 +7080,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/2716E3F2E146664BEFA9217F1A03BFCEDBCD5178B3C71CACB1A0D7584451D219",
-      "name": "Rizon",
-      "display": "atolo",
-      "symbol": "ATOLO",
       "traces": [
         {
           "type": "ibc",
@@ -6910,6 +7094,10 @@
           }
         }
       ],
+      "base": "ibc/2716E3F2E146664BEFA9217F1A03BFCEDBCD5178B3C71CACB1A0D7584451D219",
+      "name": "Rizon",
+      "display": "atolo",
+      "symbol": "ATOLO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.svg"
@@ -6934,10 +7122,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A",
-      "name": "Secret Network",
-      "display": "scrt",
-      "symbol": "SCRT",
       "traces": [
         {
           "type": "ibc",
@@ -6952,6 +7136,10 @@
           }
         }
       ],
+      "base": "ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A",
+      "name": "Secret Network",
+      "display": "scrt",
+      "symbol": "SCRT",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
@@ -6976,10 +7164,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/A6383B6CF5EA23E067666C06BC34E2A96869927BD9744DC0C1643E589C710AA3",
-      "name": "Secret Network",
-      "display": "alter",
-      "symbol": "ALTER",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -6996,6 +7180,10 @@
           }
         }
       ],
+      "base": "ibc/A6383B6CF5EA23E067666C06BC34E2A96869927BD9744DC0C1643E589C710AA3",
+      "name": "Secret Network",
+      "display": "alter",
+      "symbol": "ALTER",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/alter.svg"
@@ -7022,10 +7210,6 @@
       ],
       "type_asset": "snip20",
       "address": "secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt",
-      "base": "ibc/1FBA9E763B8679BEF7BAAAF2D16BCA78C3B297D226C3F31312C769D7B8F992D8",
-      "name": "Secret Network",
-      "display": "butt",
-      "symbol": "BUTT",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -7042,6 +7226,10 @@
           }
         }
       ],
+      "base": "ibc/1FBA9E763B8679BEF7BAAAF2D16BCA78C3B297D226C3F31312C769D7B8F992D8",
+      "name": "Secret Network",
+      "display": "butt",
+      "symbol": "BUTT",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.svg"
@@ -7068,10 +7256,6 @@
       ],
       "type_asset": "snip20",
       "address": "secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d",
-      "base": "ibc/71055835C7639739EAE03AACD1324FE162DBA41D09F197CB72D966D014225B1C",
-      "name": "Secret Network",
-      "display": "shd",
-      "symbol": "SHD",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -7088,6 +7272,10 @@
           }
         }
       ],
+      "base": "ibc/71055835C7639739EAE03AACD1324FE162DBA41D09F197CB72D966D014225B1C",
+      "name": "Secret Network",
+      "display": "shd",
+      "symbol": "SHD",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/shd.svg"
@@ -7114,10 +7302,6 @@
       ],
       "type_asset": "snip20",
       "address": "secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4",
-      "base": "ibc/9A8A93D04917A149C8AC7C16D3DA8F470D59E8D867499C4DA97450E1D7363213",
-      "name": "Secret Network",
-      "display": "sienna",
-      "symbol": "SIENNA",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -7134,6 +7318,10 @@
           }
         }
       ],
+      "base": "ibc/9A8A93D04917A149C8AC7C16D3DA8F470D59E8D867499C4DA97450E1D7363213",
+      "name": "Secret Network",
+      "display": "sienna",
+      "symbol": "SIENNA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/sienna.svg"
@@ -7160,10 +7348,6 @@
       ],
       "type_asset": "snip20",
       "address": "secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4",
-      "base": "ibc/D0E5BF2940FB58D9B283A339032DE88111407AAD7D94A7F1F3EB78874F8616D4",
-      "name": "Secret Network",
-      "display": "stkd-scrt",
-      "symbol": "stkd-SCRT",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -7180,6 +7364,10 @@
           }
         }
       ],
+      "base": "ibc/D0E5BF2940FB58D9B283A339032DE88111407AAD7D94A7F1F3EB78874F8616D4",
+      "name": "Secret Network",
+      "display": "stkd-scrt",
+      "symbol": "stkd-SCRT",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/stkd-scrt.svg"
@@ -7206,10 +7394,6 @@
       ],
       "type_asset": "snip20",
       "address": "secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852",
-      "base": "ibc/18A1B70E3205A48DE8590C0D11030E7146CDBF1048789261D53FFFD7527F8B55",
-      "name": "Secret Network",
-      "display": "amber",
-      "symbol": "AMBER",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -7226,6 +7410,10 @@
           }
         }
       ],
+      "base": "ibc/18A1B70E3205A48DE8590C0D11030E7146CDBF1048789261D53FFFD7527F8B55",
+      "name": "Secret Network",
+      "display": "amber",
+      "symbol": "AMBER",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/amber.svg"
@@ -7249,10 +7437,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84",
-      "name": "Sentinel",
-      "display": "dvpn",
-      "symbol": "DVPN",
       "traces": [
         {
           "type": "ibc",
@@ -7267,6 +7451,10 @@
           }
         }
       ],
+      "base": "ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84",
+      "name": "Sentinel",
+      "display": "dvpn",
+      "symbol": "DVPN",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg"
@@ -7292,10 +7480,6 @@
           "exponent": 9
         }
       ],
-      "base": "ibc/1F3AB31A66CC0FBE149859D55D0D2D7167B851A113786438EA6E201033600C8E",
-      "name": "Shareledger",
-      "display": "shr",
-      "symbol": "SHR",
       "traces": [
         {
           "type": "ibc",
@@ -7310,13 +7494,18 @@
           }
         }
       ],
+      "base": "ibc/1F3AB31A66CC0FBE149859D55D0D2D7167B851A113786438EA6E201033600C8E",
+      "name": "Shareledger",
+      "display": "shr",
+      "symbol": "SHR",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.svg"
       },
       "coingecko_id": "shareledger",
       "keywords": [
-        "Native"
+        "Native",
+        "id"
       ]
     },
     {
@@ -7334,10 +7523,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/7ED954CFFFC06EE8419387F3FC688837FF64EF264DE14219935F724EEEDBF8D3",
-      "name": "Shentu",
-      "display": "ctk",
-      "symbol": "CTK",
       "traces": [
         {
           "type": "ibc",
@@ -7352,6 +7537,10 @@
           }
         }
       ],
+      "base": "ibc/7ED954CFFFC06EE8419387F3FC688837FF64EF264DE14219935F724EEEDBF8D3",
+      "name": "Shentu",
+      "display": "ctk",
+      "symbol": "CTK",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.svg"
@@ -7376,10 +7565,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/8318FD63C42203D16DDCAF49FE10E8590669B3219A3E87676AC9DA50722687FB",
-      "name": "Sifchain",
-      "display": "ROWAN",
-      "symbol": "ROWAN",
       "traces": [
         {
           "type": "ibc",
@@ -7394,6 +7579,10 @@
           }
         }
       ],
+      "base": "ibc/8318FD63C42203D16DDCAF49FE10E8590669B3219A3E87676AC9DA50722687FB",
+      "name": "Sifchain",
+      "display": "ROWAN",
+      "symbol": "ROWAN",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg"
@@ -7426,10 +7615,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/9BBA9A1C257E971E38C1422780CE6F0B0686F0A3085E2D61118D904BFE0F5F5E",
-      "name": "Sommelier",
-      "display": "somm",
-      "symbol": "SOMM",
       "traces": [
         {
           "type": "ibc",
@@ -7444,6 +7629,10 @@
           }
         }
       ],
+      "base": "ibc/9BBA9A1C257E971E38C1422780CE6F0B0686F0A3085E2D61118D904BFE0F5F5E",
+      "name": "Sommelier",
+      "display": "somm",
+      "symbol": "SOMM",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg"
@@ -7468,10 +7657,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
-      "name": "Stargaze",
-      "display": "stars",
-      "symbol": "STARS",
       "traces": [
         {
           "type": "ibc",
@@ -7486,6 +7671,10 @@
           }
         }
       ],
+      "base": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
+      "name": "Stargaze",
+      "display": "stars",
+      "symbol": "STARS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
@@ -7511,10 +7700,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/52B1AA623B34EB78FD767CEA69E8D7FA6C9CFE1FBF49C5406268FD325E2CC2AC",
-      "name": "Starname",
-      "display": "iov",
-      "symbol": "IOV",
       "traces": [
         {
           "type": "ibc",
@@ -7529,6 +7714,10 @@
           }
         }
       ],
+      "base": "ibc/52B1AA623B34EB78FD767CEA69E8D7FA6C9CFE1FBF49C5406268FD325E2CC2AC",
+      "name": "Starname",
+      "display": "iov",
+      "symbol": "IOV",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg"
@@ -7554,10 +7743,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
-      "name": "Stride",
-      "display": "strd",
-      "symbol": "STRD",
       "traces": [
         {
           "type": "ibc",
@@ -7572,6 +7757,10 @@
           }
         }
       ],
+      "base": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
+      "name": "Stride",
+      "display": "strd",
+      "symbol": "STRD",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
@@ -7595,10 +7784,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901",
-      "name": "Stride",
-      "display": "statom",
-      "symbol": "stATOM",
       "traces": [
         {
           "type": "liquid-stake",
@@ -7621,6 +7806,10 @@
           }
         }
       ],
+      "base": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901",
+      "name": "Stride",
+      "display": "statom",
+      "symbol": "stATOM",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
@@ -7645,10 +7834,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/5DD1F95ED336014D00CE2520977EC71566D282F9749170ADC83A392E0EA7426A",
-      "name": "Stride",
-      "display": "ststars",
-      "symbol": "stSTARS",
       "traces": [
         {
           "type": "liquid-stake",
@@ -7671,6 +7856,10 @@
           }
         }
       ],
+      "base": "ibc/5DD1F95ED336014D00CE2520977EC71566D282F9749170ADC83A392E0EA7426A",
+      "name": "Stride",
+      "display": "ststars",
+      "symbol": "stSTARS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg"
@@ -7694,10 +7883,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/84502A75BCA4A5F68D464C00B3F610CE2585847D59B52E5FFB7C3C9D2DDCD3FE",
-      "name": "Stride",
-      "display": "stjuno",
-      "symbol": "stJUNO",
       "traces": [
         {
           "type": "liquid-stake",
@@ -7720,6 +7905,10 @@
           }
         }
       ],
+      "base": "ibc/84502A75BCA4A5F68D464C00B3F610CE2585847D59B52E5FFB7C3C9D2DDCD3FE",
+      "name": "Stride",
+      "display": "stjuno",
+      "symbol": "stJUNO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg"
@@ -7743,10 +7932,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
-      "name": "Stride",
-      "display": "stosmo",
-      "symbol": "stOSMO",
       "traces": [
         {
           "type": "liquid-stake",
@@ -7769,6 +7954,10 @@
           }
         }
       ],
+      "base": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
+      "name": "Stride",
+      "display": "stosmo",
+      "symbol": "stOSMO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
@@ -7792,10 +7981,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/C491E7582E94AE921F6A029790083CDE1106C28F3F6C4AD7F1340544C13EC372",
-      "name": "Stride",
-      "display": "stluna",
-      "symbol": "stLUNA",
       "traces": [
         {
           "type": "liquid-stake",
@@ -7818,6 +8003,10 @@
           }
         }
       ],
+      "base": "ibc/C491E7582E94AE921F6A029790083CDE1106C28F3F6C4AD7F1340544C13EC372",
+      "name": "Stride",
+      "display": "stluna",
+      "symbol": "stLUNA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg"
@@ -7841,10 +8030,6 @@
           "exponent": 18
         }
       ],
-      "base": "ibc/C5579A9595790017C600DD726276D978B9BF314CF82406CE342720A9C7911A01",
-      "name": "Stride",
-      "display": "stevmos",
-      "symbol": "stEVMOS",
       "traces": [
         {
           "type": "liquid-stake",
@@ -7867,6 +8052,10 @@
           }
         }
       ],
+      "base": "ibc/C5579A9595790017C600DD726276D978B9BF314CF82406CE342720A9C7911A01",
+      "name": "Stride",
+      "display": "stevmos",
+      "symbol": "stEVMOS",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg"
@@ -7891,10 +8080,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/EB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC",
-      "name": "Teritori",
-      "display": "tori",
-      "symbol": "TORI",
       "traces": [
         {
           "type": "ibc",
@@ -7909,6 +8094,10 @@
           }
         }
       ],
+      "base": "ibc/EB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC",
+      "name": "Teritori",
+      "display": "tori",
+      "symbol": "TORI",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/utori.svg"
@@ -7944,10 +8133,6 @@
           ]
         }
       ],
-      "base": "ibc/0EF15DF2F02480ADE0BB6E85D9EBB5DAEA2836D3860E9F97F9AADE4F57A31AA0",
-      "name": "Terra Classic",
-      "display": "luna",
-      "symbol": "LUNC",
       "traces": [
         {
           "type": "ibc",
@@ -7962,6 +8147,10 @@
           }
         }
       ],
+      "base": "ibc/0EF15DF2F02480ADE0BB6E85D9EBB5DAEA2836D3860E9F97F9AADE4F57A31AA0",
+      "name": "Terra Classic",
+      "display": "luna",
+      "symbol": "LUNC",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg"
@@ -7997,10 +8186,6 @@
           ]
         }
       ],
-      "base": "ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC",
-      "name": "Terra Classic",
-      "display": "ust",
-      "symbol": "USTC",
       "traces": [
         {
           "type": "ibc",
@@ -8015,6 +8200,10 @@
           }
         }
       ],
+      "base": "ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC",
+      "name": "Terra Classic",
+      "display": "ust",
+      "symbol": "USTC",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/ust.svg"
@@ -8050,10 +8239,6 @@
           ]
         }
       ],
-      "base": "ibc/204A582244FC241613DBB50B04D1D454116C58C4AF7866C186AA0D6EEAD42780",
-      "name": "Terra Classic",
-      "display": "krt",
-      "symbol": "KRTC",
       "traces": [
         {
           "type": "ibc",
@@ -8068,6 +8253,10 @@
           }
         }
       ],
+      "base": "ibc/204A582244FC241613DBB50B04D1D454116C58C4AF7866C186AA0D6EEAD42780",
+      "name": "Terra Classic",
+      "display": "krt",
+      "symbol": "KRTC",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/krt.svg"
@@ -8092,10 +8281,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9",
-      "name": "Terra 2.0",
-      "display": "luna",
-      "symbol": "LUNA",
       "traces": [
         {
           "type": "ibc",
@@ -8110,6 +8295,10 @@
           }
         }
       ],
+      "base": "ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9",
+      "name": "Terra 2.0",
+      "display": "luna",
+      "symbol": "LUNA",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.svg"
@@ -8136,10 +8325,6 @@
       ],
       "type_asset": "cw20",
       "address": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
-      "base": "ibc/8410580A4F5421DFDBD888212624591E92A9E3B5C87D3C58913CE16ABD98B9B4",
-      "name": "Terra 2.0",
-      "display": "astro",
-      "symbol": "ASTRO",
       "traces": [
         {
           "type": "ibc-cw20",
@@ -8156,6 +8341,10 @@
           }
         }
       ],
+      "base": "ibc/8410580A4F5421DFDBD888212624591E92A9E3B5C87D3C58913CE16ABD98B9B4",
+      "name": "Terra 2.0",
+      "display": "astro",
+      "symbol": "ASTRO",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/astro.png"
       },
@@ -8179,10 +8368,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/1E09CB0F506ACF12FDE4683FB6B34DA62FB4BE122641E0D93AAF98A87675676C",
-      "name": "Tgrade",
-      "display": "tgd",
-      "symbol": "TGD",
       "traces": [
         {
           "type": "ibc",
@@ -8197,6 +8382,10 @@
           }
         }
       ],
+      "base": "ibc/1E09CB0F506ACF12FDE4683FB6B34DA62FB4BE122641E0D93AAF98A87675676C",
+      "name": "Tgrade",
+      "display": "tgd",
+      "symbol": "TGD",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tgrade/images/tgrade-symbol-gradient.svg"
@@ -8222,10 +8411,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/67795E528DF67C5606FC20F824EA39A6EF55BA133F4DC79C90A8C47A0901E17C",
-      "name": "Umee",
-      "display": "umee",
-      "symbol": "UMEE",
       "traces": [
         {
           "type": "ibc",
@@ -8240,8 +8425,13 @@
           }
         }
       ],
+      "base": "ibc/67795E528DF67C5606FC20F824EA39A6EF55BA133F4DC79C90A8C47A0901E17C",
+      "name": "Umee",
+      "display": "umee",
+      "symbol": "UMEE",
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg"
       },
       "coingecko_id": "umee",
       "keywords": [
@@ -8263,10 +8453,6 @@
           "exponent": 9
         }
       ],
-      "base": "ibc/608EF5C0CE64FEA097500DB39657BDD36CA708CC5DCC2E250A024B6981DD36BC",
-      "name": "Unification",
-      "display": "FUND",
-      "symbol": "FUND",
       "traces": [
         {
           "type": "ibc",
@@ -8281,8 +8467,13 @@
           }
         }
       ],
+      "base": "ibc/608EF5C0CE64FEA097500DB39657BDD36CA708CC5DCC2E250A024B6981DD36BC",
+      "name": "Unification",
+      "display": "FUND",
+      "symbol": "FUND",
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg"
       },
       "coingecko_id": "unification",
       "keywords": [
@@ -8304,10 +8495,6 @@
           "exponent": 6
         }
       ],
-      "base": "ibc/E7B35499CFBEB0FF5778127ABA4FB2C4B79A6B8D3D831D4379C4048C238796BD",
-      "name": "Vidulum",
-      "display": "vdl",
-      "symbol": "VDL",
       "traces": [
         {
           "type": "ibc",
@@ -8322,6 +8509,10 @@
           }
         }
       ],
+      "base": "ibc/E7B35499CFBEB0FF5778127ABA4FB2C4B79A6B8D3D831D4379C4048C238796BD",
+      "name": "Vidulum",
+      "display": "vdl",
+      "symbol": "VDL",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg"
