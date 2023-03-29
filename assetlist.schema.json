@@ -1,5 +1,5 @@
 {
-  "$id": "https://osmosis.zone/assetlists.schema.json",
+  "$id": "https://dex.osl.zone/assetlists.schema.json",
   "$schema": "https://json-schema.org/draft-07/schema",
   "title": "Asset Lists",
   "description": "Asset lists are a similar mechanism to allow frontends and other UIs to fetch metadata associated with Cosmos SDK denoms, especially for assets sent over IBC.",
@@ -39,6 +39,18 @@
         "description": {
           "type": "string",
           "description": "[OPTIONAL] A short description of the asset"
+        },
+        "additional_information": {
+          "type": "array",
+          "description": "[OPTIONAL] A list of up to 10 objects that have key:value pairs. Example {\"chain_website\": \"link\"}, this will generally be utilized for front-ends.",
+          "maxContains": 10,
+          "items": {
+            "type": "object"
+          }
+        },
+        "pretty_path": {
+          "type": "string",
+          "description": "[OPTIONAL] A single string representing a bridged token."
         },
         "denom_units": {
           "type": "array",
@@ -133,6 +145,7 @@
         },
         "keywords": {
           "type": "array",
+          "description": "[OPTIONAL] An array of up to 20 keywords to describe the asset/ecosystem.",
           "maxContains": 20,
           "items": {
             "type": "string"

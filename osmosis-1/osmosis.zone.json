@@ -2,1330 +2,1636 @@
   "$schema": "../zone.schema.json",
   "chain_name": "osmosis",
   "assets": [
-  {
-    "chain_name": "osmosis",
-    "chain_name_pretty": "Osmosis",
-    "base_denom": "uosmo",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "osmosis",
-    "chain_name_pretty": "Osmosis",
-    "base_denom": "uion",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "8ball",
-    "chain_name_pretty": "8ball",
-    "base_denom": "uebl",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "acrechain",
-    "chain_name_pretty": "Acrechain",
-    "base_denom": "aacre",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "acrechain",
-    "chain_name_pretty": "Acrechain(EVM) to Acrechain",
-    "base_denom": "erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c",
-    "keywords": ["Wrapped/Bridged", "Anchored", "Derivative"]
-  },
-  {
-    "chain_name": "acrechain",
-    "chain_name_pretty": "Acrechain(EVM) to Acrechain",
-    "base_denom": "erc20/0xAE6D3334989a22A65228732446731438672418F2",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "agoric",
-    "chain_name_pretty": "Agoric",
-    "base_denom": "ubld",
-    "keywords": ["Utility", "Native"]
-  },
-  {
-    "chain_name": "agoric",
-    "chain_name_pretty": "Agoric",
-    "base_denom": "uist",
-    "keywords": ["Utility", "Anchored", "Native"]
-  },
-  {
-    "chain_name": "akash",
-    "chain_name_pretty": "Akash",
-    "base_denom": "uakt",
-    "keywords": ["Utility", "Native"]
-  },
-  {
-    "chain_name": "arkh",
-    "chain_name_pretty": "Arkhadian",
-    "base_denom": "arkh",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "assetmantle",
-    "chain_name_pretty": "AssetMantle",
-    "base_denom": "umntl",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Axelar",
-    "base_denom": "uaxl",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "aave-wei",
-    "keywords": ["Wrapped/Bridged", "Utility"],
-    "frontend_properties": {
-      "symbol": "AAVE.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAAVE.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAAVE.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "ape-wei",
-    "keywords": ["Wrapped/Bridged", "Utility"],
-    "frontend_properties": {
-      "symbol": "APE.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAPE.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAPE.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "axs-wei",
-    "keywords": ["Wrapped/Bridged", "Utility"],
-    "frontend_properties": {
-      "symbol": "AXS.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAXS.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAXS.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "uusdc",
-    "keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
-    "frontend_properties": {
-      "symbol": "USDC.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDC.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDC.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "weth-wei",
-    "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
-    "frontend_properties": {
-      "symbol": "wETH.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWETH.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWETH.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "wbtc-satoshi",
-    "keywords": ["Wrapped/Bridged", "Derivative"],
-    "frontend_properties": {
-      "symbol": "WBTC.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBTC.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBTC.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "uusdt",
-    "keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
-    "frontend_properties": {
-      "symbol": "USDT.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDT.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDT.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "dai-wei",
-    "keywords": ["Wrapped/Bridged", "Anchored"],
-    "frontend_properties": {
-      "symbol": "DAI.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDAI.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDAI.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "busd-wei",
-    "frontend_properties": {
-      "symbol": "BUSD.axl",
-    "keywords": ["Wrapped/Bridged"],
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "link-wei",
-    "keywords": ["Wrapped/Bridged", "Utility"],
-    "frontend_properties": {
-      "symbol": "LINK.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlLINK.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlLINK.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "mkr-wei",
-    "keywords": ["Wrapped/Bridged", "Utility"],
-    "frontend_properties": {
-      "symbol": "MKR.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlMKR.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlMKR.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "rai-wei",
-    "keywords": ["Wrapped/Bridged", "Reflexive"],
-    "frontend_properties": {
-      "symbol": "RAI.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlRAI.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlRAI.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "shib-wei",
-    "keywords": ["Wrapped/Bridged"],
-    "frontend_properties": {
-      "symbol": "SHIB.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlSHIB.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlSHIB.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "uni-wei",
-    "keywords": ["Wrapped/Bridged", "Utility"],
-    "frontend_properties": {
-      "symbol": "UNI.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUNI.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUNI.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "xcn-wei",
-    "keywords": ["Wrapped/Bridged", "Utility"],
-    "frontend_properties": {
-      "symbol": "XCN.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlXCN.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlXCN.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Fantom (via Axelar)",
-    "base_denom": "wftm-wei",
-    "keywords": ["Wrapped/Bridged", "Native"],
-    "frontend_properties": {
-      "symbol": "wFTM.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWFTM.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWFTM.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Moonbeam (via Axelar)",
-    "base_denom": "wglmr-wei",
-    "keywords": ["Wrapped/Bridged", "Native"],
-    "frontend_properties": {
-      "symbol": "wGLMR.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWGLMR.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWGLMR.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "BNB Chain (via Axelar)",
-    "base_denom": "wbnb-wei",
-    "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
-    "frontend_properties": {
-      "symbol": "wBNB.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBNB.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBNB.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Polygon (via Axelar)",
-    "base_denom": "wmatic-wei",
-    "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
-    "frontend_properties": {
-      "symbol": "wMATIC.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWMATIC.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWMATIC.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Avalanche (via Axelar)",
-    "base_denom": "wavax-wei",
-    "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
-    "frontend_properties": {
-      "symbol": "wAVAX.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWAVAX.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWAVAX.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Polkadot on Moonbeam (via Axelar)",
-    "base_denom": "dot-planck",
-    "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
-    "frontend_properties": {
-      "symbol": "DOT.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "Ethereum (via Axelar)",
-    "base_denom": "frax-wei",
-    "keywords": ["Wrapped/Bridged", "Anchored"],
-    "frontend_properties": {
-      "symbol": "FRAX.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlFRAX.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlFRAX.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "USDC (POS) on Polygon (via Axelar)",
-    "base_denom": "polygon-uusdc",
-    "keywords": ["Wrapped/Bridged", "Fiat-Collateralized", "Derivative"],
-    "frontend_properties": {
-      "symbol": "polyUSDC.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/polyaxlUSDC.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/polyaxlUSDC.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "axelar",
-    "chain_name_pretty": "USDC.e on Avalanche (via Axelar)",
-    "base_denom": "avalanche-uusdc",
-    "keywords": ["Wrapped/Bridged", "Fiat-Collateralized", "Derivative"],
-    "frontend_properties": {
-      "symbol": "avaxUSDC.axl",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/avaxaxlUSDC.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/avaxaxlUSDC.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "bandchain",
-    "chain_name_pretty": "Band Protocol",
-    "base_denom": "uband",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "beezee",
-    "chain_name_pretty": "BeeZee",
-    "base_denom": "ubze",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "bitcanna",
-    "chain_name_pretty": "BitCanna",
-    "base_denom": "ubcna",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ubtsg",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft25B30C386CDDEBD1413D5AE1180956AE9EB3B9F7",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft575B10B0CEE2C164D9ED6A96313496F164A9607C",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft56664FC98A2CF5F4FBAC3566D1A11D891AD88305",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft52EEB0EE509AC546ED92EAC8591F731F213DDD16",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ftE4903ECC861CA45F2C2BC7EAB8255D2E6E87A33A",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft85AE1716C5E39EA6D64BBD7898C3899A7B500626",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft24C9FA4F10B0F235F4A815B15FC774E046A2B2EB",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft7020C2A8E984EEBCBB383E91CD6FBB067BB2272B",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft2DD67F5D99E9A141142B48474FA7B6B3FF00A3FE",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft4B030260D99E3ABE2B604EA2B33BAF3C085CDA12",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ftD4B6290EDEE1EC7B97AB5A1DC6C177EFD08ADCC3",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bitsong",
-    "chain_name_pretty": "BitSong",
-    "base_denom": "ft347B1612A2B7659913679CF6CD45B8B130C50A00",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "bostrom",
-    "chain_name_pretty": "Bostrom",
-    "base_denom": "boot",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "canto",
-    "chain_name_pretty": "Canto",
-    "base_denom": "acanto",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "carbon",
-    "chain_name_pretty": "Carbon",
-    "base_denom": "swth",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "cerberus",
-    "chain_name_pretty": "Cerberus",
-    "base_denom": "ucrbrus",
-    "keywords": ["Native", "Dead Chain"]
-  },
-  {
-    "chain_name": "cheqd",
-    "chain_name_pretty": "Cheqd",
-    "base_denom": "ncheq",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "chihuahua",
-    "chain_name_pretty": "Chihauhau",
-    "base_denom": "uhuahua",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "comdex",
-    "chain_name_pretty": "Comdex",
-    "base_denom": "ucmdx",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "comdex",
-    "chain_name_pretty": "Comdex",
-    "base_denom": "uharbor",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "comdex",
-    "chain_name_pretty": "Comdex",
-    "base_denom": "ucmst",
-    "keywords": ["Native", "Anchored"]
-  },
-  {
-    "chain_name": "cosmoshub",
-    "chain_name_pretty": "Cosmos Hub",
-    "base_denom": "uatom",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "crescent",
-    "chain_name_pretty": "Crescent",
-    "base_denom": "ucre",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "cryptoorgchain",
-    "chain_name_pretty": "Crypto.org Chain",
-    "base_denom": "basecro",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "cudos",
-    "chain_name_pretty": "Cudos",
-    "base_denom": "acudos",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "decentr",
-    "chain_name_pretty": "Decentr",
-    "base_denom": "udec",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "desmos",
-    "chain_name_pretty": "Desmos",
-    "base_denom": "udsm",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "dig",
-    "chain_name_pretty": "Dig Chain",
-    "base_denom": "udig",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "dyson",
-    "chain_name_pretty": "Dyson Protocol",
-    "base_denom": "dys",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "echelon",
-    "chain_name_pretty": "Echelon",
-    "base_denom": "aechelon",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "emoney",
-    "chain_name_pretty": "e-Money",
-    "base_denom": "ungm",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "emoney",
-    "chain_name_pretty": "e-Money",
-    "base_denom": "eeur",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "evmos",
-    "chain_name_pretty": "Evmos",
-    "base_denom": "aevmos",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "fetchhub",
-    "chain_name_pretty": "Fetch.ai",
-    "base_denom": "afet",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "galaxy",
-    "chain_name_pretty": "Galaxy",
-    "base_denom": "uglx",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "genesisl1",
-    "chain_name_pretty": "GenesisL1",
-    "base_denom": "el1",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "gravitybridge",
-    "chain_name_pretty": "Gravity Bridge",
-    "base_denom": "ugraviton",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "gravitybridge",
-    "chain_name_pretty": "Ethereum (via Gravity Bridge)",
-    "base_denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-    "keywords": ["Wrapped/Bridged", "Derivative"],
-    "frontend_properties": {
-      "symbol": "WBTC.grv",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "gravitybridge",
-    "chain_name_pretty": "Ethereum (via Gravity Bridge)",
-    "base_denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
-    "frontend_properties": {
-      "symbol": "wETH.grv",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "gravitybridge",
-    "chain_name_pretty": "Ethereum (via Gravity Bridge)",
-    "base_denom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-    "keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
-    "frontend_properties": {
-      "symbol": "USDC.grv",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "gravitybridge",
-    "chain_name_pretty": "Ethereum (via Gravity Bridge)",
-    "base_denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
-    "keywords": ["Wrapped/Bridged", "Anchored"],
-    "frontend_properties": {
-      "symbol": "DAI.grv",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "gravitybridge",
-    "chain_name_pretty": "Ethereum (via Gravity Bridge)",
-    "base_denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
-    "keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
-    "frontend_properties": {
-      "symbol": "USDT.grv",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.svg"
-      }
-    }
-  },
-  {
-    "chain_name": "impacthub",
-    "chain_name_pretty": "Ixo",
-    "base_denom": "uixo",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "imversed",
-    "chain_name_pretty": "Imversed",
-    "base_denom": "aimv",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "injective",
-    "chain_name_pretty": "Injective",
-    "base_denom": "inj",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "irisnet",
-    "chain_name_pretty": "IRISNet",
-    "base_denom": "uiris",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "jackal",
-    "chain_name_pretty": "Jackal",
-    "base_denom": "ujkl",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "ujuno",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "juno",
-    "chain_name_pretty": "Junø",
-    "base_denom": "cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "kava",
-    "chain_name_pretty": "Kava",
-    "base_denom": "ukava",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "kava",
-    "chain_name_pretty": "Kava",
-    "base_denom": "hard",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "kava",
-    "chain_name_pretty": "Kava",
-    "base_denom": "swp",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "kava",
-    "chain_name_pretty": "Kava",
-    "base_denom": "usdx",
-    "keywords": ["Native", "Anchored"]
-  },
-  {
-    "chain_name": "kichain",
-    "chain_name_pretty": "Ki",
-    "base_denom": "uxki",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "kichain",
-    "chain_name_pretty": "Ki",
-    "base_denom": "cw20:ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy",
-    "keywords": ["Unknown"]
-  },
-  {
-    "chain_name": "konstellation",
-    "chain_name_pretty": "Konstellation",
-    "base_denom": "udarc",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "kujira",
-    "chain_name_pretty": "Kujira",
-    "base_denom": "ukuji",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "kujira",
-    "chain_name_pretty": "Kujira",
-    "base_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
-    "keywords": ["Native", "Anchored"]
-  },
-  {
-    "chain_name": "lambda",
-    "chain_name_pretty": "Lambda",
-    "base_denom": "ulamb",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "likecoin",
-    "chain_name_pretty": "LikeCoin",
-    "base_denom": "nanolike",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "lumenx",
-    "chain_name_pretty": "LumenX",
-    "base_denom": "ulumen",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "lumnetwork",
-    "chain_name_pretty": "Lum Network",
-    "base_denom": "ulum",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "mars",
-    "chain_name_pretty": "Mars",
-    "base_denom": "umars",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "medasdigital",
-    "chain_name_pretty": "Medas Digital Network",
-    "base_denom": "umedas",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "meme",
-    "chain_name_pretty": "MEME",
-    "base_denom": "umeme",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "microtick",
-    "chain_name_pretty": "Microtick",
-    "base_denom": "utick",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "migaloo",
-    "chain_name_pretty": "Miaglo",
-    "base_denom": "uwhale",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "odin",
-    "chain_name_pretty": "Odin Protocol",
-    "base_denom": "loki",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "odin",
-    "chain_name_pretty": "Odin Protocol",
-    "base_denom": "mGeo",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "odin",
-    "chain_name_pretty": "Odin Protocol",
-    "base_denom": "mO9W",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "onomy",
-    "chain_name_pretty": "Onomy",
-    "base_denom": "anom",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "oraichain",
-    "chain_name_pretty": "Oraichain",
-    "base_denom": "orai",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "panacea",
-    "chain_name_pretty": "Medibloc",
-    "base_denom": "umed",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "persistence",
-    "chain_name_pretty": "Persistence",
-    "base_denom": "uxprt",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "persistence",
-    "chain_name_pretty": "Ethereum (via Gravity Bridge) to Persistence",
-    "base_denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
-    "keywords": ["Wrapped/Bridged", "Utility", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "persistence",
-    "chain_name_pretty": "Persistence",
-    "base_denom": "stk/uatom",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "planq",
-    "chain_name_pretty": "Planq",
-    "base_denom": "aplanq",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "provenance",
-    "chain_name_pretty": "Provenance",
-    "base_denom": "nhash",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "quicksilver",
-    "chain_name_pretty": "Quicksilver",
-    "base_denom": "uqck",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "quicksilver",
-    "chain_name_pretty": "Quicksilver",
-    "base_denom": "uqstars",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "quicksilver",
-    "chain_name_pretty": "Quicksilver",
-    "base_denom": "uqatom",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
     {
-    "chain_name": "quicksilver",
-    "chain_name_pretty": "Quicksilver",
-    "base_denom": "uqosmo",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "quicksilver",
-    "chain_name_pretty": "Quicksilver",
-    "base_denom": "uqregen",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "rebus",
-    "chain_name_pretty": "Rebus",
-    "base_denom": "arebus",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "regen",
-    "chain_name_pretty": "Regen",
-    "base_denom": "uregen",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "rizon",
-    "chain_name_pretty": "Rizon",
-    "base_denom": "uatolo",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "secretnetwork",
-    "chain_name_pretty": "Secret Network",
-    "base_denom": "uscrt",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "secretnetwork",
-    "chain_name_pretty": "Secret Network",
-    "base_denom": "cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "secretnetwork",
-    "chain_name_pretty": "Secret Network",
-    "base_denom": "cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "secretnetwork",
-    "chain_name_pretty": "Secret Network",
-    "base_denom": "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "secretnetwork",
-    "chain_name_pretty": "Secret Network",
-    "base_denom": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "secretnetwork",
-    "chain_name_pretty": "Secret Network",
-    "base_denom": "cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "secretnetwork",
-    "chain_name_pretty": "Secret Network",
-    "base_denom": "cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852",
-    "keywords": ["Utility"]
-  },
-  {
-    "chain_name": "sentinel",
-    "chain_name_pretty": "Sentinel",
-    "base_denom": "udvpn",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "shareledger",
-    "chain_name_pretty": "Shareledger",
-    "base_denom": "nshr",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "shentu",
-    "chain_name_pretty": "Shentu",
-    "base_denom": "uctk",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "sifchain",
-    "chain_name_pretty": "Sifchain",
-    "base_denom": "rowan",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "sommelier",
-    "chain_name_pretty": "Sommelier",
-    "base_denom": "usomm",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "stargaze",
-    "chain_name_pretty": "Stargaze",
-    "base_denom": "ustars",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "starname",
-    "chain_name_pretty": "Starname",
-    "base_denom": "uiov",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "stride",
-    "chain_name_pretty": "Stride",
-    "base_denom": "ustrd",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "stride",
-    "chain_name_pretty": "Stride",
-    "base_denom": "stuatom",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "stride",
-    "chain_name_pretty": "Stride",
-    "base_denom": "stustars",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "stride",
-    "chain_name_pretty": "Stride",
-    "base_denom": "stujuno",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "stride",
-    "chain_name_pretty": "Stride",
-    "base_denom": "stuosmo",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "stride",
-    "chain_name_pretty": "Stride",
-    "base_denom": "stuluna",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "stride",
-    "chain_name_pretty": "Stride",
-    "base_denom": "staevmos",
-    "keywords": ["Native", "Liquid-Staked"]
-  },
-  {
-    "chain_name": "teritori",
-    "chain_name_pretty": "Teritori",
-    "base_denom": "utori",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "terra",
-    "chain_name_pretty": "Terra Classic",
-    "base_denom": "uluna",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "terra",
-    "chain_name_pretty": "Terra Classic",
-    "base_denom": "uusd",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "terra",
-    "chain_name_pretty": "Terra Classic",
-    "base_denom": "ukrw",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "terra2",
-    "chain_name_pretty": "Terra 2.0",
-    "base_denom": "uluna",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "terra2",
-    "chain_name_pretty": "Terra 2.0",
-    "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
-    "keywords": ["Unknown"]
-  },
-  {
-    "chain_name": "tgrade",
-    "chain_name_pretty": "Tgrade",
-    "base_denom": "utgd",
-    "keywords": ["Native", "Utility"]
-  },
-  {
-    "chain_name": "umee",
-    "chain_name_pretty": "Umee",
-    "base_denom": "uumee",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "unification",
-    "chain_name_pretty": "Unification",
-    "base_denom": "nund",
-    "keywords": ["Native"]
-  },
-  {
-    "chain_name": "vidulum",
-    "chain_name_pretty": "Vidulum",
-    "base_denom": "uvdl",
-    "keywords": ["Native"]
-  }
-]
+      "chain_name": "osmosis",
+      "base_denom": "uosmo",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "uion",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "8ball",
+      "base_denom": "uebl",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "acrechain",
+      "base_denom": "aacre",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "acrechain",
+      "base_denom": "erc20/0x2Cbea61fdfDFA520Ee99700F104D5b75ADf50B0c",
+      "frontend_properties": {
+        "pretty_path": "Acrechain (EVM) via Acrechain",
+        "keywords": ["Wrapped/Bridged", "Anchored", "Derivative"]
+      }
+    },
+    {
+      "chain_name": "acrechain",
+      "base_denom": "erc20/0xAE6D3334989a22A65228732446731438672418F2",
+      "frontend_properties": {
+        "pretty_path": "Acrechain (EVM) via Acrechain",
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "agoric",
+      "base_denom": "ubld",
+      "frontend_properties": {
+        "keywords": ["Utility", "Native"]
+      }
+    },
+    {
+      "chain_name": "agoric",
+      "base_denom": "uist",
+      "frontend_properties": {
+        "keywords": ["Utility", "Anchored", "Native"]
+      }
+    },
+    {
+      "chain_name": "akash",
+      "base_denom": "uakt",
+      "frontend_properties": {
+        "keywords": ["Utility", "Native"]
+      }
+    },
+    {
+      "chain_name": "arkh",
+      "base_denom": "arkh",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "assetmantle",
+      "base_denom": "umntl",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "uaxl",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "aave-wei",
+      "frontend_properties": {
+        "symbol": "AAVE.axl",
+        "keywords": ["Wrapped/Bridged", "Utility"],
+        "pretty_path": "Ethereum via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAAVE.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAAVE.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "ape-wei",
+      "frontend_properties": {
+        "symbol": "APE.axl",
+        "keywords": ["Wrapped/Bridged", "Utility"],
+        "pretty_path": "Ethereum via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAPE.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAPE.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "axs-wei",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Axelar",
+        "symbol": "AXS.axl",
+        "keywords": ["Wrapped/Bridged", "Utility"],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAXS.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlAXS.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "uusdc",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Axelar",
+        "symbol": "USDC.axl",
+        "keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDC.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDC.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "weth-wei",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Axelar",
+        "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
+        "symbol": "wETH.axl",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWETH.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWETH.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "wbtc-satoshi",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Axelar",
+        "keywords": ["Wrapped/Bridged", "Derivative"],
+        "symbol": "WBTC.axl",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBTC.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBTC.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "uusdt",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Axelar",
+        "symbol": "USDT.axl",
+        "keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDT.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUSDT.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "dai-wei",
+      "frontend_properties": {
+        "symbol": "DAI.axl",
+        "keywords": ["Wrapped/Bridged", "Anchored"],
+        "pretty_path": "Ethereum via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDAI.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDAI.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "busd-wei",
+      "frontend_properties": {
+        "symbol": "BUSD.axl",
+        "pretty_path": "Ethereum via Axelar",
+        "keywords": ["Wrapped/Bridged"],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlBUSD.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "link-wei",
+      "frontend_properties": {
+        "keywords": ["Wrapped/Bridged", "Utility"],
+        "pretty_path": "Ethereum via Axelar",
+        "symbol": "LINK.axl",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlLINK.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlLINK.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "mkr-wei",
+      "frontend_properties": {
+        "symbol": "MKR.axl",
+        "pretty_path": "Ethereum via Axelar",
+        "keywords": ["Wrapped/Bridged", "Utility"],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlMKR.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlMKR.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "rai-wei",
+      "pretty_path": "Ethereum via Axelar",
+      "frontend_properties": {
+        "keywords": ["Wrapped/Bridged", "Reflexive"],
+        "symbol": "RAI.axl",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlRAI.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlRAI.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "shib-wei",
+      "frontend_properties": {
+        "symbol": "SHIB.axl",
+        "keywords": ["Wrapped/Bridged"],
+        "pretty_path": "Ethereum via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlSHIB.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlSHIB.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "uni-wei",
+      "frontend_properties": {
+        "symbol": "UNI.axl",
+        "keywords": ["Wrapped/Bridged", "Utility"],
+        "pretty_path": "Ethereum via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUNI.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlUNI.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "xcn-wei",
+      "frontend_properties": {
+        "symbol": "XCN.axl",
+        "keywords": ["Wrapped/Bridged", "Utility"],
+        "pretty_path": "Ethereum via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlXCN.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlXCN.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "wftm-wei",
+      "frontend_properties": {
+        "symbol": "wFTM.axl",
+        "keywords": ["Wrapped/Bridged", "Native"],
+        "pretty_path": "Fantom via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWFTM.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWFTM.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "wglmr-wei",
+      "frontend_properties": {
+        "symbol": "wGLMR.axl",
+        "keywords": ["Wrapped/Bridged", "Native"],
+        "pretty_path": "Moonbeam via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWGLMR.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWGLMR.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "wbnb-wei",
+      "frontend_properties": {
+        "symbol": "wBNB.axl",
+        "pretty_path": "Binance Smart Chain via Axelar",
+        "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBNB.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWBNB.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "wmatic-wei",
+      "frontend_properties": {
+        "symbol": "wMATIC.axl",
+        "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
+        "pretty_path": "Polygon via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWMATIC.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWMATIC.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "wavax-wei",
+      "frontend_properties": {
+        "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
+        "symbol": "wAVAX.axl",
+        "pretty_path": "Avalanche via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWAVAX.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlWAVAX.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "dot-planck",
+      "frontend_properties": {
+        "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
+        "symbol": "DOT.axl",
+        "pretty_path": "DOT on Moonbeam via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "frax-wei",
+      "frontend_properties": {
+        "keywords": ["Wrapped/Bridged", "Anchored"],
+        "symbol": "FRAX.axl",
+        "pretty_path": "Ethereum via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlFRAX.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlFRAX.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "polygon-uusdc",
+      "frontend_properties": {
+        "symbol": "polyUSDC.axl",
+        "keywords": ["Wrapped/Bridged", "Fiat-Collateralized", "Derivative"],
+        "pretty_path": "USDC (PoS) on Polygon via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/polyaxlUSDC.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/polyaxlUSDC.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "axelar",
+      "base_denom": "avalanche-uusdc",
+      "frontend_properties": {
+        "keywords": ["Wrapped/Bridged", "Fiat-Collateralized", "Derivative"],
+        "symbol": "avaxUSDC.axl",
+        "pretty_path": "USDC on Avalanche via Axelar",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/avaxaxlUSDC.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/avaxaxlUSDC.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "bandchain",
+      "base_denom": "uband",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "beezee",
+      "base_denom": "ubze",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "bitcanna",
+      "base_denom": "ubcna",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ubtsg",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft25B30C386CDDEBD1413D5AE1180956AE9EB3B9F7",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft575B10B0CEE2C164D9ED6A96313496F164A9607C",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft56664FC98A2CF5F4FBAC3566D1A11D891AD88305",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft52EEB0EE509AC546ED92EAC8591F731F213DDD16",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ftE4903ECC861CA45F2C2BC7EAB8255D2E6E87A33A",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft85AE1716C5E39EA6D64BBD7898C3899A7B500626",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft387C1C279D962ED80C09C1D592A92C4275FD7C5D",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft24C9FA4F10B0F235F4A815B15FC774E046A2B2EB",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft7020C2A8E984EEBCBB383E91CD6FBB067BB2272B",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft2DD67F5D99E9A141142B48474FA7B6B3FF00A3FE",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft4B030260D99E3ABE2B604EA2B33BAF3C085CDA12",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ftD4B6290EDEE1EC7B97AB5A1DC6C177EFD08ADCC3",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bitsong",
+      "base_denom": "ft347B1612A2B7659913679CF6CD45B8B130C50A00",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "bostrom",
+      "base_denom": "boot",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "canto",
+      "base_denom": "acanto",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "carbon",
+      "base_denom": "swth",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "cerberus",
+      "base_denom": "ucrbrus",
+      "frontend_properties": {
+        "keywords": ["Native", "Dead Chain"]
+      }
+    },
+    {
+      "chain_name": "cheqd",
+      "base_denom": "ncheq",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "chihuahua",
+      "base_denom": "uhuahua",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "comdex",
+      "base_denom": "ucmdx",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "comdex",
+      "base_denom": "uharbor",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "comdex",
+      "base_denom": "ucmst",
+      "frontend_properties": {
+        "keywords": ["Native", "Anchored"]
+      }
+    },
+    {
+      "chain_name": "cosmoshub",
+      "base_denom": "uatom",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "crescent",
+      "base_denom": "ucre",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "cryptoorgchain",
+      "base_denom": "basecro",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "cudos",
+      "base_denom": "acudos",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "decentr",
+      "base_denom": "udec",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "desmos",
+      "base_denom": "udsm",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "dig",
+      "base_denom": "udig",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "dyson",
+      "base_denom": "dys",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "echelon",
+      "base_denom": "aechelon",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "emoney",
+      "base_denom": "ungm",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "emoney",
+      "base_denom": "eeur",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "evmos",
+      "base_denom": "aevmos",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "fetchhub",
+      "base_denom": "afet",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "galaxy",
+      "base_denom": "uglx",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "genesisl1",
+      "base_denom": "el1",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "gravitybridge",
+      "base_denom": "ugraviton",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "gravitybridge",
+      "base_denom": "gravity0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Acrechain",
+        "keywords": ["Wrapped/Bridged", "Derivative"],
+        "symbol": "WBTC.grv",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "gravitybridge",
+      "base_denom": "gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Acrechain",
+        "symbol": "wETH.grv",
+        "keywords": ["Wrapped/Bridged", "Derivative", "Native"],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "gravitybridge",
+      "base_denom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Acrechain",
+        "symbol": "USDC.grv",
+        "keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "gravitybridge",
+      "base_denom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Acrechain",
+        "symbol": "DAI.grv",
+        "keywords": ["Wrapped/Bridged", "Anchored"],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "gravitybridge",
+      "base_denom": "gravity0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Acrechain",
+        "symbol": "USDT.grv",
+        "keywords": ["Wrapped/Bridged", "Fiat-Collateralized"],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.svg"
+        }
+      }
+    },
+    {
+      "chain_name": "impacthub",
+      "base_denom": "uixo",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "imversed",
+      "base_denom": "aimv",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "injective",
+      "base_denom": "inj",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "irisnet",
+      "base_denom": "uiris",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "jackal",
+      "base_denom": "ujkl",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "ujuno",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          }
+        ],
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "kava",
+      "base_denom": "ukava",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "kava",
+      "base_denom": "hard",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "kava",
+      "base_denom": "swp",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "kava",
+      "base_denom": "usdx",
+      "frontend_properties": {
+        "keywords": ["Native", "Anchored"]
+      }
+    },
+    {
+      "chain_name": "kichain",
+      "base_denom": "uxki",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "kichain",
+      "base_denom": "cw20:ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy",
+      "frontend_properties": {
+        "keywords": ["Unknown"]
+      }
+    },
+    {
+      "chain_name": "konstellation",
+      "base_denom": "udarc",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "kujira",
+      "base_denom": "ukuji",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "kujira",
+      "base_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+      "frontend_properties": {
+        "keywords": ["Native", "Anchored"]
+      }
+    },
+    {
+      "chain_name": "lambda",
+      "base_denom": "ulamb",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "likecoin",
+      "base_denom": "nanolike",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "lumenx",
+      "base_denom": "ulumen",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "lumnetwork",
+      "base_denom": "ulum",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "mars",
+      "base_denom": "umars",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "medasdigital",
+      "base_denom": "umedas",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "meme",
+      "base_denom": "umeme",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "microtick",
+      "base_denom": "utick",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "migaloo",
+      "base_denom": "uwhale",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "odin",
+      "base_denom": "loki",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "odin",
+      "base_denom": "mGeo",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "odin",
+      "base_denom": "mO9W",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "onomy",
+      "base_denom": "anom",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "oraichain",
+      "base_denom": "orai",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "panacea",
+      "base_denom": "umed",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "persistence",
+      "base_denom": "uxprt",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "persistence",
+      "base_denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
+      "frontend_properties": {
+        "pretty_path": "Ethereum via Gravity Bridge to Persistence",
+        "keywords": ["Wrapped/Bridged", "Utility", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "persistence",
+      "base_denom": "stk/uatom",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "planq",
+      "base_denom": "aplanq",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "provenance",
+      "base_denom": "nhash",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "quicksilver",
+      "base_denom": "uqck",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "quicksilver",
+      "base_denom": "uqstars",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "quicksilver",
+      "base_denom": "uqatom",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "quicksilver",
+      "base_denom": "uqosmo",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "quicksilver",
+      "base_denom": "uqregen",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "rebus",
+      "base_denom": "arebus",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "regen",
+      "base_denom": "uregen",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "rizon",
+      "base_denom": "uatolo",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "secretnetwork",
+      "base_denom": "uscrt",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "secretnetwork",
+      "base_denom": "cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "secretnetwork",
+      "base_denom": "cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "secretnetwork",
+      "base_denom": "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "secretnetwork",
+      "base_denom": "cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "secretnetwork",
+      "base_denom": "cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "secretnetwork",
+      "base_denom": "cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852",
+      "frontend_properties": {
+        "keywords": ["Utility"]
+      }
+    },
+    {
+      "chain_name": "sentinel",
+      "base_denom": "udvpn",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "shareledger",
+      "base_denom": "nshr",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "shentu",
+      "base_denom": "uctk",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "sifchain",
+      "base_denom": "rowan",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "sommelier",
+      "base_denom": "usomm",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "stargaze",
+      "base_denom": "ustars",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "starname",
+      "base_denom": "uiov",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "stride",
+      "base_denom": "ustrd",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "stride",
+      "base_denom": "stuatom",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "stride",
+      "base_denom": "stustars",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "stride",
+      "base_denom": "stujuno",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "stride",
+      "base_denom": "stuosmo",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "stride",
+      "base_denom": "stuluna",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "stride",
+      "base_denom": "staevmos",
+      "frontend_properties": {
+        "keywords": ["Native", "Liquid-Staked"]
+      }
+    },
+    {
+      "chain_name": "teritori",
+      "base_denom": "utori",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "terra",
+      "base_denom": "uluna",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "terra",
+      "base_denom": "uusd",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "terra",
+      "base_denom": "ukrw",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "terra2",
+      "base_denom": "uluna",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "terra2",
+      "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+      "frontend_properties": {
+        "keywords": ["Unknown"]
+      }
+    },
+    {
+      "chain_name": "tgrade",
+      "base_denom": "utgd",
+      "frontend_properties": {
+        "keywords": ["Native", "Utility"]
+      }
+    },
+    {
+      "chain_name": "umee",
+      "base_denom": "uumee",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "unification",
+      "base_denom": "nund",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    },
+    {
+      "chain_name": "vidulum",
+      "base_denom": "uvdl",
+      "frontend_properties": {
+        "keywords": ["Native"]
+      }
+    }
+  ]
 }

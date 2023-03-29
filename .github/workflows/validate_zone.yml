@@ -2,7 +2,7 @@ on:
   pull_request:
     branches:
       - main
-name: Pull request workflow
+name: PR Validate Zone Data
 jobs:
   validate_assetlists:
     name: Validate zone
@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Validate Zone schema
-        uses: mcandeia/json-schema-validator@v1.0.5
+        uses: mcandeia/json-schema-validator@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           json_schema: ./zone.schema.json

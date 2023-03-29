@@ -27,6 +27,7 @@ const assetlistsRoot = '../../..';
 const assetlistsMainnetsSubdirectory = '/' + process.env.CHAIN_ID;
 let assetlistsSubdirectory = '';
 const assetlistFileName = 'assetlist.json';
+const chainFileName = 'chain.json';
 const zoneAssetlistFileName = process.env.CHAIN_NAME + '.zone.json';
 const ibcFolderName = '_IBC';
 const mainnetChainName = process.env.CHAIN_NAME;
@@ -35,20 +36,22 @@ const mainnetChainId = process.env.CHAIN_ID;
 let localChainId = '';
 const assetlistSchema = {
   description: 'string',
+  additional_information: [],
+  pretty_path: 'string',
   denom_units: [],
   type_asset: 'string',
   address: 'string',
+  traces: [],
   base: 'string',
   name: 'string',
   display: 'string',
   symbol: 'string',
-  traces: [],
   logo_URIs: {
     png: 'string',
     svg: 'string',
   },
   coingecko_id: 'string',
-  keywords: [],
+  keywords: []
 };
 
 function getZoneAssetlist() {
@@ -76,7 +79,9 @@ function copyRegisteredAsset(chain_name, base_denom) {
       )
     );
     return chainRegistryChainAssetlist.assets.find((registeredAsset) => {
-      return registeredAsset.base === base_denom;
+      return (
+        registeredAsset.base === base_denom
+      );
     });
   } catch (err) {
     console.log(err);
@@ -263,27 +268,58 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       });
     }
 
-    //--Overrides Properties when Specified--
-    let keywords = [];
-    if (zoneAsset.chain_name_pretty) {
-      generatedAsset.name = zoneAsset.chain_name_pretty;
+    //--Override name with a "pretty name"--
+function getPrettyChain() {
+  try {
+    const chainRegistryChainJson = JSON.parse(
+      fs.readFileSync(
+        path.join(
+          chainRegistryRoot,
+          chainRegistrySubdirectory,
+          zoneAsset.chain_name,
+          chainFileName
+        )
+      )
+    );
+    return chainRegistryChainJson.pretty_name;
+  } catch (err) {
+    console.log(err);
+    return "Error"
+  }
+}
+
+    //--Other Overrides--
+    let override = zoneAsset.frontend_properties;
+    let allKeywords = []
+    if (getPrettyChain()) {
+      generatedAsset.name = getPrettyChain();
+    } else {
+      generatedAsset.name = zone.chain_name_pretty;
     }
-    if (zoneAsset.frontend_properties) {
-      if (zoneAsset.frontend_properties.symbol) {
-        generatedAsset.symbol = zoneAsset.frontend_properties.symbol;
+    if (override) {
+      if (override.symbol) {
+        generatedAsset.symbol = override.symbol;
       }
-      if (zoneAsset.frontend_properties.logo_URIs) {
-        generatedAsset.logo_URIs = zoneAsset.frontend_properties.logo_URIs;
+      if (override.pretty_path) {
+        generatedAsset.pretty_path = override.pretty_path;
       }
-      if (zoneAsset.coingecko_id) {
-        generatedAsset.coingecko_id = zoneAsset.coingecko_id;
+      if (override.additional_information) {
+        generatedAsset.additional_information = override.additional_information
       }
-    }
-    if (zoneAsset.keywords) {
-      keywords = zoneAsset.keywords;
-    }
-    if (keywords.length > 0) {
-      generatedAsset.keywords = keywords;
+      if (override.logo_URIs) {
+        generatedAsset.logo_URIs = override.logo_URIs;
+      }
+      if (override.coingecko_id) {
+        generatedAsset.coingecko_id = override.coingecko_id;
+      }
+      if (generatedAsset.keywords) {
+        allKeywords.push(override.keywords)
+        allKeywords.push(generatedAsset.keywords);
+        generatedAsset.keywords = allKeywords.flat()
+      } else {
+        allKeywords.push(override.keywords);
+        generatedAsset.keywords = allKeywords.flat();
+      }
     }
 
     //--Re-order Properties--
@@ -325,8 +361,6 @@ function selectDomain(domain) {
 async function main() {
   selectDomain('mainnets');
   await generateAssetlist();
-  selectDomain('testnets');
-  generateAssetlist();
 }
 
 main();

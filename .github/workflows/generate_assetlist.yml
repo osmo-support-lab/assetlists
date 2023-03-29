@@ -1,4 +1,4 @@
-name: Generate Assetlist
+name: Generate Asset list via Node.js
 on:
   workflow_dispatch:
     inputs:
@@ -21,7 +21,7 @@ on:
           - kujira
 jobs:
   generate_assetlist:
-    name: Generate Assetlist
+    name: Generate Assetlist with Code
     runs-on: ubuntu-latest
     
     defaults:
@@ -30,13 +30,13 @@ jobs:
     
     steps:
     
-      - name: Checkout repository
+      - name: Checkout Repo
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           submodules: true
           
-      - name: Git Sumbodule Update
+      - name: Git Submodule Update
         run: |
           git submodule update --init --recursive
           git submodule update --recursive --remote
@@ -46,7 +46,7 @@ jobs:
         with:
           node-version: 19
           
-      - name: Run code to Generate Assetlist
+      - name: Run code to Generate Asset list
         working-directory: ./.github/workflows/utility
         run: CHAIN_ID=${{ inputs.chain_id_selection }} CHAIN_NAME=${{ inputs.chain_name_selection }} node generate_assetlist.mjs
       
@@ -55,17 +55,7 @@ jobs:
         with:
           github_token: "${{ secrets.GITHUB_TOKEN }}"
           add_timestamp: false
-          commit_prefix: "[AUTO] "
-          commit_message: "${{ inputs.chain_id_selection }}.assetlist.json Update"
+          commit_prefix: "[🔃][AUTO] "
+          commit_message: "${{ inputs.chain_id_selection }}.assetlist.json Update."
           force: true
           target_branch: update/assetlist
-      
-      - name: Create A PR
-        uses: peter-evans/create-pull-request@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: update/assetlist
-          base: main
-          title: ${{ inputs.chain_id_selection }}.assetlist.json Auto Update
-          body: "**Automated pull request**"
-          assignees: ToggLeTek

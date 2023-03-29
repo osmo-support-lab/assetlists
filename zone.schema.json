@@ -1,7 +1,8 @@
 {
+  "$id": "https://dex.osl.zone/zone.schema.json",
   "$schema": "https://json-schema.org/draft-07/schema",
   "title": "Zone List",
-  "description": "A basic list of assets, in order as shown on front-ends.",
+  "description": "A basic list of assets, in order as shown on front-ends with optional overrides.",
   "type": "object",
   "required": [
     "chain_name",
@@ -35,6 +36,10 @@
           "type": "string",
           "description": "Chain name as used in the Cosmos Chain Registry"
         },
+        "chain_name_pretty": {
+          "type": "string",
+          "description": "[OPTIONAL] Overriding the 'pretty_name' of an asset's chain. For example Osmosis instead of osmosis or Terra 2.0 instead of terra2."
+        },
         "base_denom": {
           "type": "string",
           "description": "Base denomination as used for the asset in the Cosmos Chain Registry"
@@ -47,8 +52,33 @@
                 "type": "string",
                 "description": "Overriding symbol of an asset. For example WBTC.axl instead of WBTC"
               },
+              "pretty_path": {
+                "type": "string",
+                "description": "[OPTIONAL] A single string representing a bridged token. For example: Ethereum to Axelar"
+              },
+              "additional_information": {
+                "type": "array",
+                "description": "[OPTIONAL] A list of up to 10 objects that have key:value pairs. Example {'chain_website': 'link'}, this will generally be utilized for front-ends.",
+                "maxContains": 10,
+                "items": {
+                  "type": "object"
+                }
+              },
+              "keywords": {
+                "type": "array",
+                "description": "[OPTIONAL] An array of up to 20 keywords to describe the asset. Examples are: Native, Derivative, Liquid-Staked, Wrapped/Bridged, Fiat-Collateralized, Anchored, Utility, Reflexive",
+                "maxContains": 20,
+                "items": {
+                "type": "string"
+                }
+              },
+              "coingecko_id": {
+                "type": "string",
+                "description": "[OPTIONAL] The coingecko id to fetch asset data from coingecko v3 api. See https://api.coingecko.com/api/v3/coins/list"
+              },
               "logo_URIs": {
                 "type": "object",
+                "description": "[OPTIONAL] Overrides for logo images. These should be uploaded under /images/<chain_name>/<symbol>.png or .svg",
                 "properties": {
                   "png": {
                     "type": "string",
@@ -60,22 +90,6 @@
                   }
                 }
               }
-            }
-          },
-          "chain_name_pretty": {
-                "type": "string",
-                "description": "[OPTIONAL] Overriding name of an asset's chain. For example Osmosis instead of osmosis or Terra 2.0 instead of terra2."
-              },
-          "coingecko_id": {
-            "type": "string",
-            "description": "[OPTIONAL] The coingecko id to fetch asset data from coingecko v3 api. See https://api.coingecko.com/api/v3/coins/list"
-            },
-          "keywords": {
-            "type": "array",
-            "description": "[OPTIONAL] An array of up to 20 keywords to describe the asset. Examples are: Native, Derivative, Liquid-Staked, Wrapped/Bridged, Fiat-Collateralized, Anchored, Utility, Reflexive",
-            "maxContains": 20,
-            "items": {
-            "type": "string"
             }
           }
         },
