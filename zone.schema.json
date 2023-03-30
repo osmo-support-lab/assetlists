@@ -56,6 +56,10 @@
                 "type": "string",
                 "description": "[OPTIONAL] A single string representing a bridged token. For example: Ethereum to Axelar"
               },
+              "description": {
+                "type": "string",
+                "description": "[OPTIONAL] An override string for the asset. "
+              },
               "additional_information": {
                 "type": "array",
                 "description": "[OPTIONAL] A list of up to 10 objects that have key:value pairs. Example {'chain_website': 'link'}, this will generally be utilized for front-ends.",

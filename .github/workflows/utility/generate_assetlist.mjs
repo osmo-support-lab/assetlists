@@ -44,6 +44,7 @@ const snowTraceRoot = 'https://snowtrace.io/token/'
 const moonScanRoot = 'https://moonscan.io/token/'
 const bnbScanRoot = 'https://bscscan.com/token/'
 const ftmScanRoot = 'https://ftmscan.com/token/'
+const sinfoniaRoot = 'https://app.sinfonia.zone/fantokens/'
 const assetlistSchema = {
   description: 'string',
   additional_information: [],
@@ -256,6 +257,7 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
         delete trace.chain.port;
         delete trace.counterparty.port;
       }
+      // console.log(trace)
 
       //--Append Latest Trace to Traces--
       traces.push(trace);
@@ -364,7 +366,37 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       }
     }
 
+    // Use chain.json to pull GH page for chain
+    function getGitWebsite() {
+      try {
+        const chainRegistryChainJson = JSON.parse(
+          fs.readFileSync(
+            path.join(
+              chainRegistryRoot,
+              chainRegistrySubdirectory,
+              zoneAsset.chain_name,
+              chainFileName
+            )
+          )
+        );
+        let tempObj = {
+          "git_repo": chainRegistryChainJson.codebase.git_repo
+        }
+        return tempObj;
+      } catch (err) {
+        let tempObj = {
+          "git_repo": "Error in Chain Registry."
+        }
+        console.log(err);
+        return tempObj
+      }
+    }
+
     let allAdditional = []
+
+    // Check keywords for additional_info modification
+
+    // Bridged Asset Modifier
     if (generatedAsset.traces) {
       if (generatedAsset.traces[0].type === 'ibc') {
         allAdditional = []
@@ -381,25 +413,29 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
           contractAddress = generatedAsset.traces[1].counterparty.base_denom
         }
         if (protocol === 'ethereum') {
-          linkContract = {"block_explorer_link": etherScanRoot + contractAddress}
+          linkContract = { "block_explorer_link": etherScanRoot + contractAddress }
+          allAdditional.push(linkContract)
         }
         if (protocol === 'polygon') {
           linkContract = { "block_explorer_link": polygonScanRoot + contractAddress }
+          allAdditional.push(linkContract)
         }
         if (protocol === 'moonbeam') {
           linkContract = { "block_explorer_link": moonScanRoot + contractAddress }
+          allAdditional.push(linkContract)
         }
         if (protocol === 'avalanche') {
           linkContract = { "block_explorer_link": snowTraceRoot + contractAddress }
+          allAdditional.push(linkContract)
         }
         if (protocol === 'fantom') {
           linkContract = { "block_explorer_link": ftmScanRoot + contractAddress }
+          allAdditional.push(linkContract)
         }
         if (protocol === 'binancesmartchain') {
           linkContract = { "block_explorer_link": bnbScanRoot + contractAddress }
+          allAdditional.push(linkContract)
         }
-
-        allAdditional.push(linkContract)
       }
     }
 
@@ -417,6 +453,11 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       // Override symbol with zoneAsset override.
       if (override.symbol) {
         generatedAsset.symbol = override.symbol;
+      }
+
+      // Override description
+      if (override.description) {
+        generatedAsset.description = override.description
       }
 
       // Add zoneAsset pretty_path
@@ -452,6 +493,28 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       } else {
         allAdditional.push(getChainWebsite())
         allAdditional.push(getCoinLandingWebsite())
+        generatedAsset.additional_information = allAdditional.flat()
+      }
+    }
+
+    // Github Modifier
+    for (let item in generatedAsset.additional_information) {
+      if (generatedAsset.additional_information[item].git_repo === ! "") {
+        generatedAsset.additional_information = allAdditional
+        allAdditional.push(getGitWebsite())
+        generatedAsset.additional_information = allAdditional.flat()
+      }
+    }
+
+
+    // Sinfonia Modifier
+    for (let tag in generatedAsset.keywords) {
+      if (generatedAsset.keywords[tag] === 'Sinfonia') {
+        generatedAsset.additional_information = allAdditional
+        let linkSinfonia;
+        let baseFanDenom = generatedAsset.traces[0].counterparty.base_denom
+        linkSinfonia = { "sinfonia_link": sinfoniaRoot + baseFanDenom }
+        allAdditional.push(linkSinfonia)
         generatedAsset.additional_information = allAdditional.flat()
       }
     }
