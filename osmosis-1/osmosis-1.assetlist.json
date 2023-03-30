@@ -3,6 +3,14 @@
   "assets": [
     {
       "description": "The native token of Osmosis",
+      "additional_information": [
+        {
+          "chain_website": "https://osmosis.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/osmosis"
+        }
+      ],
       "denom_units": [
         {
           "denom": "uosmo",
@@ -29,6 +37,14 @@
       ]
     },
     {
+      "additional_information": [
+        {
+          "chain_website": "https://osmosis.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/osmosis"
+        }
+      ],
       "denom_units": [
         {
           "denom": "uion",
@@ -55,6 +71,14 @@
     },
     {
       "description": "The native staking token of 8ball.",
+      "additional_information": [
+        {
+          "chain_website": "https://8ball.info/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/8ball"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/8BE73A810E22F80E5E850531A688600D63AE7392E7C2770AE758CAA4FD921B7F",
@@ -96,6 +120,14 @@
     },
     {
       "description": "The native EVM, governance and staking token of the Acrechain",
+      "additional_information": [
+        {
+          "chain_website": "https://arable.finance/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/acrechain"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/BB936517F7E5D77A63E0ADB05217A6608B0C4CF8FBA7EA2F4BAE4107A7238F06",
@@ -138,6 +170,14 @@
     },
     {
       "description": "Overcollateralized stable coin for Arable derivatives v1",
+      "additional_information": [
+        {
+          "chain_website": "https://arable.finance/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/acrechain"
+        }
+      ],
       "pretty_path": "Acrechain (EVM) via Acrechain",
       "denom_units": [
         {
@@ -183,6 +223,14 @@
     },
     {
       "description": "Ciento Exchange Token",
+      "additional_information": [
+        {
+          "chain_website": "https://arable.finance/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/acrechain"
+        }
+      ],
       "pretty_path": "Acrechain (EVM) via Acrechain",
       "denom_units": [
         {
@@ -225,6 +273,14 @@
     },
     {
       "description": "BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.",
+      "additional_information": [
+        {
+          "chain_website": "https://agoric.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/agoric"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/2DA9C149E9AD2BD27FEFA635458FB37093C256C1A940392634A16BEA45262604",
@@ -268,6 +324,14 @@
     },
     {
       "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
+      "additional_information": [
+        {
+          "chain_website": "https://agoric.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/agoric"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/92BE0717F4678905E53F4E45B2DED18BC0CB97BF1F8B6A25AFEDF3D5A879B4D5",
@@ -311,6 +375,14 @@
     },
     {
       "description": "Akash Token (AKT) is the Akash Network's native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
+      "additional_information": [
+        {
+          "chain_website": "https://akash.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/akash"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4",
@@ -354,6 +426,14 @@
     },
     {
       "description": "The native token of Arkhadian",
+      "additional_information": [
+        {
+          "chain_website": "https://arkhadian.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/arkh"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/0F91EE8B98AAE3CF393D94CD7F89A10F8D7758C5EC707E721899DFE65C164C28",
@@ -395,6 +475,14 @@
     },
     {
       "description": "The native token of Asset Mantle",
+      "additional_information": [
+        {
+          "chain_website": "https://assetmantle.one/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/assetmantle"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/CBA34207E969623D95D057D9B11B0C8B32B89A71F170577D982FDDE623813FFC",
@@ -437,6 +525,14 @@
     },
     {
       "description": "The native token of Axelar",
+      "additional_information": [
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
@@ -479,6 +575,17 @@
     },
     {
       "description": "Aave on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -530,6 +637,17 @@
     },
     {
       "description": "ApeCoin on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x4d224452801aced8b2f0aebe155379bb5d594381"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -581,6 +699,17 @@
     },
     {
       "description": "Axie Infinity Shard on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -632,6 +761,17 @@
     },
     {
       "description": "Circle's stablecoin on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -683,6 +823,17 @@
     },
     {
       "description": "Wrapped Ether on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -735,6 +886,17 @@
     },
     {
       "description": "Wrapped Bitcoin on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -786,6 +948,17 @@
     },
     {
       "description": "Tether's USD stablecoin on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -837,6 +1010,17 @@
     },
     {
       "description": "Dai stablecoin on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -888,6 +1072,17 @@
     },
     {
       "description": "Binance USD on Axelar.",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x4fabb145d64652a948d72533023f6e7a623c7c53"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -938,6 +1133,17 @@
     },
     {
       "description": "Chainlink on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x514910771af9ca656af840dff83e8264ecf986ca"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -989,6 +1195,17 @@
     },
     {
       "description": "Maker on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -1040,6 +1257,17 @@
     },
     {
       "description": "Rai Reflex Index on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x03ab458634910aad20ef5f1c8ee96f1d6ac54919"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/BD796662F8825327D41C96355DF62045A5BA225BAE31C0A86289B9D88ED3F44E",
@@ -1090,6 +1318,17 @@
     },
     {
       "description": "Shiba Inu on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -1140,6 +1379,17 @@
     },
     {
       "description": "Uniswap on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -1191,6 +1441,17 @@
     },
     {
       "description": "Chain on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -1242,6 +1503,17 @@
     },
     {
       "description": "Wrapped FTM on Axelar.",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://ftmscan.com/token/0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Fantom via Axelar",
       "denom_units": [
         {
@@ -1293,6 +1565,17 @@
     },
     {
       "description": "Wrapped Moonbeam on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://moonscan.io/token/0xacc15dc74880c9944775448304b263d191c6077f"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Moonbeam via Axelar",
       "denom_units": [
         {
@@ -1344,6 +1627,17 @@
     },
     {
       "description": "Wrapped BNB on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Binance Smart Chain via Axelar",
       "denom_units": [
         {
@@ -1396,6 +1690,17 @@
     },
     {
       "description": "Wrapped Matic on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://polygonscan.com/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Polygon via Axelar",
       "denom_units": [
         {
@@ -1448,6 +1753,17 @@
     },
     {
       "description": "Wrapped AVAX on Axelar.",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Avalanche via Axelar",
       "denom_units": [
         {
@@ -1500,7 +1816,18 @@
     },
     {
       "description": "Wrapped Polkadot on Axelar",
-      "pretty_path": "DOT on Moonbeam via Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://moonscan.io/token/0xffffffff1fcacbd218edc0eba20fc2308c778080"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
+      "pretty_path": "xcDOT on Moonbeam via Axelar",
       "denom_units": [
         {
           "denom": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
@@ -1539,7 +1866,7 @@
       "base": "ibc/3FF92D26B407FD61AE95D975712A7C319CDE28DE4D80BDC9978D935932B991D7",
       "name": "Axelar",
       "display": "dot",
-      "symbol": "DOT.axl",
+      "symbol": "xcDOT.axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.png",
         "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.svg"
@@ -1552,6 +1879,17 @@
     },
     {
       "description": "Frax's fractional-algorithmic stablecoin on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x853d955acef822db058eb8505911ed77f175b99e"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "Ethereum via Axelar",
       "denom_units": [
         {
@@ -1603,6 +1941,17 @@
     },
     {
       "description": "Circle's stablecoin from Polygon on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://polygonscan.com/token/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "USDC (PoS) on Polygon via Axelar",
       "denom_units": [
         {
@@ -1655,6 +2004,17 @@
     },
     {
       "description": "Circle's stablecoin from Avalanche on Axelar",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://snowtrace.io/token/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+        },
+        {
+          "chain_website": "https://axelar.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/axelar"
+        }
+      ],
       "pretty_path": "USDC on Avalanche via Axelar",
       "denom_units": [
         {
@@ -1707,6 +2067,14 @@
     },
     {
       "description": "The native token of BandChain",
+      "additional_information": [
+        {
+          "chain_website": "https://bandprotocol.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bandchain"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/F867AE2112EFE646EC71A25CD2DFABB8927126AC1E19F1BBF0FF693A4ECA05DE",
@@ -1750,6 +2118,12 @@
     },
     {
       "description": "BeeZee native blockchain",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/beezee"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C822645522FC3EECF817609AA38C24B64D04F5C267A23BCCF8F2E3BC5755FA88",
@@ -1792,6 +2166,14 @@
     },
     {
       "description": "The BCNA coin is the transactional token within the BitCanna network, serving the legal cannabis industry through its payment network, supply chain and trust network.",
+      "additional_information": [
+        {
+          "chain_website": "https://www.bitcanna.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitcanna"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/D805F1DA50D31B96E4282C1D4181EDDFB1A44A598BFF5666F4B43E4B8BEA95A5",
@@ -1835,6 +2217,14 @@
     },
     {
       "description": "BitSong Native Token",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452",
@@ -1879,6 +2269,14 @@
     },
     {
       "description": "Adam Clay a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
@@ -1919,6 +2317,14 @@
     },
     {
       "description": "Nicola Fasano a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/423967B46B1A51D78619085105B04FCFA14F7CBC0BE7539A316B2DCDFC7D8C07",
@@ -1959,6 +2365,14 @@
     },
     {
       "description": "Delta 9 a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/1DE9A32D603EE05E9B8619DF24D90FD518C932AE0B5B3209A986B7262DBADE2A",
@@ -1999,6 +2413,14 @@
     },
     {
       "description": "FONTI a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/239A507997222805E441956EBE8087D7E2D05D6535C6D4C75EF8DCF83B3DE1A1",
@@ -2039,6 +2461,14 @@
     },
     {
       "description": "BlackJack a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/B3FB7128CE957DE1ADB687A919AA0786C77C62FB1280C07CDD78AEA032D56853",
@@ -2079,6 +2509,14 @@
     },
     {
       "description": "Rawanne a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/56C276FC136E239449DCE664292DBEEF5795C4EF4B5B35DB98BD1C0948274867",
@@ -2119,6 +2557,14 @@
     },
     {
       "description": "Enmoda a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/051A38BBEF92B9D8293AFBE1FA293E704359E9CB28297A0FD5DBA3E9CCEE9AB1",
@@ -2159,6 +2605,14 @@
     },
     {
       "description": "404Deep Records a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/B797E4F42CD33C50511B341E50C5CC0E8EF0D93B1E1247ABAA071583B8619202",
@@ -2199,6 +2653,14 @@
     },
     {
       "description": "N43 a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/E4FFAACCDB7D55CE2D257DF637C00158CB841F11D0013B2D03E31FF7800A2C58",
@@ -2239,6 +2701,14 @@
     },
     {
       "description": "Puro Lobo a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C9864D1B9623F703C75BBF72B7FF8A7317E1535C96538D21467A4311246DC3B5",
@@ -2279,6 +2749,14 @@
     },
     {
       "description": "Vibranium a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/8A07D4BD40E0F44ECFDF360F7EA7008B288926FB87C54489FE54DB81A5340E0C",
@@ -2319,6 +2797,14 @@
     },
     {
       "description": "Karina a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/6A6174468758D207DD2D880363BF699C6568A29E87651337AEDAFD9E69EA7E58",
@@ -2359,6 +2845,14 @@
     },
     {
       "description": "Luca Testa a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/022A879A5301CBCACF96216C967805F15C33C615B74DC7236027C1BA1BF664FF",
@@ -2399,6 +2893,14 @@
     },
     {
       "description": "Carolina Marquez a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C1CEF00F016FE89EA6E5B07DA895AACD91B0AAD69A991033D846B988AD4FB69D",
@@ -2439,6 +2941,14 @@
     },
     {
       "description": "L DON a BitSong Music FanToken",
+      "additional_information": [
+        {
+          "chain_website": "https://bitsong.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/BE95D1E09F5A44FC5409F4E0F52750DF2A868D865BC91F3C3EE3C83235789D18",
@@ -2479,6 +2989,12 @@
     },
     {
       "description": "The staking token of Bostrom",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/bostrom"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/FE2CD1E6828EC0FAB8AF39BAC45BC25B965BA67CCBC50C13A14BD610B0D1E2C4",
@@ -2518,6 +3034,14 @@
     },
     {
       "description": "Canto is a Layer-1 blockchain built to deliver on the promise of DeFi",
+      "additional_information": [
+        {
+          "chain_website": "https://canto.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/canto"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/47CAF2DB8C016FAC960F33BC492FD8E454593B65CC59D70FA9D9F30424F9C32F",
@@ -2560,6 +3084,12 @@
     },
     {
       "description": "The native governance token of Carbon",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/carbon"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/8FEFAE6AECF6E2A255585617F781F35A8D5709A545A804482A261C0C9548A9D3",
@@ -2606,6 +3136,14 @@
     },
     {
       "description": "The native token of Cerberus Chain",
+      "additional_information": [
+        {
+          "chain_website": "https://cerberus.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/cerberus"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/41999DF04D9441DAC0DF5D8291DF4333FBCBA810FFD63FDCE34FDF41EF37B6F7",
@@ -2649,6 +3187,14 @@
     },
     {
       "description": "Native token for the cheqd network",
+      "additional_information": [
+        {
+          "chain_website": "https://www.cheqd.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/cheqd"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/7A08C6F11EF0F59EB841B9F788A87EC9F2361C7D9703157EC13D940DC53031FA",
@@ -2691,6 +3237,14 @@
     },
     {
       "description": "The native token of Chihuahua Chain",
+      "additional_information": [
+        {
+          "chain_website": "https://chihuahua.wtf/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/chihuahua"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228",
@@ -2733,6 +3287,14 @@
     },
     {
       "description": "Native Token of Comdex Protocol",
+      "additional_information": [
+        {
+          "chain_website": "https://comdex.one/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/comdex"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/EA3E1640F9B1532AB129A571203A0B9F789A7F14BB66E350DCBFA18E1A1931F0",
@@ -2775,6 +3337,14 @@
     },
     {
       "description": "Governance Token of Harbor protocol on Comdex network",
+      "additional_information": [
+        {
+          "chain_website": "https://comdex.one/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/comdex"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/AD4DEA52408EA07C0C9E19444EC8DA84A274A70AD2687A710EFDDEB28BB2986A",
@@ -2817,6 +3387,14 @@
     },
     {
       "description": "Stable Token of Harbor protocol on Comdex network",
+      "additional_information": [
+        {
+          "chain_website": "https://comdex.one/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/comdex"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/23CA6C8D1AB2145DD13EB1E089A2E3F960DC298B468CCE034E19E5A78B61136E",
@@ -2860,6 +3438,14 @@
     },
     {
       "description": "The native staking and governance token of the Cosmos Hub.",
+      "additional_information": [
+        {
+          "chain_website": "https://cosmos.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/cosmoshub"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
@@ -2902,6 +3488,12 @@
     },
     {
       "description": "The native token of Crescent",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/crescent"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/5A7C219BA5F7582B99629BA3B2A01A61BFDA0F6FD1FE95B5366F7334C4BC0580",
@@ -2944,6 +3536,12 @@
     },
     {
       "description": "CRO coin is the token for the Crypto.com platform.",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/cryptoorgchain"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
@@ -2986,6 +3584,12 @@
     },
     {
       "description": "The native token of the Cudos blockchain",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/cudos"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/E09ED39F390EC51FA9F3F69BEA08B5BBE6A48B3057B2B1C3467FAAE9E58B021B",
@@ -3029,6 +3633,12 @@
     },
     {
       "description": "The native token of Decentr",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/decentr"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/9BCB27203424535B6230D594553F1659C77EC173E36D9CF4759E7186EE747E84",
@@ -3072,6 +3682,14 @@
     },
     {
       "description": "The native token of Desmos",
+      "additional_information": [
+        {
+          "chain_website": "https://desmos.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/desmos"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/EA4C0A9F72E2CEDF10D0E7A9A6A22954DB3444910DB5BE980DF59B05A46DAD1C",
@@ -3114,6 +3732,14 @@
     },
     {
       "description": "Native token of Dig Chain",
+      "additional_information": [
+        {
+          "chain_website": "https://digchain.org/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/dig"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/307E5C96C8F60D1CBEE269A9A86C0834E1DB06F2B3788AE4F716EDB97A48B97D",
@@ -3155,6 +3781,14 @@
     },
     {
       "description": "The native staking and governance token of the Dyson Protocol",
+      "additional_information": [
+        {
+          "chain_website": "https://dysonprotocol.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/dyson"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/E27CD305D33F150369AB526AEB6646A76EC3FFB1A6CA58A663B5DE657A89D55D",
@@ -3192,6 +3826,12 @@
     },
     {
       "description": "Echelon - a scalable EVM on Cosmos, built on Proof-of-Stake with fast-finality that prioritizes interoperability and novel economics",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/echelon"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/47EE224A9B33CF0ABEAC82106E52F0F6E8D8CEC5BA80B9D9A6F55172CBB0177D",
@@ -3233,6 +3873,12 @@
     },
     {
       "description": "e-Money NGM staking token. In addition to earning staking rewards the token is bought back and burned based on e-Money stablecoin inflation.",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/emoney"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/1DC495FCEFDA068A3820F903EDBD78B942FBD204D7E93D3BA2B432E9669D1A59",
@@ -3275,6 +3921,12 @@
     },
     {
       "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/emoney"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/5973C068568365FFF40DEDCF1A1CB7582B6116B731CD31A12231AE25E20B871F",
@@ -3317,6 +3969,14 @@
     },
     {
       "description": "The native EVM, governance and staking token of the Evmos Hub",
+      "additional_information": [
+        {
+          "chain_website": "https://evmos.org/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/evmos"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/6AE98883D4D5D5FF9E50D7130F1305DA2FFA0C652D1DD9C123657C6B4EB2DF8A",
@@ -3359,6 +4019,12 @@
     },
     {
       "description": "The native staking and governance token of the Fetch Hub.",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/fetchhub"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
@@ -3402,6 +4068,14 @@
     },
     {
       "description": "GLX is the staking token of the Galaxy Chain",
+      "additional_information": [
+        {
+          "chain_website": "https://galaxychain.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/galaxy"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/F49DE040EBA5AB2FAD5F660C2A1DDF98A68470FAE82229818BE775EBF3EE79F2",
@@ -3443,6 +4117,12 @@
     },
     {
       "description": "L1 coin is the GenesisL1 blockchain utility, governance and EVM token",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/genesisl1"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/F16FDC11A7662B86BC0B9CE61871CBACF7C20606F95E86260FD38915184B75B4",
@@ -3484,6 +4164,14 @@
     },
     {
       "description": "The native token of Gravity Bridge",
+      "additional_information": [
+        {
+          "chain_website": "https://www.gravitybridge.net/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/gravitybridge"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/E97634A40119F1898989C2A23224ED83FDD0A57EA46B3A094E287288D1672B44",
@@ -3526,6 +4214,17 @@
     },
     {
       "description": "Gravity Bridge WBTC",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+        },
+        {
+          "chain_website": "https://www.gravitybridge.net/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/gravitybridge"
+        }
+      ],
       "pretty_path": "Ethereum via Acrechain",
       "denom_units": [
         {
@@ -3585,6 +4284,17 @@
     },
     {
       "description": "Gravity Bridge WETH",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        },
+        {
+          "chain_website": "https://www.gravitybridge.net/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/gravitybridge"
+        }
+      ],
       "pretty_path": "Ethereum via Acrechain",
       "denom_units": [
         {
@@ -3601,12 +4311,12 @@
       ],
       "traces": [
         {
-          "type": "wrapped",
+          "type": "bridge",
           "counterparty": {
             "chain_name": "ethereum",
-            "base_denom": "wei"
+            "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
           },
-          "provider": "Ethereum"
+          "provider": "Gravity Bridge"
         },
         {
           "type": "bridge",
@@ -3645,6 +4355,17 @@
     },
     {
       "description": "Gravity Bridge USDC",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        },
+        {
+          "chain_website": "https://www.gravitybridge.net/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/gravitybridge"
+        }
+      ],
       "pretty_path": "Ethereum via Acrechain",
       "denom_units": [
         {
@@ -3661,12 +4382,12 @@
       ],
       "traces": [
         {
-          "type": "synthetic",
+          "type": "bridge",
           "counterparty": {
-            "chain_name": "forex",
-            "base_denom": "USD"
+            "chain_name": "ethereum",
+            "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
           },
-          "provider": "Circle"
+          "provider": "Gravity Bridge"
         },
         {
           "type": "bridge",
@@ -3704,6 +4425,17 @@
     },
     {
       "description": "Gravity Bridge DAI",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f"
+        },
+        {
+          "chain_website": "https://www.gravitybridge.net/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/gravitybridge"
+        }
+      ],
       "pretty_path": "Ethereum via Acrechain",
       "denom_units": [
         {
@@ -3720,12 +4452,12 @@
       ],
       "traces": [
         {
-          "type": "synthetic",
+          "type": "bridge",
           "counterparty": {
-            "chain_name": "forex",
-            "base_denom": "USD"
+            "chain_name": "ethereum",
+            "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f"
           },
-          "provider": "MakerDAO"
+          "provider": "Gravity Bridge"
         },
         {
           "type": "bridge",
@@ -3763,6 +4495,17 @@
     },
     {
       "description": "Gravity Bridge USDT",
+      "additional_information": [
+        {
+          "block_explorer_link": "https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7"
+        },
+        {
+          "chain_website": "https://www.gravitybridge.net/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/gravitybridge"
+        }
+      ],
       "pretty_path": "Ethereum via Acrechain",
       "denom_units": [
         {
@@ -3779,12 +4522,12 @@
       ],
       "traces": [
         {
-          "type": "synthetic",
+          "type": "bridge",
           "counterparty": {
-            "chain_name": "forex",
-            "base_denom": "USD"
+            "chain_name": "ethereum",
+            "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
           },
-          "provider": "Tether"
+          "provider": "Gravity Bridge"
         },
         {
           "type": "bridge",
@@ -3822,6 +4565,14 @@
     },
     {
       "description": "The native token of IXO Chain",
+      "additional_information": [
+        {
+          "chain_website": "https://www.ixo.world/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/impacthub"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/F3FF7A84A73B62921538642F9797C423D2B4C4ACB3C7FCFFCE7F12AA69909C4B",
@@ -3864,6 +4615,14 @@
     },
     {
       "description": "The native EVM, governance and staking token of the Imversed",
+      "additional_information": [
+        {
+          "chain_website": "https://imversed.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/imversed"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/92B223EBFA74DB99BEA92B23DEAA6050734FEEAABB84689CB8E1AE8F9C9F9AF4",
@@ -3906,6 +4665,14 @@
     },
     {
       "description": "The INJ token is the native governance token for the Injective chain.",
+      "additional_information": [
+        {
+          "chain_website": "https://injective.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/injective"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
@@ -3948,6 +4715,12 @@
     },
     {
       "description": "The IRIS token is the native governance token for the IrisNet chain.",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/irisnet"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0",
@@ -3991,6 +4764,14 @@
     },
     {
       "description": "The native staking and governance token of Jackal.",
+      "additional_information": [
+        {
+          "chain_website": "https://jackalprotocol.com"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/jackal"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/8E697BDABE97ACE8773C6DF7402B2D1D5104DD1EEABE12608E3469B7F64C15BA",
@@ -4035,7 +4816,10 @@
       "description": "The native token of JUNO Chain",
       "additional_information": [
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4081,8 +4865,12 @@
     {
       "description": "The native token cw20 for Marble DAO on Juno Chain",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4132,8 +4920,12 @@
     {
       "description": "The native token cw20 for Neta on Juno Chain",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4183,8 +4975,12 @@
     {
       "description": "Hope Galaxy is an NFT collection based on its own native Token $HOPE, a cw20 token on Juno chain.",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4234,8 +5030,12 @@
     {
       "description": "Racoon aims to simplify accessibility to AI, NFTs and Gambling on the Cosmos Ecosystem",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4285,8 +5085,12 @@
     {
       "description": "The native token of Marble DEX on Juno Chain",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4335,8 +5139,12 @@
     {
       "description": "The DAO token to build consensus among Hong Kong People",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4382,8 +5190,12 @@
     {
       "description": "Token governance for Junoswap",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4433,8 +5245,12 @@
     {
       "description": "Profit sharing token for Another.Software validator. Hold and receive dividends from Another.Software validator commissions!",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4482,8 +5298,12 @@
     {
       "description": "DAO dedicated to building tools on the Juno Network",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4531,8 +5351,12 @@
     {
       "description": "DeFi gaming platform built on Juno",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4581,8 +5405,12 @@
     {
       "description": "Gelotto Year 1 Grand Prize Token",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4631,8 +5459,12 @@
     {
       "description": "Staking derivative seJUNO for staked JUNO",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4682,8 +5514,12 @@
     {
       "description": "Staking derivative bJUNO for staked JUNO",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4733,8 +5569,12 @@
     {
       "description": "Solarbank DAO Governance Token for speeding up the shift to renewable and green energy",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4783,8 +5623,12 @@
     {
       "description": "StakeEasy governance token",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4834,8 +5678,12 @@
     {
       "description": "The native token cw20 for MuseDAO on Juno Chain",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4883,8 +5731,12 @@
     {
       "description": "The native token cw20 for Fanfury on Juno Chain",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4933,8 +5785,12 @@
     {
       "description": "The native token cw20 for PHMN on Juno Chain",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -4984,8 +5840,12 @@
     {
       "description": "The native token cw20 for Hopers on Juno Chain",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -5035,8 +5895,12 @@
     {
       "description": "WYND DAO Governance Token",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -5085,8 +5949,12 @@
     {
       "description": "nRide Token",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -5135,8 +6003,12 @@
     {
       "description": "Signal Art and Gaming on Juno",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -5184,8 +6056,12 @@
     {
       "description": "RED",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -5233,8 +6109,12 @@
     {
       "description": "BLUE",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -5282,8 +6162,12 @@
     {
       "description": "Utility token of Howl.social, an on chain micro-blogging platform on Juno",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -5331,8 +6215,12 @@
     {
       "description": "A community meme token with a fantasy fiction storyline and comic based NFTs on Juno",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -5380,8 +6268,12 @@
     {
       "description": "Governance and utility token for the Junø Apes NFT platform on Juno",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -5429,8 +6321,12 @@
     {
       "description": "Inspired by Bonk. A community project to celebrate the settlers of JunoNetwork.",
       "additional_information": [
+        null,
         {
-          "coinlandingpage": "https://www.coinlanding.page/post/juno"
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
         }
       ],
       "denom_units": [
@@ -5477,6 +6373,14 @@
     },
     {
       "description": "The native staking and governance token of Kava",
+      "additional_information": [
+        {
+          "chain_website": "https://www.kava.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/kava"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/57AA1A70A4BC9769C525EBF6386F7A21536E04A79D62E1981EFCEF9428EBB205",
@@ -5519,6 +6423,14 @@
     },
     {
       "description": "Governance token of Kava Lend Protocol",
+      "additional_information": [
+        {
+          "chain_website": "https://www.kava.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/kava"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/D6C28E07F7343360AC41E15DDD44D79701DDCA2E0C2C41279739C8D4AE5264BC",
@@ -5562,6 +6474,14 @@
     },
     {
       "description": "Governance token of Kava Swap Protocol",
+      "additional_information": [
+        {
+          "chain_website": "https://www.kava.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/kava"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/70CF1A54E23EA4E480DEDA9E12082D3FD5684C3483CBDCE190C5C807227688C5",
@@ -5605,6 +6525,14 @@
     },
     {
       "description": "The native stablecoin of Kava",
+      "additional_information": [
+        {
+          "chain_website": "https://www.kava.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/kava"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C78F65E1648A3DFE0BAEB6C4CDA69CC2A75437F1793C0E6386DFDA26393790AE",
@@ -5648,6 +6576,14 @@
     },
     {
       "description": "The native token of Ki Chain",
+      "additional_information": [
+        {
+          "chain_website": "https://foundation.ki/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/kichain"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/B547DC9B897E7C3AA5B824696110B8E3D2C31E3ED3F02FF363DCBAD82457E07E",
@@ -5690,6 +6626,15 @@
     },
     {
       "description": "ELEVENPARIS loyalty token on KiChain",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://foundation.ki/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/kichain"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/AD185F62399F770CCCE8A36A180A77879FF6C26A0398BD3D2A74E087B0BFA121",
@@ -5735,6 +6680,14 @@
     },
     {
       "description": "The native token of Konstellation Network",
+      "additional_information": [
+        {
+          "chain_website": "https://konstellation.tech/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/konstellation"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/346786EA82F41FE55FAD14BF69AD8BA9B36985406E43F3CB23E6C45A285A9593",
@@ -5777,6 +6730,14 @@
     },
     {
       "description": "The native staking and governance token of the Kujira chain.",
+      "additional_information": [
+        {
+          "chain_website": "https://kujira.app/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/kujira"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/BB6BCDB515050BAE97516111873CCD7BCF1FD0CCB723CC12F3C4F704D6C646CE",
@@ -5819,6 +6780,14 @@
     },
     {
       "description": "The native over-collateralized stablecoin from the Kujira chain.",
+      "additional_information": [
+        {
+          "chain_website": "https://kujira.app/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/kujira"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/44492EAB24B72E3FB59B9FA619A22337FB74F95D8808FE6BC78CC0E6C18DC2EC",
@@ -5862,6 +6831,12 @@
     },
     {
       "description": "The native token of Lambda",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/lambda"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/80825E8F04B12D914ABEADB1F4D39C04755B12C8402F6876EE3168450C0A90BB",
@@ -5904,6 +6879,14 @@
     },
     {
       "description": "LIKE is the native staking and governance token of LikeCoin chain, a Decentralized Publishing Infrastructure to empower content ownership, authenticity, and provenance.",
+      "additional_information": [
+        {
+          "chain_website": "https://like.co/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/likecoin"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/9989AD6CCA39D1131523DB0617B50F6442081162294B4795E26746292467B525",
@@ -5947,6 +6930,12 @@
     },
     {
       "description": "The native token of Lumen Network",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/lumenx"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/FFA652599C77E853F017193E36B5AB2D4D9AFC4B54721A74904F80C9236BF3B7",
@@ -5979,7 +6968,8 @@
       "display": "lumen",
       "symbol": "LUMEN",
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.svg"
       },
       "keywords": [
         "Native"
@@ -5987,6 +6977,14 @@
     },
     {
       "description": "Native token of the Lum Network",
+      "additional_information": [
+        {
+          "chain_website": "https://lum.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/lumnetwork"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/8A34AF0C1943FD0DFCDE9ADBF0B2C9959C45E87E6088EA2FC6ADACD59261B8A2",
@@ -6029,6 +7027,14 @@
     },
     {
       "description": "Mars protocol token",
+      "additional_information": [
+        {
+          "chain_website": "https://www.marsprotocol.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/mars"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/573FCD90FACEE750F55A8864EF7D38265F07E5A9273FA0E8DAFD39951332B580",
@@ -6071,6 +7077,14 @@
     },
     {
       "description": "The native token of Medas Digital Network",
+      "additional_information": [
+        {
+          "chain_website": "https://medas-digital.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/medasdigital"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/01E94A5FF29B8DDEFC86F412CC3927F7330E9B523CC63A6194B1108F5276025C",
@@ -6113,6 +7127,12 @@
     },
     {
       "description": "MEME Token (MEME) is the native staking token of the MEME Chain",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/meme"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/67C89B8B0A70C08F093C909A4DD996DD10E0494C87E28FD9A551697BF173D4CA",
@@ -6154,6 +7174,12 @@
     },
     {
       "description": "TICK coin is the token for the Microtick Price Discovery & Oracle App",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/microtick"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/655BCEF3CDEBE32863FF281DBBE3B06160339E9897DC9C9C9821932A5F8BA6F8",
@@ -6195,6 +7221,14 @@
     },
     {
       "description": "The native token of Migaloo Chain",
+      "additional_information": [
+        {
+          "chain_website": "https://www.whitewhale.money/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/migaloo"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/EDD6F0D66BCD49C1084FB2C35353B4ACD7B9191117CE63671B61320548F7C89D",
@@ -6235,6 +7269,14 @@
     },
     {
       "description": "Staking and goverance token for ODIN Protocol",
+      "additional_information": [
+        {
+          "chain_website": "https://odinprotocol.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/odin"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C360EF34A86D334F625E4CBB7DA3223AEA97174B61F35BB3758081A8160F7D9B",
@@ -6277,6 +7319,14 @@
     },
     {
       "description": "GEO token for ODIN Protocol",
+      "additional_information": [
+        {
+          "chain_website": "https://odinprotocol.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/odin"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/9B6FBABA36BB4A3BF127AE5E96B572A5197FD9F3111D895D8919B07BC290764A",
@@ -6318,6 +7368,14 @@
     },
     {
       "description": "O9W token for ODIN Protocol",
+      "additional_information": [
+        {
+          "chain_website": "https://odinprotocol.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/odin"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/0CD46223FEABD2AEAAAF1F057D01E63BCA79B7D4BD6B68F1EB973A987344695D",
@@ -6359,6 +7417,14 @@
     },
     {
       "description": "The native token of Onomy Protocol",
+      "additional_information": [
+        {
+          "chain_website": "https://onomy.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/onomy"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/B9606D347599F0F2FDF82BA3EE339000673B7D274EA50F59494DC51EFCD42163",
@@ -6404,6 +7470,14 @@
     },
     {
       "description": "The native token of Oraichain",
+      "additional_information": [
+        {
+          "chain_website": "https://orai.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/oraichain"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/161D7D62BAB3B9C39003334F1671208F43C06B643CC9EDBBE82B64793C857F1D",
@@ -6446,6 +7520,14 @@
     },
     {
       "description": "Panacea is a public blockchain launched by MediBloc, which is the key infrastructure for reinventing the patient-centered healthcare data ecosystem",
+      "additional_information": [
+        {
+          "chain_website": "https://medibloc.com/en/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/panacea"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/3BCCC93AD5DF58D11A6F8A05FA8BC801CBA0BA61A981F57E91B8B598BF8061CB",
@@ -6489,6 +7571,14 @@
     },
     {
       "description": "The XPRT token is primarily a governance token for the Persistence chain.",
+      "additional_information": [
+        {
+          "chain_website": "https://persistence.one/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/persistence"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293",
@@ -6531,6 +7621,15 @@
     },
     {
       "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets.",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://persistence.one/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/persistence"
+        }
+      ],
       "pretty_path": "Ethereum via Gravity Bridge to Persistence",
       "denom_units": [
         {
@@ -6607,6 +7706,14 @@
     },
     {
       "description": "PSTAKE Liquid-Staked ATOM",
+      "additional_information": [
+        {
+          "chain_website": "https://persistence.one/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/persistence"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
@@ -6653,6 +7760,14 @@
     },
     {
       "description": "The native EVM, governance and staking token of the Planq Network",
+      "additional_information": [
+        {
+          "chain_website": "https://planq.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/planq"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/B1E0166EA0D759FDF4B207D1F5F12210D8BFE36F2345CEFC76948CE2B36DFBAF",
@@ -6695,6 +7810,14 @@
     },
     {
       "description": "Hash is the staking token of the Provenance Blockchain",
+      "additional_information": [
+        {
+          "chain_website": "https://provenance.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/provenance"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/CE5BFF1D9BADA03BB5CCA5F56939392A761B53A10FBD03B37506669C3218D3B2",
@@ -6737,6 +7860,14 @@
     },
     {
       "description": "QCK - native token of Quicksilver",
+      "additional_information": [
+        {
+          "chain_website": "https://quicksilver.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/quicksilver"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/635CB83EF1DFE598B10A3E90485306FD0D47D34217A4BE5FD9977FA010A5367D",
@@ -6779,6 +7910,15 @@
     },
     {
       "description": "Quicksilver Liquid Staked STARS",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://quicksilver.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/quicksilver"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/46C83BB054E12E189882B5284542DB605D94C99827E367C9192CF0579CD5BC83",
@@ -6830,6 +7970,15 @@
     },
     {
       "description": "Quicksilver Liquid Staked ATOM",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://quicksilver.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/quicksilver"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/FA602364BEC305A696CBDF987058E99D8B479F0318E47314C49173E8838C5BAC",
@@ -6881,6 +8030,15 @@
     },
     {
       "description": "Quicksilver Liquid Staked OSMO",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://quicksilver.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/quicksilver"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/42D24879D4569CE6477B7E88206ADBFE47C222C6CAD51A54083E4A72594269FC",
@@ -6932,6 +8090,15 @@
     },
     {
       "description": "Quicksilver Liquid Staked REGEN",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://quicksilver.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/quicksilver"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/79A676508A2ECA1021EDDC7BB9CF70CEEC9514C478DA526A5A8B3E78506C2206",
@@ -6983,6 +8150,14 @@
     },
     {
       "description": "REBUS, the native coin of the Rebus chain.",
+      "additional_information": [
+        {
+          "chain_website": "https://www.rebuschain.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/rebus"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/A1AC7F9EE2F643A68E3A35BCEB22040120BEA4059773BB56985C76BDFEBC71D9",
@@ -7025,6 +8200,14 @@
     },
     {
       "description": "REGEN coin is the token for the Regen Network Platform",
+      "additional_information": [
+        {
+          "chain_website": "https://www.regen.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/regen"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076",
@@ -7067,6 +8250,14 @@
     },
     {
       "description": "Native token of Rizon Chain",
+      "additional_information": [
+        {
+          "chain_website": "https://rizon.world/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/rizon"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/2716E3F2E146664BEFA9217F1A03BFCEDBCD5178B3C71CACB1A0D7584451D219",
@@ -7109,6 +8300,14 @@
     },
     {
       "description": "The native token of Secret Network",
+      "additional_information": [
+        {
+          "chain_website": "https://scrt.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/secretnetwork"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/0954E1C28EB7AF5B72D24F3BC2B47BBB2FDF91BDDFD57B74B99E133AED40972A",
@@ -7151,6 +8350,15 @@
     },
     {
       "description": "The native token cw20 for Alter on Secret Network",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://scrt.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/secretnetwork"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/A6383B6CF5EA23E067666C06BC34E2A96869927BD9744DC0C1643E589C710AA3",
@@ -7195,6 +8403,15 @@
     },
     {
       "description": "The native token cw20 for Button on Secret Network",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://scrt.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/secretnetwork"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/1FBA9E763B8679BEF7BAAAF2D16BCA78C3B297D226C3F31312C769D7B8F992D8",
@@ -7241,6 +8458,15 @@
     },
     {
       "description": "The native token cw20 for Shade on Secret Network",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://scrt.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/secretnetwork"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/71055835C7639739EAE03AACD1324FE162DBA41D09F197CB72D966D014225B1C",
@@ -7287,6 +8513,15 @@
     },
     {
       "description": "The native token cw20 for SIENNA on Secret Network",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://scrt.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/secretnetwork"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/9A8A93D04917A149C8AC7C16D3DA8F470D59E8D867499C4DA97450E1D7363213",
@@ -7333,6 +8568,15 @@
     },
     {
       "description": "The native token cw20 for SCRT Staking Derivatives on Secret Network",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://scrt.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/secretnetwork"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/D0E5BF2940FB58D9B283A339032DE88111407AAD7D94A7F1F3EB78874F8616D4",
@@ -7379,6 +8623,15 @@
     },
     {
       "description": "The native token cw20 for Amber on Secret Network",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://scrt.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/secretnetwork"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/18A1B70E3205A48DE8590C0D11030E7146CDBF1048789261D53FFFD7527F8B55",
@@ -7424,6 +8677,14 @@
     },
     {
       "description": "DVPN is the native token of the Sentinel Hub.",
+      "additional_information": [
+        {
+          "chain_website": "https://sentinel.co/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/sentinel"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84",
@@ -7467,6 +8728,14 @@
     },
     {
       "description": "The native token of Shareledger",
+      "additional_information": [
+        {
+          "chain_website": "https://www.sharering.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/shareledger"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/1F3AB31A66CC0FBE149859D55D0D2D7167B851A113786438EA6E201033600C8E",
@@ -7510,6 +8779,14 @@
     },
     {
       "description": "The native token of Shentu",
+      "additional_information": [
+        {
+          "chain_website": "https://www.shentu.technology/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/shentu"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/7ED954CFFFC06EE8419387F3FC688837FF64EF264DE14219935F724EEEDBF8D3",
@@ -7552,6 +8829,14 @@
     },
     {
       "description": "Rowan Token (ROWAN) is the Sifchain Network's native utility token, used as the primary means to govern, provide liquidity, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
+      "additional_information": [
+        {
+          "chain_website": "https://sifchain.finance/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/sifchain"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/8318FD63C42203D16DDCAF49FE10E8590669B3219A3E87676AC9DA50722687FB",
@@ -7594,6 +8879,14 @@
     },
     {
       "description": "Somm Token (SOMM) is the native staking token of the Sommelier Chain",
+      "additional_information": [
+        {
+          "chain_website": "https://sommelier.finance/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/sommelier"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/9BBA9A1C257E971E38C1422780CE6F0B0686F0A3085E2D61118D904BFE0F5F5E",
@@ -7644,6 +8937,14 @@
     },
     {
       "description": "The native token of Stargaze",
+      "additional_information": [
+        {
+          "chain_website": "https://stargaze.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stargaze"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4",
@@ -7687,6 +8988,14 @@
     },
     {
       "description": "IOV coin is the token for the Starname (IOV) Asset Name Service",
+      "additional_information": [
+        {
+          "chain_website": "https://www.starname.me/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/starname"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/52B1AA623B34EB78FD767CEA69E8D7FA6C9CFE1FBF49C5406268FD325E2CC2AC",
@@ -7730,6 +9039,14 @@
     },
     {
       "description": "The native token of Stride",
+      "additional_information": [
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4",
@@ -7771,6 +9088,15 @@
       ]
     },
     {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901",
@@ -7821,6 +9147,15 @@
       ]
     },
     {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/5DD1F95ED336014D00CE2520977EC71566D282F9749170ADC83A392E0EA7426A",
@@ -7870,6 +9205,15 @@
       ]
     },
     {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/84502A75BCA4A5F68D464C00B3F610CE2585847D59B52E5FFB7C3C9D2DDCD3FE",
@@ -7919,6 +9263,15 @@
       ]
     },
     {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC",
@@ -7968,6 +9321,15 @@
       ]
     },
     {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C491E7582E94AE921F6A029790083CDE1106C28F3F6C4AD7F1340544C13EC372",
@@ -8017,6 +9379,15 @@
       ]
     },
     {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/C5579A9595790017C600DD726276D978B9BF314CF82406CE342720A9C7911A01",
@@ -8066,7 +9437,73 @@
       ]
     },
     {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        }
+      ],
+      "denom_units": [
+        {
+          "denom": "ibc/C04DFC9BCD893E57F2BEFE40F63EFD18D2768514DBD5F63ABD2FF7F48FC01D36",
+          "exponent": 0,
+          "aliases": [
+            "stinj"
+          ]
+        },
+        {
+          "denom": "stINJ",
+          "exponent": 18
+        }
+      ],
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "injective",
+            "base_denom": "inj"
+          },
+          "provider": "Stride"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "stride",
+            "base_denom": "stinj",
+            "channel_id": "channel-5"
+          },
+          "chain": {
+            "channel_id": "channel-326",
+            "path": "transfer/channel-326/stinj"
+          }
+        }
+      ],
+      "base": "ibc/C04DFC9BCD893E57F2BEFE40F63EFD18D2768514DBD5F63ABD2FF7F48FC01D36",
+      "name": "Stride",
+      "display": "stINJ",
+      "symbol": "stINJ",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg"
+      },
+      "keywords": [
+        "Native",
+        "Liquid-Staked"
+      ]
+    },
+    {
       "description": "Tori token (TORI) is the Teritoti Network’s native utility token, used as the primary means to govern, secure the blockchain, incentivize ecosystem contributors and use the various Teritori dApp features.",
+      "additional_information": [
+        {
+          "chain_website": "https://teritori.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/teritori"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/EB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC",
@@ -8109,6 +9546,12 @@
     },
     {
       "description": "The native staking token of Terra Classic.",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/terra"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/0EF15DF2F02480ADE0BB6E85D9EBB5DAEA2836D3860E9F97F9AADE4F57A31AA0",
@@ -8162,6 +9605,12 @@
     },
     {
       "description": "The USD stablecoin of Terra Classic.",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/terra"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC",
@@ -8215,6 +9664,12 @@
     },
     {
       "description": "The KRW stablecoin of Terra Classic.",
+      "additional_information": [
+        {},
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/terra"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/204A582244FC241613DBB50B04D1D454116C58C4AF7866C186AA0D6EEAD42780",
@@ -8268,6 +9723,14 @@
     },
     {
       "description": "The native staking token of Terra.",
+      "additional_information": [
+        {
+          "chain_website": "https://www.terra.money/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/terra2"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9",
@@ -8310,6 +9773,15 @@
     },
     {
       "description": "Astroport is a neutral marketplace where anyone, from anywhere in the galaxy, can dock to trade their wares.",
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://www.terra.money/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/terra2"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/8410580A4F5421DFDBD888212624591E92A9E3B5C87D3C58913CE16ABD98B9B4",
@@ -8355,6 +9827,14 @@
     },
     {
       "description": "The native token of Tgrade",
+      "additional_information": [
+        {
+          "chain_website": "https://tgrade.finance/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/tgrade"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/1E09CB0F506ACF12FDE4683FB6B34DA62FB4BE122641E0D93AAF98A87675676C",
@@ -8398,6 +9878,14 @@
     },
     {
       "description": "The native token of Umee",
+      "additional_information": [
+        {
+          "chain_website": "https://www.umee.cc/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/umee"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/67795E528DF67C5606FC20F824EA39A6EF55BA133F4DC79C90A8C47A0901E17C",
@@ -8440,6 +9928,14 @@
     },
     {
       "description": "Staking and governance coin for the Unification Blockchain",
+      "additional_information": [
+        {
+          "chain_website": "https://unification.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/unification"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/608EF5C0CE64FEA097500DB39657BDD36CA708CC5DCC2E250A024B6981DD36BC",
@@ -8482,6 +9978,14 @@
     },
     {
       "description": "The native token of Vidulum",
+      "additional_information": [
+        {
+          "chain_website": "https://vidulum.app/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/vidulum"
+        }
+      ],
       "denom_units": [
         {
           "denom": "ibc/E7B35499CFBEB0FF5778127ABA4FB2C4B79A6B8D3D831D4379C4048C238796BD",
