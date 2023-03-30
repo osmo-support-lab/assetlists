@@ -1,6 +1,6 @@
 name: Auto Create PR
 on:
-  push:
+  create:
     branches:
     - update/assetlist
 
