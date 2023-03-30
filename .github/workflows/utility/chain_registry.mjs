@@ -1,5 +1,5 @@
 // Purpose:
-//   to provide chain registry lookup functionality to other programs
+//   To provide chain registry lookup functionality to other node modules
 
 // -- IMPORTS --
 

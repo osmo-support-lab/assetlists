@@ -1,17 +1,17 @@
+name: PR Validate Zone Data
 on:
   pull_request:
     branches:
       - main
-name: PR Validate Zone Data
 jobs:
   validate_assetlists:
     name: Validate zone
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Validate Zone schema
-        uses: mcandeia/json-schema-validator@main
+
+      - name: Validate Asset List schema
+        uses: vanekj/validate-json-action@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          json_schema: ./zone.schema.json
-          json_path_pattern: .*zone.json$
+          schema: assetlist.schema.json
+          pattern: osmosis-1/*.json

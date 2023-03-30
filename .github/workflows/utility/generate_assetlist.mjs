@@ -1,22 +1,25 @@
 // Purpose:
-//   to generate the assetlist json using the zone json and chain registry data
-
+//   To automatically generate an asset list json using the <chain_name>.zone.json file and cosmos/chain_registry data
+//
 // -- THE PLAN --
 //
-// read zone list from <CHAIN_NAME>.zone.json
-// add assets to zone array
-// for each asset in zone array, identify the chain and base (this is primary key)
-//   with chain, find matching chain folder in chain registry
-//   within the chain folder,
-//     pull asset details from the chain's assetlist,
-//   get ibc connection details,
-//     figure out which chain name comes first alphabetically
-//   generate asset object differently if ibc:
-//     with an extra trace for the ibc transfer, and
-//     the base becomes the ibc hash, and
-//     the first denom becomes the ibc hash, and the original base becomes an alias
-// write assetlist array to file <CHAIN_ID>.assetlist.json
+// 1. Read <chain_name>.zone.json list.
+// 2. Add assets to a zoneArray
+// 3. For each asset in zoneArray:
+//      1. Identify the "chain" and "base" (base = primary key)
+//      2. With "chain": Find the matching chain folder in cosmos/chain_registry
+//      3. Within the chain folder: Pull ALL asset details from the chain's assetlist.json,
+//      4. Get ibc connection details.
+//      5. Parse out which chain name comes first alphabetically
+//      6. Generate assetObject differently if IBC:
+//          - With an extra trace for the ibc transfer, and
+//          - The "base" becomes the ibc/<hash>, and the first denom becomes the ibc/<hash>,
+//            and the original base becomes an alias
+//      7. Process any customizations, swapping "name" for "pretty_name", adding extra "keywords", etc.
+//      8. Write <chain_id>.assetlist.json array to file.
+//      9. Utilize GitHub Actions to automate this process, and lint/format properly.
 
+// IMPORTS
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -34,6 +37,13 @@ const mainnetChainName = process.env.CHAIN_NAME;
 let localChainName = '';
 const mainnetChainId = process.env.CHAIN_ID;
 let localChainId = '';
+const coinLandingRoot = 'https://www.coinlanding.page/post/'
+const polygonScanRoot = 'https://polygonscan.com/token/'
+const etherScanRoot = 'https://etherscan.io/token/'
+const snowTraceRoot = 'https://snowtrace.io/token/'
+const moonScanRoot = 'https://moonscan.io/token/'
+const bnbScanRoot = 'https://bscscan.com/token/'
+const ftmScanRoot = 'https://ftmscan.com/token/'
 const assetlistSchema = {
   description: 'string',
   additional_information: [],
@@ -250,6 +260,20 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       //--Append Latest Trace to Traces--
       traces.push(trace);
       generatedAsset.traces = traces;
+      if (generatedAsset.traces[0].type === 'wrapped') {
+        generatedAsset.traces[0] = generatedAsset.traces[1]
+      }
+      if (generatedAsset.traces[0].type === 'synthetic') {
+        generatedAsset.traces[0] = generatedAsset.traces[1]
+      }
+      if (generatedAsset.traces[0].type === 'forex') {
+        generatedAsset.traces[0] = generatedAsset.traces[1]
+      }
+      if (generatedAsset.traces[0].type === 'bridged') {
+        if (generatedAsset.traces[0].counterparty.chain_name === 'bitcoin') {
+          generatedAsset.traces[0] = generatedAsset.traces[1]
+        }
+      }
 
       //--Get IBC Hash--
       let ibcHash = calculateIbcHash(traces[traces.length - 1].chain.path);
@@ -268,50 +292,149 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       });
     }
 
-    //--Override name with a "pretty name"--
-function getPrettyChain() {
-  try {
-    const chainRegistryChainJson = JSON.parse(
-      fs.readFileSync(
-        path.join(
-          chainRegistryRoot,
-          chainRegistrySubdirectory,
-          zoneAsset.chain_name,
-          chainFileName
-        )
-      )
-    );
-    return chainRegistryChainJson.pretty_name;
-  } catch (err) {
-    console.log(err);
-    return "Error"
-  }
-}
+    // Fetch chain.json 'pretty_name'
+    function getPrettyChain() {
+      try {
+        const chainRegistryChainJson = JSON.parse(
+          fs.readFileSync(
+            path.join(
+              chainRegistryRoot,
+              chainRegistrySubdirectory,
+              zoneAsset.chain_name,
+              chainFileName
+            )
+          )
+        );
+        return chainRegistryChainJson.pretty_name;
+      } catch (err) {
+        console.log(err);
+        return "Error"
+      }
+    }
 
-    //--Other Overrides--
-    let override = zoneAsset.frontend_properties;
+    // Fetch chain.json 'website' for 'additional_information'
+    function getChainWebsite() {
+      try {
+        const chainRegistryChainJson = JSON.parse(
+          fs.readFileSync(
+            path.join(
+              chainRegistryRoot,
+              chainRegistrySubdirectory,
+              zoneAsset.chain_name,
+              chainFileName
+            )
+          )
+        );
+        let tempObj = {
+          "chain_website": chainRegistryChainJson.website
+        }
+        return tempObj;
+      } catch (err) {
+        let tempObj = {
+          "chain_website": "Error in Chain Registry."
+        }
+        console.log(err);
+        return tempObj
+      }
+    }
+
+    // Fetch chain_name from chain.json to build 'coin_landing_page
+    function getCoinLandingWebsite() {
+      try {
+        const chainRegistryChainJson = JSON.parse(
+          fs.readFileSync(
+            path.join(
+              chainRegistryRoot,
+              chainRegistrySubdirectory,
+              zoneAsset.chain_name,
+              chainFileName
+            )
+          )
+        );
+        let tempObj = {
+          "coin_landing_page": coinLandingRoot + chainRegistryChainJson.chain_name
+        }
+        return tempObj;
+      } catch (err) {
+        let tempObj = {
+          "coin_landing_page": "Error in Chain Registry."
+        }
+        console.log(err);
+        return tempObj
+      }
+    }
+
+    let allAdditional = []
+    if (generatedAsset.traces) {
+      if (generatedAsset.traces[0].type === 'ibc') {
+        allAdditional = []
+      } else {
+        let protocol;
+        let contractAddress;
+        let linkContract;
+
+        protocol = generatedAsset.traces[0].counterparty.chain_name
+        contractAddress = generatedAsset.traces[0].counterparty.base_denom
+
+        if (protocol === 'bitcoin') {
+          protocol = generatedAsset.traces[1].counterparty.chain_name
+          contractAddress = generatedAsset.traces[1].counterparty.base_denom
+        }
+        if (protocol === 'ethereum') {
+          linkContract = {"block_explorer_link": etherScanRoot + contractAddress}
+        }
+        if (protocol === 'polygon') {
+          linkContract = { "block_explorer_link": polygonScanRoot + contractAddress }
+        }
+        if (protocol === 'moonbeam') {
+          linkContract = { "block_explorer_link": moonScanRoot + contractAddress }
+        }
+        if (protocol === 'avalanche') {
+          linkContract = { "block_explorer_link": snowTraceRoot + contractAddress }
+        }
+        if (protocol === 'fantom') {
+          linkContract = { "block_explorer_link": ftmScanRoot + contractAddress }
+        }
+        if (protocol === 'binancesmartchain') {
+          linkContract = { "block_explorer_link": bnbScanRoot + contractAddress }
+        }
+
+        allAdditional.push(linkContract)
+      }
+    }
+
+    // Overriding Properties
+    const override = zoneAsset.frontend_properties;
     let allKeywords = []
     if (getPrettyChain()) {
       generatedAsset.name = getPrettyChain();
     } else {
-      generatedAsset.name = zone.chain_name_pretty;
+      generatedAsset.name = override.chain_name_pretty;
     }
+
+    // OVERRIDES AND APPENDS
     if (override) {
+      // Override symbol with zoneAsset override.
       if (override.symbol) {
         generatedAsset.symbol = override.symbol;
       }
+
+      // Add zoneAsset pretty_path
       if (override.pretty_path) {
         generatedAsset.pretty_path = override.pretty_path;
       }
-      if (override.additional_information) {
-        generatedAsset.additional_information = override.additional_information
-      }
+
+      // Override logo_URIs with zoneAsset logo_URIs.
       if (override.logo_URIs) {
         generatedAsset.logo_URIs = override.logo_URIs;
       }
+
+      // Override coingecko_id with zoneAsset coingecko_id
       if (override.coingecko_id) {
         generatedAsset.coingecko_id = override.coingecko_id;
       }
+
+      // Add, combine, and flatten keywords if any.
       if (generatedAsset.keywords) {
         allKeywords.push(override.keywords)
         allKeywords.push(generatedAsset.keywords);
@@ -320,16 +443,29 @@ function getPrettyChain() {
         allKeywords.push(override.keywords);
         generatedAsset.keywords = allKeywords.flat();
       }
+
+      if (override.additional_information) {
+        allAdditional.push(override.additional_information)
+        allAdditional.push(getChainWebsite())
+        allAdditional.push(getCoinLandingWebsite())
+        generatedAsset.additional_information = allAdditional.flat()
+      } else {
+        allAdditional.push(getChainWebsite())
+        allAdditional.push(getCoinLandingWebsite())
+        generatedAsset.additional_information = allAdditional.flat()
+      }
     }
 
-    //--Re-order Properties--
+    // Re-order Properties
     generatedAsset = reorderProperties(generatedAsset, assetlistSchema);
-    //console.log(generatedAsset);
+    // To see each asset generated, uncomment next line. **Should only be used for debug purposes. Re-comment before commit
+    // console.log(generatedAsset);
 
-    //--Append Asset to Assetlist--
+    //- Append Asset to Assetlist
     generatedAssetlist.push(generatedAsset);
 
-    //console.log(generatedAssetlist);
+    // To see full asset list, uncomment next line. **Should only be used for debug purposes. Re-comment before commit
+    // console.log(generatedAssetlist);
   });
 };
 
@@ -340,7 +476,7 @@ async function generateAssetlist() {
   await generateAssets(generatedAssetlist, zoneAssetlist);
   let chainAssetlist = {
     chain_name: localChainName,
-    assets: await generatedAssetlist,
+    assets: generatedAssetlist,
   };
   //console.log(chainAssetlist);
 

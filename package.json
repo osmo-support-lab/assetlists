@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "eslint-config-canonical": "^41.0.1"
+  }
+}
