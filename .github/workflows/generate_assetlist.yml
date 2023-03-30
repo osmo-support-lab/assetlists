@@ -45,6 +45,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 19
+      - run: npm ci
 
       - name: Run code to Generate Asset list
         working-directory: ./.github/workflows/utility
