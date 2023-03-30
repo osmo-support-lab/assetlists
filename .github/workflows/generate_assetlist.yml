@@ -53,7 +53,7 @@ jobs:
 
       - name: Run ESLint
         working-directory: ./osmosis-1
-        run: npx eslint --ext .json --fix
+        run: npx eslint --ext *.json --fix
 
       - name: Add Commit Push
         uses: devops-infra/action-commit-push@master
@@ -64,12 +64,6 @@ jobs:
           commit_message: "${{ inputs.chain_id_selection }}.assetlist.json Update."
           force: true
           target_branch: update/assetlist
-
-      - name: Checkout Repo (again)
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          submodules: true
 
       - name: Create Auto PR
         uses: devops-infra/action-pull-request@master
