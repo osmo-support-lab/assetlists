@@ -33,7 +33,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.RUNNER_SECRET }}
+          token: ${{ secrets.GITHUB_SECRET }}
           submodules: true
 
       - name: Git Submodule Update
@@ -60,7 +60,7 @@ jobs:
       - name: Add Commit Push
         uses: devops-infra/action-commit-push@master
         with:
-          github_token: "${{ secrets.RUNNER_SECRET }}"
+          github_token: "${{ secrets.GITHUB_SECRET }}"
           add_timestamp: false
           commit_prefix: "[🔃][AUTO] "
           commit_message: "${{ inputs.chain_id_selection }}.assetlist.json Update."
@@ -70,7 +70,7 @@ jobs:
       - name: Create Auto PR
         uses: devops-infra/action-pull-request@master
         with:
-          github_token: ${{ secrets.RUNNER_SECRET }}
+          github_token: ${{ secrets.GITHUB_SECRET }}
           source_branch: update/assetlist
           target_branch: main
           reviewer: ToggLeTek
