@@ -538,6 +538,7 @@ async function generateAssetlist() {
   let generatedAssetlist = [];
   await generateAssets(generatedAssetlist, zoneAssetlist);
   let chainAssetlist = {
+    $schema: "../assetlist.schema.json",
     chain_name: localChainName,
     assets: generatedAssetlist,
   };

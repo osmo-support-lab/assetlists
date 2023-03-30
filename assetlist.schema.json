@@ -1,5 +1,4 @@
 {
-  "$id": "https://dex.osl.zone/assetlists.schema.json",
   "$schema": "https://json-schema.org/draft-07/schema",
   "title": "Asset Lists",
   "description": "Asset lists are a similar mechanism to allow frontends and other UIs to fetch metadata associated with Cosmos SDK denoms, especially for assets sent over IBC.",
@@ -265,7 +264,7 @@
             },
             "path": {
               "type": "string",
-              "description": "The port/channel/denom input string that generates the 'ibc/...' denom." 
+              "description": "The port/channel/denom input string that generates the 'ibc/...' denom."
             }
           },
           "additionalProperties": false
@@ -334,7 +333,7 @@
             },
             "path": {
               "type": "string",
-              "description": "The port/channel/denom input string that generates the 'ibc/...' denom." 
+              "description": "The port/channel/denom input string that generates the 'ibc/...' denom."
             }
           },
           "additionalProperties": false

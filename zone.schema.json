@@ -1,5 +1,4 @@
 {
-  "$id": "https://dex.osl.zone/zone.schema.json",
   "$schema": "https://json-schema.org/draft-07/schema",
   "title": "Zone List",
   "description": "A basic list of assets, in order as shown on front-ends with optional overrides.",
