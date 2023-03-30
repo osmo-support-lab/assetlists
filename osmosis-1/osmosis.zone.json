@@ -550,6 +550,17 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "ft25FB31D974EED8EBC1CCB168FE7FC01789830EE8",
+      "chain_name": "bitsong",
+      "frontend_properties": {
+        "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -559,6 +570,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -568,6 +580,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -577,6 +590,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -586,6 +600,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -595,6 +610,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -604,6 +620,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -613,6 +630,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -622,6 +640,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -631,6 +650,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -640,6 +660,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -649,6 +670,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -658,6 +680,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -667,6 +690,7 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -676,6 +700,37 @@
       "chain_name": "bitsong",
       "frontend_properties": {
         "keywords": [
+          "Sinfonia",
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "ftB06AFBD13CBFCEB3CDBE449DB3150A4BF985D6AE",
+      "chain_name": "bitsong",
+      "frontend_properties": {
+        "keywords": [
+          "Sinfonia",
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "ft7EC1DFFC7248F7437E75BEE3EF6D539AFE87C071",
+      "chain_name": "bitsong",
+      "frontend_properties": {
+        "keywords": [
+          "Sinfonia",
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "ftE141AFEBD94447BADE4946D1BF4B2E141F00BBFD",
+      "chain_name": "bitsong",
+      "frontend_properties": {
+        "keywords": [
+          "Sinfonia",
           "Utility"
         ]
       }
@@ -686,6 +741,17 @@
       "frontend_properties": {
         "keywords": [
           "Native",
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "hydrogen",
+      "chain_name": "bostrom",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Liquid-Staked",
           "Utility"
         ]
       }
@@ -714,7 +780,7 @@
       "frontend_properties": {
         "keywords": [
           "Native",
-          "Dead Chain"
+          "Depreciated Chain"
         ]
       }
     },
@@ -885,6 +951,16 @@
       }
     },
     {
+      "base_denom": "nanomobx",
+      "chain_name": "fetchhub",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Utility"
+        ]
+      }
+    },
+    {
       "base_denom": "uglx",
       "chain_name": "galaxy",
       "frontend_properties": {
@@ -923,7 +999,7 @@
           "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.png",
           "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWBTC.svg"
         },
-        "pretty_path": "Ethereum via Acrechain",
+        "pretty_path": "Ethereum via Gravity Bridge",
         "symbol": "WBTC.grv"
       }
     },
@@ -940,7 +1016,7 @@
           "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.png",
           "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravWETH.svg"
         },
-        "pretty_path": "Ethereum via Acrechain",
+        "pretty_path": "Ethereum via Gravity Bridge",
         "symbol": "wETH.grv"
       }
     },
@@ -956,7 +1032,7 @@
           "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.png",
           "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDC.svg"
         },
-        "pretty_path": "Ethereum via Acrechain",
+        "pretty_path": "Ethereum via Gravity Bridge",
         "symbol": "USDC.grv"
       }
     },
@@ -972,7 +1048,7 @@
           "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.png",
           "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravDAI.svg"
         },
-        "pretty_path": "Ethereum via Acrechain",
+        "pretty_path": "Ethereum via Gravity Bridge",
         "symbol": "DAI.grv"
       }
     },
@@ -988,7 +1064,7 @@
           "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.png",
           "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/gravitybridge/gravUSDT.svg"
         },
-        "pretty_path": "Ethereum via Acrechain",
+        "pretty_path": "Ethereum via Gravity Bridge",
         "symbol": "USDT.grv"
       }
     },
