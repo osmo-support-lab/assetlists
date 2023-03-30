@@ -33,7 +33,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RUNNER_SECRET }}
           submodules: true
 
       - name: Git Submodule Update
@@ -45,7 +45,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 19
-      - run: npm ci
+      - run: |
+          npm ci
+          npm install eslint-config-canonical
 
       - name: Run code to Generate Asset list
         working-directory: ./.github/workflows/utility
@@ -53,12 +55,12 @@ jobs:
 
       - name: Run ESLint
         working-directory: ./osmosis-1
-        run: npx eslint --ext *.json --fix
+        run: npx eslint --config ../.eslintrc.js --ext *.json --fix
 
       - name: Add Commit Push
         uses: devops-infra/action-commit-push@master
         with:
-          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          github_token: "${{ secrets.RUNNER_SECRET }}"
           add_timestamp: false
           commit_prefix: "[🔃][AUTO] "
           commit_message: "${{ inputs.chain_id_selection }}.assetlist.json Update."
@@ -68,10 +70,10 @@ jobs:
       - name: Create Auto PR
         uses: devops-infra/action-pull-request@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.RUNNER_SECRET }}
           source_branch: update/assetlist
           target_branch: main
           reviewer: ToggLeTek
           assignee: ToggLeTek
-          title: "[🔃][AUTO] Pulling ${{ github.ref }} into main"
+          title: "[🔃][AUTO] Pulling into main"
           body: "## :robot: **Automated PR for Updated Asset list** \n *Automatic checks should have engaged*, please ensure the files are accurate. Thank you!"

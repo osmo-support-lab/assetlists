@@ -499,7 +499,7 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
 
     // Github Modifier
     for (let item in generatedAsset.additional_information) {
-      if (generatedAsset.additional_information[item].git_repo === ! "") {
+      if (!generatedAsset.additional_information[item].git_repo === "") {
         generatedAsset.additional_information = allAdditional
         allAdditional.push(getGitWebsite())
         generatedAsset.additional_information = allAdditional.flat()

@@ -14,4 +14,4 @@ jobs:
         uses: vanekj/validate-json-action@v1
         with:
           schema: assetlist.schema.json
-          pattern: osmosis-1/osmosis-1.assetlist.json
+          pattern: osmosis-1/*.assetlist.json

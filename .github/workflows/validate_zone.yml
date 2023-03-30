@@ -14,4 +14,4 @@ jobs:
         uses: vanekj/validate-json-action@v1
         with:
           schema: zone.schema.json
-          pattern: osmosis-1/osmosis.zone.json
+          pattern: osmosis-1/*.zone.json
