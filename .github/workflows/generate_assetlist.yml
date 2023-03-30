@@ -64,3 +64,25 @@ jobs:
           commit_message: "${{ inputs.chain_id_selection }}.assetlist.json Update."
           force: true
           target_branch: update/assetlist
+
+      - name: Checkout Repo (again)
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: true
+
+      - name: Create Auto PR
+        uses: devops-infra/action-pull-request@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_branch: update/assetlist
+          target_branch: main
+          reviewer: ToggLeTek
+          assignee: ToggLeTek
+          title: "[🔃][AUTO] Pulling ${{ github.ref }} into main"
+          body: |
+          ## :robot: **Automated PR for Updated Asset list**
+
+          *Automatic checks should have engaged*, please ensure the files are accurate.
+
+          Thank you!
