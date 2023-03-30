@@ -1,8 +1,8 @@
 name: Auto Create PR
 on:
   create:
-    branches:
-    - update/assetlist
+    ref: heads/update/assetlist
+
 
 jobs:
   pull-request:
