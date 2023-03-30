@@ -23,33 +23,37 @@ jobs:
   generate_assetlist:
     name: Generate Assetlist with Code
     runs-on: ubuntu-latest
-    
+
     defaults:
       run:
         shell: bash
-    
+
     steps:
-    
+
       - name: Checkout Repo
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           submodules: true
-          
+
       - name: Git Submodule Update
         run: |
           git submodule update --init --recursive
           git submodule update --recursive --remote
-          
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 19
-          
+
       - name: Run code to Generate Asset list
         working-directory: ./.github/workflows/utility
         run: CHAIN_ID=${{ inputs.chain_id_selection }} CHAIN_NAME=${{ inputs.chain_name_selection }} node generate_assetlist.mjs
-      
+
+      - name: Run ESLint
+        working-directory: ./osmosis-1
+        run: npx eslint --ext .json --fix
+
       - name: Add Commit Push
         uses: devops-infra/action-commit-push@master
         with:
