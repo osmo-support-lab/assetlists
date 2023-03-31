@@ -46,23 +46,23 @@ const bnbScanRoot = 'https://bscscan.com/token/'
 const ftmScanRoot = 'https://ftmscan.com/token/'
 const sinfoniaRoot = 'https://app.sinfonia.zone/fantokens/'
 const assetlistSchema = {
-  description: 'string',
   additional_information: [],
-  pretty_path: 'string',
-  denom_units: [],
-  type_asset: 'string',
   address: 'string',
-  traces: [],
   base: 'string',
-  name: 'string',
+  coingecko_id: 'string',
+  denom_units: [],
+  description: 'string',
   display: 'string',
-  symbol: 'string',
+  keywords: [],
   logo_URIs: {
     png: 'string',
     svg: 'string',
   },
-  coingecko_id: 'string',
-  keywords: []
+  name: 'string',
+  pretty_path: 'string',
+  symbol: 'string',
+  traces: [],
+  type_asset: 'string'
 };
 
 function getZoneAssetlist() {
@@ -174,8 +174,8 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
     if (zoneAsset.chain_name != localChainName) {
       let type = 'ibc';
       let counterparty = {
-        chain_name: zoneAsset.chain_name,
         base_denom: zoneAsset.base_denom,
+        chain_name: zoneAsset.chain_name,
         port: 'transfer',
       };
       let chain = {
@@ -219,9 +219,9 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
 
       //--Create Trace--
       let trace = {
-        type: type,
         counterparty: counterparty,
         chain: chain,
+        type: type
       };
 
       //--Add Trace Path--
@@ -327,16 +327,18 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
             )
           )
         );
-        let tempObj = {
+        let tempObj;
+        tempObj = {
           "chain_website": chainRegistryChainJson.website
+        }
+        if (tempObj.chain_website === undefined) {
+          tempObj = {
+            "chain_website": "Error in Chain Registry."
+          }
         }
         return tempObj;
       } catch (err) {
-        let tempObj = {
-          "chain_website": "Error in Chain Registry."
-        }
         console.log(err);
-        return tempObj
       }
     }
 
@@ -369,6 +371,12 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
     // Use chain.json to pull GH page for chain
     function getGitWebsite() {
       try {
+        override.additional_information.find((registeredAsset) => {
+          if (registeredAsset.git_repo) {
+            return
+          }
+        });
+      } catch {
         const chainRegistryChainJson = JSON.parse(
           fs.readFileSync(
             path.join(
@@ -379,16 +387,16 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
             )
           )
         );
-        let tempObj = {
+        let tempObj;
+        tempObj = {
           "git_repo": chainRegistryChainJson.codebase.git_repo
         }
-        return tempObj;
-      } catch (err) {
-        let tempObj = {
-          "git_repo": "Error in Chain Registry."
+        if (tempObj.git_repo === undefined) {
+          tempObj = {
+            "git_repo": "Error in Chain Registry."
+          }
         }
-        console.log(err);
-        return tempObj
+        return tempObj;
       }
     }
 
@@ -497,15 +505,6 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       }
     }
 
-    // Github Modifier
-    for (let item in generatedAsset.additional_information) {
-      if (!generatedAsset.additional_information[item].git_repo === "") {
-        generatedAsset.additional_information = allAdditional
-        allAdditional.push(getGitWebsite())
-        generatedAsset.additional_information = allAdditional.flat()
-      }
-    }
-
 
     // Sinfonia Modifier
     for (let tag in generatedAsset.keywords) {
@@ -519,10 +518,21 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
       }
     }
 
+
+    if (getGitWebsite() === undefined) {
+
+    } else {
+      allAdditional.push(getGitWebsite())
+      generatedAsset.additional_information = allAdditional.flat()
+    }
+    //console.log(generatedAsset);
+
+
+    // Github Modifier
+
     // Re-order Properties
     generatedAsset = reorderProperties(generatedAsset, assetlistSchema);
     // To see each asset generated, uncomment next line. **Should only be used for debug purposes. Re-comment before commit
-    console.log(generatedAsset);
 
     //- Append Asset to Assetlist
     generatedAssetlist.push(generatedAsset);
@@ -539,10 +549,10 @@ async function generateAssetlist() {
   await generateAssets(generatedAssetlist, zoneAssetlist);
   let chainAssetlist = {
     $schema: "../assetlist.schema.json",
-    chain_name: localChainName,
     assets: generatedAssetlist,
+    chain_name: localChainName
   };
-  //console.log(chainAssetlist);
+  console.log(chainAssetlist);
 
   writeToFile(chainAssetlist);
 }
