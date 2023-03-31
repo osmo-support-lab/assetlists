@@ -522,7 +522,7 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
     // Re-order Properties
     generatedAsset = reorderProperties(generatedAsset, assetlistSchema);
     // To see each asset generated, uncomment next line. **Should only be used for debug purposes. Re-comment before commit
-    // console.log(generatedAsset);
+    console.log(generatedAsset);
 
     //- Append Asset to Assetlist
     generatedAssetlist.push(generatedAsset);

@@ -705,17 +705,6 @@
         ]
       }
     },
-//    {
-//      "base_denom": "hydrogen",
-//      "chain_name": "bostrom",
-//      "frontend_properties": {
-//        "keywords": [
-//          "Native",
-//          "Liquid-Staked",
-//          "Utility"
-//        ]
-//      }
-//    },
     {
       "base_denom": "acanto",
       "chain_name": "canto",
