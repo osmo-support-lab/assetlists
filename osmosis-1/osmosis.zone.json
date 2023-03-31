@@ -705,17 +705,17 @@
         ]
       }
     },
-    {
-      "base_denom": "hydrogen",
-      "chain_name": "bostrom",
-      "frontend_properties": {
-        "keywords": [
-          "Native",
-          "Liquid-Staked",
-          "Utility"
-        ]
-      }
-    },
+//    {
+//      "base_denom": "hydrogen",
+//      "chain_name": "bostrom",
+//      "frontend_properties": {
+//        "keywords": [
+//          "Native",
+//          "Liquid-Staked",
+//          "Utility"
+//        ]
+//      }
+//    },
     {
       "base_denom": "acanto",
       "chain_name": "canto",
@@ -1614,6 +1614,16 @@
       "frontend_properties": {
         "keywords": [
           "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "ufrienzies",
+      "chain_name": "noble",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Collateral-Based"
         ]
       }
     },
