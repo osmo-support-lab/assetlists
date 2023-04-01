@@ -28,9 +28,9 @@
       "description": "The native token of Osmosis",
       "display": "osmo",
       "keywords": [
-        "Native",
         "dex",
-        "staking"
+        "staking",
+        "Native"
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
@@ -65,8 +65,8 @@
       ],
       "display": "ion",
       "keywords": [
-        "Native",
-        "memecoin"
+        "memecoin",
+        "Native"
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png",
@@ -2398,10 +2398,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft2D8E7041556CE93E1EFD66C07C45D551A6AAAE09"
         }
       ],
       "base": "ibc/7ABF696369EFB3387DF22B6A24204459FE5EFD010220E8E5618DC49DB877047B",
@@ -2453,10 +2453,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft25B30C386CDDEBD1413D5AE1180956AE9EB3B9F7"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft25B30C386CDDEBD1413D5AE1180956AE9EB3B9F7"
         }
       ],
       "base": "ibc/423967B46B1A51D78619085105B04FCFA14F7CBC0BE7539A316B2DCDFC7D8C07",
@@ -2508,10 +2508,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft575B10B0CEE2C164D9ED6A96313496F164A9607C"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft575B10B0CEE2C164D9ED6A96313496F164A9607C"
         }
       ],
       "base": "ibc/1DE9A32D603EE05E9B8619DF24D90FD518C932AE0B5B3209A986B7262DBADE2A",
@@ -2563,10 +2563,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft56664FC98A2CF5F4FBAC3566D1A11D891AD88305"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft56664FC98A2CF5F4FBAC3566D1A11D891AD88305"
         }
       ],
       "base": "ibc/239A507997222805E441956EBE8087D7E2D05D6535C6D4C75EF8DCF83B3DE1A1",
@@ -2618,10 +2618,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft52EEB0EE509AC546ED92EAC8591F731F213DDD16"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft52EEB0EE509AC546ED92EAC8591F731F213DDD16"
         }
       ],
       "base": "ibc/B3FB7128CE957DE1ADB687A919AA0786C77C62FB1280C07CDD78AEA032D56853",
@@ -2673,10 +2673,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ftE4903ECC861CA45F2C2BC7EAB8255D2E6E87A33A"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ftE4903ECC861CA45F2C2BC7EAB8255D2E6E87A33A"
         }
       ],
       "base": "ibc/56C276FC136E239449DCE664292DBEEF5795C4EF4B5B35DB98BD1C0948274867",
@@ -2728,10 +2728,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft85AE1716C5E39EA6D64BBD7898C3899A7B500626"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft85AE1716C5E39EA6D64BBD7898C3899A7B500626"
         }
       ],
       "base": "ibc/051A38BBEF92B9D8293AFBE1FA293E704359E9CB28297A0FD5DBA3E9CCEE9AB1",
@@ -2783,10 +2783,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A"
         }
       ],
       "base": "ibc/B797E4F42CD33C50511B341E50C5CC0E8EF0D93B1E1247ABAA071583B8619202",
@@ -2838,10 +2838,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft387C1C279D962ED80C09C1D592A92C4275FD7C5D"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft387C1C279D962ED80C09C1D592A92C4275FD7C5D"
         }
       ],
       "base": "ibc/E4FFAACCDB7D55CE2D257DF637C00158CB841F11D0013B2D03E31FF7800A2C58",
@@ -2893,10 +2893,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft24C9FA4F10B0F235F4A815B15FC774E046A2B2EB"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft24C9FA4F10B0F235F4A815B15FC774E046A2B2EB"
         }
       ],
       "base": "ibc/C9864D1B9623F703C75BBF72B7FF8A7317E1535C96538D21467A4311246DC3B5",
@@ -2948,10 +2948,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft7020C2A8E984EEBCBB383E91CD6FBB067BB2272B"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft7020C2A8E984EEBCBB383E91CD6FBB067BB2272B"
         }
       ],
       "base": "ibc/8A07D4BD40E0F44ECFDF360F7EA7008B288926FB87C54489FE54DB81A5340E0C",
@@ -3003,10 +3003,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft2DD67F5D99E9A141142B48474FA7B6B3FF00A3FE"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft2DD67F5D99E9A141142B48474FA7B6B3FF00A3FE"
         }
       ],
       "base": "ibc/6A6174468758D207DD2D880363BF699C6568A29E87651337AEDAFD9E69EA7E58",
@@ -3058,10 +3058,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft4B030260D99E3ABE2B604EA2B33BAF3C085CDA12"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft4B030260D99E3ABE2B604EA2B33BAF3C085CDA12"
         }
       ],
       "base": "ibc/022A879A5301CBCACF96216C967805F15C33C615B74DC7236027C1BA1BF664FF",
@@ -3113,10 +3113,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ftD4B6290EDEE1EC7B97AB5A1DC6C177EFD08ADCC3"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ftD4B6290EDEE1EC7B97AB5A1DC6C177EFD08ADCC3"
         }
       ],
       "base": "ibc/C1CEF00F016FE89EA6E5B07DA895AACD91B0AAD69A991033D846B988AD4FB69D",
@@ -3168,10 +3168,10 @@
           "coin_landing_page": "https://www.coinlanding.page/post/bitsong"
         },
         {
-          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft347B1612A2B7659913679CF6CD45B8B130C50A00"
+          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
         },
         {
-          "git_repo": "https://github.com/bitsongofficial/go-bitsong"
+          "sinfonia_link": "https://app.sinfonia.zone/fantokens/ft347B1612A2B7659913679CF6CD45B8B130C50A00"
         }
       ],
       "base": "ibc/BE95D1E09F5A44FC5409F4E0F52750DF2A868D865BC91F3C3EE3C83235789D18",
@@ -4685,10 +4685,10 @@
         {
           "type": "bridge",
           "counterparty": {
-            "chain_name": "bitcoin",
-            "base_denom": "sat"
+            "chain_name": "ethereum",
+            "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
           },
-          "provider": "BitGo, Kyber, and Ren"
+          "provider": "Gravity Bridge"
         },
         {
           "type": "bridge",
@@ -5334,6 +5334,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl",
@@ -5377,7 +5380,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5395,6 +5398,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
@@ -5438,7 +5444,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5453,6 +5459,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z",
@@ -5496,7 +5505,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5511,6 +5520,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa",
@@ -5554,7 +5566,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5569,6 +5581,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq",
@@ -5610,7 +5625,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5628,6 +5643,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49",
@@ -5667,7 +5685,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5682,6 +5700,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g",
@@ -5725,7 +5746,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5782,7 +5803,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5838,7 +5859,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5852,13 +5873,13 @@
           "daodao_link": "https://daodao.zone/dao/juno1tg7zc62st4h6gf2ap38sx94ph2kyhtpm3vuw2ck2plnkzjhmkavq36xy5k"
         },
         {
-          "git_repo": "https://github.com/Gelotto/"
-        },
-        {
           "chain_website": "https://www.junonetwork.io/"
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/Gelotto/"
         }
       ],
       "address": "juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se",
@@ -5902,7 +5923,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5916,13 +5937,13 @@
           "daodao_link": "https://daodao.zone/dao/juno1tg7zc62st4h6gf2ap38sx94ph2kyhtpm3vuw2ck2plnkzjhmkavq36xy5k"
         },
         {
-          "git_repo": "https://github.com/Gelotto/"
-        },
-        {
           "chain_website": "https://www.junonetwork.io/"
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/Gelotto/"
         }
       ],
       "address": "juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh",
@@ -5966,7 +5987,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -5981,6 +6002,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv",
@@ -6024,7 +6048,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6039,6 +6063,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3",
@@ -6083,7 +6110,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6098,6 +6125,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse",
@@ -6140,7 +6170,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6158,6 +6188,9 @@
         },
         {
           "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
         }
       ],
       "address": "juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf",
@@ -6201,7 +6234,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6256,7 +6289,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6312,7 +6345,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6369,7 +6402,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6426,7 +6459,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6482,7 +6515,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6538,7 +6571,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6593,7 +6626,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6648,7 +6681,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6703,7 +6736,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6758,7 +6791,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6813,7 +6846,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6868,7 +6901,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -6923,7 +6956,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -7247,7 +7280,7 @@
             "channel_id": "channel-261",
             "path": "transfer/channel-261/cw20:ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
@@ -7706,8 +7739,8 @@
       "description": "The native token of Medas Digital Network",
       "display": "medas",
       "keywords": [
-        "Native",
-        "medas"
+        "medas",
+        "Native"
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png",
@@ -7866,7 +7899,8 @@
         "Native"
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/whitewhale.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.svg"
       },
       "name": "Migaloo",
       "symbol": "WHALE",
@@ -8124,11 +8158,11 @@
       "description": "The native token of Onomy Protocol",
       "display": "nom",
       "keywords": [
-        "Native",
         "dex",
         "stablecoin",
         "bridge",
-        "staking"
+        "staking",
+        "Native"
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png",
@@ -8314,6 +8348,9 @@
     {
       "additional_information": [
         {
+          "block_explorer_link": "https://etherscan.io/token/0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
+        },
+        {
           "chain_website": "https://persistence.one/"
         },
         {
@@ -8342,10 +8379,10 @@
       "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets.",
       "display": "pstake",
       "keywords": [
+        "canon",
         "Wrapped/Bridged",
         "Utility",
-        "Liquid-Staked",
-        "canon"
+        "Liquid-Staked"
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
@@ -8356,12 +8393,12 @@
       "symbol": "PSTAKE",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "bridge",
           "counterparty": {
-            "chain_name": "persistence",
-            "base_denom": "XPRT"
+            "chain_name": "ethereum",
+            "base_denom": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
           },
-          "provider": "Persistence"
+          "provider": "Gravity Bridge"
         },
         {
           "type": "bridge",
@@ -8655,7 +8692,7 @@
       "symbol": "qSTARS",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "stargaze",
             "base_denom": "ustars"
@@ -8717,7 +8754,7 @@
       "symbol": "qATOM",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "cosmoshub",
             "base_denom": "uatom"
@@ -8779,7 +8816,7 @@
       "symbol": "qOSMO",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "osmosis",
             "base_denom": "uosmo"
@@ -8841,7 +8878,7 @@
       "symbol": "qREGEN",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "regen",
             "base_denom": "uregen"
@@ -9125,7 +9162,7 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ]
     },
@@ -9181,7 +9218,7 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "snip20"
@@ -9238,7 +9275,7 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "snip20"
@@ -9295,7 +9332,7 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "snip20"
@@ -9352,7 +9389,7 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "snip20"
@@ -9408,7 +9445,7 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "snip20"
@@ -9497,8 +9534,8 @@
       "description": "The native token of Shareledger",
       "display": "shr",
       "keywords": [
-        "Native",
-        "id"
+        "id",
+        "Native"
       ],
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shareledger/images/token.png",
@@ -9889,7 +9926,7 @@
       "symbol": "stATOM",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "cosmoshub",
             "base_denom": "uatom"
@@ -9949,7 +9986,7 @@
       "symbol": "stSTARS",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "stargaze",
             "base_denom": "ustars"
@@ -10009,7 +10046,7 @@
       "symbol": "stJUNO",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "juno",
             "base_denom": "ujuno"
@@ -10069,7 +10106,7 @@
       "symbol": "stOSMO",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "osmosis",
             "base_denom": "uosmo"
@@ -10129,7 +10166,7 @@
       "symbol": "stLUNA",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "terra2",
             "base_denom": "uluna"
@@ -10189,7 +10226,7 @@
       "symbol": "stEVMOS",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "evmos",
             "base_denom": "uaevmos"
@@ -10249,7 +10286,7 @@
       "symbol": "stINJ",
       "traces": [
         {
-          "type": "liquid-stake",
+          "type": "ibc",
           "counterparty": {
             "chain_name": "injective",
             "base_denom": "inj"
@@ -10581,11 +10618,11 @@
         }
       ],
       "address": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
-      "base": "ibc/8410580A4F5421DFDBD888212624591E92A9E3B5C87D3C58913CE16ABD98B9B4",
+      "base": "ibc/E5916C205E90C7C3481AFD8663A13C1D6C63145FB6C38DA9FC151FEE706F32EF",
       "coingecko_id": "astroport-fi",
       "denom_units": [
         {
-          "denom": "ibc/8410580A4F5421DFDBD888212624591E92A9E3B5C87D3C58913CE16ABD98B9B4",
+          "denom": "ibc/E5916C205E90C7C3481AFD8663A13C1D6C63145FB6C38DA9FC151FEE706F32EF",
           "exponent": 0,
           "aliases": [
             "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
@@ -10611,15 +10648,15 @@
           "counterparty": {
             "base_denom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
             "chain_name": "terra2",
-            "port": "wasm.terra1d90p5lacfxnqgjxjupu234lxnxyeu8fdeef4d0e0nqy3p30r7gss4myn9x",
-            "channel_id": "channel-85"
+            "port": "wasm.terra1e0mrzy8077druuu42vs0hu7ugguade0cj65dgtauyaw4gsl4kv0qtdf2au",
+            "channel_id": "channel-26"
           },
           "chain": {
             "port": "transfer",
-            "channel_id": "channel-559",
-            "path": "transfer/channel-559/cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
+            "channel_id": "channel-341",
+            "path": "transfer/channel-341/cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
           },
-          "type": "ibc-cw20"
+          "type": "ibc"
         }
       ],
       "type_asset": "cw20"
