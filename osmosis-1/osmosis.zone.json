@@ -2055,7 +2055,17 @@
       "chain_name": "terra2",
       "frontend_properties": {
         "keywords": [
-          "Unknown"
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "cw20:terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+      "chain_name": "terra2",
+      "frontend_properties": {
+        "keywords": [
+          "Utility",
+          "Liquid-Staked"
         ]
       }
     },
