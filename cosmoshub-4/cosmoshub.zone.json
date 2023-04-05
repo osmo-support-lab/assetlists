@@ -1,0 +1,342 @@
+{
+  "$schema": "../zone.schema.json",
+  "chain_name": "cosmoshub",
+  "assets": [
+    {
+      "chain_name": "cosmoshub",
+      "base_denom": "uatom"
+    },
+    {
+      "base_denom": "ubld",
+      "chain_name": "agoric",
+      "frontend_properties": {
+        "keywords": [
+          "Utility",
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "uist",
+      "chain_name": "agoric",
+      "frontend_properties": {
+        "keywords": [
+          "Utility",
+          "Anchored",
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "uakt",
+      "chain_name": "akash",
+      "frontend_properties": {
+        "keywords": [
+          "Utility",
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "swth",
+      "chain_name": "carbon",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "ucre",
+      "chain_name": "crescent",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "basecro",
+      "chain_name": "cryptoorgchain",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "ungm",
+      "chain_name": "emoney",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "eeur",
+      "chain_name": "emoney",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "uixo",
+      "chain_name": "impacthub",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "inj",
+      "chain_name": "injective",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "uiris",
+      "chain_name": "irisnet",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "ujuno",
+      "chain_name": "juno",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "ukuji",
+      "chain_name": "kujira",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+      "chain_name": "kujira",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Anchored"
+        ]
+      }
+    },
+    {
+      "base_denom": "nanolike",
+      "chain_name": "likecoin",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "ufrienzies",
+      "chain_name": "noble",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Collateral-Based"
+        ]
+      }
+    },
+    {
+      "base_denom": "uusdc",
+      "chain_name": "noble",
+      "frontend_properties": {
+        "description": "Cosmos native USD Coin issued by Circle via Noble.",
+        "keywords": [
+          "Native",
+          "Fiat-Collateralized"
+        ],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/noble/USDC.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/noble/USDC.svg"
+        }
+      }
+    },
+    {
+      "base_denom": "uosmo",
+      "chain_name": "osmosis",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "uion",
+      "chain_name": "osmosis",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "uxprt",
+      "chain_name": "persistence",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
+      "chain_name": "persistence",
+      "frontend_properties": {
+        "keywords": [
+          "Wrapped/Bridged",
+          "Utility",
+          "Liquid-Staked"
+        ],
+        "pretty_path": "Ethereum via Gravity Bridge to Persistence"
+      }
+    },
+    {
+      "base_denom": "stk/uatom",
+      "chain_name": "persistence",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Liquid-Staked"
+        ]
+      }
+    },
+    {
+      "base_denom": "uregen",
+      "chain_name": "regen",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "udvpn",
+      "chain_name": "sentinel",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "rowan",
+      "chain_name": "sifchain",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "ustrd",
+      "chain_name": "stride",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    },
+    {
+      "base_denom": "stuatom",
+      "chain_name": "stride",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Liquid-Staked"
+        ]
+      }
+    },
+    {
+      "base_denom": "stustars",
+      "chain_name": "stride",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Liquid-Staked"
+        ]
+      }
+    },
+    {
+      "base_denom": "stujuno",
+      "chain_name": "stride",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Liquid-Staked"
+        ]
+      }
+    },
+    {
+      "base_denom": "stuosmo",
+      "chain_name": "stride",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Liquid-Staked"
+        ]
+      }
+    },
+    {
+      "base_denom": "stuluna",
+      "chain_name": "stride",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Liquid-Staked"
+        ]
+      }
+    },
+    {
+      "base_denom": "staevmos",
+      "chain_name": "stride",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Liquid-Staked"
+        ]
+      }
+    },
+    {
+      "base_denom": "stinj",
+      "chain_name": "stride",
+      "frontend_properties": {
+        "keywords": [
+          "Native",
+          "Liquid-Staked"
+        ]
+      }
+    },
+    {
+      "base_denom": "uumee",
+      "chain_name": "umee",
+      "frontend_properties": {
+        "keywords": [
+          "Native"
+        ]
+      }
+    }
+  ]
+}

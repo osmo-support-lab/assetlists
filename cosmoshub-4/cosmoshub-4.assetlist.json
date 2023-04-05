@@ -1,0 +1,1940 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "assets": [
+    {
+      "base": "uatom",
+      "coingecko_id": "cosmos",
+      "denom_units": [
+        {
+          "denom": "uatom",
+          "exponent": 0
+        },
+        {
+          "denom": "atom",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking and governance token of the Cosmos Hub.",
+      "display": "atom",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+      },
+      "name": "Cosmos Hub Atom",
+      "symbol": "ATOM"
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://agoric.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/agoric"
+        },
+        {
+          "git_repo": "https://github.com/Agoric/agoric-sdk/"
+        }
+      ],
+      "base": "ibc/26D5710650B26F38CD59EDDC2E85830BC47BD727F23747EB41F350263F08DCF7",
+      "coingecko_id": "agoric",
+      "denom_units": [
+        {
+          "denom": "ibc/26D5710650B26F38CD59EDDC2E85830BC47BD727F23747EB41F350263F08DCF7",
+          "exponent": 0,
+          "aliases": [
+            "ubld"
+          ]
+        },
+        {
+          "denom": "bld",
+          "exponent": 6
+        }
+      ],
+      "description": "BLD is the token used to secure the Agoric chain through staking and to backstop Inter Protocol.",
+      "display": "bld",
+      "keywords": [
+        "Utility",
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.svg"
+      },
+      "name": "Agoric",
+      "symbol": "BLD",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "ubld",
+            "chain_name": "agoric",
+            "channel_id": "channel-5"
+          },
+          "chain": {
+            "channel_id": "channel-405",
+            "path": "transfer/channel-405/ubld"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://agoric.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/agoric"
+        },
+        {
+          "git_repo": "https://github.com/Agoric/agoric-sdk/"
+        }
+      ],
+      "base": "ibc/9EA9BCC30570DC3198317BB6B5561AB41DDC17AFC342087022C128C57EFE19BA",
+      "denom_units": [
+        {
+          "denom": "ibc/9EA9BCC30570DC3198317BB6B5561AB41DDC17AFC342087022C128C57EFE19BA",
+          "exponent": 0,
+          "aliases": [
+            "uist"
+          ]
+        },
+        {
+          "denom": "ist",
+          "exponent": 6
+        }
+      ],
+      "description": "IST is the stable token used by the Agoric chain for execution fees and commerce.",
+      "display": "ist",
+      "keywords": [
+        "Utility",
+        "Anchored",
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
+      },
+      "name": "Agoric",
+      "symbol": "IST",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uist",
+            "chain_name": "agoric",
+            "channel_id": "channel-5"
+          },
+          "chain": {
+            "channel_id": "channel-405",
+            "path": "transfer/channel-405/uist"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://akash.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/akash"
+        },
+        {
+          "git_repo": "https://github.com/akash-network/node/"
+        }
+      ],
+      "base": "ibc/2181AAB0218EAC24BC9F86BD1364FBBFA3E6E3FCC25E88E3E68C15DC6E752D86",
+      "coingecko_id": "akash-network",
+      "denom_units": [
+        {
+          "denom": "ibc/2181AAB0218EAC24BC9F86BD1364FBBFA3E6E3FCC25E88E3E68C15DC6E752D86",
+          "exponent": 0,
+          "aliases": [
+            "uakt"
+          ]
+        },
+        {
+          "denom": "akt",
+          "exponent": 6
+        }
+      ],
+      "description": "Akash Token (AKT) is the Akash Network's native utility token, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
+      "display": "akt",
+      "keywords": [
+        "Utility",
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
+      },
+      "name": "Akash",
+      "symbol": "AKT",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uakt",
+            "chain_name": "akash",
+            "channel_id": "channel-17"
+          },
+          "chain": {
+            "channel_id": "channel-184",
+            "path": "transfer/channel-184/uakt"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://www.switcheo.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/carbon"
+        },
+        {
+          "git_repo": "https://github.com/Switcheo/carbon-bootstrap"
+        }
+      ],
+      "base": "ibc/5D266BB6FA1D26B678DFE4D8255BBB6CBD23847FA6464CDC0CC15C2441D847C4",
+      "coingecko_id": "switcheo",
+      "denom_units": [
+        {
+          "denom": "ibc/5D266BB6FA1D26B678DFE4D8255BBB6CBD23847FA6464CDC0CC15C2441D847C4",
+          "exponent": 0,
+          "aliases": [
+            "swth"
+          ]
+        },
+        {
+          "denom": "dswth",
+          "exponent": 8,
+          "aliases": [
+            "SWTH"
+          ]
+        }
+      ],
+      "description": "The native governance token of Carbon",
+      "display": "dswth",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg"
+      },
+      "name": "Carbon",
+      "symbol": "SWTH",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "swth",
+            "chain_name": "carbon",
+            "channel_id": "channel-3"
+          },
+          "chain": {
+            "channel_id": "channel-342",
+            "path": "transfer/channel-342/swth"
+          },
+          "type": "ibc"
+        }
+      ],
+      "type_asset": "sdk.coin"
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "Error in Chain Registry."
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/crescent"
+        },
+        {
+          "git_repo": "https://github.com/crescent-network/crescent"
+        }
+      ],
+      "base": "ibc/3F18D520CE791A40357D061FAD657CED6B21D023F229EAF131D7FE7CE6F488BD",
+      "coingecko_id": "crescent-network",
+      "denom_units": [
+        {
+          "denom": "ibc/3F18D520CE791A40357D061FAD657CED6B21D023F229EAF131D7FE7CE6F488BD",
+          "exponent": 0,
+          "aliases": [
+            "ucre"
+          ]
+        },
+        {
+          "denom": "cre",
+          "exponent": 6
+        }
+      ],
+      "description": "The native token of Crescent",
+      "display": "cre",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.svg"
+      },
+      "name": "Crescent",
+      "symbol": "CRE",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "ucre",
+            "chain_name": "crescent",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-326",
+            "path": "transfer/channel-326/ucre"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "Error in Chain Registry."
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/cryptoorgchain"
+        },
+        {
+          "git_repo": "https://github.com/crypto-org-chain/chain-main"
+        }
+      ],
+      "base": "ibc/C932ADFE2B4216397A4F17458B6E4468499B86C3BC8116180F85D799D6F5CC1B",
+      "coingecko_id": "crypto-com-chain",
+      "denom_units": [
+        {
+          "denom": "ibc/C932ADFE2B4216397A4F17458B6E4468499B86C3BC8116180F85D799D6F5CC1B",
+          "exponent": 0,
+          "aliases": [
+            "basecro"
+          ]
+        },
+        {
+          "denom": "cro",
+          "exponent": 8
+        }
+      ],
+      "description": "CRO coin is the token for the Crypto.com platform.",
+      "display": "cro",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cronos.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
+      },
+      "name": "Crypto.org Chain",
+      "symbol": "CRO",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "basecro",
+            "chain_name": "cryptoorgchain",
+            "channel_id": "channel-27"
+          },
+          "chain": {
+            "channel_id": "channel-187",
+            "path": "transfer/channel-187/basecro"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "Error in Chain Registry."
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/emoney"
+        },
+        {
+          "git_repo": "https://github.com/e-money/em-ledger"
+        }
+      ],
+      "base": "ibc/E070CE91CC4BD15AEC9B5788C0826755AAD35052A3037E9AC62BE70B4C9A7DBB",
+      "coingecko_id": "e-money",
+      "denom_units": [
+        {
+          "denom": "ibc/E070CE91CC4BD15AEC9B5788C0826755AAD35052A3037E9AC62BE70B4C9A7DBB",
+          "exponent": 0,
+          "aliases": [
+            "ungm"
+          ]
+        },
+        {
+          "denom": "ngm",
+          "exponent": 6
+        }
+      ],
+      "description": "e-Money NGM staking token. In addition to earning staking rewards the token is bought back and burned based on e-Money stablecoin inflation.",
+      "display": "ngm",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg"
+      },
+      "name": "e-Money",
+      "symbol": "NGM",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "ungm",
+            "chain_name": "emoney",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-202",
+            "path": "transfer/channel-202/ungm"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "Error in Chain Registry."
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/emoney"
+        },
+        {
+          "git_repo": "https://github.com/e-money/em-ledger"
+        }
+      ],
+      "base": "ibc/B93F321238F7BB15AB5B882660AAE72286C8E9035DE34E2B30F60E54C623C63C",
+      "coingecko_id": "e-money-eur",
+      "denom_units": [
+        {
+          "denom": "ibc/B93F321238F7BB15AB5B882660AAE72286C8E9035DE34E2B30F60E54C623C63C",
+          "exponent": 0,
+          "aliases": [
+            "eeur"
+          ]
+        },
+        {
+          "denom": "eur",
+          "exponent": 6
+        }
+      ],
+      "description": "e-Money EUR stablecoin. Audited and backed by fiat EUR deposits and government bonds.",
+      "display": "eur",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/eeur.svg"
+      },
+      "name": "e-Money",
+      "symbol": "EEUR",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "eeur",
+            "chain_name": "emoney",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-202",
+            "path": "transfer/channel-202/eeur"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://www.ixo.world/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/impacthub"
+        },
+        {
+          "git_repo": "https://github.com/ixofoundation/ixo-blockchain"
+        }
+      ],
+      "base": "ibc/B2B5AEE174062FA7804AC95223D8169852F8F58962C51C66391C272C838258B7",
+      "coingecko_id": "ixo",
+      "denom_units": [
+        {
+          "denom": "ibc/B2B5AEE174062FA7804AC95223D8169852F8F58962C51C66391C272C838258B7",
+          "exponent": 0,
+          "aliases": [
+            "uixo"
+          ]
+        },
+        {
+          "denom": "ixo",
+          "exponent": 6
+        }
+      ],
+      "description": "The native token of IXO Chain",
+      "display": "ixo",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
+      },
+      "name": "ixo",
+      "symbol": "IXO",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uixo",
+            "chain_name": "impacthub",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-204",
+            "path": "transfer/channel-204/uixo"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://injective.com/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/injective"
+        },
+        {
+          "git_repo": "https://github.com/InjectiveLabs/injective-chain-releases"
+        }
+      ],
+      "base": "ibc/6469BDA6F62C4F4B8F76629FA1E72A02A3D1DD9E2B22DDB3C3B2296DEAD29AB8",
+      "coingecko_id": "injective-protocol",
+      "denom_units": [
+        {
+          "denom": "ibc/6469BDA6F62C4F4B8F76629FA1E72A02A3D1DD9E2B22DDB3C3B2296DEAD29AB8",
+          "exponent": 0,
+          "aliases": [
+            "inj"
+          ]
+        },
+        {
+          "denom": "INJ",
+          "exponent": 18
+        }
+      ],
+      "description": "The INJ token is the native governance token for the Injective chain.",
+      "display": "INJ",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg"
+      },
+      "name": "Injective",
+      "symbol": "INJ",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "inj",
+            "chain_name": "injective",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-220",
+            "path": "transfer/channel-220/inj"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "Error in Chain Registry."
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/irisnet"
+        },
+        {
+          "git_repo": "https://github.com/irisnet/irishub"
+        }
+      ],
+      "base": "ibc/12DA42304EE1CE96071F712AA4D58186AD11C3165C0DCDA71E017A54F3935E66",
+      "coingecko_id": "iris-network",
+      "denom_units": [
+        {
+          "denom": "ibc/12DA42304EE1CE96071F712AA4D58186AD11C3165C0DCDA71E017A54F3935E66",
+          "exponent": 0,
+          "aliases": [
+            "uiris"
+          ]
+        },
+        {
+          "denom": "iris",
+          "exponent": 6
+        }
+      ],
+      "description": "The IRIS token is the native governance token for the IrisNet chain.",
+      "display": "iris",
+      "keywords": [
+        "Native",
+        "Utility"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg"
+      },
+      "name": "IRISnet",
+      "symbol": "IRIS",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uiris",
+            "chain_name": "irisnet",
+            "channel_id": "channel-12"
+          },
+          "chain": {
+            "channel_id": "channel-182",
+            "path": "transfer/channel-182/uiris"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://www.junonetwork.io/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/juno"
+        },
+        {
+          "git_repo": "https://github.com/CosmosContracts/juno"
+        }
+      ],
+      "base": "ibc/CDAB23DA5495290063363BD1C3499E26189036302DC689985A7E23F8DF8D8DB0",
+      "coingecko_id": "juno-network",
+      "denom_units": [
+        {
+          "denom": "ibc/CDAB23DA5495290063363BD1C3499E26189036302DC689985A7E23F8DF8D8DB0",
+          "exponent": 0,
+          "aliases": [
+            "ujuno"
+          ]
+        },
+        {
+          "denom": "juno",
+          "exponent": 6
+        }
+      ],
+      "description": "The native token of JUNO Chain",
+      "display": "juno",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+      },
+      "name": "Juno",
+      "symbol": "JUNO",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "ujuno",
+            "chain_name": "juno",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-207",
+            "path": "transfer/channel-207/ujuno"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://kujira.app/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/kujira"
+        },
+        {
+          "git_repo": "https://github.com/Team-Kujira/core"
+        }
+      ],
+      "base": "ibc/4CC44260793F84006656DD868E017578F827A492978161DA31D7572BCB3F4289",
+      "coingecko_id": "kujira",
+      "denom_units": [
+        {
+          "denom": "ibc/4CC44260793F84006656DD868E017578F827A492978161DA31D7572BCB3F4289",
+          "exponent": 0,
+          "aliases": [
+            "ukuji"
+          ]
+        },
+        {
+          "denom": "kuji",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking and governance token of the Kujira chain.",
+      "display": "kuji",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
+      },
+      "name": "Kujira",
+      "symbol": "KUJI",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "ukuji",
+            "chain_name": "kujira",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-343",
+            "path": "transfer/channel-343/ukuji"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://kujira.app/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/kujira"
+        },
+        {
+          "git_repo": "https://github.com/Team-Kujira/core"
+        }
+      ],
+      "base": "ibc/A47E814B0E8AE12D044637BCB4576FCA675EF66300864873FA712E1B28492B78",
+      "coingecko_id": "usk",
+      "denom_units": [
+        {
+          "denom": "ibc/A47E814B0E8AE12D044637BCB4576FCA675EF66300864873FA712E1B28492B78",
+          "exponent": 0,
+          "aliases": [
+            "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk"
+          ]
+        },
+        {
+          "denom": "usk",
+          "exponent": 6
+        }
+      ],
+      "description": "The native over-collateralized stablecoin from the Kujira chain.",
+      "display": "USK",
+      "keywords": [
+        "Native",
+        "Anchored"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.svg"
+      },
+      "name": "Kujira",
+      "symbol": "USK",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+            "chain_name": "kujira",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-343",
+            "path": "transfer/channel-343/factory:kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7:uusk"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://like.co/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/likecoin"
+        },
+        {
+          "git_repo": "https://github.com/likecoin/likecoin-chain"
+        }
+      ],
+      "base": "ibc/1D5826F7EDE6E3B13009FEF994DC9CAAF15CC24CA7A9FF436FFB2E56FD72F54F",
+      "coingecko_id": "likecoin",
+      "denom_units": [
+        {
+          "denom": "ibc/1D5826F7EDE6E3B13009FEF994DC9CAAF15CC24CA7A9FF436FFB2E56FD72F54F",
+          "exponent": 0,
+          "aliases": [
+            "nanolike"
+          ]
+        },
+        {
+          "denom": "like",
+          "exponent": 9
+        }
+      ],
+      "description": "LIKE is the native staking and governance token of LikeCoin chain, a Decentralized Publishing Infrastructure to empower content ownership, authenticity, and provenance.",
+      "display": "like",
+      "keywords": [
+        "Native",
+        "Utility"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg"
+      },
+      "name": "LikeCoin",
+      "symbol": "LIKE",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "nanolike",
+            "chain_name": "likecoin",
+            "channel_id": "channel-5"
+          },
+          "chain": {
+            "channel_id": "channel-217",
+            "path": "transfer/channel-217/nanolike"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://nobleassets.xyz/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/noble"
+        },
+        {
+          "git_repo": "https://github.com/strangelove-ventures/noble"
+        }
+      ],
+      "base": "ibc/63B7FB38B505DE63FC5F031B9E4AD6BF9FED63A36655F83E115A86CDEEA66826",
+      "denom_units": [
+        {
+          "denom": "ibc/63B7FB38B505DE63FC5F031B9E4AD6BF9FED63A36655F83E115A86CDEEA66826",
+          "exponent": 0,
+          "aliases": [
+            "microfrienzies",
+            "ufrienzies"
+          ]
+        },
+        {
+          "denom": "frienzies",
+          "exponent": 6
+        }
+      ],
+      "description": "Frienzies are an IBC token redeemable exclusively for a physical asset issued by the Noble entity.",
+      "display": "frienzies",
+      "keywords": [
+        "Native",
+        "Collateral-Based"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/frnz.png"
+      },
+      "name": "Noble",
+      "symbol": "FRNZ",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "ufrienzies",
+            "chain_name": "noble",
+            "channel_id": "channel-4"
+          },
+          "chain": {
+            "channel_id": "channel-536",
+            "path": "transfer/channel-536/ufrienzies"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://nobleassets.xyz/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/noble"
+        },
+        {
+          "git_repo": "https://github.com/strangelove-ventures/noble"
+        }
+      ],
+      "base": "ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013",
+      "denom_units": [
+        {
+          "denom": "ibc/F663521BF1836B00F5F177680F74BFB9A8B5654A694D0D2BC249E03CF2509013",
+          "exponent": 0,
+          "aliases": [
+            "microusdc",
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "description": "Cosmos native USD Coin issued by Circle via Noble.",
+      "display": "usdc",
+      "keywords": [
+        "Native",
+        "Fiat-Collateralized"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/noble/USDC.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/noble/USDC.svg"
+      },
+      "name": "Noble",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uusdc",
+            "chain_name": "noble",
+            "channel_id": "channel-4"
+          },
+          "chain": {
+            "channel_id": "channel-536",
+            "path": "transfer/channel-536/uusdc"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://osmosis.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/osmosis"
+        },
+        {
+          "git_repo": "https://github.com/osmosis-labs/osmosis"
+        }
+      ],
+      "base": "ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC",
+      "coingecko_id": "osmosis",
+      "denom_units": [
+        {
+          "denom": "ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC",
+          "exponent": 0,
+          "aliases": [
+            "uosmo"
+          ]
+        },
+        {
+          "denom": "osmo",
+          "exponent": 6
+        }
+      ],
+      "description": "The native token of Osmosis",
+      "display": "osmo",
+      "keywords": [
+        "dex",
+        "staking",
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+      },
+      "name": "Osmosis",
+      "symbol": "OSMO",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uosmo",
+            "chain_name": "osmosis",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-141",
+            "path": "transfer/channel-141/uosmo"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://osmosis.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/osmosis"
+        },
+        {
+          "git_repo": "https://github.com/osmosis-labs/osmosis"
+        }
+      ],
+      "base": "ibc/5BB694D466CCF099EF73F165F88472AF51D9C4991EAA42BD1168C5304712CC0D",
+      "coingecko_id": "ion",
+      "denom_units": [
+        {
+          "denom": "ibc/5BB694D466CCF099EF73F165F88472AF51D9C4991EAA42BD1168C5304712CC0D",
+          "exponent": 0,
+          "aliases": [
+            "uion"
+          ]
+        },
+        {
+          "denom": "ion",
+          "exponent": 6
+        }
+      ],
+      "display": "ion",
+      "keywords": [
+        "memecoin",
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ion.svg"
+      },
+      "name": "Osmosis",
+      "symbol": "ION",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uion",
+            "chain_name": "osmosis",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-141",
+            "path": "transfer/channel-141/uion"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://persistence.one/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/persistence"
+        },
+        {
+          "git_repo": "https://github.com/persistenceOne/persistenceCore"
+        }
+      ],
+      "base": "ibc/81D08BC39FB520EBD948CF017910DD69702D34BF5AC160F76D3B5CFC444EBCE0",
+      "coingecko_id": "persistence",
+      "denom_units": [
+        {
+          "denom": "ibc/81D08BC39FB520EBD948CF017910DD69702D34BF5AC160F76D3B5CFC444EBCE0",
+          "exponent": 0,
+          "aliases": [
+            "uxprt"
+          ]
+        },
+        {
+          "denom": "xprt",
+          "exponent": 6
+        }
+      ],
+      "description": "The XPRT token is primarily a governance token for the Persistence chain.",
+      "display": "xprt",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg"
+      },
+      "name": "Persistence",
+      "symbol": "XPRT",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uxprt",
+            "chain_name": "persistence",
+            "channel_id": "channel-24"
+          },
+          "chain": {
+            "channel_id": "channel-190",
+            "path": "transfer/channel-190/uxprt"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://persistence.one/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/persistence"
+        },
+        {
+          "git_repo": "https://github.com/persistenceOne/persistenceCore"
+        }
+      ],
+      "base": "ibc/560D0E725FEDF81B11B89FCA67CB18460AFB9D355B136CF9880259ADD0B3341A",
+      "denom_units": [
+        {
+          "denom": "ibc/560D0E725FEDF81B11B89FCA67CB18460AFB9D355B136CF9880259ADD0B3341A",
+          "exponent": 0,
+          "aliases": [
+            "gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+            "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+            "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444"
+          ]
+        },
+        {
+          "denom": "pstake",
+          "exponent": 18
+        }
+      ],
+      "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets.",
+      "display": "pstake",
+      "keywords": [
+        "canon",
+        "Wrapped/Bridged",
+        "Utility",
+        "Liquid-Staked"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.svg"
+      },
+      "name": "Persistence",
+      "pretty_path": "Ethereum via Gravity Bridge to Persistence",
+      "symbol": "PSTAKE",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "persistence",
+            "base_denom": "XPRT"
+          },
+          "provider": "Persistence"
+        },
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
+          },
+          "provider": "Gravity Bridge"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "gravitybridge",
+            "base_denom": "gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+            "channel_id": "channel-24"
+          },
+          "chain": {
+            "channel_id": "channel-38",
+            "path": "transfer/channel-38/gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
+          }
+        },
+        {
+          "counterparty": {
+            "base_denom": "ibc/A6E3AF63B3C906416A9AF7A556C59EA4BD50E617EFFE6299B99700CCB780E444",
+            "chain_name": "persistence",
+            "channel_id": "channel-24"
+          },
+          "chain": {
+            "channel_id": "channel-190",
+            "path": "transfer/channel-190/transfer/channel-38/gravity0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
+          },
+          "type": "ibc"
+        }
+      ],
+      "type_asset": "ics20"
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://persistence.one/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/persistence"
+        },
+        {
+          "git_repo": "https://github.com/persistenceOne/persistenceCore"
+        }
+      ],
+      "base": "ibc/D4AB918D77C7972BD788F8637895A8DE40534CB9E9C0D704471DE0083B322FF0",
+      "coingecko_id": "stkatom",
+      "denom_units": [
+        {
+          "denom": "ibc/D4AB918D77C7972BD788F8637895A8DE40534CB9E9C0D704471DE0083B322FF0",
+          "exponent": 0,
+          "aliases": [
+            "stk/uatom"
+          ]
+        },
+        {
+          "denom": "stkatom",
+          "exponent": 6,
+          "aliases": [
+            "stk/atom"
+          ]
+        }
+      ],
+      "description": "PSTAKE Liquid-Staked ATOM",
+      "display": "stkatom",
+      "keywords": [
+        "Native",
+        "Liquid-Staked"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg"
+      },
+      "name": "Persistence",
+      "symbol": "stkATOM",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "stk/uatom",
+            "chain_name": "persistence",
+            "channel_id": "channel-24"
+          },
+          "chain": {
+            "channel_id": "channel-190",
+            "path": "transfer/channel-190/stk/uatom"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://www.regen.network/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/regen"
+        },
+        {
+          "git_repo": "https://github.com/regen-network/regen-ledger"
+        }
+      ],
+      "base": "ibc/1FBDD58D438B4D04D26CBFB2E722C18984A0F1A52468C4F42F37D102F3D3F399",
+      "coingecko_id": "regen",
+      "denom_units": [
+        {
+          "denom": "ibc/1FBDD58D438B4D04D26CBFB2E722C18984A0F1A52468C4F42F37D102F3D3F399",
+          "exponent": 0,
+          "aliases": [
+            "uregen"
+          ]
+        },
+        {
+          "denom": "regen",
+          "exponent": 6
+        }
+      ],
+      "description": "REGEN coin is the token for the Regen Network Platform",
+      "display": "regen",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.svg"
+      },
+      "name": "Regen",
+      "symbol": "REGEN",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uregen",
+            "chain_name": "regen",
+            "channel_id": "channel-11"
+          },
+          "chain": {
+            "channel_id": "channel-185",
+            "path": "transfer/channel-185/uregen"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://sentinel.co/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/sentinel"
+        },
+        {
+          "git_repo": "https://github.com/sentinel-official/hub"
+        }
+      ],
+      "base": "ibc/42E47A5BA708EBE6E0C227006254F2784E209F4DBD3C6BB77EDC4B29EF875E8E",
+      "coingecko_id": "sentinel",
+      "denom_units": [
+        {
+          "denom": "ibc/42E47A5BA708EBE6E0C227006254F2784E209F4DBD3C6BB77EDC4B29EF875E8E",
+          "exponent": 0,
+          "aliases": [
+            "udvpn"
+          ]
+        },
+        {
+          "denom": "dvpn",
+          "exponent": 6
+        }
+      ],
+      "description": "DVPN is the native token of the Sentinel Hub.",
+      "display": "dvpn",
+      "keywords": [
+        "Native",
+        "Utility"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg"
+      },
+      "name": "Sentinel",
+      "symbol": "DVPN",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "udvpn",
+            "chain_name": "sentinel",
+            "channel_id": "channel-12"
+          },
+          "chain": {
+            "channel_id": "channel-186",
+            "path": "transfer/channel-186/udvpn"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://sifchain.finance/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/sifchain"
+        },
+        {
+          "git_repo": "https://github.com/Sifchain/sifnode.git"
+        }
+      ],
+      "base": "ibc/F5ED5F3DC6F0EF73FA455337C027FE91ABCB375116BF51A228E44C493E020A09",
+      "coingecko_id": "sifchain",
+      "denom_units": [
+        {
+          "denom": "ibc/F5ED5F3DC6F0EF73FA455337C027FE91ABCB375116BF51A228E44C493E020A09",
+          "exponent": 0,
+          "aliases": [
+            "rowan"
+          ]
+        },
+        {
+          "denom": "ROWAN",
+          "exponent": 18
+        }
+      ],
+      "description": "Rowan Token (ROWAN) is the Sifchain Network's native utility token, used as the primary means to govern, provide liquidity, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.",
+      "display": "ROWAN",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg"
+      },
+      "name": "Sifchain",
+      "symbol": "ROWAN",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "rowan",
+            "chain_name": "sifchain",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-192",
+            "path": "transfer/channel-192/rowan"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        },
+        {
+          "git_repo": "https://github.com/Stride-Labs/stride"
+        }
+      ],
+      "base": "ibc/6B8A3F5C2AD51CD6171FA41A7E8C35AD594AB69226438DB94450436EA57B3A89",
+      "coingecko_id": "stride",
+      "denom_units": [
+        {
+          "denom": "ibc/6B8A3F5C2AD51CD6171FA41A7E8C35AD594AB69226438DB94450436EA57B3A89",
+          "exponent": 0,
+          "aliases": [
+            "ustrd"
+          ]
+        },
+        {
+          "denom": "strd",
+          "exponent": 6
+        }
+      ],
+      "description": "The native token of Stride",
+      "display": "strd",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+      },
+      "name": "Stride",
+      "symbol": "STRD",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "ustrd",
+            "chain_name": "stride",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-391",
+            "path": "transfer/channel-391/ustrd"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        },
+        {
+          "git_repo": "https://github.com/Stride-Labs/stride"
+        }
+      ],
+      "base": "ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231",
+      "coingecko_id": "stride-staked-atom",
+      "denom_units": [
+        {
+          "denom": "ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231",
+          "exponent": 0,
+          "aliases": [
+            "stuatom"
+          ]
+        },
+        {
+          "denom": "statom",
+          "exponent": 6
+        }
+      ],
+      "display": "statom",
+      "keywords": [
+        "Native",
+        "Liquid-Staked"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+      },
+      "name": "Stride",
+      "symbol": "stATOM",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "uatom"
+          },
+          "provider": "Stride"
+        },
+        {
+          "counterparty": {
+            "base_denom": "stuatom",
+            "chain_name": "stride",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-391",
+            "path": "transfer/channel-391/stuatom"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        },
+        {
+          "git_repo": "https://github.com/Stride-Labs/stride"
+        }
+      ],
+      "base": "ibc/715BD634CF4D914C3EE93B0F8A9D2514B743F6FE36BC80263D1BC5EE4B3C5D40",
+      "denom_units": [
+        {
+          "denom": "ibc/715BD634CF4D914C3EE93B0F8A9D2514B743F6FE36BC80263D1BC5EE4B3C5D40",
+          "exponent": 0,
+          "aliases": [
+            "stustars"
+          ]
+        },
+        {
+          "denom": "ststars",
+          "exponent": 6
+        }
+      ],
+      "display": "ststars",
+      "keywords": [
+        "Native",
+        "Liquid-Staked"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/ststars.svg"
+      },
+      "name": "Stride",
+      "symbol": "stSTARS",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "stargaze",
+            "base_denom": "ustars"
+          },
+          "provider": "Stride"
+        },
+        {
+          "counterparty": {
+            "base_denom": "stustars",
+            "chain_name": "stride",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-391",
+            "path": "transfer/channel-391/stustars"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        },
+        {
+          "git_repo": "https://github.com/Stride-Labs/stride"
+        }
+      ],
+      "base": "ibc/88DCAA43A9CD099E1F9BBB80B9A90F64782EBA115A84B2CD8398757ADA4F4B40",
+      "denom_units": [
+        {
+          "denom": "ibc/88DCAA43A9CD099E1F9BBB80B9A90F64782EBA115A84B2CD8398757ADA4F4B40",
+          "exponent": 0,
+          "aliases": [
+            "stujuno"
+          ]
+        },
+        {
+          "denom": "stjuno",
+          "exponent": 6
+        }
+      ],
+      "display": "stjuno",
+      "keywords": [
+        "Native",
+        "Liquid-Staked"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg"
+      },
+      "name": "Stride",
+      "symbol": "stJUNO",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "juno",
+            "base_denom": "ujuno"
+          },
+          "provider": "Stride"
+        },
+        {
+          "counterparty": {
+            "base_denom": "stujuno",
+            "chain_name": "stride",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-391",
+            "path": "transfer/channel-391/stujuno"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        },
+        {
+          "git_repo": "https://github.com/Stride-Labs/stride"
+        }
+      ],
+      "base": "ibc/054892D6BB43AF8B93AAC28AA5FD7019D2C59A15DAFD6F45C1FA2BF9BDA22454",
+      "denom_units": [
+        {
+          "denom": "ibc/054892D6BB43AF8B93AAC28AA5FD7019D2C59A15DAFD6F45C1FA2BF9BDA22454",
+          "exponent": 0,
+          "aliases": [
+            "stuosmo"
+          ]
+        },
+        {
+          "denom": "stosmo",
+          "exponent": 6
+        }
+      ],
+      "display": "stosmo",
+      "keywords": [
+        "Native",
+        "Liquid-Staked"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
+      },
+      "name": "Stride",
+      "symbol": "stOSMO",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "osmosis",
+            "base_denom": "uosmo"
+          },
+          "provider": "Stride"
+        },
+        {
+          "counterparty": {
+            "base_denom": "stuosmo",
+            "chain_name": "stride",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-391",
+            "path": "transfer/channel-391/stuosmo"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        },
+        {
+          "git_repo": "https://github.com/Stride-Labs/stride"
+        }
+      ],
+      "base": "ibc/5CAE744C89BC70AE7B38019A1EDF83199B7E10F00F160E7F4F12BCA7A32A7EE5",
+      "denom_units": [
+        {
+          "denom": "ibc/5CAE744C89BC70AE7B38019A1EDF83199B7E10F00F160E7F4F12BCA7A32A7EE5",
+          "exponent": 0,
+          "aliases": [
+            "stuluna"
+          ]
+        },
+        {
+          "denom": "stluna",
+          "exponent": 6
+        }
+      ],
+      "display": "stluna",
+      "keywords": [
+        "Native",
+        "Liquid-Staked"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg"
+      },
+      "name": "Stride",
+      "symbol": "stLUNA",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "terra2",
+            "base_denom": "uluna"
+          },
+          "provider": "Stride"
+        },
+        {
+          "counterparty": {
+            "base_denom": "stuluna",
+            "chain_name": "stride",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-391",
+            "path": "transfer/channel-391/stuluna"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        },
+        {
+          "git_repo": "https://github.com/Stride-Labs/stride"
+        }
+      ],
+      "base": "ibc/B38AAA0F7A3EC4D7C8E12DFA33FF93205FE7A42738A4B0590E2FF15BC60A612B",
+      "denom_units": [
+        {
+          "denom": "ibc/B38AAA0F7A3EC4D7C8E12DFA33FF93205FE7A42738A4B0590E2FF15BC60A612B",
+          "exponent": 0,
+          "aliases": [
+            "staevmos"
+          ]
+        },
+        {
+          "denom": "stevmos",
+          "exponent": 18
+        }
+      ],
+      "display": "stevmos",
+      "keywords": [
+        "Native",
+        "Liquid-Staked"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg"
+      },
+      "name": "Stride",
+      "symbol": "stEVMOS",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "evmos",
+            "base_denom": "uaevmos"
+          },
+          "provider": "Stride"
+        },
+        {
+          "counterparty": {
+            "base_denom": "staevmos",
+            "chain_name": "stride",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-391",
+            "path": "transfer/channel-391/staevmos"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        null,
+        {
+          "chain_website": "https://stride.zone/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/stride"
+        },
+        {
+          "git_repo": "https://github.com/Stride-Labs/stride"
+        }
+      ],
+      "base": "ibc/B011C1A0AD5E717F674BA59FD8E05B2F946E4FD41C9CB3311C95F7ED4B815620",
+      "denom_units": [
+        {
+          "denom": "ibc/B011C1A0AD5E717F674BA59FD8E05B2F946E4FD41C9CB3311C95F7ED4B815620",
+          "exponent": 0,
+          "aliases": [
+            "stinj"
+          ]
+        },
+        {
+          "denom": "stINJ",
+          "exponent": 18
+        }
+      ],
+      "display": "stINJ",
+      "keywords": [
+        "Native",
+        "Liquid-Staked"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stinj.svg"
+      },
+      "name": "Stride",
+      "symbol": "stINJ",
+      "traces": [
+        {
+          "type": "liquid-stake",
+          "counterparty": {
+            "chain_name": "injective",
+            "base_denom": "inj"
+          },
+          "provider": "Stride"
+        },
+        {
+          "counterparty": {
+            "base_denom": "stinj",
+            "chain_name": "stride",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "channel-391",
+            "path": "transfer/channel-391/stinj"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
+          "chain_website": "https://www.umee.cc/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/umee"
+        },
+        {
+          "git_repo": "https://github.com/umee-network/umee"
+        }
+      ],
+      "base": "ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3",
+      "coingecko_id": "umee",
+      "denom_units": [
+        {
+          "denom": "ibc/DEC41A02E47658D40FC71E5A35A9C807111F5A6662A3FB5DA84C4E6F53E616B3",
+          "exponent": 0,
+          "aliases": [
+            "uumee"
+          ]
+        },
+        {
+          "denom": "umee",
+          "exponent": 6
+        }
+      ],
+      "description": "The native token of Umee",
+      "display": "umee",
+      "keywords": [
+        "Native"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg"
+      },
+      "name": "Umee",
+      "symbol": "UMEE",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uumee",
+            "chain_name": "umee",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-288",
+            "path": "transfer/channel-288/uumee"
+          },
+          "type": "ibc"
+        }
+      ]
+    }
+  ],
+  "chain_name": "cosmoshub"
+}

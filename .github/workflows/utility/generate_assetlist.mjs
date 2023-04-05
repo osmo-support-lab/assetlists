@@ -407,7 +407,9 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
     }
 
     const { frontend_properties: override } = zoneAsset;
-    const allAdditional = override.additional_information ? [...override.additional_information.filter(item => !item.git_repo)] : [];
+    console.log(zoneAsset)
+    let allAdditional = []
+    //const allAdditional = override.additional_information ? [...override.additional_information.filter(item => !item.git_repo)] : [];
     const allKeywords = generatedAsset.keywords ? [...generatedAsset.keywords] : [];
 
     /**
