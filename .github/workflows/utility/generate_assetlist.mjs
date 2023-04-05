@@ -91,6 +91,7 @@ function getZoneAssetlist() {
  * @param {string} chain_name - The name of the chain whose registry is being searched.
  * @param {string} base_denom - The base denomination of the registered asset being searched for.
  * @returns {Object|undefined} Returns an object representing a registered asset if found, otherwise undefined.
+ * @throws Will throw an error if there is an issue reading or parsing the JSON file.
  */
 function copyRegisteredAsset(chain_name, base_denom) {
   try {
@@ -143,6 +144,7 @@ function getIbcConnections(ibcFileName) {
  * Writes assetlist data to a file.
  *
  * @param {Array} assetlist - The array of assets to write to the file.
+ * @throws Will throw an error if there is an issue reading or parsing the JSON file.
  */
 function writeToFile(assetlist) {
   try {
@@ -166,7 +168,7 @@ function writeToFile(assetlist) {
  * Calculates an IBC hash for the given input string.
  *
  * @param {string} ibcHashInput - The input string to calculate the hash for.
- * @returns {Promise<string>} A Promise that resolves with the calculated IBC hash as a string in format "ibc/XXXXXXXXXXXX...".
+ * @returns {Promise<string>} A Promise that resolves with the calculated IBC hash as a string in format `ibc/<hash>`.
  * @throws {TypeError} If ibcHashInput is not a valid string or if crypto.subtle.digest() fails.
  */
 async function calculateIbcHash(ibcHashInput) {
@@ -217,7 +219,6 @@ function reorderProperties(object, referenceObject) {
  *
  * @param {Array} generatedAssetlist - The list of generated assets.
  * @param {Array} zoneAssetlist - The list of zone assets.
- *
  * @returns {Promise<Array>} A promise that resolves with the updated list of generated assets.
  */
 const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
@@ -319,32 +320,10 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
         delete trace.chain.port;
         delete trace.counterparty.port;
       }
-      // console.log(trace)
 
       //--Append Latest Trace to Traces--
       traces.push(trace);
       generatedAsset.traces = traces;
-
-      switch (generatedAsset.traces[0].type) {
-        case 'wrapped':
-        case 'synthetic':
-        case 'forex':
-          generatedAsset.traces[0] = generatedAsset.traces[1];
-          break;
-        case 'ibc-cw20':
-          generatedAsset.traces[0].type = 'ibc';
-          break;
-        case 'liquid-stake':
-          if (generatedAsset.traces[0].counterparty.chain_name === 'persistence') {
-            generatedAsset.traces[0] = generatedAsset.traces[1];
-          } else {
-            generatedAsset.traces[0].type = 'ibc';
-          }
-      }
-
-      if (generatedAsset.display === 'gwbtc') {
-        generatedAsset.traces[0] = generatedAsset.traces[1]
-      }
 
       //--Get IBC Hash--
       let ibcHash = calculateIbcHash(traces[traces.length - 1].chain.path);
@@ -442,8 +421,10 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
         let gitRepo;
         if (override.additional_information) {
           override.additional_information.forEach((asset) => {
-            if (!gitRepo && asset.git_repo) { // check if asset has git repo property and no value has been set yet
-              gitRepo = asset.git_repo; // use this asset's git repo property value
+            // Check if the asset has git repo property in the `chain.json` and no value has been set yet.
+            if (!gitRepo && asset.git_repo) {
+              // Use the asset's git repo property value
+              gitRepo = asset.git_repo;
             }
           });
         }
@@ -451,7 +432,6 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
         if (!gitRepo && codebase?.git_repo) {
           gitRepo = codebase.git_repo;
         }
-
         if (!gitRepo) throw new Error("No Git repo found");
         return { "git_repo": gitRepo };
       } catch (error) {
@@ -463,12 +443,46 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
     }
 
     // Bridged Asset Modifier
-
     if (generatedAsset.traces) {
-      const firstTrace = generatedAsset.traces[0];
+      /**
+       * Returns an assets `generatedAsset.traces` given certain cases.
+       *
+       * @returns {Object} `generatedAsset.traces[0]` or `generatedAsset.traces[1]`
+       */
+      let firstTrace;
+      firstTrace = generatedAsset.traces[0];
+
+      // If the type is `ibc` skip all bs below
       if (firstTrace.type === "ibc") {
       } else {
+        /**
+         * Returns an object with a `block_explorer_link` given certain cases.
+         *
+         * @returns {{block_explorer_link: string}} `block_explorer_link: string`
+         */
         let linkContract;
+        switch (firstTrace.counterparty.chain_name) {
+          /**
+           * If the `chain_name` is: wrapped, synthetic, forex, bitcoin (grv assets), or is liquid-stake and counterparty is persistence
+           * Then, firstTrace is based on `generatedAsset.traces[1]` not `generatedAsset.traces[0]`
+           * Otherwise, firstTrace is reassigned to `generatedAsset.traces[0]`
+           */
+          case "wrapped":
+          case "synthetic":
+          case "forex":
+          case "bitcoin":
+          case "liquid-stake" && firstTrace.counterparty.chain_name === "persistence":
+            firstTrace = generatedAsset.traces[1];
+            linkContract = { block_explorer_link: etherScanRoot + firstTrace.counterparty.base_denom };
+            break;
+        default:
+          firstTrace = generatedAsset.traces[0];
+          break;
+      }
+      /**
+       * Switch between cases where `chain_name` is: ethereum, polygon, moonbeam, avalanche, fantom, bianancesmartchain for axl assets.
+       * Otherwise, yeet along.
+       */
         switch (firstTrace.counterparty.chain_name) {
           case "ethereum":
             linkContract = { block_explorer_link: etherScanRoot + firstTrace.counterparty.base_denom };
@@ -488,80 +502,109 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
           case "binancesmartchain":
             linkContract = { block_explorer_link: bnbScanRoot + firstTrace.counterparty.base_denom };
           default:
-            // Do nothing if protocol is not recognized
             break;
         }
+        // Push any changes into `allAdditional`.
         allAdditional.push(linkContract);
       }
     }
 
-    // OVERRIDES AND APPENDS
+    /**
+     * Catch any overrides from `frontend_properties` if they exist in zoneAsset.
+     */
     if (override) {
-
+      /**
+       * If getPrettyChain's result is valid, override `name` with the result.
+       * Otherwise, override with `chain_name_pretty`.
+       */
       if (getPrettyChain()) {
         generatedAsset.name = getPrettyChain();
       } else {
         generatedAsset.name = override.chain_name_pretty;
       }
+      /**
+       * If there is a symbol override, use it.
+       */
       if (override.symbol) {
         generatedAsset.symbol = override.symbol;
       }
+      /**
+       * If there is a description override, use it.
+       */
       if (override.description) {
         generatedAsset.description = override.description;
       }
+      /**
+       * If there is a pretty_path override, use it.
+       */
       if (override.pretty_path) {
         generatedAsset.pretty_path = override.pretty_path;
       }
+      /**
+       * If there is any logo_URIs overrides, use it.
+       */
       if (override.logo_URIs) {
         generatedAsset.logo_URIs = override.logo_URIs;
       }
+      /**
+       * If there is a coingecko_id override, use it.
+       */
       if (override.coingecko_id) {
         generatedAsset.coingecko_id = override.coingecko_id;
       }
+      /**
+       * If there are keyword overrides, push them into the allKeywords array.
+       */
       if (Array.isArray(override.keywords)) {
         allKeywords.push(...override.keywords);
       }
+      /**
+       * Push the results of the functions of: getChainWebsite, getCoinLandingWebsite, getGitWebsite
+       */
       allAdditional.push(getChainWebsite());
       allAdditional.push(getCoinLandingWebsite());
       allAdditional.push(getGitWebsite());
-
-
+      /**
+       * If allKeywords has more than 0 items, push them into the keywords array for the asset.
+       */
       if (allKeywords.length > 0) {
         generatedAsset.keywords = allKeywords;
       }
-
+      /**
+       * If there is a `Sinfonia` keyword in the `allKeywords`, create a `sinfonia_link` object.
+       *
+       * @returns {{ sinfonia_link: string }} An object containing a `sinfonia_link` object.
+       */
       function getSinfoniaLink() {
         if (allKeywords.includes('Sinfonia')) {
           let linkSinfonia;
           let baseFanDenom = generatedAsset.traces[0].counterparty.base_denom;
-
           linkSinfonia = { "sinfonia_link": sinfoniaRoot + baseFanDenom };
           return linkSinfonia;
         }
       }
 
       const sinfonaLinkResult = getSinfoniaLink();
+      /**
+       * If `getSinfoniaLink` is not `null` and `undefined` push the object into allAdditional
+       */
       if (sinfonaLinkResult !== null && sinfonaLinkResult !== undefined) {
         allAdditional.push(sinfonaLinkResult);
       }
-
+      /**
+       * If `getSinfoniaLink` is not `null` and `undefined` push the object into allAdditional
+       */
       if (allAdditional.length > 0) {
         generatedAsset.additional_information = allAdditional;
       }
-
     }
-    /**
-     * The override object used to retrieve additional information about assets.
-     *
-     * @name generatedAsset
-     * @type Object
-     */
+
     // Re-order Properties
     generatedAsset = reorderProperties(generatedAsset, assetlistSchema);
     // To see each asset generated, uncomment next line. **Should only be used for debug purposes. Re-comment before commit
     // console.log(generatedAsset);
 
-    //- Append Asset to Assetlist
+    // Append the built asset to Assetlist
     generatedAssetlist.push(generatedAsset);
 
     // To see full asset list, uncomment next line. **Should only be used for debug purposes. Re-comment before commit

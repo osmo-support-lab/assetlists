@@ -1947,8 +1947,8 @@
         "Native"
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.png",
-        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.svg"
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlxcDOT.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlxcDOT.svg"
       },
       "name": "Axelar",
       "pretty_path": "xcDOT on Moonbeam via Axelar",
@@ -4685,10 +4685,10 @@
         {
           "type": "bridge",
           "counterparty": {
-            "chain_name": "ethereum",
-            "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+            "chain_name": "bitcoin",
+            "base_denom": "sat"
           },
-          "provider": "Gravity Bridge"
+          "provider": "BitGo, Kyber, and Ren"
         },
         {
           "type": "bridge",
@@ -4715,7 +4715,7 @@
     {
       "additional_information": [
         {
-          "block_explorer_link": "https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          "block_explorer_link": "https://etherscan.io/token/wei"
         },
         {
           "chain_website": "https://www.gravitybridge.net/"
@@ -4757,12 +4757,12 @@
       "symbol": "wETH.grv",
       "traces": [
         {
-          "type": "bridge",
+          "type": "wrapped",
           "counterparty": {
             "chain_name": "ethereum",
-            "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+            "base_denom": "wei"
           },
-          "provider": "Gravity Bridge"
+          "provider": "Ethereum"
         },
         {
           "type": "bridge",
@@ -4830,12 +4830,12 @@
       "symbol": "USDC.grv",
       "traces": [
         {
-          "type": "bridge",
+          "type": "synthetic",
           "counterparty": {
-            "chain_name": "ethereum",
-            "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            "chain_name": "forex",
+            "base_denom": "USD"
           },
-          "provider": "Gravity Bridge"
+          "provider": "Circle"
         },
         {
           "type": "bridge",
@@ -4903,12 +4903,12 @@
       "symbol": "DAI.grv",
       "traces": [
         {
-          "type": "bridge",
+          "type": "synthetic",
           "counterparty": {
-            "chain_name": "ethereum",
-            "base_denom": "0x6b175474e89094c44da98b954eedeac495271d0f"
+            "chain_name": "forex",
+            "base_denom": "USD"
           },
-          "provider": "Gravity Bridge"
+          "provider": "MakerDAO"
         },
         {
           "type": "bridge",
@@ -4976,12 +4976,12 @@
       "symbol": "USDT.grv",
       "traces": [
         {
-          "type": "bridge",
+          "type": "synthetic",
           "counterparty": {
-            "chain_name": "ethereum",
-            "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            "chain_name": "forex",
+            "base_denom": "USD"
           },
-          "provider": "Gravity Bridge"
+          "provider": "Tether"
         },
         {
           "type": "bridge",
@@ -5329,6 +5329,7 @@
         {
           "homepage_link": "https://www.marbledao.finance/"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5380,7 +5381,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -5393,6 +5394,7 @@
         {
           "daodao_link": "https://daodao.zone/dao/juno1c5v6jkmre5xa9vf9aas6yxewc7aqmjy0rlkkyk4d88pnwuhclyhsrhhns6"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5444,7 +5446,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -5454,6 +5456,7 @@
         {
           "daodao_link": "https://daodao.zone/dao/juno1zhkxq66wp0m6d5x79tqce604jhu24qlt5zg5nfys48wxm6mtydxqare5g8"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5505,7 +5508,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1re3x67ppxap48ygndmrc7har2cnc7tcxtm9nplcas4v0gc3wnmvs3s807z"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -5515,6 +5518,7 @@
         {
           "daodao_link": "https://daodao.zone/dao/juno1svduqrvcmzpl5g74q8rkm6rhcjnhch2yaagzu4ljuv2u9tf86ltqx9a54s"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5566,7 +5570,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1r4pzw8f9z0sypct5l9j906d47z998ulwvhvqe5xdwgy8wf84583sxwh0pa"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -5576,6 +5580,7 @@
         {
           "homepage_link": "https://juno.marbledao.finance/"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5625,7 +5630,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -5638,6 +5643,7 @@
         {
           "daodao_link": "https://daodao.zone/dao/juno1vntnqevwk47escuxrfrdk99070vs0gczyyx0wa2pp08j25n0ee6qryqhzk"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5685,7 +5691,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1tdjwrqmnztn2j3sj2ln9xnyps5hs48q3ddwjrz7jpv6mskappjys5czd49"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -5695,6 +5701,7 @@
         {
           "daodao_link": "https://daodao.zone/dao/juno1pv88fxyhvyv2edwed72leupsuympnwvmsny4jtzspv9zw2dcrhkseh58kn"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5746,13 +5753,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno15u3dt79t6sxxa3x3kpkhzsy56edaa5a66wvt3kxmukqjz2sx0hes5sn38g"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5803,13 +5811,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno17wzaxtfdw5em7lc94yed4ylgjme63eh73lm3lutp2rhcxttyvpwsypjm4w"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5859,7 +5868,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1n7n7d5088qlzlj37e9mgmkhx6dfgtvt02hqxq66lcap4dxnzdhwqfmgng3"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -5872,6 +5881,7 @@
         {
           "daodao_link": "https://daodao.zone/dao/juno1tg7zc62st4h6gf2ap38sx94ph2kyhtpm3vuw2ck2plnkzjhmkavq36xy5k"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5923,7 +5933,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1j0a9ymgngasfn3l5me8qpd53l5zlm9wurfdk7r65s5mg6tkxal3qpgf5se"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -5936,6 +5946,7 @@
         {
           "daodao_link": "https://daodao.zone/dao/juno1tg7zc62st4h6gf2ap38sx94ph2kyhtpm3vuw2ck2plnkzjhmkavq36xy5k"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -5987,7 +5998,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1gz8cf86zr4vw9cjcyyv432vgdaecvr9n254d3uwwkx9rermekddsxzageh"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -5997,6 +6008,7 @@
         {
           "homepage_link": "https://juno.stakeeasy.finance/"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6048,7 +6060,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1dd0k0um5rqncfueza62w9sentdfh3ec4nw4aq4lk5hkjl63vljqscth9gv"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -6058,6 +6070,7 @@
         {
           "homepage_link": "https://juno.stakeeasy.finance/"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6110,7 +6123,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1wwnhkagvcd3tjz6f8vsdsw5plqnw8qy2aj3rrhqr2axvktzv9q2qz8jxn3"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -6120,6 +6133,7 @@
         {
           "daodao_link": "https://daodao.zone/dao/juno1nwh5nnd7nlccn08wjv2zrenfxeudvc883z9sjthtzygahwmep6pqjezuh2"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6170,7 +6184,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno159q8t5g02744lxq8lfmcn6f78qqulq9wn3y9w7lxjgkz4e0a6kvsfvapse"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -6183,6 +6197,7 @@
         {
           "homepage_link": "https://stakeeasy.finance/"
         },
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6234,13 +6249,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno19rqljkh95gh40s7qdx40ksx3zq5tm4qsmsrdz9smw668x9zdr3lqtg33mf"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6289,13 +6305,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1p8x807f6h222ur0vssqy3qk6mcpa40gw2pchquz5atl935t7kvyq894ne3"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6345,13 +6362,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1cltgm8v842gu54srmejewghnd6uqa26lzkpa635wzra9m9xuudkqa2gtcz"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6402,13 +6420,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6459,13 +6478,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1u45shlp0q4gcckvsj06ss4xuvsu0z24a0d0vr9ce6r24pht4e5xq7q995n"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6515,13 +6535,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1mkw83sv6c7sjdvsaplrzc8yaes9l42p4mhy0ssuxjnyzl87c9eps7ce3m9"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6571,13 +6592,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6626,13 +6648,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno14lycavan8gvpjn97aapzvwmsj8kyrvf644p05r0hu79namyj3ens87650k"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6681,13 +6704,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1g647t78y2ulqlm3lss8rs3d0spzd0teuwhdvnqn92tr79yltk9dq2h24za"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6736,13 +6760,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno14q8kk464fafql2fwmlsgvgcdl6h2csqpzv4hr025fmcvgjahpess32k0j7"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6791,13 +6816,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1g0wuyu2f49ncf94r65278puxzclf5arse9f3kvffxyv4se4vgdmsk4dvqz"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6846,13 +6872,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno12wxyvtqe76x2a5jj6ckp2hfq8v32m6rvyyxwwufl2tksqvkt7whqczv6pa"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6901,13 +6928,14 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1zkwveux7y6fmsr88atf3cyffx96p0c96qr8tgcsj7vfnhx7sal3s3zu3ps"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.junonetwork.io/"
         },
@@ -6956,7 +6984,7 @@
             "channel_id": "channel-169",
             "path": "transfer/channel-169/cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -7231,6 +7259,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://foundation.ki/"
         },
@@ -7280,7 +7309,7 @@
             "channel_id": "channel-261",
             "path": "transfer/channel-261/cw20:ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
@@ -8028,6 +8057,60 @@
     {
       "additional_information": [
         {
+          "chain_website": "https://nobleassets.xyz/"
+        },
+        {
+          "coin_landing_page": "https://www.coinlanding.page/post/noble"
+        },
+        {
+          "git_repo": "https://github.com/strangelove-ventures/noble"
+        }
+      ],
+      "base": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
+      "denom_units": [
+        {
+          "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4",
+          "exponent": 0,
+          "aliases": [
+            "microusdc",
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "description": "Cosmos native USD Coin issued by Circle via Noble.",
+      "display": "usdc",
+      "keywords": [
+        "Native",
+        "Fiat-Collateralized"
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/noble/USDC.png",
+        "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/noble/USDC.svg"
+      },
+      "name": "Noble",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "counterparty": {
+            "base_denom": "uusdc",
+            "chain_name": "noble",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-750",
+            "path": "transfer/channel-750/uusdc"
+          },
+          "type": "ibc"
+        }
+      ]
+    },
+    {
+      "additional_information": [
+        {
           "chain_website": "https://odinprotocol.io/"
         },
         {
@@ -8347,9 +8430,7 @@
     },
     {
       "additional_information": [
-        {
-          "block_explorer_link": "https://etherscan.io/token/0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
-        },
+        null,
         {
           "chain_website": "https://persistence.one/"
         },
@@ -8393,12 +8474,12 @@
       "symbol": "PSTAKE",
       "traces": [
         {
-          "type": "bridge",
+          "type": "liquid-stake",
           "counterparty": {
-            "chain_name": "ethereum",
-            "base_denom": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006"
+            "chain_name": "persistence",
+            "base_denom": "XPRT"
           },
-          "provider": "Gravity Bridge"
+          "provider": "Persistence"
         },
         {
           "type": "bridge",
@@ -8653,6 +8734,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://quicksilver.zone/"
         },
@@ -8692,7 +8774,7 @@
       "symbol": "qSTARS",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "stargaze",
             "base_denom": "ustars"
@@ -8715,6 +8797,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://quicksilver.zone/"
         },
@@ -8754,7 +8837,7 @@
       "symbol": "qATOM",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "cosmoshub",
             "base_denom": "uatom"
@@ -8777,6 +8860,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://quicksilver.zone/"
         },
@@ -8816,7 +8900,7 @@
       "symbol": "qOSMO",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "osmosis",
             "base_denom": "uosmo"
@@ -8839,6 +8923,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://quicksilver.zone/"
         },
@@ -8878,7 +8963,7 @@
       "symbol": "qREGEN",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "regen",
             "base_denom": "uregen"
@@ -9113,6 +9198,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://scrt.network/"
         },
@@ -9162,12 +9248,13 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ]
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://scrt.network/"
         },
@@ -9218,13 +9305,14 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "snip20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://scrt.network/"
         },
@@ -9275,13 +9363,14 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "snip20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://scrt.network/"
         },
@@ -9332,13 +9421,14 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "snip20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://scrt.network/"
         },
@@ -9389,13 +9479,14 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "snip20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://scrt.network/"
         },
@@ -9445,7 +9536,7 @@
             "channel_id": "channel-476",
             "path": "transfer/channel-476/cw20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "snip20"
@@ -9888,6 +9979,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://stride.zone/"
         },
@@ -9926,7 +10018,7 @@
       "symbol": "stATOM",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "cosmoshub",
             "base_denom": "uatom"
@@ -9949,6 +10041,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://stride.zone/"
         },
@@ -9986,7 +10079,7 @@
       "symbol": "stSTARS",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "stargaze",
             "base_denom": "ustars"
@@ -10009,6 +10102,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://stride.zone/"
         },
@@ -10046,7 +10140,7 @@
       "symbol": "stJUNO",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "juno",
             "base_denom": "ujuno"
@@ -10069,6 +10163,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://stride.zone/"
         },
@@ -10106,7 +10201,7 @@
       "symbol": "stOSMO",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "osmosis",
             "base_denom": "uosmo"
@@ -10129,6 +10224,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://stride.zone/"
         },
@@ -10166,7 +10262,7 @@
       "symbol": "stLUNA",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "terra2",
             "base_denom": "uluna"
@@ -10189,6 +10285,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://stride.zone/"
         },
@@ -10226,7 +10323,7 @@
       "symbol": "stEVMOS",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "evmos",
             "base_denom": "uaevmos"
@@ -10249,6 +10346,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://stride.zone/"
         },
@@ -10286,7 +10384,7 @@
       "symbol": "stINJ",
       "traces": [
         {
-          "type": "ibc",
+          "type": "liquid-stake",
           "counterparty": {
             "chain_name": "injective",
             "base_denom": "inj"
@@ -10607,6 +10705,7 @@
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.terra.money/"
         },
@@ -10656,13 +10755,14 @@
             "channel_id": "channel-341",
             "path": "transfer/channel-341/cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"
     },
     {
       "additional_information": [
+        null,
         {
           "chain_website": "https://www.terra.money/"
         },
@@ -10713,7 +10813,7 @@
             "channel_id": "channel-341",
             "path": "transfer/channel-341/cw20:terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct"
           },
-          "type": "ibc"
+          "type": "ibc-cw20"
         }
       ],
       "type_asset": "cw20"

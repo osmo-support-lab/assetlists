@@ -449,8 +449,8 @@
           "Native"
         ],
         "logo_URIs": {
-          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.png",
-          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlDOT.svg"
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlxcDOT.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/axelar/axlxcDOT.svg"
         },
         "pretty_path": "xcDOT on Moonbeam via Axelar",
         "symbol": "xcDOT.axl"
@@ -1624,6 +1624,21 @@
           "Native",
           "Collateral-Based"
         ]
+      }
+    },
+    {
+      "base_denom": "uusdc",
+      "chain_name": "noble",
+      "frontend_properties": {
+        "description": "Cosmos native USD Coin issued by Circle via Noble.",
+        "keywords": [
+          "Native",
+          "Fiat-Collateralized"
+        ],
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/noble/USDC.png",
+          "svg": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/images/noble/USDC.svg"
+        }
       }
     },
     {
