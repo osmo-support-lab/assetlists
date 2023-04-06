@@ -1,7 +1,41 @@
 {
+  "author": "Osmosis Support Lab",
+  "bugs": {
+    "url": "https://github.com/osmo-support-lab/assetlists/issues"
+  },
   "dependencies": {
-    "ajv": "^8.12.0",
-    "ajv-formats": "^2.1.1",
-    "eslint-config-canonical": "^41.0.1"
-  }
+    "@types/verror": "^1.10.6",
+    "eslint": "^8.37.0",
+    "eslint-config-canonical": "^41.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3",
+    "verror": "^1.10.1"
+  },
+  "description": "Asset lists are inspired by the [Token Lists](https://tokenlists.org/) project on Ethereum, which helps discoverability of ERC20 tokens by mapping ERC20 contracts to their associated metadata.",
+  "devDependencies": {
+    "@types/verror": "^1.10.6",
+    "eslint": "^8.37.0",
+    "eslint-config-canonical": "^41.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3",
+    "verror": "^1.10.1"
+  },
+  "homepage": "https://github.com/osmo-support-lab/assetlists#readme",
+  "keywords": [
+    "cosmos",
+    "sdk",
+    "frontends",
+    "assets"
+  ],
+  "license": "MIT",
+  "main": "generate.ts",
+  "name": "auto-asetlists",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmo-support-lab/assetlists.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
