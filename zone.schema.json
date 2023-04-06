@@ -78,7 +78,6 @@
   "description": "A basic list of assets, in order as shown on front-ends with optional overrides.",
   "properties": {
     "$schema": {
-      "pattern": "^\\.\\./zone\\.schema\\.json$",
       "type": "string"
     },
     "assets": {

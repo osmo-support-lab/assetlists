@@ -475,14 +475,14 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
             firstTrace = generatedAsset.traces[1];
             linkContract = { block_explorer_link: etherScanRoot + firstTrace.counterparty.base_denom };
             break;
-        default:
-          firstTrace = generatedAsset.traces[0];
-          break;
-      }
-      /**
-       * Switch between cases where `chain_name` is: ethereum, polygon, moonbeam, avalanche, fantom, bianancesmartchain for axl assets.
-       * Otherwise, yeet along.
-       */
+          default:
+            firstTrace = generatedAsset.traces[0];
+            break;
+        }
+        /**
+         * Switch between cases where `chain_name` is: ethereum, polygon, moonbeam, avalanche, fantom, bianancesmartchain for axl assets.
+         * Otherwise, yeet along.
+         */
         switch (firstTrace.counterparty.chain_name) {
           case "ethereum":
             linkContract = { block_explorer_link: etherScanRoot + firstTrace.counterparty.base_denom };
@@ -502,10 +502,13 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
           case "binancesmartchain":
             linkContract = { block_explorer_link: bnbScanRoot + firstTrace.counterparty.base_denom };
           default:
-            break;
+            linkContract = null
         }
-        // Push any changes into `allAdditional`.
-        allAdditional.push(linkContract);
+        if (linkContract === null) {
+          
+        } else {
+          allAdditional.push(linkContract);
+        }
       }
     }
 
@@ -575,22 +578,13 @@ const generateAssets = async (generatedAssetlist, zoneAssetlist) => {
        *
        * @returns {{ sinfonia_link: string }} An object containing a `sinfonia_link` object.
        */
-      function getSinfoniaLink() {
+
         if (allKeywords.includes('Sinfonia')) {
           let linkSinfonia;
           let baseFanDenom = generatedAsset.traces[0].counterparty.base_denom;
           linkSinfonia = { "sinfonia_link": sinfoniaRoot + baseFanDenom };
-          return linkSinfonia;
+          allAdditional.push(linkSinfonia);;
         }
-      }
-
-      const sinfonaLinkResult = getSinfoniaLink();
-      /**
-       * If `getSinfoniaLink` is not `null` and `undefined` push the object into allAdditional
-       */
-      if (sinfonaLinkResult !== null && sinfonaLinkResult !== undefined) {
-        allAdditional.push(sinfonaLinkResult);
-      }
       /**
        * If `getSinfoniaLink` is not `null` and `undefined` push the object into allAdditional
        */
@@ -639,7 +633,7 @@ async function generateAssetlist() {
    */
   await generateAssets(generatedAssetlist, zoneAssetlist);
   let chainAssetlist = {
-    $schema: "../assetlist.schema.json",
+    $schema: "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/assetlist.schema.json",
     assets: generatedAssetlist,
     chain_name: localChainName
   };

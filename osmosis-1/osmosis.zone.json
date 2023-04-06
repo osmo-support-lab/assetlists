@@ -1,5 +1,5 @@
 {
-  "$schema": "../zone.schema.json",
+  "$schema": "https://raw.githubusercontent.com/osmo-support-lab/assetlists/main/zone.schema.json",
   "assets": [
     {
       "base_denom": "uosmo",
@@ -1435,6 +1435,34 @@
       "base_denom": "cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x",
       "chain_name": "juno",
       "frontend_properties": {
+        "keywords": [
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "cw20:juno1xekkh27punj0uxruv3gvuydyt856fax0nu750xns99t2qcxp7xmsqwhfma",
+      "chain_name": "juno",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "homepage_link": "https://www.evmosguardians.io/"
+          },
+          {
+            "twitter": "https://twitter.com/EvmosGuardians"
+          }
+        ],
+        "keywords": [
+          "Utility",
+          "DAO"
+        ]
+      }
+    },
+    {
+      "base_denom": "cw20:juno166heaxlyntd33a5euh4rrz26svhean4klzw594esmd02l4atan6sazy2my",
+      "chain_name": "juno",
+      "frontend_properties": {
+        "description": "An NFT Collection, farming hub, and marketplace.",
         "keywords": [
           "Utility"
         ]
