@@ -1469,6 +1469,57 @@
       }
     },
     {
+      "base_denom": "cw20:juno10gthz5ufgrpuk5cscve2f0hjp56wgp90psqxcrqlg4m9mcu9dh8q4864xy",
+      "chain_name": "juno",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "homepage_link": "https://kleomed.es/"
+          },
+          {
+            "daodao_link": "https://daodao.zone/dao/juno1mue2xdl05375tjc4njux5c6mkxltun3h0p33qtpx4utrwtnh949sxutcxy"
+          }
+        ],
+        "description": "A Validator-based DAO that ensures everyone has an opportunity to succeed.",
+        "keywords": [
+          "Utility",
+          "DAO",
+          "Validator Token"
+        ]
+      }
+    },
+    {
+      "base_denom": "cw20:juno1qqwf3lkfjhp77yja7gmg3y95pda0e5xctqrdhf3wvwdd79flagvqfgrgxp",
+      "chain_name": "juno",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "daodao_link": "https://daodao.zone/dao/juno1yqkgp23takv2t873mj5cx3u6kz5s6q0envcade3z9gtz3ecnq77sekwu9v"
+          }
+        ],
+        "description": "Sikoba is the home of the IOU economy.",
+        "keywords": [
+          "Utility"
+        ]
+      }
+    },
+    {
+      "base_denom": "cw20:juno1x5qt47rw84c4k6xvvywtrd40p8gxjt8wnmlahlqg07qevah3f8lqwxfs7z",
+      "chain_name": "juno",
+      "frontend_properties": {
+        "additional_information": [
+          {
+            "daodao_link": "https://daodao.zone/dao/juno1qqyvmfzchgznn2fntmyjkcevcz53cxvfzyjxmlu5r6pg7zlx96ms02snev"
+          }
+        ],
+        "description": "Shiba Inu in the Cosmos. Inspired by Shiba. A community owned project.",
+        "keywords": [
+          "Utility",
+          "Meme Token"
+        ]
+      }
+    },
+    {
       "base_denom": "ukava",
       "chain_name": "kava",
       "frontend_properties": {
